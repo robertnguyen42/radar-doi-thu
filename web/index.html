@@ -73,6 +73,15 @@ tr.click{cursor:pointer} tr.click:hover td{background:var(--sunk)}
 .prow .nt{grid-column:1/-1;color:var(--muted);font-size:11.5px}
 .ptag{display:inline-flex;font-size:12px;padding:2px 8px;border-radius:5px;margin:0 4px 4px 0;background:color-mix(in srgb,var(--p) 10%,var(--surface));color:var(--fg);border:1px solid color-mix(in srgb,var(--p) 22%,transparent)}
 .more{font-size:11.5px;color:var(--muted)}
+.filter{display:grid;gap:10px}
+.filter input[type=search]{font:inherit;width:100%;max-width:420px;padding:8px 12px;border-radius:8px;border:1px solid var(--line);background:var(--surface);color:var(--fg)}
+.fchips{display:flex;flex-wrap:wrap;gap:6px}
+.fchip{font:inherit;font-size:12.5px;display:inline-flex;align-items:center;gap:6px;padding:4px 10px;border-radius:999px;border:1px solid var(--line);background:var(--surface);color:var(--fg);cursor:pointer}
+.fchip i{font-style:normal;font-family:var(--f-mono);font-size:11px;color:var(--muted)}
+.fchip[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--surface)}
+.fchip[aria-pressed="true"] i{color:var(--surface)}
+.fchip:hover{border-color:var(--accent)}
+.fcount{font-size:12px;color:var(--muted)}
 .heat td.h{text-align:center;font-family:var(--f-mono);font-size:12px;min-width:44px}
 .bar{display:grid;grid-template-columns:minmax(120px,190px) 1fr 36px;gap:8px;align-items:center;font-size:13px}
 .bar .t{height:10px;background:var(--sunk);border-radius:3px;overflow:hidden}
@@ -223,14 +232,10 @@ content(){
     <div class="grid2">${blocks}</div></div>`;
 },
 events(){
-  const aiEv = D.items.filter(i => i.ai && i.ai.event).map(i => ({title: i.ai.event.name + (i.ai.event.city ? ' · ' + i.ai.event.city : ''), url: i.url, date: i.date.slice(0,10), when: i.ai.event.date ? [i.ai.event.date] : [], co: i.company, kind: i.ai.event.kind}));
-  const ev = (aiEv.length ? aiEv : ids.flatMap(id => C[id].promotion.events.map(e => ({...e, co:id})))).sort((a,b) => ((b.when[0]||b.date) > (a.when[0]||a.date) ? 1 : -1));
-  const today = new Date().toISOString().slice(0,10);
-  const rows = ev.map(e => { const w = e.when[0]; const up = w && w >= today;
-    return `<tr><td class="n">${w?fmtD(w)+'/'+w.slice(2,4):'—'}</td><td>${e.kind==='recap'?'<span class="chip muted">bài tổng kết</span>':up?'<span class="chip self">sắp diễn ra</span>':'<span class="chip muted">đã qua</span>'}</td><td class="name">${esc(C[e.co].name)}</td><td><a href="${esc(e.url)}" target="_blank" rel="noopener">${esc(e.title)}</a></td><td class="n">${fmtD(e.date)}</td></tr>`; }).join('');
   return `<section class="panel"><h2>Lịch sự kiện / hội thảo / toạ đàm của đối thủ</h2>
-   <div class="scroll"><table><thead><tr><th class="n">Ngày diễn ra</th><th>Trạng thái</th><th>Công ty</th><th>Sự kiện</th><th class="n">Đăng</th></tr></thead><tbody>${rows || '<tr><td colspan="5" class="empty">Chưa có sự kiện.</td></tr>'}</tbody></table></div>
-   <p class="note">Ngày diễn ra được đọc tự động từ nội dung bài (dd/mm), có thể sai với bài nhắc nhiều mốc ngày.</p></section>`;
+   ${filterBar(eventList())}
+   <div class="scroll"><table><thead><tr><th class="n">Ngày diễn ra</th><th>Trạng thái</th><th>Công ty</th><th>Sự kiện</th><th class="n">Đăng</th></tr></thead><tbody id="frows"></tbody></table></div>
+   <p class="note">Ngày diễn ra do AI đọc từ nội dung bài; bài không nêu ngày sẽ để trống.</p></section>`;
 },
 gap(){
   const rows = D.gap.map(g => {
@@ -242,8 +247,9 @@ gap(){
    <p class="note">Xếp theo số đối thủ cùng đẩy chương trình đó (90 ngày). "Có trên web, chưa có content" = trang chủ SI có nhắc nhưng không có bài viết nào gần đây.</p></section>`;
 },
 feed(){
-  const rows = D.items.slice(0,250).map(i => `<tr><td class="n">${fmtD(i.date)}</td><td class="name">${esc(C[i.company]?.name)}</td><td><a href="${esc(i.url)}" target="_blank" rel="noopener">${esc(i.title)}</a><div class="sub">${i.programs.map(pn).map(esc).join(' · ')}</div></td><td>${i.p4.map(p => `<span class="stamp s-${p}">${p.slice(0,5)}</span>`).join(' ')}</td><td>${i.ctype.map(t => `<span class="chip">${esc(t)}</span>`).join('')}${i.risk.length?'<span class="chip warn">⚠</span>':''}</td></tr>`).join('');
-  return `<section class="panel"><h2>Tất cả bài (90 ngày)</h2><div class="scroll"><table><thead><tr><th class="n">Ngày</th><th>Công ty</th><th>Tiêu đề</th><th>4Ps</th><th>Loại</th></tr></thead><tbody>${rows}</tbody></table></div></section>`;
+  return `<section class="panel"><h2>Tất cả bài (90 ngày)</h2>
+   ${filterBar(D.items.map(i => ({...i, co: i.company})))}
+   <div class="scroll"><table><thead><tr><th class="n">Ngày</th><th>Công ty</th><th>Tiêu đề</th><th>4Ps</th><th>Loại</th></tr></thead><tbody id="frows"></tbody></table></div></section>`;
 }
 };
 
@@ -283,14 +289,58 @@ function aiPrices(cid){
   const seen = new Set();
   return D.items.filter(i => i.company === cid && i.ai).flatMap(i => i.ai.prices).filter(p => { const k = p.program + p.amount; if (seen.has(k)) return false; seen.add(k); return true; }).slice(0,10);
 }
+function eventList(){
+  const aiEv = D.items.filter(i => i.ai && i.ai.event).map(i => ({title: i.ai.event.name + (i.ai.event.city ? ' · ' + i.ai.event.city : ''), url: i.url, date: i.date.slice(0,10), when: i.ai.event.date ? [i.ai.event.date] : [], co: i.company, kind: i.ai.event.kind, src: i.title}));
+  return (aiEv.length ? aiEv : ids.flatMap(id => C[id].promotion.events.map(e => ({...e, co:id})))).sort((a,b) => ((b.when[0]||b.date) > (a.when[0]||a.date) ? 1 : -1));
+}
+const fold = t => String(t||'').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/đ/g,'d');
+function filterBar(list){
+  const cnt = {}; list.forEach(x => cnt[x.co] = (cnt[x.co]||0) + 1);
+  const sel = new Set(state.fco || []);
+  const chipsH = `<button type="button" class="fchip" data-fco="" aria-pressed="${sel.size===0}">Tất cả <i>${list.length}</i></button>` +
+    ids.filter(id => cnt[id]).map(id => `<button type="button" class="fchip" data-fco="${id}" aria-pressed="${sel.has(id)}">${esc(C[id].name)} <i>${cnt[id]}</i></button>`).join('');
+  return `<div class="filter"><label class="sub" for="fq">Tìm kiếm</label><input id="fq" type="search" placeholder="Gõ từ khoá: EB-5, Hy Lạp, hội thảo…" value="${esc(state.q||'')}" autocomplete="off">
+    <div class="fchips" role="group" aria-label="Lọc theo công ty">${chipsH}</div><span class="fcount" id="fcount"></span></div>`;
+}
+function matchF(x, text){
+  const sel = state.fco || [];
+  if (sel.length && !sel.includes(x.co)) return false;
+  const q = fold(state.q).trim();
+  return !q || q.split(/\s+/).every(w => fold(text).includes(w));
+}
+function fillRows(){
+  const tb = document.getElementById('frows'); if (!tb) return;
+  const today = new Date().toISOString().slice(0,10);
+  let rows, total;
+  if (state.tab === 'events'){
+    const all = eventList(); total = all.length;
+    rows = all.filter(e => matchF(e, e.title + ' ' + (e.src||'') + ' ' + C[e.co].name)).map(e => { const w = e.when[0]; const up = w && w >= today;
+      return `<tr><td class="n">${w?fmtD(w)+'/'+w.slice(2,4):'—'}</td><td>${e.kind==='recap'?'<span class="chip muted">bài tổng kết</span>':up?'<span class="chip self">sắp diễn ra</span>':'<span class="chip muted">đã qua</span>'}</td><td class="name">${esc(C[e.co].name)}</td><td><a href="${esc(e.url)}" target="_blank" rel="noopener">${esc(e.title)}</a></td><td class="n">${fmtD(e.date)}</td></tr>`; });
+  } else {
+    total = D.items.length;
+    rows = D.items.filter(i => matchF({co: i.company}, i.title + ' ' + i.programs.map(pn).join(' ') + ' ' + (i.ai ? i.ai.programs.join(' ') + ' ' + i.ai.message : '') + ' ' + C[i.company]?.name)).map(i => `<tr><td class="n">${fmtD(i.date)}</td><td class="name">${esc(C[i.company]?.name)}</td><td><a href="${esc(i.url)}" target="_blank" rel="noopener">${esc(i.title)}</a><div class="sub">${esc(i.ai && i.ai.message ? i.ai.message : i.programs.map(pn).join(' · '))}</div></td><td>${i.p4.map(p => `<span class="stamp s-${p}">${p.slice(0,5)}</span>`).join(' ')}</td><td>${(i.ai ? [i.ai.content_type] : i.ctype).map(t => `<span class="chip">${esc(t)}</span>`).join('')}${i.risk.length?'<span class="chip warn">⚠</span>':''}</td></tr>`);
+  }
+  tb.innerHTML = rows.join('') || '<tr><td colspan="5" class="empty">Không có kết quả phù hợp. Bỏ bớt bộ lọc hoặc đổi từ khoá.</td></tr>';
+  const fc = document.getElementById('fcount'); if (fc) fc.textContent = `Hiển thị ${rows.length} / ${total}`;
+}
 function render(){
   document.querySelectorAll('#tabs button').forEach(b => b.setAttribute('aria-selected', b.dataset.tab===state.tab));
   document.getElementById('view').innerHTML = views[state.tab]();
+  fillRows();
   save();
 }
 document.getElementById('tabs').addEventListener('click', e => { const t = e.target.closest('button'); if (t){ state.tab = t.dataset.tab; render(); } });
 document.getElementById('view').addEventListener('click', e => { const r = e.target.closest('tr[data-co]'); if (r){ state.co = r.dataset.co; state.tab = 'company'; render(); window.scrollTo(0,0); } });
 document.getElementById('view').addEventListener('change', e => { if (e.target.id==='co'){ state.co = e.target.value; render(); } });
+document.getElementById('view').addEventListener('click', e => {
+  const b = e.target.closest('[data-fco]'); if (!b) return;
+  const id = b.dataset.fco; let sel = state.fco || [];
+  sel = id === '' ? [] : sel.includes(id) ? sel.filter(x => x !== id) : [...sel, id];
+  state.fco = sel; save();
+  document.querySelectorAll('.fchip').forEach(c => c.setAttribute('aria-pressed', c.dataset.fco === '' ? sel.length === 0 : sel.includes(c.dataset.fco)));
+  fillRows();
+});
+document.getElementById('view').addEventListener('input', e => { if (e.target.id === 'fq'){ state.q = e.target.value; save(); fillRows(); } });
 if (!C[state.co]) state.co = ids[0];
 if (AI) { document.getElementById('tab-ai').hidden = false; if (!state.seenAi || state.seenAi !== AI.week) { state.tab = 'ai'; state.seenAi = AI.week; } }
 if (!views[state.tab] || (state.tab === 'ai' && !AI)) state.tab = 'overview';

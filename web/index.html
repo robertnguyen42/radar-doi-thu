@@ -62,6 +62,11 @@ tr.click{cursor:pointer} tr.click:hover td{background:var(--sunk)}
 .list li{display:grid;gap:2px;min-width:0}
 .list a{color:var(--fg);text-decoration:none} .list a:hover{color:var(--accent);text-decoration:underline}
 .sub{color:var(--muted);font-size:12px}
+.threat{font-size:11px;font-weight:600;padding:1px 8px;border-radius:999px}
+.threat.cao{background:var(--warn-soft);color:var(--warn)} .threat.trung{background:var(--accent-soft);color:var(--accent)} .threat.thấp{background:var(--sunk);color:var(--muted)}
+.kv{display:grid;grid-template-columns:max-content 1fr;gap:4px 12px;font-size:13px;margin:0}
+.kv dt{font-weight:600} .kv dd{margin:0;min-width:0}
+ol.actions{margin:0;padding-left:20px;display:grid;gap:10px}
 .verdict{background:var(--accent-soft);border-radius:6px;padding:10px 12px;line-height:1.6;max-width:90ch}
 select{font:inherit;padding:6px 10px;border-radius:6px;border:1px solid var(--line);background:var(--surface);color:var(--fg)}
 .row{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
@@ -82,6 +87,7 @@ select{font:inherit;padding:6px 10px;border-radius:6px;border:1px solid var(--li
     <div class="row sub"><span class="stamp s-product">Product</span><span class="stamp s-price">Price</span><span class="stamp s-place">Place</span><span class="stamp s-promotion">Promotion</span></div>
   </header>
   <nav role="tablist" id="tabs">
+    <button role="tab" data-tab="ai" id="tab-ai" hidden>Báo cáo tuần (AI)</button>
     <button role="tab" data-tab="overview" aria-selected="true">Tổng quan</button>
     <button role="tab" data-tab="company">Hồ sơ 4Ps</button>
     <button role="tab" data-tab="content">Content lặp lại</button>
@@ -117,7 +123,26 @@ function topCountries(c){
   return cs.slice(0,3).map(([k,n]) => `<span class="chip">${K[k].flag} ${esc(K[k].name)} ${Math.round(100*n/tot)}%</span>`).join('') || '<span class="empty">chưa đủ dữ liệu</span>';
 }
 
+const AI = D.ai;
+const threatCls = t => t === 'cao' ? 'cao' : t === 'thấp' ? 'thấp' : 'trung';
 const views = {
+ai(){
+  if (!AI) return '<p class="empty">Chưa có báo cáo AI.</p>';
+  const acts = AI.si_actions.map(a => `<li><b>${esc(a.action)}</b><div>${esc(a.why)}</div><div class="sub">${a.sources.map(x => `<a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(C[x.company]?.name || '')}: ${esc(x.title.slice(0,70))}</a>`).join(' · ')}</div></li>`).join('');
+  const order = {'cao':0,'trung bình':1,'thấp':2};
+  const cos = AI.companies.slice().sort((a,b) => order[a.threat]-order[b.threat]).map(x => `<section class="panel">
+    <div class="row"><h2>${esc(C[x.id]?.name || x.id)}</h2><span class="threat ${threatCls(x.threat)}">Cạnh tranh ${esc(x.threat)}</span></div>
+    <p style="margin:0">${esc(x.positioning)}</p>
+    ${x.this_week ? `<div class="verdict"><b>Tuần này:</b> ${esc(x.this_week)}</div>` : ''}
+    <dl class="kv"><dt class="s-product">Product</dt><dd>${esc(x.product)}</dd><dt class="s-price">Price</dt><dd>${esc(x.price)}</dd><dt class="s-place">Place</dt><dd>${esc(x.place)}</dd><dt class="s-promotion">Promotion</dt><dd>${esc(x.promotion)}</dd></dl>
+    <p class="sub" style="margin:0">${esc(x.threat_reason)}</p></section>`).join('');
+  return `<div style="display:grid;gap:16px">
+    <section class="panel"><h3>Tuần ${esc(AI.week)}</h3><h2 style="font-size:19px">${esc(AI.headline)}</h2>
+      <h3>Xu hướng thị trường</h3><ul style="margin:0;padding-left:20px;display:grid;gap:4px">${AI.market_trends.map(t => `<li>${esc(t)}</li>`).join('')}</ul></section>
+    <section class="panel"><h2>SI nên làm gì</h2><ol class="actions">${acts}</ol></section>
+    <div class="grid2">${cos}</div>
+    <p class="note">Viết bởi Claude (${esc(AI.model)}) lúc ${esc(AI.generated.replace('T',' '))} UTC từ bài web và tin báo 90 ngày. Kiểm tra lại bài nguồn trước khi dùng con số.</p></div>`;
+},
 overview(){
   const rows = ids.slice().sort((a,b) => (C[b].self-C[a].self) || (C[b].posts+C[b].news) - (C[a].posts+C[a].news)).map(id => {
     const c = C[id];
@@ -153,10 +178,12 @@ company(){
   const risks = c.promotion.risks.map(r => `<li><span class="chip warn">${esc(r.text)}</span> <a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.title)}</a></li>`).join('');
   return `<div style="display:grid;gap:16px">
    <div class="row"><label for="co" class="sub">Công ty</label><select id="co">${opts}</select>${c.web?`<a class="sub" href="${esc(c.web)}" target="_blank" rel="noopener">${esc(c.web.replace('https://',''))} ↗</a>`:''}</div>
-   <div class="verdict"><b>Đánh giá tổng quan:</b> ${esc(c.summary)}</div>
+   ${(() => { const a = AI && AI.companies.find(x => x.id === state.co); return a
+      ? `<div class="verdict"><b>Nhận định AI</b> <span class="threat ${threatCls(a.threat)}">Cạnh tranh ${esc(a.threat)}</span><br>${esc(a.positioning)}${a.this_week ? '<br><b>Tuần này:</b> ' + esc(a.this_week) : ''}</div>`
+      : `<div class="verdict"><b>Đánh giá tổng quan:</b> ${esc(c.summary)}</div>`; })()}
    <div class="grid4">
     <section class="pcard"><span class="stamp s-product">Product</span><h3>Chương trình đang bán / đẩy content</h3><div>${progs}</div></section>
-    <section class="pcard"><span class="stamp s-price">Price</span><h3>Mức giá / đầu tư công bố</h3><div>${chips(c.price.prices)}</div><h3>Ưu đãi</h3><div>${chips(c.price.offers)}</div></section>
+    <section class="pcard"><span class="stamp s-price">Price</span><h3>Mức giá / đầu tư công bố</h3><div>${(() => { const ps = aiPrices(state.co); return ps.length ? ps.map(p => `<span class="chip" title="${esc(p.note)}">${esc(p.program)}: <b>${esc(p.amount)}</b></span>`).join('') : chips(c.price.prices); })()}</div><h3>Ưu đãi</h3><div>${chips(c.price.offers)}</div></section>
     <section class="pcard"><span class="stamp s-place">Place</span><h3>Địa điểm / văn phòng</h3><div>${chips(c.place.places)}</div><h3>Kênh</h3><div>${chips(c.place.channels)}</div></section>
     <section class="pcard"><span class="stamp s-promotion">Promotion</span><h3>Loại content</h3><div>${c.promotion.content_types.map(([t,n]) => `<span class="chip">${esc(t)} <b>${n}</b></span>`).join('') || '<span class="empty">—</span>'}</div><h3>Thông điệp lặp lại</h3><div>${c.promotion.phrases.map(([g,n]) => `<span class="chip">“${esc(g)}” ×${n}</span>`).join('') || '<span class="empty">—</span>'}</div></section>
    </div>
@@ -182,10 +209,11 @@ content(){
     <div class="grid2">${blocks}</div></div>`;
 },
 events(){
-  const ev = ids.flatMap(id => C[id].promotion.events.map(e => ({...e, co:id}))).sort((a,b) => ((b.when[0]||b.date) > (a.when[0]||a.date) ? 1 : -1));
+  const aiEv = D.items.filter(i => i.ai && i.ai.event).map(i => ({title: i.ai.event.name + (i.ai.event.city ? ' · ' + i.ai.event.city : ''), url: i.url, date: i.date.slice(0,10), when: i.ai.event.date ? [i.ai.event.date] : [], co: i.company, kind: i.ai.event.kind}));
+  const ev = (aiEv.length ? aiEv : ids.flatMap(id => C[id].promotion.events.map(e => ({...e, co:id})))).sort((a,b) => ((b.when[0]||b.date) > (a.when[0]||a.date) ? 1 : -1));
   const today = new Date().toISOString().slice(0,10);
   const rows = ev.map(e => { const w = e.when[0]; const up = w && w >= today;
-    return `<tr><td class="n">${w?fmtD(w)+'/'+w.slice(2,4):'—'}</td><td>${up?'<span class="chip self">sắp diễn ra</span>':'<span class="chip muted">đã qua</span>'}</td><td class="name">${esc(C[e.co].name)}</td><td><a href="${esc(e.url)}" target="_blank" rel="noopener">${esc(e.title)}</a></td><td class="n">${fmtD(e.date)}</td></tr>`; }).join('');
+    return `<tr><td class="n">${w?fmtD(w)+'/'+w.slice(2,4):'—'}</td><td>${e.kind==='recap'?'<span class="chip muted">bài tổng kết</span>':up?'<span class="chip self">sắp diễn ra</span>':'<span class="chip muted">đã qua</span>'}</td><td class="name">${esc(C[e.co].name)}</td><td><a href="${esc(e.url)}" target="_blank" rel="noopener">${esc(e.title)}</a></td><td class="n">${fmtD(e.date)}</td></tr>`; }).join('');
   return `<section class="panel"><h2>Lịch sự kiện / hội thảo / toạ đàm của đối thủ</h2>
    <div class="scroll"><table><thead><tr><th class="n">Ngày diễn ra</th><th>Trạng thái</th><th>Công ty</th><th>Sự kiện</th><th class="n">Đăng</th></tr></thead><tbody>${rows || '<tr><td colspan="5" class="empty">Chưa có sự kiện.</td></tr>'}</tbody></table></div>
    <p class="note">Ngày diễn ra được đọc tự động từ nội dung bài (dd/mm), có thể sai với bài nhắc nhiều mốc ngày.</p></section>`;
@@ -205,6 +233,10 @@ feed(){
 }
 };
 
+function aiPrices(cid){
+  const seen = new Set();
+  return D.items.filter(i => i.company === cid && i.ai).flatMap(i => i.ai.prices).filter(p => { const k = p.program + p.amount; if (seen.has(k)) return false; seen.add(k); return true; }).slice(0,10);
+}
 function render(){
   document.querySelectorAll('#tabs button').forEach(b => b.setAttribute('aria-selected', b.dataset.tab===state.tab));
   document.getElementById('view').innerHTML = views[state.tab]();
@@ -214,5 +246,7 @@ document.getElementById('tabs').addEventListener('click', e => { const t = e.tar
 document.getElementById('view').addEventListener('click', e => { const r = e.target.closest('tr[data-co]'); if (r){ state.co = r.dataset.co; state.tab = 'company'; render(); window.scrollTo(0,0); } });
 document.getElementById('view').addEventListener('change', e => { if (e.target.id==='co'){ state.co = e.target.value; render(); } });
 if (!C[state.co]) state.co = ids[0];
+if (AI) { document.getElementById('tab-ai').hidden = false; if (!state.seenAi || state.seenAi !== AI.week) { state.tab = 'ai'; state.seenAi = AI.week; } }
+if (!views[state.tab] || (state.tab === 'ai' && !AI)) state.tab = 'overview';
 render();
 </script>

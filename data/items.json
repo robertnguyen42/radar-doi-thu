@@ -1,5 +1,45 @@
 [
 {
+"id": "17873bf7ec04",
+"company": "victory",
+"src": "web",
+"outlet": "",
+"title": "[Bản tin Canada] Canada mở rộng hạn chế LMIA lương thấp tại 6 khu vực từ 09/10/2026",
+"url": "https://dinhcucacnuoc.com/tin-tuc-canada-mo-rong-han-che-lmia-luong-thap-tai-6-khu-vuc/",
+"date": "2026-10-12T23:02:52+00:00",
+"cats": [
+"Tin tức Canada",
+"Tin tức",
+"Tin tức di trú 24h"
+],
+"summary": "Ngày 09/10/2026, Chính phủ Canada cập nhật danh sách hạn chế xử lý hồ sơ LMIA lương thấp tại 6 khu vực đô thị mới, gồm Halifax, Fredericton, Kingston, St. Catharines-Niagara, Regina và Lethbridge. Nguyên nhân là tỷ lệ thất nghiệp tại các khu vực này đã tăng lên từ 6%, khiến một số hồ[...] ",
+"programs": [
+"ca_work"
+],
+"p4": [
+"product"
+],
+"prices": [],
+"offers": [],
+"places": [],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Tin chính sách"
+],
+"ai": {
+"programs": [],
+"prices": [],
+"offers": [],
+"event": null,
+"content_type": "Tin chính sách",
+"message": "Cập nhật việc Canada mở rộng hạn chế LMIA lương thấp tại 6 khu vực để khách nắm thay đổi chính sách.",
+"risk_claims": []
+},
+"ai_v": 1
+},
+{
 "id": "d46c97ba58dc",
 "company": "icanfield",
 "src": "web",
@@ -85,6 +125,42 @@
 "event": null,
 "content_type": "Khác",
 "message": "iCanfield cam kết bảo vệ thông tin cá nhân của khách hàng.",
+"risk_claims": []
+},
+"ai_v": 1
+},
+{
+"id": "b792ebfedc73",
+"company": "victory",
+"src": "web",
+"outlet": "",
+"title": "[Bản tin Mỹ] USCIS cập nhật kiểm tra hàng xóm khi xét nhập quốc tịch Mỹ ừ 25/08/2026",
+"url": "https://dinhcucacnuoc.com/tin-tuc-uscis-kiem-tra-hang-xom-khi-xin-quoc-tich-my/",
+"date": "2026-10-12T08:01:19+00:00",
+"cats": [
+"Tin tức Mỹ",
+"Tin tức",
+"Tin tức di trú 24h"
+],
+"summary": "Ngày 25/08/2026, Sở Di trú và Nhập tịch Mỹ (USCIS) cập nhật chính sách kiểm tra hàng xóm khi xét hồ sơ nhập quốc tịch Mỹ, cho phép xác minh thông tin từ hàng xóm, đồng nghiệp hoặc người sử dụng lao động để đánh giá điều kiện nhập quốc tịch. Đây là bước cập[...] ",
+"programs": [],
+"p4": [],
+"prices": [],
+"offers": [],
+"places": [],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Tin chính sách"
+],
+"ai": {
+"programs": [],
+"prices": [],
+"offers": [],
+"event": null,
+"content_type": "Tin chính sách",
+"message": "Cập nhật chính sách USCIS kiểm tra hàng xóm khi xét nhập quốc tịch Mỹ.",
 "risk_claims": []
 },
 "ai_v": 1
@@ -1244,28 +1320,6 @@
 "ai_v": 1
 },
 {
-"id": "bcfb5c16010b",
-"company": "henley",
-"src": "news",
-"outlet": "CafeF",
-"title": "Xếp hạng mới nhất của hộ chiếu Việt Nam, người dân Việt Nam sắp đi nước ngoài cần lưu ý",
-"url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNblg5T05yNzItYlNvV2pHaVRLQkwzT1pVdThVaGx4OGVZODVlZlhqaXo0SXhmTU94TmRGU0NTT0tDdFlmbXE1X0hQdUI1Ni1sTEU0aVdrQnZJMTdpeWREYmNpUTdpWVBlcFJsNTZtd3Q0R3Q3bVZKWVlGWHhRVlpxREM0TjJtV2J3X3FvMlh4UElVYnNZaWlfdHMtTFo5cU1qRURpWGdNME1NRE5wLWx3d1UxQVhFQnFGN1lnTE85X05FUkE5?oc=5",
-"date": "2026-09-30T07:00:00+00:00",
-"cats": [],
-"summary": "Xếp hạng mới nhất của hộ chiếu Việt Nam, người dân Việt Nam sắp đi nước ngoài cần lưu ý CafeF ",
-"programs": [],
-"p4": [],
-"prices": [],
-"offers": [],
-"places": [],
-"event": false,
-"event_dates": [],
-"risk": [],
-"ctype": [
-"Khác"
-]
-},
-{
 "id": "8feb8982834c",
 "company": "usimi",
 "src": "web",
@@ -1309,6 +1363,42 @@
 "event": null,
 "content_type": "Tin chính sách",
 "message": "EB-5 và EB-1 tiếp tục Current, EB-3 lùi lịch, thúc đẩy khách cân nhắc EB-5.",
+"risk_claims": []
+},
+"ai_v": 1
+},
+{
+"id": "41c95e96b470",
+"company": "victory",
+"src": "web",
+"outlet": "",
+"title": "Visa Bulletin tháng 10/2026: Cập nhật lịch chiếu khán Mỹ & chiến lược nộp hồ sơ",
+"url": "https://dinhcucacnuoc.com/visa-bulletin/",
+"date": "2026-09-30T01:51:50+00:00",
+"cats": [
+"Tin tức Mỹ",
+"Tin tức"
+],
+"summary": "Visa Bulletin là bản tin visa định cư do U.S. Department of State (DOS) công bố hằng tháng, cho biết ngày ưu tiên (Priority Date) đang được xử lý đối với từng diện bảo lãnh gia đình và định cư việc làm. Đây là căn cứ để người nộp hồ sơ xác định khi nào[...] ",
+"programs": [],
+"p4": [],
+"prices": [],
+"offers": [],
+"places": [],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Tin chính sách",
+"Hướng dẫn / Kiến thức"
+],
+"ai": {
+"programs": [],
+"prices": [],
+"offers": [],
+"event": null,
+"content_type": "Hướng dẫn / Kiến thức",
+"message": "Cập nhật Visa Bulletin tháng 10/2026 và gợi ý chiến lược nộp hồ sơ định cư Mỹ.",
 "risk_claims": []
 },
 "ai_v": 1
@@ -1439,6 +1529,129 @@
 },
 "content_type": "Sự kiện / Hội thảo",
 "message": "Tổng kết sự kiện, định vị iCanfield là đối tác đa dạng hóa tài sản, bất động sản và định cư quốc tế.",
+"risk_claims": []
+},
+"ai_v": 1
+},
+{
+"id": "972577054271",
+"company": "victory",
+"src": "web",
+"outlet": "",
+"title": "[Bản tin Mỹ] USCIS thay đổi cách xử lý hạn nộp hồ sơ vào cuối tuần từ 23/10/2026",
+"url": "https://dinhcucacnuoc.com/tin-tuc-uscis-thay-doi-han-nop-ho-so-vao-cuoi-tuan/",
+"date": "2026-09-28T07:42:27+00:00",
+"cats": [
+"Tin tức Mỹ",
+"Tin tức",
+"Tin tức di trú 24h"
+],
+"summary": "USCIS vừa cập nhật cách xử lý hạn nộp hồ sơ khi ngày cuối cùng rơi vào thứ Bảy, Chủ nhật hoặc ngày lễ liên bang, với chính sách mới có hiệu lực từ ngày 23/10/2026. Theo hướng dẫn mới, nếu thời hạn được quy định bằng một số ngày cụ thể, hồ sơ giấy[...] ",
+"programs": [],
+"p4": [],
+"prices": [],
+"offers": [],
+"places": [],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Tin chính sách",
+"Hướng dẫn / Kiến thức"
+],
+"ai": {
+"programs": [],
+"prices": [],
+"offers": [],
+"event": null,
+"content_type": "Tin chính sách",
+"message": "Thông báo cách USCIS xử lý hạn nộp hồ sơ rơi vào cuối tuần/ngày lễ từ 23/10/2026.",
+"risk_claims": []
+},
+"ai_v": 1
+},
+{
+"id": "2c74e725d8d7",
+"company": "victory",
+"src": "web",
+"outlet": "",
+"title": "[Bản tin Mỹ] Hạn Grandfathering EB-5 30/09/2026 sắp kết thúc: Có còn kịp nộp hồ sơ?",
+"url": "https://dinhcucacnuoc.com/tin-tuc-han-grandfathering-eb5/",
+"date": "2026-09-27T23:44:34+00:00",
+"cats": [
+"Tin tức Mỹ",
+"Tin tức"
+],
+"summary": "Ngày 30/09/2026 là hạn chót hiện hành để nhà đầu tư EB-5 qua Regional Center (Trung tâm Vùng) nộp hồ sơ đủ điều kiện và được hưởng Grandfathering (cơ chế bảo hộ theo điều khoản chuyển tiếp) theo EB-5 Reform and Integrity Act of 2022 – RIA (Đạo luật Cải cách và Liêm chính EB-5[...] ",
+"programs": [
+"eb5"
+],
+"p4": [
+"product"
+],
+"prices": [],
+"offers": [],
+"places": [],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Hướng dẫn / Kiến thức"
+],
+"ai": {
+"programs": [
+"EB-5"
+],
+"prices": [],
+"offers": [],
+"event": null,
+"content_type": "Tin chính sách",
+"message": "Hạn Grandfathering EB-5 30/09/2026 sắp hết, thúc giục nhà đầu tư nộp hồ sơ kịp thời.",
+"risk_claims": []
+},
+"ai_v": 1
+},
+{
+"id": "c5b14d3867c7",
+"company": "victory",
+"src": "web",
+"outlet": "",
+"title": "So sánh EB-1, EB-2 và EB-3: Diện nào phù hợp với hồ sơ của bạn?",
+"url": "https://dinhcucacnuoc.com/so-sanh-cac-dien-dinh-cu-my-eb1-eb2-va-eb3/",
+"date": "2026-09-25T11:04:47+00:00",
+"cats": [
+"Tin tức Mỹ",
+"Tin tức"
+],
+"summary": "Không có diện nào tốt nhất giữa EB-1, EB-2 và EB-3 cho mọi hồ sơ. Diện phù hợp phụ thuộc vào trình độ, kinh nghiệm, thành tích nghề nghiệp, nhà tuyển dụng, yêu cầu Labor Certification (Chứng nhận Lao động) và khả năng tự nộp hồ sơ. Hiểu ngắn gọn, EB-1 phù hợp với một[...] ",
+"programs": [
+"niw",
+"eb3"
+],
+"p4": [
+"product"
+],
+"prices": [],
+"offers": [],
+"places": [],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Hướng dẫn / Kiến thức",
+"So sánh / Tư vấn chọn"
+],
+"ai": {
+"programs": [
+"EB-1",
+"EB-2",
+"EB-3"
+],
+"prices": [],
+"offers": [],
+"event": null,
+"content_type": "So sánh / Tư vấn chọn",
+"message": "Giúp khách chọn diện EB-1, EB-2 hay EB-3 phù hợp với hồ sơ của mình.",
 "risk_claims": []
 },
 "ai_v": 1
@@ -1739,28 +1952,6 @@
 "ai_v": 1
 },
 {
-"id": "2d9faedf32db",
-"company": "henley",
-"src": "news",
-"outlet": "Cổng thông tin điện tử tỉnh Hà Tĩnh",
-"title": "Hộ chiếu nào quyền lực nhất thế giới năm 2024, Việt Nam xếp hạng mấy?",
-"url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOOVJzRWVzN2tYQ1hsSjdLbDJIWDU2VjdWbnlkZk5oZ3FTUUluRzU2NHk3aUNNU2ZxVkpXMkJLcGYySHF1WHZ4MkZxTXp4ZHpSc0dYNEgzM09ud1E5Z0FUSGNqQWxTUUZOMWFlelhlSmd1ZUZZLUJWX3lzZUNvVE1ScWt3YjR5ekk4OEIzdUtzYnkzU1N1c1pHRF92N0JZbWFHVTJF?oc=5",
-"date": "2026-09-22T07:00:00+00:00",
-"cats": [],
-"summary": "Hộ chiếu nào quyền lực nhất thế giới năm 2024, Việt Nam xếp hạng mấy? Cổng thông tin điện tử tỉnh Hà Tĩnh ",
-"programs": [],
-"p4": [],
-"prices": [],
-"offers": [],
-"places": [],
-"event": false,
-"event_dates": [],
-"risk": [],
-"ctype": [
-"Khác"
-]
-},
-{
 "id": "d6c5a57431ee",
 "company": "americanplus",
 "src": "web",
@@ -1836,6 +2027,50 @@
 "ai_v": 1
 },
 {
+"id": "89425ff2d14f",
+"company": "victory",
+"src": "web",
+"outlet": "",
+"title": "[Bản tin EU] Hy Lạp đề xuất tăng thuế mua nhà từ 3% lên 15% với người ngoài EU",
+"url": "https://dinhcucacnuoc.com/tin-tuc-hy-lap-tang-thue-mua-nha-len-15/",
+"date": "2026-09-21T23:51:20+00:00",
+"cats": [
+"Tin tức Châu Âu",
+"Tin tức",
+"Tin tức di trú 24h"
+],
+"summary": "Hy Lạp vừa công bố kế hoạch tăng thuế chuyển nhượng bất động sản nhà ở từ 3% lên 15% đối với một số người mua từ các quốc gia ngoài Liên minh châu Âu (EU). Đề xuất được Thủ tướng Kyriakos Mitsotakis công bố tại Hội chợ Quốc tế Thessaloniki lần thứ 90 vào[...] ",
+"programs": [
+"gr",
+"re"
+],
+"p4": [
+"product",
+"place"
+],
+"prices": [],
+"offers": [],
+"places": [
+"Huế"
+],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Khác"
+],
+"ai": {
+"programs": [],
+"prices": [],
+"offers": [],
+"event": null,
+"content_type": "Tin chính sách",
+"message": "Cảnh báo Hy Lạp đề xuất tăng thuế mua nhà từ 3% lên 15% với người ngoài EU.",
+"risk_claims": []
+},
+"ai_v": 1
+},
+{
 "id": "5845ba86c01f",
 "company": "icanfield",
 "src": "web",
@@ -1879,6 +2114,42 @@
 },
 "content_type": "Sự kiện / Hội thảo",
 "message": "iCanfield định vị là đơn vị tư vấn toàn diện về đầu tư tài chính, bất động sản và định cư cho gia đình Việt.",
+"risk_claims": []
+},
+"ai_v": 1
+},
+{
+"id": "1ddebc2fab10",
+"company": "victory",
+"src": "web",
+"outlet": "",
+"title": "[Bản tin Canada] EU đề xuất Canada trở thành “thành viên liên kết”: Cơ hội nào có thể mở ra?",
+"url": "https://dinhcucacnuoc.com/tin-tuc-eu-de-xuat-canada-tro-thanh-thanh-vien-lien-ket-dau-tien/",
+"date": "2026-09-21T07:49:48+00:00",
+"cats": [
+"Tin tức Canada",
+"Tin tức",
+"Tin tức di trú 24h"
+],
+"summary": "Ngày 16/09/2026, Liên minh châu Âu (EU) đề xuất mở đường để Canada trở thành “associate member” (thành viên liên kết) đầu tiên của khối, mở ra khả năng tăng hợp tác và mở rộng cơ hội học tập, làm việc, di chuyển giữa Canada và châu Âu trong tương lai. Một ngày sau, 17/09/2026,[...] ",
+"programs": [],
+"p4": [],
+"prices": [],
+"offers": [],
+"places": [],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Khác"
+],
+"ai": {
+"programs": [],
+"prices": [],
+"offers": [],
+"event": null,
+"content_type": "Tin chính sách",
+"message": "Đề xuất Canada thành thành viên liên kết EU có thể mở thêm cơ hội học tập, làm việc, di chuyển.",
 "risk_claims": []
 },
 "ai_v": 1
@@ -2059,32 +2330,6 @@
 "risk_claims": []
 },
 "ai_v": 1
-},
-{
-"id": "2c7b08999a03",
-"company": "henley",
-"src": "news",
-"outlet": "디지털투데이",
-"title": "Singapore năm thứ tư liên tiếp đứng đầu điểm đến định cư của nhà đầu tư tiền mã hóa",
-"url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPZExpWFloamRVSEpCQ1VaU1ZUWXdTUENjVlhJWmo3czBUNUVwTElZWEZYVWd1WXV4LXphZnBPOFdrSHljUEsteTJYMjZWb2FKalVPeTdadHo5ZU1sejI4Y2FWS08tZEZHb2JiekFhSVZVMnkwTVd5amh2SmxiNmxCY1g2Tmltd2Zfc3lZeXB0QTJfSENJM1htdVIxbWxYTlVDUmVpU1BrLTRIYTZybVAtNjdjWnp0am5Cdnc?oc=5",
-"date": "2026-09-17T07:00:00+00:00",
-"cats": [],
-"summary": "Singapore năm thứ tư liên tiếp đứng đầu điểm đến định cư của nhà đầu tư tiền mã hóa 디지털투데이 ",
-"programs": [
-"sg"
-],
-"p4": [
-"product"
-],
-"prices": [],
-"offers": [],
-"places": [],
-"event": false,
-"event_dates": [],
-"risk": [],
-"ctype": [
-"Khác"
-]
 },
 {
 "id": "68360d9f3005",
@@ -2462,6 +2707,47 @@
 "ai_v": 1
 },
 {
+"id": "3e1d7cf73462",
+"company": "victory",
+"src": "web",
+"outlet": "",
+"title": "[Bản tin Canada] Canada cho người có Work Permit học khóa ngắn hạn mà không cần Study Permit",
+"url": "https://dinhcucacnuoc.com/tin-tuc-work-permit-hoc-khong-can-study-permit/",
+"date": "2026-09-14T23:05:13+00:00",
+"cats": [
+"Tin tức Canada",
+"Tin tức",
+"Tin tức di trú 24h"
+],
+"summary": "Từ ngày 04/09/2026, Canada chính thức cho phép người đang giữ Work Permit (giấy phép lao động) hợp lệ được học các khóa hoặc chương trình có thời lượng tối đa 6 tháng mà không cần Study Permit (giấy phép du học). Chính sách tạm thời này được IRCC (Bộ Di trú, Tị nạn và[...] ",
+"programs": [
+"eb3",
+"ca_work"
+],
+"p4": [
+"product"
+],
+"prices": [],
+"offers": [],
+"places": [],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Tin chính sách"
+],
+"ai": {
+"programs": [],
+"prices": [],
+"offers": [],
+"event": null,
+"content_type": "Tin chính sách",
+"message": "Người có Work Permit Canada được học khóa tối đa 6 tháng không cần Study Permit.",
+"risk_claims": []
+},
+"ai_v": 1
+},
+{
 "id": "563d4d985449",
 "company": "newachieve",
 "src": "web",
@@ -2497,6 +2783,42 @@
 "event": null,
 "content_type": "Hướng dẫn / Kiến thức",
 "message": "Phân biệt profile, ITA và hồ sơ thường trú để ứng viên hiểu đúng quy trình Express Entry.",
+"risk_claims": []
+},
+"ai_v": 1
+},
+{
+"id": "2a72914f43e1",
+"company": "victory",
+"src": "web",
+"outlet": "",
+"title": "[Bản tin Mỹ] Mỹ đề xuất xóa thời gian ân hạn 60 ngày sau khi người giữ visa lao động mất việc",
+"url": "https://dinhcucacnuoc.com/tin-tuc-my-de-xuat-xoa-thoi-gian-an-han-60-ngay/",
+"date": "2026-09-14T08:04:33+00:00",
+"cats": [
+"Tin tức Mỹ",
+"Tin tức",
+"Tin tức di trú 24h"
+],
+"summary": "Ngày 11/09/2026, DHS (Bộ An ninh Nội địa Mỹ) và USCIS công bố đề xuất xóa thời gian ân hạn tối đa 60 ngày sau khi người giữ một số tình trạng visa lao động mất việc hoặc chấm dứt hoạt động làm cơ sở cho tình trạng visa. Đề xuất áp dụng với các[...] ",
+"programs": [],
+"p4": [],
+"prices": [],
+"offers": [],
+"places": [],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Tin chính sách"
+],
+"ai": {
+"programs": [],
+"prices": [],
+"offers": [],
+"event": null,
+"content_type": "Tin chính sách",
+"message": "Mỹ đề xuất xóa thời gian ân hạn 60 ngày cho người giữ visa lao động mất việc.",
 "risk_claims": []
 },
 "ai_v": 1
@@ -2759,6 +3081,48 @@
 "content_type": "Tin chính sách",
 "message": "Mỹ tạm dừng cấp visa định cư toàn cầu, nhà đầu tư EB-5 cần USIMI tư vấn giải pháp chủ động ứng phó.",
 "risk_claims": []
+},
+"ai_v": 1
+},
+{
+"id": "64055e66dd56",
+"company": "usis",
+"src": "web",
+"outlet": "",
+"title": "CƠ CHẾ GRANDFATHERING TRONG EB-5 & ĐIỀU NHÀ ĐẦU TƯ CẦN BIẾT",
+"url": "https://usis.us/tin-tuc-usis/co-che-grandfathering-trong-eb-5-dieu-nha-dau-tu-can-biet",
+"date": "2026-09-10T12:00:00+00:00",
+"cats": [
+"Tin tức Mỹ"
+],
+"summary": "Khi thời hạn “grandfathering” của EB-5 ngày 30/9/2026 đang đến gần, khoảng thời gian để các nhà đầu tư tiềm năng đánh giá lựa chọn và chuẩn bị hồ sơ nộp đúng hạn đang ngày càng thu hẹp. Mức độ quan trọng của thời điểm này là rất lớn: một hồ sơ được chuẩn bị vội vàng hoặc chưa hoàn chỉnh có thể gây rủi ro cho cả khoản đầu tư và quá trình định cư , trong khi cách tiếp cận được chuẩn bị kỹ lưỡng sẽ giúp tối đa hóa khả năng thành công. Các luật sư di trú Mỹ và chuyên gia EB-5 đã chỉ ra 3 yếu tố quan trọng nhất mà nhà đầu tư cần cân nhắc trước khi tiến hành: Thời điểm và các vấn đề về quy định Lập kế hoạch cho hồ sơ nhà đầu tư Thẩm định dự án được lựa chọn 1. Thời điểm & quy định: Deadline không phải là “đường tắt” Việc hiểu rõ hệ thống quy định và ý nghĩa thực sự của ngày 30/9/2026 là rất quan trọng. Ngày 30/9/2026 mà mọi người đang quan tâm thực chất là “grandfathering deadline” – thời hạn bảo lưu quyền theo quy định hiện hành . Về cơ bản, nếu nhà đầu tư nộp hồ sơ trước thời hạn này, hồ sơ sẽ được bảo vệ khỏi việc bị từ chối chỉ vì chương trình EB-5 hết hiệu lực theo quy định pháp luật . Tuy nhiên, nếu nhà đầu tư kịp nộp hồ sơ trước deadline nhưng hồ sơ được chuẩn bị quá vội, thiếu tài liệu và sau đó bị từ chối vì vấn đề của dự án hoặc nguồn tiền , thì cơ chế grandfathering không bảo vệ nhà đầu tư khỏi những lý do từ chối này . Nếu chưa có một bộ hồ sơ EB-5 được chuẩn bị đầy đủ và đúng quy định thì không nên nộp hồ sơ chỉ để chạy theo ngày 30/9 . Nhà đầu tư không nên để deadline",
+"programs": [
+"eb5"
+],
+"p4": [
+"product"
+],
+"prices": [],
+"offers": [],
+"places": [],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Câu chuyện thành công"
+],
+"ai": {
+"programs": [
+"EB-5"
+],
+"prices": [],
+"offers": [],
+"event": null,
+"content_type": "Hướng dẫn / Kiến thức",
+"message": "Trước hạn grandfathering 30/9/2026, nhà đầu tư EB-5 cần chuẩn bị kỹ hồ sơ và thẩm định dự án để tối đa hóa khả năng thành công.",
+"risk_claims": [
+"tối đa hóa khả năng thành công"
+]
 },
 "ai_v": 1
 },
@@ -3227,6 +3591,47 @@
 "ai_v": 1
 },
 {
+"id": "7e0ab198c77f",
+"company": "victory",
+"src": "web",
+"outlet": "",
+"title": "[Bản tin Mỹ] Mỹ đề xuất phí H-1B mới 103.265 USD cho hồ sơ H-1B thuộc hạn ngạch",
+"url": "https://dinhcucacnuoc.com/tin-tuc-my-de-xuat-phi-h1b-moi-103265-usd/",
+"date": "2026-09-07T23:47:27+00:00",
+"cats": [
+"Tin tức Mỹ",
+"Tin tức",
+"Tin tức di trú 24h"
+],
+"summary": "Ngày 24/08/2026, Bộ An ninh Nội địa Mỹ (DHS) công bố đề xuất áp thêm khoản phí 103.265 USD cho mỗi hồ sơ H-1B thuộc diện cap-subject, bao gồm cả nhóm đủ điều kiện Advanced Degree Exemption. Khoản phí này, nếu được ban hành thành quy định cuối cùng, sẽ được thu tại thời điểm[...] ",
+"programs": [],
+"p4": [
+"price"
+],
+"prices": [
+"103.265 USD",
+"103.265 USD"
+],
+"offers": [],
+"places": [],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Hướng dẫn / Kiến thức"
+],
+"ai": {
+"programs": [],
+"prices": [],
+"offers": [],
+"event": null,
+"content_type": "Tin chính sách",
+"message": "Mỹ đề xuất phí mới 103.265 USD cho hồ sơ H-1B thuộc hạn ngạch.",
+"risk_claims": []
+},
+"ai_v": 1
+},
+{
 "id": "1f0e772d413b",
 "company": "si",
 "src": "web",
@@ -3313,6 +3718,50 @@
 "event": null,
 "content_type": "Hướng dẫn / Kiến thức",
 "message": "Nắm rõ các khoản phí visa L-1 2026 để dự trù ngân sách chính xác.",
+"risk_claims": []
+},
+"ai_v": 1
+},
+{
+"id": "3250f9d8108f",
+"company": "victory",
+"src": "web",
+"outlet": "",
+"title": "[Bản tin Canada] Canada tăng chứng minh tài chính Study Permit lên 23.448 CAD từ 01/09/2026",
+"url": "https://dinhcucacnuoc.com/tin-tuc-canada-tang-chung-minh-tai-chinh-study-permit/",
+"date": "2026-09-07T08:46:38+00:00",
+"cats": [
+"Tin tức Canada",
+"Tin tức",
+"Tin tức di trú 24h"
+],
+"summary": "Từ ngày 01/09/2026, Canada chính thức tăng mức chứng minh tài chính đối với hồ sơ Study Permit (giấy phép du học) nộp tại các tỉnh và vùng lãnh thổ ngoài Quebec. Theo cập nhật mới nhất từ IRCC, một đương đơn đi một mình phải chứng minh tối thiểu 23.448 CAD cho chi phí[...] ",
+"programs": [
+"eb3"
+],
+"p4": [
+"product",
+"price"
+],
+"prices": [
+"23.448 CAD",
+"23.448 CAD"
+],
+"offers": [],
+"places": [],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Tin chính sách"
+],
+"ai": {
+"programs": [],
+"prices": [],
+"offers": [],
+"event": null,
+"content_type": "Tin chính sách",
+"message": "Canada tăng chứng minh tài chính Study Permit lên 23.448 CAD từ 01/09/2026.",
 "risk_claims": []
 },
 "ai_v": 1
@@ -3583,6 +4032,46 @@
 "event": null,
 "content_type": "Tin chính sách",
 "message": "USCIS cập nhật mẫu I-864 có thể yêu cầu báo cáo tín dụng, người bảo trợ cần chuẩn bị.",
+"risk_claims": []
+},
+"ai_v": 1
+},
+{
+"id": "4d3fdee27b4e",
+"company": "victory",
+"src": "web",
+"outlet": "",
+"title": "[Bản tin EU] Síp có thể gia nhập Schengen: Tiến trình mới nhất năm 2026",
+"url": "https://dinhcucacnuoc.com/tin-tuc-sip-co-the-gia-nhap-schengen/",
+"date": "2026-09-03T23:29:26+00:00",
+"cats": [
+"Tin tức Châu Âu",
+"Tin tức",
+"Tin tức di trú 24h"
+],
+"summary": "Síp vừa tiến thêm một bước quan trọng trong lộ trình gia nhập Schengen khi European Commission (Ủy ban châu Âu) đưa ra đánh giá tích cực về mức độ sẵn sàng kỹ thuật của nước này trong tháng 7/2026. Báo cáo quốc gia Schengen 2025-2026 của Síp được Commission thông qua sau khi nhận[...] ",
+"programs": [
+"ie_it"
+],
+"p4": [
+"product"
+],
+"prices": [],
+"offers": [],
+"places": [],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Khác"
+],
+"ai": {
+"programs": [],
+"prices": [],
+"offers": [],
+"event": null,
+"content_type": "Tin chính sách",
+"message": "Síp tiến gần gia nhập Schengen, tăng sức hút cho định cư tại Síp.",
 "risk_claims": []
 },
 "ai_v": 1
@@ -4554,6 +5043,50 @@
 "ai_v": 1
 },
 {
+"id": "768d665a62b7",
+"company": "victory",
+"src": "web",
+"outlet": "",
+"title": "[Bản tin NZ] INZ ghi nhận 872 hồ sơ Active Investor Plus, 434 hồ sơ được duyệt",
+"url": "https://dinhcucacnuoc.com/tin-tuc-active-investor-plus-dat-872-ho-so-viet-nam-vao-top-10/",
+"date": "2026-08-25T23:13:45+00:00",
+"cats": [
+"Tin tức Úc",
+"Tin tức",
+"Tin tức di trú 24h"
+],
+"summary": "Immigration New Zealand (INZ) đã tiếp nhận 872 hồ sơ Active Investor Plus Visa và phê duyệt 434 hồ sơ kể từ khi cơ chế mới có hiệu lực ngày 01/04/2025. Ngoài ra, 259 hồ sơ đã được approved in principle (chấp thuận về nguyên tắc), trong khi 145 hồ sơ vẫn đang được xử[...] ",
+"programs": [
+"nz_inv",
+"nz_work"
+],
+"p4": [
+"product"
+],
+"prices": [],
+"offers": [],
+"places": [],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Câu chuyện thành công",
+"Hướng dẫn / Kiến thức"
+],
+"ai": {
+"programs": [
+"Active Investor Plus Visa New Zealand"
+],
+"prices": [],
+"offers": [],
+"event": null,
+"content_type": "Tin chính sách",
+"message": "Số liệu hồ sơ Active Investor Plus được duyệt cho thấy chương trình đang vận hành tích cực.",
+"risk_claims": []
+},
+"ai_v": 1
+},
+{
 "id": "5ad5a9c3d8cb",
 "company": "americanplus",
 "src": "web",
@@ -4676,6 +5209,46 @@
 "event": null,
 "content_type": "Hướng dẫn / Kiến thức",
 "message": "Hướng dẫn cách đọc Visa Bulletin để đương đơn tự theo dõi tiến trình hồ sơ thẻ xanh Mỹ.",
+"risk_claims": []
+},
+"ai_v": 1
+},
+{
+"id": "a45b4bf3d0b5",
+"company": "victory",
+"src": "web",
+"outlet": "",
+"title": "[Bản tin Mỹ] Tòa án liên bang Mỹ bác lệnh tạm dừng visa định cư đối với 75 quốc gia",
+"url": "https://dinhcucacnuoc.com/tin-tuc-toa-lien-bang-my-bac-lenh-tam-dung-visa-dinh-cu-doi-voi-75-quoc-gia/",
+"date": "2026-08-24T23:39:06+00:00",
+"cats": [
+"Tin tức Mỹ",
+"Tin tức",
+"Tin tức di trú 24h"
+],
+"summary": "Ngày 21/08/2026, Tòa án Liên bang Mỹ tại Southern District of New York đã bác chính sách tạm dừng cấp visa định cư cho công dân 75 quốc gia của chính quyền Tổng thống Donald Trump. Thẩm phán Jeannette A. Vargas xác định chính sách này vượt quá thẩm quyền của Ngoại trưởng Mỹ Marco[...] ",
+"programs": [],
+"p4": [
+"place"
+],
+"prices": [],
+"offers": [],
+"places": [
+"New York"
+],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Tin chính sách"
+],
+"ai": {
+"programs": [],
+"prices": [],
+"offers": [],
+"event": null,
+"content_type": "Tin chính sách",
+"message": "Tòa án Mỹ bác lệnh tạm dừng visa định cư với 75 quốc gia.",
 "risk_claims": []
 },
 "ai_v": 1
@@ -5197,6 +5770,47 @@
 "ai_v": 1
 },
 {
+"id": "d03ee5104360",
+"company": "victory",
+"src": "web",
+"outlet": "",
+"title": "Visa Bulletin EB-5: Lịch visa EB-5 mới nhất & chiến lược 2026",
+"url": "https://dinhcucacnuoc.com/eb5-visa-bulletin/",
+"date": "2026-08-20T01:34:28+00:00",
+"cats": [
+"Tin tức Mỹ",
+"Tin tức"
+],
+"summary": "Nguồn dữ liệu chính thức: U.S. Department of State – Visa Bulletin for August 2026; USCIS – Adjustment of Status Filing Charts from the Visa Bulletin. Kiểm tra lần cuối: 21/07/2026. EB-5 Visa Bulletin tháng 10/2026 cho thấy nhà đầu tư Việt Nam chưa bị backlog. Theo U.S. Department of State (DOS), EB-5 Unreserved, EB-5 Rural,[...] ",
+"programs": [
+"eb5"
+],
+"p4": [
+"product"
+],
+"prices": [],
+"offers": [],
+"places": [],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Tin chính sách"
+],
+"ai": {
+"programs": [
+"EB-5"
+],
+"prices": [],
+"offers": [],
+"event": null,
+"content_type": "Hướng dẫn / Kiến thức",
+"message": "Nhà đầu tư Việt Nam chưa bị backlog EB-5, nên tận dụng thời điểm để nộp hồ sơ.",
+"risk_claims": []
+},
+"ai_v": 1
+},
+{
 "id": "82cc22ee6513",
 "company": "mapleleaf",
 "src": "web",
@@ -5290,6 +5904,47 @@
 "ai_v": 1
 },
 {
+"id": "f5c7c982c653",
+"company": "victory",
+"src": "web",
+"outlet": "",
+"title": "[Bản tin NZ] New Zealand bỏ viêm gan B, C khỏi danh sách bệnh chi phí cao từ 03/08/2026",
+"url": "https://dinhcucacnuoc.com/tin-tuc-new-zealand-loai-viem-gan-b-c-khoi-danh-sach-benh-chi-phi-cao/",
+"date": "2026-08-18T23:12:20+00:00",
+"cats": [
+"Tin tức Úc",
+"Tin tức",
+"Tin tức di trú 24h"
+],
+"summary": "Từ ngày 03/08/2026, Immigration New Zealand (INZ) chính thức loại viêm gan B và viêm gan C khỏi danh sách tình trạng sức khỏe có chi phí cao khi xét Resident Visa (Visa Cư trú). Theo thông báo mới, người mắc hai bệnh này sẽ không còn tự động bị đánh giá là không đáp[...] ",
+"programs": [
+"nz_work"
+],
+"p4": [
+"product",
+"price"
+],
+"prices": [],
+"offers": [],
+"places": [],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Tin chính sách"
+],
+"ai": {
+"programs": [],
+"prices": [],
+"offers": [],
+"event": null,
+"content_type": "Tin chính sách",
+"message": "New Zealand bỏ viêm gan B, C khỏi danh sách bệnh chi phí cao khi xét Resident Visa.",
+"risk_claims": []
+},
+"ai_v": 1
+},
+{
 "id": "7b9f8389a449",
 "company": "icanfield",
 "src": "web",
@@ -5339,6 +5994,43 @@
 "ai_v": 1
 },
 {
+"id": "d5bef5948697",
+"company": "victory",
+"src": "web",
+"outlet": "",
+"title": "[Bản tin Mỹ] USCIS có thể bắt buộc một số hồ sơ nộp online từ 11/08/2026",
+"url": "https://dinhcucacnuoc.com/tin-tuc-uscis-co-the-bat-buoc-mot-so-ho-so-nop-online/",
+"date": "2026-08-17T23:57:25+00:00",
+"cats": [
+"Tin tức Mỹ",
+"Tin tức",
+"Tin tức di trú 24h"
+],
+"summary": "Từ ngày 11/08/2026, Sở Di trú và Nhập tịch Mỹ (USCIS) chính thức được phép bắt buộc một số hồ sơ di trú phải nộp trực tuyến (e-filing) theo quy định tạm thời cuối cùng (Interim Final Rule) mới của Bộ An ninh Nội địa Mỹ (DHS). Quy định áp dụng với những mẫu đơn[...] ",
+"programs": [],
+"p4": [],
+"prices": [],
+"offers": [],
+"places": [],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Tin chính sách",
+"Hướng dẫn / Kiến thức"
+],
+"ai": {
+"programs": [],
+"prices": [],
+"offers": [],
+"event": null,
+"content_type": "Tin chính sách",
+"message": "USCIS có thể bắt buộc một số hồ sơ nộp online từ 11/08/2026.",
+"risk_claims": []
+},
+"ai_v": 1
+},
+{
 "id": "9b50353ed6aa",
 "company": "icanfield",
 "src": "web",
@@ -5376,6 +6068,48 @@
 "event": null,
 "content_type": "Tin chính sách",
 "message": "Alberta tăng chỉ tiêu đề cử, mở thêm cơ hội định cư Canada diện lao động.",
+"risk_claims": []
+},
+"ai_v": 1
+},
+{
+"id": "2f7f800eae51",
+"company": "victory",
+"src": "web",
+"outlet": "",
+"title": "30+ câu hỏi thường gặp về EB-3 và giải đáp các thắc mắc thực tế theo từng trường hợp",
+"url": "https://dinhcucacnuoc.com/cau-hoi-thuong-gap-ve-visa-eb3/",
+"date": "2026-08-15T00:38:25+00:00",
+"cats": [
+"Tin tức Mỹ",
+"Tin tức"
+],
+"summary": "Các câu hỏi thường gặp về chương trình EB-3 thường tập trung vào những vấn đề thực tế như điều kiện hồ sơ, nhà tuyển dụng, công việc, thời gian chờ, Priority Date (ngày ưu tiên), Visa Bulletin, chi phí, gia đình và rủi ro. Đây là những yếu tố có thể ảnh hưởng trực[...] ",
+"programs": [
+"eb3"
+],
+"p4": [
+"product",
+"price"
+],
+"prices": [],
+"offers": [],
+"places": [],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Tin chính sách"
+],
+"ai": {
+"programs": [
+"EB-3"
+],
+"prices": [],
+"offers": [],
+"event": null,
+"content_type": "Hướng dẫn / Kiến thức",
+"message": "Giải đáp 30+ câu hỏi thực tế về EB-3 để khách hiểu điều kiện, chi phí, rủi ro.",
 "risk_claims": []
 },
 "ai_v": 1
@@ -5458,6 +6192,41 @@
 "ai_v": 1
 },
 {
+"id": "f6e062ab9f7d",
+"company": "usis",
+"src": "web",
+"outlet": "",
+"title": "USCIS SIẾT CHẶT YÊU CẦU - HỒ SƠ DI TRÚ KHÔNG ĐẦY ĐỦ CÓ THỂ BỊ TỪ CHỐI NGAY LẬP TỨC",
+"url": "https://usis.us/tin-tuc-usis/uscis-siet-chat-yeu-cau---ho-so-di-tru-khong-day-du-co-the-bi-tu-choi-ngay-lap-tuc",
+"date": "2026-08-12T12:00:00+00:00",
+"cats": [
+"Tin tức Mỹ"
+],
+"summary": "Chính quyền Trump đang đặt trọng tâm lớn vào chính sách di trú, với những thay đổi mới xuất hiện gần như hàng tuần. Từ các quy định liên quan đến xét duyệt visa và điều chỉnh tình trạng cư trú, tăng cường kiểm tra, các hoạt động thực thi pháp luật, giấy phép lao động, chương trình nhân đạo cho đến tiêu chuẩn xét duyệt hồ sơ của cơ quan di trú, người sử dụng lao động và người nước ngoài đang phải thích ứng với một hệ thống di trú thay đổi nhanh chóng. Diễn biến mới nhất đến từ Sở Di trú và Nhập tịch Mỹ (USCIS) . Ngày 05/08/2026 , USCIS cập nhật Policy Manual, nhấn mạnh nguyên tắc rằng người nộp đơn và người bảo lãnh phải chứng minh mình đủ điều kiện hưởng quyền lợi di trú ngay tại thời điểm nộp hồ sơ . Đồng thời, USCIS khôi phục quyền chủ động rộng hơn cho viên chức xét duyệt trong việc từ chối một số hồ sơ mà không cần trước đó gửi Request for Evidence (RFE) hoặc Notice of Intent to Deny (NOID) . Đây là sự thay đổi so với chính sách được áp dụng từ năm 2021, khi viên chức USCIS thường được hướng dẫn gửi RFE hoặc NOID nếu việc bổ sung bằng chứng có khả năng giúp người nộp đơn chứng minh đủ điều kiện. Theo chính sách trước đây, một hồ sơ chưa hoàn chỉnh không nhất thiết bị từ chối ngay mà người nộp đơn thường có cơ hội bổ sung tài liệu. Có gì thay đổi? Theo cập nhật chính sách ngày 05/08, USCIS nhấn mạnh rằng gánh nặng chứng minh điều kiện thuộc về người nộp đơn hoặc người bảo lãnh , và các bằng chứng ban đầu bắt buộc phải được nộp ngay khi hồ sơ được gửi. Hướng dẫn của từng bi",
+"programs": [],
+"p4": [],
+"prices": [],
+"offers": [],
+"places": [],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Tin chính sách",
+"Hướng dẫn / Kiến thức"
+],
+"ai": {
+"programs": [],
+"prices": [],
+"offers": [],
+"event": null,
+"content_type": "Tin chính sách",
+"message": "Cảnh báo USCIS siết chặt, hồ sơ thiếu có thể bị từ chối ngay nên cần chuẩn bị hồ sơ đầy đủ từ đầu.",
+"risk_claims": []
+},
+"ai_v": 1
+},
+{
 "id": "9e82adc662ae",
 "company": "aims",
 "src": "web",
@@ -5491,6 +6260,178 @@
 "event": null,
 "content_type": "So sánh / Tư vấn chọn",
 "message": "Tổng quan các chương trình đầu tư định cư Châu Âu đang thay đổi nhanh để nhà đầu tư Việt chọn đúng chương trình.",
+"risk_claims": []
+},
+"ai_v": 1
+},
+{
+"id": "0269b495bd92",
+"company": "victory",
+"src": "web",
+"outlet": "",
+"title": "[Bản tin Canada] Nova Scotia áp dụng phí NSNP mới từ 01/09/2026",
+"url": "https://dinhcucacnuoc.com/tin-tuc-nova-scotia-ap-dung-phi-nsnp-moi/",
+"date": "2026-08-11T23:06:12+00:00",
+"cats": [
+"Tin tức Canada",
+"Tin tức",
+"Tin tức di trú 24h"
+],
+"summary": "Từ ngày 01/09/2026, Nova Scotia sẽ chính thức thu phí hồ sơ Nova Scotia Nominee Program (NSNP) với mức 1.000 CAD cho các stream lao động và 2.000 CAD cho Entrepreneur Stream. Đây là thay đổi lớn vì trước thời điểm này, tỉnh bang không thu khoản phí nộp hồ sơ NSNP tương ứng. Theo[...] ",
+"programs": [],
+"p4": [
+"price"
+],
+"prices": [
+"1.000 CAD",
+"2.000 CAD"
+],
+"offers": [],
+"places": [],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Tin chính sách"
+],
+"ai": {
+"programs": [
+"Nova Scotia Nominee Program (NSNP)"
+],
+"prices": [
+{
+"program": "NSNP - stream lao động",
+"amount": "1.000 CAD",
+"note": "Phí hồ sơ chính phủ, từ 01/09/2026"
+},
+{
+"program": "NSNP - Entrepreneur Stream",
+"amount": "2.000 CAD",
+"note": "Phí hồ sơ chính phủ, từ 01/09/2026"
+}
+],
+"offers": [],
+"event": null,
+"content_type": "Tin chính sách",
+"message": "Cập nhật phí NSNP mới để khách cân nhắc nộp hồ sơ sớm trước 01/09/2026.",
+"risk_claims": []
+},
+"ai_v": 1
+},
+{
+"id": "82ed01606f7d",
+"company": "usis",
+"src": "web",
+"outlet": "",
+"title": "THÔNG TIN VỀ QUYỀN CÔNG DÂN THEO NƠI SINH KHÔNG ẢNH HƯỞNG ĐẾN EB-5, NHƯNG NGÀY 30/9 THÌ CÓ",
+"url": "https://usis.us/tin-tuc-usis/thong-tin-ve-quyen-cong-dan-theo-noi-sinh-khong-anh-huong-den-eb-5-nhung-ngay-309-thi-co",
+"date": "2026-08-11T12:00:00+00:00",
+"cats": [
+"Tin tức Mỹ"
+],
+"summary": "Phán quyết của Tòa án Tối cao Mỹ hồi tháng 6 về quyền công dân theo nơi sinh , cùng với các sắc lệnh hành pháp mới được Nhà Trắng ban hành trong tháng 8, đã trở thành tâm điểm của các tin tức về di trú Mỹ trong những tuần gần đây. Đối với các nhà đầu tư EB-5 đang nộp hồ sơ hoặc có kế hoạch bắt đầu quy trình, những thay đổi liên quan đến quyền công dân theo nơi sinh không ảnh hưởng trực tiếp đến hồ sơ EB-5 . Tuy nhiên, vẫn cần hiểu rõ vấn đề này, đồng thời chú ý đến một thay đổi chính sách khác có tác động trực tiếp hơn đến việc nhà đầu tư EB-5 nhập cảnh hoặc duy trì tình trạng tại Mỹ . Phán quyết tháng 6 và các sắc lệnh tháng 8 Ngày 30/06/2026 , Tòa án Tối cao Mỹ đã đưa ra phán quyết với tỷ lệ 6-3 trong vụ Trump v. Barbara , bác bỏ nỗ lực của chính quyền Trump nhằm chấm dứt quyền công dân tự động theo nơi sinh đối với con của những người nhập cư không có giấy tờ. Tòa án khẳng định Tu chính án thứ 14 bảo đảm quyền công dân cho trẻ em được sinh ra trên lãnh thổ Mỹ, đồng thời bác bỏ nỗ lực thay đổi cách xác định quyền công dân thông qua sắc lệnh hành pháp. Sau đó, ngày 06/08/2026 , Tổng thống Donald Trump ký hai sắc lệnh hành pháp với phạm vi hẹp hơn. Sắc lệnh đầu tiên loại trừ một số nhóm khỏi quyền công dân tự động, bao gồm con của các nhà ngoại giao nước ngoài và thành viên của các tổ chức khủng bố nước ngoài, phù hợp với một số ngoại lệ lịch sử đã được Tòa án Tối cao công nhận. Sắc lệnh thứ hai yêu cầu Bộ Ngoại giao và Bộ An ninh Nội địa tăng cường kiểm soát hiện tượng được ",
+"programs": [
+"eb5"
+],
+"p4": [
+"product"
+],
+"prices": [],
+"offers": [],
+"places": [],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Tin chính sách"
+],
+"ai": {
+"programs": [
+"EB-5"
+],
+"prices": [],
+"offers": [],
+"event": null,
+"content_type": "Tin chính sách",
+"message": "Trấn an nhà đầu tư EB-5 rằng quyền công dân theo nơi sinh không ảnh hưởng, nhưng cần lưu ý thay đổi ngày 30/9.",
+"risk_claims": []
+},
+"ai_v": 1
+},
+{
+"id": "bd36b5443809",
+"company": "victory",
+"src": "web",
+"outlet": "",
+"title": "Không có bằng đại học có đi Mỹ diện EB-3 được không? Điều kiện, ngành nghề & cơ hội 2026",
+"url": "https://dinhcucacnuoc.com/visa-eb3-cho-nguoi-chua-co-bang-cap/",
+"date": "2026-08-11T10:22:36+00:00",
+"cats": [
+"Tin tức Mỹ",
+"Tin tức"
+],
+"summary": "Không có bằng đại học vẫn có thể đi Mỹ diện EB-3 nếu bạn đáp ứng đúng yêu cầu của công việc được nhà tuyển dụng Mỹ bảo lãnh. Tùy vị trí, bạn có thể được xem xét theo EB-3 Skilled Worker nếu công việc yêu cầu ít nhất 2 năm đào tạo hoặc kinh[...] ",
+"programs": [
+"eb3"
+],
+"p4": [
+"product"
+],
+"prices": [],
+"offers": [],
+"places": [],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Hướng dẫn / Kiến thức"
+],
+"ai": {
+"programs": [
+"EB-3"
+],
+"prices": [],
+"offers": [],
+"event": null,
+"content_type": "Hướng dẫn / Kiến thức",
+"message": "Không có bằng đại học vẫn có thể đi Mỹ diện EB-3 nếu đáp ứng yêu cầu công việc.",
+"risk_claims": []
+},
+"ai_v": 1
+},
+{
+"id": "4dca6d8aa762",
+"company": "victory",
+"src": "web",
+"outlet": "",
+"title": "[Bản tin Mỹ] USCIS có thể từ chối hồ sơ không cần RFE hoặc NOID trước",
+"url": "https://dinhcucacnuoc.com/tin-tuc-uscis-co-the-tu-choi-ho-so-khong-can-rfe/",
+"date": "2026-08-10T23:55:51+00:00",
+"cats": [
+"Tin tức Mỹ",
+"Tin tức",
+"Tin tức di trú 24h"
+],
+"summary": "Ngày 05/08/2026, Sở Di trú và Nhập tịch Mỹ (USCIS) chính thức cập nhật chính sách về tiêu chuẩn bằng chứng, Request for Evidence (RFE) và Notice of Intent to Deny (NOID). Theo quy định mới, USCIS có thể từ chối hồ sơ mà không cần gửi RFE hoặc NOID trước nếu người nộp thiếu[...] ",
+"programs": [],
+"p4": [],
+"prices": [],
+"offers": [],
+"places": [],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Tin chính sách",
+"Hướng dẫn / Kiến thức"
+],
+"ai": {
+"programs": [],
+"prices": [],
+"offers": [],
+"event": null,
+"content_type": "Tin chính sách",
+"message": "USCIS có thể từ chối hồ sơ không cần RFE/NOID, cần chuẩn bị hồ sơ kỹ.",
 "risk_claims": []
 },
 "ai_v": 1
@@ -5830,6 +6771,47 @@
 "ai_v": 1
 },
 {
+"id": "9d6ea59c3a65",
+"company": "victory",
+"src": "web",
+"outlet": "",
+"title": "Ai có thể đi cùng hồ sơ EB-3? Vợ chồng, con cái có được đi cùng không?",
+"url": "https://dinhcucacnuoc.com/thanh-vien-gia-dinh-cua-eb3/",
+"date": "2026-08-07T04:26:20+00:00",
+"cats": [
+"Tin tức Mỹ",
+"Tin tức"
+],
+"summary": "Người làm EB-3 có thể đưa vợ/chồng hợp pháp và con chưa kết hôn dưới 21 tuổi đủ điều kiện đi cùng hoặc sang Mỹ sau. Cha mẹ, anh/chị/em không thể đi theo với tư cách thành viên phái sinh của hồ sơ EB-3. Với con gần 21 tuổi, cần kiểm tra thêm CSPA (Đạo[...] ",
+"programs": [
+"eb3"
+],
+"p4": [
+"product"
+],
+"prices": [],
+"offers": [],
+"places": [],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Hướng dẫn / Kiến thức"
+],
+"ai": {
+"programs": [
+"EB-3"
+],
+"prices": [],
+"offers": [],
+"event": null,
+"content_type": "Hướng dẫn / Kiến thức",
+"message": "EB-3 cho phép vợ/chồng và con dưới 21 tuổi đi cùng, giúp cả gia đình định cư Mỹ.",
+"risk_claims": []
+},
+"ai_v": 1
+},
+{
 "id": "af2553d6962a",
 "company": "aims",
 "src": "web",
@@ -5877,6 +6859,48 @@
 "event": null,
 "content_type": "Dự án / Chương trình",
 "message": "Giới thiệu Latvia là lộ trình cư trú Châu Âu vốn thấp từ 50.000 EUR.",
+"risk_claims": []
+},
+"ai_v": 1
+},
+{
+"id": "5a2eff3e6fc6",
+"company": "victory",
+"src": "web",
+"outlet": "",
+"title": "Hồ Sơ EB-3 Gồm Những Gì? Các Bước Làm Hồ Sơ Visa EB-3 Chuẩn USCIS",
+"url": "https://dinhcucacnuoc.com/ho-so-eb3/",
+"date": "2026-08-06T01:45:06+00:00",
+"cats": [
+"Tin tức Mỹ",
+"Tin tức"
+],
+"summary": "Hồ sơ EB-3 là bộ giấy tờ pháp lý để doanh nghiệp Mỹ bảo lãnh người lao động nước ngoài sang Mỹ làm việc và định cư hợp pháp. Một bộ hồ sơ EB-3 đầy đủ luôn gồm ba phần chính: hồ sơ của doanh nghiệp bảo lãnh tại Mỹ, giấy tờ cá nhân của[...] ",
+"programs": [
+"eb3"
+],
+"p4": [
+"product"
+],
+"prices": [],
+"offers": [],
+"places": [],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Tin chính sách",
+"Hướng dẫn / Kiến thức"
+],
+"ai": {
+"programs": [
+"EB-3"
+],
+"prices": [],
+"offers": [],
+"event": null,
+"content_type": "Hướng dẫn / Kiến thức",
+"message": "Hướng dẫn thành phần và các bước làm hồ sơ EB-3 chuẩn USCIS.",
 "risk_claims": []
 },
 "ai_v": 1
@@ -6058,6 +7082,47 @@
 "ai_v": 1
 },
 {
+"id": "c0d50dc4da47",
+"company": "victory",
+"src": "web",
+"outlet": "",
+"title": "[Bản tin EU] EU yêu cầu 5 nước Caribbean dừng Golden Passport, nguy cơ mất miễn visa Schengen",
+"url": "https://dinhcucacnuoc.com/tin-tuc-eu-yeu-cau-caribbean-cham-dut-chuong-trinh-golden-passport/",
+"date": "2026-08-04T23:54:28+00:00",
+"cats": [
+"Tin tức Châu Âu",
+"Tin tức",
+"Tin tức di trú 24h"
+],
+"summary": "Liên minh châu Âu (EU) đang yêu cầu Antigua và Barbuda, Dominica, Grenada, Saint Kitts và Nevis, cùng Saint Lucia chấm dứt chương trình cấp quốc tịch theo đầu tư (Citizenship by Investment – CBI), còn gọi là Golden Passport. Theo thông tin công bố cuối tháng 7/2026, EU cảnh báo quyền miễn thị thực[...] ",
+"programs": [
+"ie_it",
+"carib"
+],
+"p4": [
+"product"
+],
+"prices": [],
+"offers": [],
+"places": [],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Khác"
+],
+"ai": {
+"programs": [],
+"prices": [],
+"offers": [],
+"event": null,
+"content_type": "Tin chính sách",
+"message": "Cảnh báo rủi ro các chương trình quốc tịch đầu tư Caribbean có thể mất miễn visa Schengen.",
+"risk_claims": []
+},
+"ai_v": 1
+},
+{
 "id": "1d0f75cc8590",
 "company": "newachieve",
 "src": "web",
@@ -6097,6 +7162,48 @@
 "event": null,
 "content_type": "Hướng dẫn / Kiến thức",
 "message": "Hướng dẫn điều kiện, chi phí, quy trình visa 482 và lộ trình lên thường trú Úc.",
+"risk_claims": []
+},
+"ai_v": 1
+},
+{
+"id": "3123a874648b",
+"company": "victory",
+"src": "web",
+"outlet": "",
+"title": "[Bản tin Mỹ] Mỹ áp dụng Visa Bond vĩnh viễn: Đặt cọc đến 20.000 USD từ 3/8/2026",
+"url": "https://dinhcucacnuoc.com/tin-tuc-my-chinh-thuc-ap-dung-visa-bond/",
+"date": "2026-08-03T23:37:05+00:00",
+"cats": [
+"Tin tức Mỹ",
+"Tin tức",
+"Tin tức di trú 24h"
+],
+"summary": "Bộ Ngoại giao Mỹ chính thức áp dụng vĩnh viễn Chương trình Visa Bond từ ngày 3/8/2026, theo đó một số đương đơn xin visa B-1/B-2 có thể phải ký quỹ từ 10.000 USD đến 20.000 USD trước khi được cấp visa. Quy định mới chấm dứt giai đoạn thí điểm năm 2025, loại bỏ[...] ",
+"programs": [],
+"p4": [
+"price"
+],
+"prices": [
+"20.000 USD",
+"10.000 USD",
+"20.000 USD"
+],
+"offers": [],
+"places": [],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Câu chuyện thành công"
+],
+"ai": {
+"programs": [],
+"prices": [],
+"offers": [],
+"event": null,
+"content_type": "Tin chính sách",
+"message": "Thông tin Mỹ áp dụng vĩnh viễn Visa Bond ký quỹ 10.000–20.000 USD cho visa B-1/B-2.",
 "risk_claims": []
 },
 "ai_v": 1
@@ -6229,6 +7336,51 @@
 "ai_v": 1
 },
 {
+"id": "d895df2bbd5c",
+"company": "victory",
+"src": "web",
+"outlet": "",
+"title": "So sánh visa H-1B và EB-5: Điều kiện, cơ hội định cư và lựa chọn phù hợp",
+"url": "https://dinhcucacnuoc.com/h1b-va-eb5/",
+"date": "2026-08-02T00:48:16+00:00",
+"cats": [
+"Tin tức Mỹ",
+"Tin tức"
+],
+"summary": "Visa H-1B và EB-5 khác nhau ở mục tiêu và bản chất: H-1B là visa lao động tạm thời phụ thuộc vào nhà tuyển dụng, trong khi EB-5 là chương trình đầu tư định cư cho phép nhận thẻ xanh trực tiếp cho cả gia đình. H-1B phù hợp với người có chuyên môn cao[...] ",
+"programs": [
+"eb5"
+],
+"p4": [
+"product"
+],
+"prices": [],
+"offers": [],
+"places": [],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Hướng dẫn / Kiến thức",
+"So sánh / Tư vấn chọn"
+],
+"ai": {
+"programs": [
+"EB-5",
+"H-1B"
+],
+"prices": [],
+"offers": [],
+"event": null,
+"content_type": "So sánh / Tư vấn chọn",
+"message": "EB-5 cho thẻ xanh trực tiếp cả gia đình, ưu thế hơn H-1B phụ thuộc nhà tuyển dụng.",
+"risk_claims": [
+"nhận thẻ xanh trực tiếp cho cả gia đình"
+]
+},
+"ai_v": 1
+},
+{
 "id": "53d5d7aae3a5",
 "company": "si",
 "src": "web",
@@ -6266,6 +7418,48 @@
 "event": null,
 "content_type": "Hướng dẫn / Kiến thức",
 "message": "Giải thích khối Schengen gồm 29 quốc gia và quyền lợi tự do di chuyển, gợi mở nhu cầu cư trú Châu Âu.",
+"risk_claims": []
+},
+"ai_v": 1
+},
+{
+"id": "4f0cf2f8df88",
+"company": "victory",
+"src": "web",
+"outlet": "",
+"title": "Hồ sơ visa định cư EB-5 cần những giấy tờ gì? Danh sách chi tiết theo quy định USCIS",
+"url": "https://dinhcucacnuoc.com/ho-so-eb5/",
+"date": "2026-08-01T01:34:55+00:00",
+"cats": [
+"Tin tức Mỹ",
+"Tin tức"
+],
+"summary": "Hồ sơ EB-5 bao gồm các giấy tờ cá nhân, giấy tờ dân sự, chứng minh nguồn tiền, hồ sơ doanh nghiệp và dự án EB-5, cùng các tài liệu chứng minh việc làm theo quy định của USCIS. Việc chuẩn bị đầy đủ và chính xác từng hạng mục là yếu tố quyết định[...] ",
+"programs": [
+"eb5"
+],
+"p4": [
+"product"
+],
+"prices": [],
+"offers": [],
+"places": [],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Tin chính sách",
+"Hướng dẫn / Kiến thức"
+],
+"ai": {
+"programs": [
+"EB-5"
+],
+"prices": [],
+"offers": [],
+"event": null,
+"content_type": "Hướng dẫn / Kiến thức",
+"message": "Chuẩn bị đầy đủ, chính xác giấy tờ là yếu tố quyết định thành công hồ sơ EB-5.",
 "risk_claims": []
 },
 "ai_v": 1
@@ -6588,6 +7782,98 @@
 "event": null,
 "content_type": "Hướng dẫn / Kiến thức",
 "message": "Khuyến khích nhà đầu tư xây dựng lộ trình định cư Singapore từ sớm.",
+"risk_claims": []
+},
+"ai_v": 1
+},
+{
+"id": "5e0cada78706",
+"company": "victory",
+"src": "web",
+"outlet": "",
+"title": "Đầu tư trực tiếp và gián tiếp EB-5: So sánh đầu tư trực tiếp và gián tiếp",
+"url": "https://dinhcucacnuoc.com/dau-tu-eb5-truc-tiep/",
+"date": "2026-07-28T01:06:52+00:00",
+"cats": [
+"Tin tức Mỹ",
+"Tin tức"
+],
+"summary": "EB-5 có 2 hình thức đầu tư chính: đầu tư EB5 trực tiếp (Direct EB-5) và đầu tư EB-5 qua Regional Center. Cả hai đều do USCIS quản lý, thường yêu cầu mức vốn 800.000 USD tại Targeted Employment Area (TEA) hoặc 1.050.000 USD ngoài TEA, và đều phải tạo tối thiểu 10 việc làm[...] ",
+"programs": [
+"eb5"
+],
+"p4": [
+"product",
+"price"
+],
+"prices": [
+"800.000 USD",
+"1.050.000 USD"
+],
+"offers": [],
+"places": [],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"So sánh / Tư vấn chọn"
+],
+"ai": {
+"programs": [
+"EB-5"
+],
+"prices": [
+{
+"program": "EB-5 (TEA)",
+"amount": "800.000 USD",
+"note": "Vốn đầu tư tại TEA"
+},
+{
+"program": "EB-5 (ngoài TEA)",
+"amount": "1.050.000 USD",
+"note": "Vốn đầu tư ngoài TEA"
+}
+],
+"offers": [],
+"event": null,
+"content_type": "So sánh / Tư vấn chọn",
+"message": "So sánh đầu tư EB-5 trực tiếp và qua Regional Center để khách chọn hình thức phù hợp.",
+"risk_claims": []
+},
+"ai_v": 1
+},
+{
+"id": "541b5d533e93",
+"company": "victory",
+"src": "web",
+"outlet": "",
+"title": "[Bản tin Canada] IRCC làm rõ chỉ tiêu PR Canada 2026 có thể đạt 454.000 người/năm",
+"url": "https://dinhcucacnuoc.com/tin-tuc-ircc-xac-nhan-chi-tieu-380000-pr-chua-gom-148000-suat-dac-biet/",
+"date": "2026-07-27T23:55:41+00:00",
+"cats": [
+"Tin tức Canada",
+"Tin tức",
+"Tin tức di trú 24h"
+],
+"summary": "Ngày 21/7/2026, Bộ Di trú, Tị nạn và Quốc tịch Canada (IRCC) chính thức làm rõ rằng chỉ tiêu 380.000 thường trú nhân mỗi năm trong giai đoạn 2026-2027 chưa bao gồm tối đa 148.000 người thuộc 2 sáng kiến đặc biệt. Khi cộng phần bổ sung này, tổng kế hoạch tiếp nhận thường trú[...] ",
+"programs": [],
+"p4": [],
+"prices": [],
+"offers": [],
+"places": [],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Tin chính sách"
+],
+"ai": {
+"programs": [],
+"prices": [],
+"offers": [],
+"event": null,
+"content_type": "Tin chính sách",
+"message": "Chỉ tiêu PR Canada 2026 có thể đạt 454.000 người, cơ hội định cư Canada mở rộng.",
 "risk_claims": []
 },
 "ai_v": 1
@@ -8379,6 +9665,38 @@
 ]
 },
 {
+"id": "cbaeffba5c4f",
+"company": "usis",
+"src": "web",
+"outlet": "",
+"title": "QUY ĐỊNH MỚI CỦA BỘ TÀI CHÍNH MỸ VÀ IRS CÓ Ý NGHĨA GÌ ĐỐI VỚI EB-5 MỸ?",
+"url": "https://usis.us/tin-tuc-usis/quy-dinh-moi-cua-bo-tai-chinh-my-va-irs-co-y-nghia-gi-doi-voi-eb-5-my",
+"date": "2026-06-02T12:00:00+00:00",
+"cats": [
+"Tin tức Mỹ"
+],
+"summary": "Một diễn biến chính sách quan trọng từ Washington đang thu hút sự chú ý của cộng đồng đầu tư toàn cầu, bao gồm các nhà đầu tư EB-5, các Regional Center và các quỹ đầu tư quốc gia (Sovereign Wealth Funds) ngày càng tham gia nhiều hơn vào các dự án bất động sản tại Mỹ. Ngày 29/5/2026, Bộ Tài chính Hoa Kỳ và Sở Thuế vụ Hoa Kỳ (IRS) đã cùng ban hành hướng dẫn bổ sung mang mã số IRS IR-2026-69, liên quan đến các quy định được đề xuất theo Điều khoản 892 (Section 892) của Bộ luật Thuế Nội địa Hoa Kỳ. Section 892 là quy định miễn thuế cho chính phủ nước ngoài, bao gồm các quỹ đầu tư quốc gia, đối với một số khoản thu nhập phát sinh từ các khoản đầu tư thụ động tại Mỹ. Hướng dẫn mới lần này bổ sung hai cơ chế bảo vệ quan trọng mà dự thảo quy định tháng 12/2025 chưa có: Quy tắc \"Grandfathering\" (bảo lưu quyền lợi cho các khoản đầu tư hiện hữu) Giai đoạn chuyển tiếp (Transition Period) Điều gì đã dẫn đến thay đổi này? Dự thảo quy định ban hành ngày 15/12/2025 đã gây nhiều lo ngại trong cộng đồng nhà đầu tư quốc gia. Bộ Tài chính và IRS khi đó đề xuất làm rõ trường hợp nào việc một chính phủ nước ngoài mua các khoản nợ sẽ bị xem là \"hoạt động thương mại\" (commercial activity). Nếu bị xem là hoạt động thương mại, nhà đầu tư sẽ mất quyền miễn thuế theo Section 892 – vốn là yếu tố quan trọng khiến các quỹ đầu tư quốc gia ưa chuộng đầu tư thụ động tại Mỹ. Các chính phủ nước ngoài, nhà đầu tư tổ chức và cố vấn thuế đã phản đối mạnh mẽ vì cho rằng quy định mới tạo ra sự bất ổn đối với dòng vố",
+"programs": [
+"eb5",
+"re"
+],
+"p4": [
+"product",
+"place"
+],
+"prices": [],
+"offers": [],
+"places": [
+"Huế"
+],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Tin chính sách"
+]
+},
+{
 "id": "6972c61b4617",
 "company": "mapleleaf",
 "src": "web",
@@ -8902,6 +10220,34 @@
 ]
 },
 {
+"id": "a219bd4f6593",
+"company": "usis",
+"src": "web",
+"outlet": "",
+"title": "CHỜ ĐỢI CÓ THỂ LÀ SAI LẦM TỐN KÉM ĐỐI VỚI NHÀ ĐẦU TƯ EB-5",
+"url": "https://usis.us/tin-tuc-usis/cho-doi-co-the-la-sai-lam-ton-kem-doi-voi-nha-dau-tu-eb-5",
+"date": "2026-03-19T12:00:00+00:00",
+"cats": [
+"Tin tức Mỹ"
+],
+"summary": "Đối với nhiều nhà đầu tư toàn cầu đang cân nhắc các lựa chọn định cư tại Mỹ, chương trình visa EB-5 vẫn là một con đường tốt dẫn đến thường trú nhân (thẻ xanh) . EB-5 cho phép nhà đầu tư nhận thẻ xanh cho bản thân, vợ/chồng và con chưa kết hôn dưới 21 tuổi thông qua một khoản đầu tư tạo việc làm tại Mỹ , điều mà hầu hết các chương trình định cư khác không có. Mặc dù chương trình đã được củng cố ổn định theo Đạo luật Cải cách và Liêm chính EB-5 năm 2022 (RIA) , nhưng nhiều mốc thời gian và thay đổi chính sách sắp tới có thể làm thay đổi cục diện của chương trình . Đối với nhà đầu tư đang cân nhắc EB-5, 12–18 tháng tới có thể là giai đoạn mang tính quyết định trong lịch sử chương trình . Một cơ chế bảo vệ quan trọng đang đến hạn RIA đã đưa ra quy định “grandfathering” (bảo lưu quyền lợi) cho các hồ sơ EB-5. Theo quy định này, nhà đầu tư nộp đơn I-526E trước ngày 30/09/2026 sẽ vẫn được bảo vệ , ngay cả khi chương trình EB-5 diện Regional Center hết hạn sau đó. Hồ sơ của họ vẫn được tiếp tục xét duyệt. Quốc hội Mỹ thiết kế cơ chế này nhằm tránh sự bất ổn từng xảy ra vào năm 2021 , khi chương trình Regional Center tạm thời hết hạn và USCIS phải dừng nhận hồ sơ cho đến khi RIA được thông qua. Tuy nhiên, hiện nay mốc bảo vệ này chỉ còn chưa đến 7 tháng . Đối với các nhà đầu tư vẫn đang cân nhắc, cửa sổ để đảm bảo quyền lợi đang dần khép lại . Việc nộp hồ sơ trước thời hạn giúp “khóa” điều kiện theo luật hiện hành , trong khi chờ đợi có thể khiến nhà đầu tư đối mặt với rủi ro chính s",
+"programs": [
+"eb5"
+],
+"p4": [
+"product"
+],
+"prices": [],
+"offers": [],
+"places": [],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Tin chính sách"
+]
+},
+{
 "id": "2702881e924b",
 "company": "newachieve",
 "src": "web",
@@ -8963,6 +10309,34 @@
 ]
 },
 {
+"id": "3a56bd75cfa4",
+"company": "usis",
+"src": "web",
+"outlet": "",
+"title": "THỐNG KÊ HỒ SƠ TIẾP NHẬN TỪ SỞ DI TRÚ MỸ",
+"url": "https://usis.us/tin-tuc-usis/thong-ke-ho-so-tiep-nhan-tu-so-di-tru-my",
+"date": "2026-03-18T12:00:00+00:00",
+"cats": [
+"Tin tức Mỹ"
+],
+"summary": "Mới đây, Sở di trú Mỹ (USCIS) có một thống kê cho thấy số lượng hồ sơ Form I-526 được nộp có mức tăng đột biến đáng kể trước khi quy định mới có hiệu lực , sau đó là sự sụt giảm mạnh trong những tháng tiếp theo . Cụ thể, vào tháng 11/2019 , USCIS ghi nhận mức tăng 369% (từ 693 hồ sơ lên 3.248 hồ sơ ) so với tháng trước đó ( tháng 10/2019 ) về số lượng hồ sơ I-526 được nộp. Sau đó, số hồ sơ giảm mạnh trong tháng 12 (từ 3.248 xuống chỉ còn 13 hồ sơ ) như thể hiện trong Bảng 1 bên dưới. Số hồ sơ trong tháng 11/2019 cao gấp 10 lần so với cùng kỳ năm 2018 . Mức thấp kỷ lục trong tháng 12 tiếp tục được nối tiếp bởi số lượng hồ sơ trong tháng 1, tháng 2 và tháng 3 chỉ ở mức một chữ số (dưới 10 hồ sơ) . Trong phần còn lại của năm tài chính 2020 , số hồ sơ mỗi tháng chỉ dao động từ 9 đến 29 hồ sơ . Trong 10 tháng trước tháng 11/2019 , trung bình có khoảng 331 hồ sơ mỗi tháng được nộp. Ngược lại, trong 10 tháng sau tháng 11/2019 , con số này giảm xuống còn khoảng 13 hồ sơ mỗi tháng . Như đã đề cập, sau khi đạt đỉnh rất cao vào tháng 11/2019 ( 3.248 hồ sơ ), số lượng hồ sơ đã giảm mạnh trong các tháng tiếp theo , với mức trung bình chỉ khoảng 13 hồ sơ mỗi tháng trong giai đoạn 10 tháng sau đó. Những xu hướng tương tự cũng từng xuất hiện trong quá khứ với các đợt tăng mạnh số lượng hồ sơ rồi giảm sâu , như vào tháng 12/2017, tháng 4/2018, tháng 12/2018 và tháng 9/2019 (xem Bảng 1). Các đợt tăng đột biến này có thể tạo ra hiệu ứng “nộp hồ sơ dồn trước” (front-loading) đối với Form I-526. ",
+"programs": [
+"eb5"
+],
+"p4": [
+"product"
+],
+"prices": [],
+"offers": [],
+"places": [],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Hướng dẫn / Kiến thức"
+]
+},
+{
 "id": "f410348a8f0e",
 "company": "newachieve",
 "src": "web",
@@ -8989,6 +10363,812 @@
 ],
 "offers": [],
 "places": [],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Tin chính sách"
+]
+},
+{
+"id": "608209ebc347",
+"company": "usis",
+"src": "web",
+"outlet": "",
+"title": "NHÀ ĐẦU TƯ EB-5 BƯỚC VÀO NĂM MANG TÍNH BƯỚC NGOẶT",
+"url": "https://usis.us/tin-tuc-usis/nha-dau-tu-eb-5-buoc-vao-nam-mang-tinh-buoc-ngoat",
+"date": "2026-03-10T12:00:00+00:00",
+"cats": [
+"Tin tức Mỹ"
+],
+"summary": "Theo các chuyên gia trong ngành di trú cho biết, khoảng 1,5 năm trước khi cơ chế “grandfathering” của chương trình EB-5 hết hiệu lực được xem là giai đoạn thuận lợi nhất để thực hiện đầu tư EB-5 . Các chuyên gia nhấn mạnh rằng nhà đầu tư nước ngoài nên nộp hồ sơ càng sớm càng tốt . Điều này đồng nghĩa với việc: Khoản đầu tư được chuyển đủ vốn Hồ sơ được chuẩn bị đầy đủ và rõ ràng Có sự hỗ trợ từ các luật sư EB-5 giàu kinh nghiệm Nhà đầu tư nên nộp hồ sơ sớm để tránh rủi ro về luật Theo các chuyên gia, năm 2026 là năm quan trọng nhất của chương trình EB-5 kể từ khi Đạo luật Reform and Integrity Act (RIA) năm 2022 được ban hành , giúp chương trình được khôi phục sau khi tạm dừng từ tháng 6/2021. Một trong những cải tiến quan trọng của RIA là quy định “grandfathering” . Quy định này bảo vệ những nhà đầu tư nộp hồ sơ EB-5 trước ngày 01/10/2026 . Điều này có nghĩa là: Nếu nhà đầu tư nộp hồ sơ trước thời điểm này , hồ sơ vẫn được bảo vệ và tiếp tục xử lý Ngay cả khi chương trình EB-5 tạm ngừng hoặc thay đổi sau đó Tuy nhiên, những người nộp hồ sơ sau thời hạn này có thể đối mặt với nhiều rủi ro , bao gồm khả năng hồ sơ không được đảm bảo xử lý nếu chương trình không còn hiệu lực . Khanna cho biết: “Trên thực tế, nhà đầu tư chỉ còn khoảng 7 tháng để tham gia EB-5 trước khi cơ chế bảo vệ này hết hiệu lực. Chương trình có thể vẫn tồn tại sau đó, nhưng rủi ro sẽ lớn hơn rất nhiều.” Oppenheim cũng nhấn mạnh: “Nhà đầu tư nên hành động ngay để đảm bảo hồ sơ được nộp trước ngày 30/9.” Mức ",
+"programs": [
+"eb5"
+],
+"p4": [
+"product"
+],
+"prices": [],
+"offers": [],
+"places": [],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Tin chính sách"
+]
+},
+{
+"id": "b3937d138894",
+"company": "usis",
+"src": "web",
+"outlet": "",
+"title": "CHÍNH SÁCH MỚI CỦA USCIS LIÊN KẾT HỒ SƠ EB-5 VỚI VIỆC PHÊ DUYỆT DỰ ÁN",
+"url": "https://usis.us/tin-tuc-usis/chinh-sach-moi-cua-uscis-lien-ket-ho-so-eb-5-voi-viec-phe-duyet-du-an",
+"date": "2026-03-06T12:00:00+00:00",
+"cats": [
+"Tin tức Mỹ"
+],
+"summary": "Từ ngày 30/03/2026 , một thay đổi quan trọng trong cách Sở Di trú Mỹ (USCIS) xử lý hồ sơ thuộc chương trình đầu tư định cư EB-5 sẽ chính thức có hiệu lực. Thay đổi này đặt trọng tâm vào tình trạng phê duyệt của dự án EB-5 (Form I-956F) thay vì thời điểm nộp hồ sơ của nhà đầu tư (Form I-526E) . Theo đó, USCIS sẽ chỉ xem xét hồ sơ nhà đầu tư sau khi dự án được phê duyệt . Form I-956F là đơn đăng ký dự án EB-5 của các Regional Center gửi USCIS để xem xét. Khi được chấp thuận, điều này đồng nghĩa dự án đủ điều kiện nhận vốn đầu tư EB-5 . Ngoài ra: · Hồ sơ của dự án Rural (khu vực nông thôn) sẽ được đưa vào hàng xử lý ưu tiên đặc biệt · Hồ sơ không thuộc Rural nhưng thuộc High-Unemployment Area (HUA) hoặc Infrastructure sẽ được xử lý trong các hàng chờ riêng biệt Theo USCIS, việc phân loại này nhằm tối ưu hóa việc sử dụng các visa EB-5 được dành riêng theo đúng mục tiêu của Quốc hội . Các luật sư EB-5 cho rằng mặc dù cách ưu tiên này đã tồn tại trên thực tế trước đây, tác động đầy đủ của thay đổi này chỉ có thể thấy rõ sau khi chính sách chính thức có hiệu lực . Luật sư Kate Kalmykov (Greenberg Traurig) cho biết: Trong lịch sử, hồ sơ của nhà đầu tư hiếm khi được phê duyệt trước khi dự án EB-5 (I-956F) được chấp thuận. Luật sư Joey Barnett (WR Immigration) cũng nhận định: Chúng tôi thấy hồ sơ I-526E được phê duyệt nhanh hơn khi dự án đã được phê duyệt I-956F trước thời điểm nhà đầu tư nộp hồ sơ. Luật sư Phuong Le (KLDP) cho rằng ngành EB-5 sẽ hiểu rõ hơn tác động của chính sách sau",
+"programs": [
+"eb5"
+],
+"p4": [
+"product",
+"price"
+],
+"prices": [],
+"offers": [],
+"places": [],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Tin chính sách",
+"Hướng dẫn / Kiến thức"
+]
+},
+{
+"id": "b5375ef17e68",
+"company": "usis",
+"src": "web",
+"outlet": "",
+"title": "VISA BULLETIN THÁNG 3.2026",
+"url": "https://usis.us/tin-tuc-usis/visa-bulletin-thang-32026",
+"date": "2026-03-02T12:00:00+00:00",
+"cats": [
+"Tin tức Mỹ"
+],
+"summary": "Bản tin Visa Bulletin tháng 3 của Bộ Ngoại giao Hoa Kỳ (DOS) giữ nguyên các mốc thời gian quan trọng đối với hồ sơ EB-5, ngoại trừ Ngày nộp hồ sơ (Filing Date) cho nhà đầu tư Trung Quốc đại lục thuộc diện Unreserved . Cụ thể: · Ấn Độ (Unreserved): o Final Action Date: 01/05/2022 o Filing Date: giữ nguyên 01/05/2024 · Trung Quốc (Unreserved): o Final Action Date: 15/08/2016 o Filing Date: được đẩy lên gần 2 tháng, từ 22/08/2016 lên 01/10/2016 Ngày nộp hồ sơ (Filing Date) là mốc thời gian cho phép đương đơn nộp hồ sơ xin định cư lên Sở Di trú Mỹ (USCIS). Mốc này khác với Final Action Date – là ngày visa EB-5 có thể được cấp. Những nhà đầu tư Trung Quốc đã nộp hồ sơ trước ngày 01/10/2016 hiện tiến thêm một bước gần hơn đến giai đoạn xử lý visa. Việc ngày nộp hồ sơ EB-5 được đẩy lên có ý nghĩa gì? Bộ An ninh Nội địa (DHS) cho biết trong Visa Bulletin tháng 3 rằng họ đã đẩy nhanh ngày nộp hồ sơ cho một số diện visa định cư, bao gồm EB-5, do số lượng visa được cấp giảm ở một số quốc gia – một phần liên quan đến các biện pháp an ninh quốc gia dưới thời chính quyền Trump. Tuy nhiên, cơ quan này cũng cảnh báo rằng có thể xảy ra “retrogression” (lùi ngày ưu tiên) vào cuối năm tài khóa nếu nhu cầu visa tăng hoặc có thay đổi chính sách, nhằm đảm bảo số visa cấp ra không vượt quá hạn mức hằng năm. Khi ngày nộp hồ sơ được đẩy lên, nhiều số visa sẽ khả dụng hơn cho nhà đầu tư, đặc biệt có lợi cho các quốc gia có nhu cầu cao như Trung Quốc và Ấn Độ. Tình trạng tồn đọng hồ sơ EB-5 của Trung Q",
+"programs": [
+"eb5"
+],
+"p4": [
+"product"
+],
+"prices": [],
+"offers": [],
+"places": [],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Tin chính sách"
+]
+},
+{
+"id": "702f17457af8",
+"company": "usis",
+"src": "web",
+"outlet": "",
+"title": "I-956F ĐƯỢC USCIS PHÊ DUYỆT NHANH HƠN CHO DỰ ÁN EB-5",
+"url": "https://usis.us/tin-tuc-usis/i-956f-duoc-uscis-phe-duyet-nhanh-hon-cho-du-an-eb-5",
+"date": "2026-02-24T12:00:00+00:00",
+"cats": [
+"Tin tức Mỹ"
+],
+"summary": "Theo các phê duyệt I-956F gần đây từ Sở Di trú Mỹ (USCIS) đối với dự án EB-5 thuộc trung tâm vùng, nhiều dự án đang được chấp thuận với thời gian xử lý rút ngắn đáng kể , nhiều hồ sơ được duyệt dưới 5 tháng . Tuy nhiên, vẫn có một số dự án mất thời gian lâu hơn, cho thấy tiến độ xử lý vẫn có sự khác biệt tùy từng hồ sơ. Các dự án được phê duyệt trải rộng nhiều lĩnh vực như: Y tế Logistics công nghiệp Khách sạn – nghỉ dưỡng Phát triển nhà ở Đặc biệt tập trung vào các khu vực Rural và Urban TEA (Targeted Employment Area) . Một số dự án tiêu biểu được phê duyệt: Năm 2026 Tháng 2 Dự án JF44 Vail Valley Apartments của EB5 Capital tại khu Rural ở Vail, Colorado – được duyệt sau 15 tháng. Tháng 1 Dự án phòng khám ngoại trú của Bộ Cựu Chiến binh Hoa Kỳ (VA) tại Brainerd, Minnesota – thuộc Rural TEA. Năm 2025 Tháng 11 Dự án Hillwood Flywheel Industrial Logistics Development (HUA, Richmond, Virginia) của CMB Regional Centers – duyệt trong chưa đầy 3 tháng. Dự án Grand Park (Rural TEA, Colorado) của EB5AN – duyệt dưới 5 tháng. Dự án Long Cove community tại Texas. Khách sạn The Scoundrel Tribute Portfolio by Marriott (Rural TEA, Tennessee) – duyệt trong 3 tháng. Tháng 10 North Park multifamily (Urban TEA, San Diego, California). Tamarack Resort (Rural TEA, Idaho). Teton Outing Club (Rural TEA, Idaho). Amangani Hotel (Wyoming) – duyệt trong 9 tháng. Tháng 9 Yellowstone Club Village Core Phase II Fund #2 (Montana). Việc USCIS tăng tốc phê duyệt I-956F là tín hiệu tích cực cho thị trường EB",
+"programs": [
+"eb5"
+],
+"p4": [
+"product",
+"place"
+],
+"prices": [],
+"offers": [],
+"places": [
+"California"
+],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Tin chính sách"
+]
+},
+{
+"id": "59a737dca8de",
+"company": "usis",
+"src": "web",
+"outlet": "",
+"title": "GOLD CARD BỊ KIỆN VỀ TÍNH HỢP PHÁP",
+"url": "https://usis.us/tin-tuc-usis/gold-card-bi-kien-ve-tinh-hop-phap",
+"date": "2026-02-05T12:00:00+00:00",
+"cats": [
+"Tin tức Mỹ"
+],
+"summary": "Vụ kiện thách thức tính hợp pháp của chương trình visa “Gold Card” của ông Trump. Hiệp hội Giáo sư Đại học Hoa Kỳ (AAUP) cùng một số chuyên gia nhập cư đã đệ đơn kiện các cơ quan liên bang, bao gồm Bộ An ninh Nội địa Hoa Kỳ (DHS) và Bộ Ngoại giao Hoa Kỳ (DOS) , liên quan đến tính hợp pháp của chương trình visa Gold Card do Tổng thống Trump đề xuất . Trong đơn kiện nộp lên Tòa án Liên bang Khu vực Columbia vào ngày 3/2, các nguyên đơn cho rằng chương trình visa mới này ưu tiên sự giàu có thay vì năng lực , gây tổn hại cho những ứng viên đủ điều kiện và cộng đồng học thuật Hoa Kỳ. “Không ai làm việc trong lĩnh vực EB-5 lại ngạc nhiên khi có đơn kiện được đệ trình để thách thức cách mà Chương trình Gold Card được xây dựng và triển khai ngoài khuôn khổ lập pháp,” — Steven Reingold , hãng luật Saul Ewing. Luật sư Robert Cornish (Văn phòng Luật Robert V. Cornish Jr.) nhận định: “Đây có thể chỉ là vụ kiện đầu tiên trong số nhiều vụ kiện liên quan đến Gold Card và việc chương trình này có tuân thủ các luật và quy định liên bang hay không, ít nhất là về mặt giám sát và an ninh.” Gold Card là gì? Chương trình Gold Card của Tổng thống Trump cho phép người nước ngoài xin thường trú nhân Mỹ thông qua diện EB-1 hoặc EB-2 nếu họ đóng góp tài chính đáng kể : 1 triệu USD cho cá nhân 2 triệu USD cho doanh nghiệp Tuy nhiên, hiện vẫn còn nhiều câu hỏi xoay quanh việc Gold Card sẽ bổ trợ hay làm xáo trộn cấu trúc đầu tư EB-5 hiện hành . Vì sao Gold Card bị cho là trái luật? Đơn kiện được nộp thay",
+"programs": [
+"eb5",
+"niw"
+],
+"p4": [
+"product",
+"price"
+],
+"prices": [
+"1 triệu USD",
+"2 triệu USD"
+],
+"offers": [],
+"places": [],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Hướng dẫn / Kiến thức"
+]
+},
+{
+"id": "085d1ed3a242",
+"company": "usis",
+"src": "web",
+"outlet": "",
+"title": "VIỆC TPS HẾT HẠN KHIẾN EB-5 NHƯ MỘT LỰA CHỌN DÀI HẠN",
+"url": "https://usis.us/tin-tuc-usis/viec-tps-het-han-khien-eb-5-nhu-mot-lua-chon-dai-han",
+"date": "2026-01-30T12:00:00+00:00",
+"cats": [
+"Tin tức Mỹ"
+],
+"summary": "Tình trạng Bảo vệ Tạm thời (Temporary Protected Status – TPS) dành cho công dân của một số quốc gia sắp hết hạn, nối tiếp danh sách các chương trình đã bị chính quyền Tổng thống Trump chấm dứt trong năm qua. TPS là một diện tình trạng di trú của Mỹ, được cấp cho công dân đủ điều kiện từ các quốc gia được chỉ định đang đối mặt với xung đột kéo dài, thảm họa môi trường hoặc các điều kiện đặc biệt khác khiến họ không thể quay về nước an toàn. Theo đó, TPS của Haiti sẽ kết thúc vào ngày 3/2 , Ethiopia vào 13/2 , và Somalia vào 17/3 . Riêng Myanmar (Burma) dự kiến hết hạn ngày 26/1 nhưng đã được tạm dừng chấm dứt vào ngày 23/1 theo phán quyết của thẩm phán liên bang, trong khi vụ kiện liên quan vẫn đang được xét xử. Trước đó, TPS đã chính thức chấm dứt đối với Honduras, Nepal, Nicaragua, Venezuela, Afghanistan, Nam Sudan và Cameroon . Các quốc gia như El Salvador, Lebanon, Sudan, Syria, Ukraine và Yemen hiện vẫn chưa có thông báo chấm dứt chính thức. Một số diện TPS tiếp tục tồn tại do bị tòa án liên bang chặn quyết định của Bộ An ninh Nội địa (DHS), trong khi một số khác đã bị chấm dứt sau khi Tòa án Tối cao giữ nguyên quyết định (như trường hợp Haiti và Venezuela). Vì sao chương trình EB-5 có thể là lựa chọn khi TPS chấm dứt? Khi TPS bị chấm dứt, những người bị ảnh hưởng thường phải tìm kiếm các giải pháp định cư lâu dài. Đối với những người có tiềm lực tài chính, visa EB-5 có thể trở thành một con đường hợp pháp dài hạn, từ đó làm gia tăng nhu cầu EB-5 đến từ một số quốc gia nh",
+"programs": [
+"eb5"
+],
+"p4": [
+"product"
+],
+"prices": [],
+"offers": [],
+"places": [],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"So sánh / Tư vấn chọn"
+]
+},
+{
+"id": "ccdd135f43a1",
+"company": "usis",
+"src": "web",
+"outlet": "",
+"title": "LỆNH TẠM DỪNG XỬ LÝ VISA CỦA 75 QUỐC GIA ẢNH HƯỞNG THẾ NÀO ĐẾN EB-5",
+"url": "https://usis.us/tin-tuc-usis/lenh-tam-dung-xu-ly-visa-cua-75-quoc-gia-anh-huong-the-nao-den-eb-5",
+"date": "2026-01-22T12:00:00+00:00",
+"cats": [
+"Tin tức Mỹ"
+],
+"summary": "Bộ Ngoại giao Hoa Kỳ (DOS) sẽ tạm thời đình chỉ việc xử lý visa định cư đối với 75 quốc gia có liên quan đến tiêu chí “public charge” (nguy cơ trở thành gánh nặng phúc lợi), bắt đầu từ ngày 21/01/2026 . Thông tin này ban đầu được công bố qua mạng xã hội, cho biết biện pháp này áp dụng đối với các quốc gia “có tỷ lệ người di dân sử dụng phúc lợi của người dân Mỹ ở mức không thể chấp nhận được”. Việc tạm dừng sẽ kéo dài cho đến khi Mỹ có thể bảo đảm rằng người nhập cư mới không khai thác nguồn lực tài chính của người dân Mỹ . Một ngày sau đó, DOS đã đưa ra thông báo chính thức và chi tiết hơn trên website. Theo đó, đương đơn từ các quốc gia bị ảnh hưởng vẫn có thể nộp hồ sơ và tham gia phỏng vấn , nhưng visa định cư sẽ không được cấp trong thời gian tạm dừng này . Động thái này cho thấy trọng tâm hiện tại của chính quyền Tổng thống Trump trong việc tái định hình chính sách di trú Mỹ . Tuy nhiên, tác động cụ thể đối với từng diện visa – bao gồm EB-5 – vẫn chưa rõ ràng . Lệnh tạm dừng này có thể ảnh hưởng thế nào đến hồ sơ EB-5? Các luật sư di trú Mỹ khuyến nghị nhà đầu tư nên thận trọng , chờ thêm hướng dẫn chính thức trước khi đưa ra quyết định. Ông Joey Barnett (WR Immigration) cho rằng biện pháp này không nên ảnh hưởng trực tiếp đến EB-5 , vì EB-5 là visa định cư theo diện việc làm (Employment-Based Fifth Preference), không phải hồ sơ “public charge” . “Việc tạm dừng của DOS không ảnh hưởng đến quá trình xử lý I-526E, I-765/I-131 hay I-485 ,” ông nói. “Nó chỉ làm chậm việc cấ",
+"programs": [
+"eb5"
+],
+"p4": [
+"product"
+],
+"prices": [],
+"offers": [],
+"places": [],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Tin chính sách"
+]
+},
+{
+"id": "e2e3694eeb92",
+"company": "usis",
+"src": "web",
+"outlet": "",
+"title": "NGƯỠNG ĐẦU TƯ EB-5 VÀ RỦI RO TEA TRƯỚC NĂM 2027",
+"url": "https://usis.us/tin-tuc-usis/nguong-dau-tu-eb-5-va-rui-ro-tea-truoc-nam-2027",
+"date": "2026-01-21T12:00:00+00:00",
+"cats": [
+"Tin tức Mỹ"
+],
+"summary": "Khi thị trường EB-5 bước sang năm 2026, sự chú ý chủ yếu đang tập trung vào mốc “grandfathering” ngày 30/9 , trong khi một số diễn biến khác ít được chú ý hơn lại có thể mang tính quyết định đối với tính bền vững dài hạn của các khoản đầu tư EB-5 . Một trong số đó là việc điều chỉnh theo lạm phát sẽ tác động như thế nào đến ngưỡng đầu tư EB-5 , bao gồm mức TEA (800.000 USD) và không thuộc TEA (1,05 triệu USD) . Chỉ còn chưa đầy một năm nữa, nếu không có can thiệp lập pháp, các mức đầu tư tối thiểu này sẽ được điều chỉnh lần đầu tiên theo cơ chế lạm phát được đưa vào theo Đạo luật Cải cách và Liêm chính EB-5 năm 2022 (RIA) . Với mức lạm phát cao kể từ năm 2022 đến nay, đợt điều chỉnh này khó có thể không đáng kể , và sẽ mang lại những tác động trực tiếp, thực tế đối với các dự án EB-5 dự kiến gia nhập thị trường trong năm 2026. Sau tháng 1/2027, mức đầu tư tối thiểu EB-5 sẽ tăng lên do điều chỉnh lạm phát , đồng nghĩa với việc chi phí tham gia chương trình EB-5 sẽ cao hơn. Do đó, các nhà đầu tư có kế hoạch tham gia EB-5 cần hiểu rõ những điều chỉnh này có ý nghĩa gì khi chính thức có hiệu lực . Cơ chế điều chỉnh lạm phát theo RIA EB-5 Trước khi đưa ra dự báo về mức đầu tư tối thiểu có thể áp dụng vào năm 2027, cần nhìn lại khung pháp lý . Đạo luật EB-5 Reform and Integrity Act 2022 quy định khá rõ cách thức điều chỉnh các mức đầu tư theo thời gian. Quy định liên quan đến điều chỉnh lạm phát như sau: ĐIỀU CHỈNH TỰ ĐỘNG MỨC ĐẦU TƯ TỐI THIỂU – QUY ĐỊNH CHUNG Kể từ ngày 1/1/2027 v",
+"programs": [
+"eb5"
+],
+"p4": [
+"product",
+"price"
+],
+"prices": [
+"800.000 USD",
+"1,05 triệu USD"
+],
+"offers": [],
+"places": [],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Hướng dẫn / Kiến thức"
+]
+},
+{
+"id": "5dc7d8313662",
+"company": "usis",
+"src": "web",
+"outlet": "",
+"title": "26 ĐIỂM NHÀ ĐẦU TƯ EB-5 CẦN BIẾT TRONG NĂM 2026",
+"url": "https://usis.us/tin-tuc-usis/26-diem-nha-dau-tu-eb-5-can-biet-trong-nam-2026",
+"date": "2026-01-14T12:00:00+00:00",
+"cats": [
+"Tin tức Mỹ"
+],
+"summary": "Chương trình EB-5 – Đầu tư định cư Mỹ tiếp tục là con đường quan trọng để nhận thẻ xanh Mỹ, đồng thời thúc đẩy tăng trưởng kinh tế và tạo việc làm. Năm 2026 là năm bản lề, khi: • Chính sách grandfathering (bảo lưu quyền lợi) theo Đạo luật Cải tổ & Liêm chính EB-5 (RIA) vẫn còn hiệu lực • Khả năng điều chỉnh phí đang được cân nhắc • Xu hướng xét duyệt hồ sơ của USCIS tiếp tục thay đổi => Nhà đầu tư có chiến lược rõ ràng – nộp hồ sơ sớm, chuẩn bị chứng từ đầy đủ, theo sát tuân thủ pháp lý – sẽ có lợi thế lớn hơn. I. GIAI ĐOẠN NỘP HỒ SƠ I-526 (ĐƠN ĐẦU TƯ BAN ĐẦU) 1. Tận dụng grandfathering trước khi luật thay đổi Nhà đầu tư nên nộp hồ sơ trước 30/9/2026 để giữ mức vốn đầu tư và quyền lợi TEA hiện hành theo RIA, phòng trường hợp có quy định hoặc phí mới. 2. Hành động sớm trước khi phí tăng Sau quyết định giảm phí cuối năm 2025 theo phán quyết tòa án, việc nộp hồ sơ sớm giúp hưởng mức phí EB-5 thấp hơn hiện tại. 3. Nộp sớm để tránh chờ visa (retrogression) Các diện TEA, vùng nông thôn, hạ tầng có nguy cơ tồn đọng visa, nhất là với nhà đầu tư Trung Quốc và Ấn Độ. Nộp sớm giúp giữ ngày ưu tiên. 4. Hồ sơ phải được chuẩn bị chặt chẽ Nên làm việc cùng luật sư để sắp xếp logic: • Dòng tiền • Chứng minh nguồn tiền • Hồ sơ kinh doanh & thuế => Giảm nguy cơ bị RFE (yêu cầu bổ sung chứng cứ). 5. Khai thuế đầy đủ Cung cấp 7 năm tờ khai thuế trong và ngoài nước, hoặc giấy xác nhận không có nghĩa vụ thuế. 6. Hồ sơ pháp lý doanh nghiệp đầy đủ Bao gồm: đăng ký kinh doanh, giấy phép, thỏa thuận c",
+"programs": [
+"eb5"
+],
+"p4": [
+"product",
+"price",
+"place"
+],
+"prices": [],
+"offers": [],
+"places": [
+"Huế"
+],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Tin chính sách"
+]
+},
+{
+"id": "cdabd5f3ffb7",
+"company": "usis",
+"src": "web",
+"outlet": "",
+"title": "EB-5 TRONG BỐI CẢNH THUẾ QUAN MỚI CỦA MỸ",
+"url": "https://usis.us/tin-tuc-usis/eb-5-trong-boi-canh-thue-quan-moi-cua-my",
+"date": "2026-01-13T12:00:00+00:00",
+"cats": [
+"Tin tức Mỹ"
+],
+"summary": "Khi chính quyền Trump công bố chương trình áp thuế quy mô lớn năm 2025, thị trường toàn cầu phản ứng gần như theo bản năng: hoảng loạn ngắn hạn, bán tháo mạnh và hàng loạt tiêu đề cảnh báo về một cuộc chiến thương mại mới. Nhưng thị trường tài chính vốn “hay quên”. Chỉ sau vài tuần, Phố Wall đã điều chỉnh lại, bỏ qua lo ngại ban đầu và tiếp tục lập đỉnh mới. Chứng khoán Mỹ tăng hai chữ số từ đầu năm, bất chấp biến động sớm. Nhà đầu tư EB-5 thì không có sự xa xỉ đó Tầm nhìn của họ không tính bằng ngày giao dịch, mà bằng chu kỳ dự án kéo dài nhiều năm . Kết quả định cư không phụ thuộc vào tâm lý thị trường, mà phụ thuộc vào việc làm thật được tạo ra từ những dự án thật . Và thuế quan thường len lỏi vào những chi tiết quan trọng nhất: chuỗi cung ứng, lao động, chi phí xây dựng – và cuối cùng là độ vững của cấu trúc vốn trong hồ sơ EB-5. Với các bên liên quan đến EB-5, câu hỏi chưa bao giờ là “thuế quan có làm rung chuyển thị trường chứng khoán hay không”, mà là: Dự án EB-5 bạn chọn có đủ sức chống chọi trong giai đoạn mà chính sách thương mại và chính sách di trú đang kéo nền kinh tế theo hai hướng ngược nhau hay không? Thực tế mới về thuế quan của Mỹ là gì? Nhà đầu tư đang phải đối diện với một sự thật đơn giản: Thuế quan – dù có thể được ủng hộ về mặt chính trị – vẫn khiến chi phí tăng trên toàn hệ thống. Với EB-5, áp lực này đánh thẳng vào ngân sách xây dựng và giả định tạo việc làm . Thuế quan không phải điều mới trong chính trị Mỹ. Đạo luật Thuế quan Smoot–Hawley năm 1930 t",
+"programs": [
+"eb5"
+],
+"p4": [
+"product",
+"price",
+"place"
+],
+"prices": [],
+"offers": [],
+"places": [
+"Huế"
+],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Tin chính sách"
+]
+},
+{
+"id": "465f93b4c2a2",
+"company": "usis",
+"src": "web",
+"outlet": "",
+"title": "TRIỂN VỌNG EB-5 NĂM 2026",
+"url": "https://usis.us/tin-tuc-usis/trien-vong-eb-5-nam-2026",
+"date": "2026-01-07T12:00:00+00:00",
+"cats": [
+"Tin tức Mỹ"
+],
+"summary": "Chương trình visa EB-5 bước vào năm 2026 trong bối cảnh hệ thống nhập cư Mỹ đang thay đổi mạnh mẽ, với chính sách ngày càng siết chặt, yêu cầu tuân thủ cao hơn và bất ổn chính trị gia tăng. Dù vậy, nhiều luật sư di trú vẫn khẳng định rằng EB-5 hiện vẫn là một con đường hợp pháp để nhà đầu tư nước ngoài đạt được thường trú nhân Mỹ, theo luật hiện hành. Những diễn biến và thách thức của EB-5 trong năm 2025 Trong năm 2025, các diễn biến quan trọng bao gồm các phán quyết của tòa án và cập nhật chính sách từ USCIS, đặc biệt liên quan đến chứng minh nguồn tiền đầu tư và kế hoạch gia đình đối với các quốc gia đang bị tồn đọng visa. Ông David Hirson (Hirson & Partners) cho biết ngành EB-5 đã đối mặt với nhiều thách thức trong năm thứ ba triển khai Đạo luật Cải cách và Liêm chính EB-5 năm 2022 (RIA). Tuy nhiên, ông nhấn mạnh rằng niềm tin của thị trường vào việc chương trình sẽ phục hồi và tiếp tục vận hành đầy đủ theo luật hiện hành là một tín hiệu tích cực. Dù vậy, việc USCIS tăng cường thực thi và giám sát đã ảnh hưởng đến nhu cầu của nhà đầu tư. “USCIS đã siết chặt việc tuân thủ, với các cuộc kiểm tra I-956, giám sát dòng tiền và các biện pháp liêm chính trở thành thông lệ,” ông cho biết. Ông Hirson cũng đề cập đến mối lo ngại khi việc cấp visa EB-5 bị tạm dừng sau khi đạt trần năm tài khóa 2025, đặc biệt ảnh hưởng đến nhà đầu tư Trung Quốc và Ấn Độ. Ngoài ra, “Việc phê duyệt dự án I-956F diễn ra chậm, làm trì hoãn giải ngân vốn và buộc nhiều dự án phải phụ thuộc nhiều hơn vào vốn",
+"programs": [
+"eb5"
+],
+"p4": [
+"product"
+],
+"prices": [],
+"offers": [],
+"places": [],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Tin chính sách"
+]
+},
+{
+"id": "d0ab036869c3",
+"company": "usis",
+"src": "web",
+"outlet": "",
+"title": "MỸ MỞ RỘNG VIỆC SỬ DỤNG AI TRONG XÉT DUYỆT HỒ SƠ NHẬP CƯ",
+"url": "https://usis.us/tin-tuc-usis/my-mo-rong-viec-su-dung-ai-trong-xet-duyet-ho-so-nhap-cu",
+"date": "2025-12-22T12:00:00+00:00",
+"cats": [
+"Tin tức Mỹ"
+],
+"summary": "Chính phủ Hoa Kỳ đang nhanh chóng mở rộng việc ứng dụng trí tuệ nhân tạo (AI) trong quá trình xét duyệt hồ sơ nhập cư và thị thực. Trong khi phần lớn các thảo luận công khai tập trung vào hiệu quả xử lý và tăng cường kiểm soát, thì những thay đổi này mang lại tác động thực tế và tức thời đối với các doanh nghiệp bảo lãnh lao động nước ngoài cũng như các nhà đầu tư theo đuổi con đường định cư tại Mỹ, bao gồm các diện EB-5, E-2, L-1, H-1B, O-1 và thẻ xanh diện việc làm. Các hệ thống do AI điều khiển như StateChat, ImmigrationOS và công cụ Phân loại Bằng chứng của Sở Di trú Mỹ (USCIS) đang làm thay đổi cách các cơ quan di trú xem xét hồ sơ, đánh giá độ tin cậy, phát hiện sự không nhất quán và ưu tiên xử lý vụ việc. Điều này đồng nghĩa với việc doanh nghiệp và nhà đầu tư cần hiểu rằng hồ sơ của họ không chỉ được xem xét bởi con người, mà còn bị soi chiếu bởi các công cụ tự động được huấn luyện để phát hiện bất thường trong các tập dữ liệu lớn. StateChat: Diễn giải chính sách nhanh hơn, ít quyền linh hoạt cho viên chức xét duyệt StateChat là nền tảng AI tạo sinh của Bộ Ngoại giao Mỹ, được thiết kế nhằm hỗ trợ các viên chức lãnh sự và nhân viên nhanh chóng diễn giải hướng dẫn chính sách nội bộ, soạn thảo thông tin trao đổi và phân tích công điện. Hiện công cụ này đã được triển khai rộng rãi trong toàn bộ cơ quan, giúp tăng tốc độ ra quyết định và giảm sự phụ thuộc vào đánh giá mang tính cá nhân. Đối với doanh nghiệp và nhà đầu tư, điều này có thể đồng nghĩa với: • Viên chức lãnh sự",
+"programs": [
+"eb5",
+"l1"
+],
+"p4": [
+"product"
+],
+"prices": [],
+"offers": [],
+"places": [],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Hướng dẫn / Kiến thức"
+]
+},
+{
+"id": "956767c36874",
+"company": "usis",
+"src": "web",
+"outlet": "",
+"title": "NHỮNG ĐIỀU CẦN LƯU Ý KHI LỰA CHỌN MỘT DỰ ÁN EB-5",
+"url": "https://usis.us/tin-tuc-usis/nhung-dieu-can-luu-y-khi-lua-chon-mot-du-an-eb-5",
+"date": "2025-12-18T12:00:00+00:00",
+"cats": [
+"Tin tức Mỹ"
+],
+"summary": "Nếu bạn đang cân nhắc chương trình đầu tư định cư EB-5 như một con đường để đạt thẻ xanh Mỹ, việc lựa chọn dự án đầu tư phù hợp là yếu tố then chốt. Với rất nhiều lựa chọn trên thị trường, nhà đầu tư dễ cảm thấy bối rối không biết bắt đầu từ đâu. Dưới đây là những yếu tố quan trọng giúp bạn đưa ra quyết định sáng suốt và tối ưu hóa tiềm năng khoản đầu tư. Khi nộp hồ sơ EB-5, việc lựa chọn dự án cần được cá nhân hóa theo từng nhà đầu tư. Đây là sự đồng thuận được đưa ra tại một webinar gần đây với sự tham gia của các chuyên gia EB-5 gồm: Jacqueline Trevino (PSBP Law), Ishaan Khanna (American Immigrant Investor Alliance – AIIA), Trevor Anderson (HomeFed Corporation) và Braxton Bartlett (EB5LA). Các chuyên gia nhấn mạnh rằng nhà đầu tư EB-5 cần đánh giá kỹ lưỡng chủ đầu tư dự án và trung tâm vùng, ưu tiên những đơn vị có thành tích đã được chứng minh. Tính minh bạch và tài liệu chính xác là yếu tố bắt buộc. Đồng thời, họ cũng lưu ý rằng rủi ro đầu tư là điều không thể tránh khỏi, và nhà đầu tư nên cảnh giác với những cam kết “đảm bảo kết quả”. Để đưa ra quyết định toàn diện và có cơ sở, các chuyên gia EB-5 khuyến nghị cân nhắc những yếu tố sau: Mỗi dự án EB-5 đều là duy nhất Do sự đa dạng về loại hình và hoàn cảnh dự án, cách tiếp cận linh hoạt và phù hợp là điều cần thiết khi đầu tư EB-5. “Không có dự án nào giống dự án nào,” Khanna cho biết. “Ngoài bất động sản, còn có rất nhiều dự án trong lĩnh vực sản xuất, dầu khí, năng lượng hay hàng hóa. Điều quan trọng nhất là xem xét ch",
+"programs": [
+"eb5",
+"re"
+],
+"p4": [
+"product"
+],
+"prices": [],
+"offers": [],
+"places": [],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"So sánh / Tư vấn chọn"
+]
+},
+{
+"id": "c37170911f41",
+"company": "usis",
+"src": "web",
+"outlet": "",
+"title": "\"AI\" TRONG HỆ THỐNG DI TRÚ MỸ - TẠI SAO LẠI QUAN TRỌNG?",
+"url": "https://usis.us/tin-tuc-usis/ai-trong-he-thong-di-tru-my---tai-sao-lai-quan-trong",
+"date": "2025-12-16T12:00:00+00:00",
+"cats": [
+"Tin tức Mỹ"
+],
+"summary": "Trí tuệ nhân tạo (AI) không còn là khái niệm của tương lai đối với chính phủ Hoa Kỳ — AI đã hiện diện và đang thay đổi cách các quy trình di trú và thị thực được quản lý. Các cơ quan liên bang đang triển khai những công cụ AI tiên tiến nhằm tinh gọn quy trình, tự động hóa việc rà soát hồ sơ, thậm chí theo dõi hoạt động của cá nhân. Dưới đây là bức tranh tổng quan về những gì đang diễn ra: StateChat (Bộ Ngoại giao Mỹ) Một trợ lý AI theo phong cách ChatGPT hiện đang hỗ trợ hàng chục nghìn nhân viên Bộ Ngoại giao tra cứu chính sách nội bộ, soạn thảo công hàm và phân tích thông tin liên lạc. Nhờ tự động hóa các công việc hành chính lặp lại, StateChat giúp nhân sự tập trung vào những nhiệm vụ có giá trị cao hơn. Công cụ này cũng đang được mở rộng sang nền tảng di động và truy vấn qua hệ thống nhắn tin nội bộ, giúp việc tiếp cận hướng dẫn chính sách nhanh hơn và dễ dàng hơn. ImmigrationOS (ICE) Được phát triển cùng Palantir, ImmigrationOS tích hợp dữ liệu từ hộ chiếu, hồ sơ An sinh Xã hội, hệ thống đọc biển số xe và nhiều nguồn khác nhằm: Theo dõi các trường hợp quá hạn visa Xác định cá nhân phục vụ công tác thực thi luật di trú Hệ thống này hoạt động như một trung tâm quản lý dữ liệu, liên kết hồ sơ và cho phép truy cập thông tin cá nhân từ nhiều cơ quan chính phủ khác nhau để phục vụ mục tiêu quản lý và cưỡng chế di trú. USCIS Evidence Classifier Đây là hệ thống học máy có khả năng tự động gắn nhãn và phân loại các tài liệu quan trọng từ hồ sơ di trú được quét tại Lockbox. Nhờ đó",
+"programs": [],
+"p4": [],
+"prices": [],
+"offers": [],
+"places": [],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Tin chính sách"
+]
+},
+{
+"id": "9c0756a15c63",
+"company": "usis",
+"src": "web",
+"outlet": "",
+"title": "HIỂU ĐÚNG VỀ CHƯƠNG TRÌNH THẺ VÀNG SO VỚI EB-5 & ĐIỀU NHÀ ĐẦU TƯ TOÀN CẦU CẦN BIẾT",
+"url": "https://usis.us/tin-tuc-usis/hieu-dung-ve-chuong-trinh-the-vang-so-voi-eb-5-dieu-nha-dau-tu-toan-cau-can-biet",
+"date": "2025-12-15T12:00:00+00:00",
+"cats": [
+"Tin tức Mỹ"
+],
+"summary": "Việc ra mắt Chương trình Thẻ Vàng (Gold Card) theo Sắc lệnh Hành pháp 14351 đánh dấu một trong những thay đổi lớn nhất đối với chính sách di trú Mỹ dựa trên đầu tư kể từ khi chương trình EB-5 được triển khai năm 1990. Trong khi Gold Card mang đến con đường định cư nhanh theo hình thức đóng góp (donation) dành cho giới siêu giàu, thì nền tảng pháp lý dựa trên sắc lệnh hành pháp cũng đặt ra nhiều câu hỏi quan trọng về tính bền vững, chi phí và rủi ro dài hạn . Dưới đây là phân tích chi tiết từ luật sư di trú Mỹ vềcách Gold Card hoạt động và sự khác biệt thực sự so với EB-5. Gold Card khác gì so với EB-5? Khác với EB-5 – được quy định rõ trong luật – Gold Card được tạo ra hoàn toàn bằng sắc lệnh hành pháp , đồng nghĩa với: Có thể bị bãi bỏ, sửa đổi hoặc giới hạn bởi các chính quyền sau Không có cơ chế “grandfathering” bảo vệ hồ sơ đã nộp Việc cấp visa vẫn phải dựa trên các tiêu chuẩn EB-1A, EB-2 hoặc EB-2 NIW , yêu cầu USCIS đánh giá: Năng lực vượt trội Năng lực đặc biệt Lợi ích quốc gia → Ngay cả khi người nộp đã đóng tiền Yêu cầu tài chính của Gold Card Đây là khoản đóng góp không hoàn lại cho Chính phủ Mỹ: 1 triệu USD/người (bao gồm từng người phụ thuộc), hoặc 2 triệu USD cho hồ sơ do doanh nghiệp bảo trợ (bao gồm công ty nước ngoài) + 1 triệu USD cho mỗi người phụ thuộc 15.000 USD phí USCIS/người trong gia đình nộp hồ sơ Hồ sơ Thẻ Xanh bắt buộc xử lý qua Lãnh sự quán Mỹ ở nước ngoài – không được phép điều chỉnh tình trạng (AOS) tại Mỹ . Gói Platinum 5 triệu USD Cho phép hiện",
+"programs": [
+"eb5",
+"niw"
+],
+"p4": [
+"product",
+"price",
+"promotion"
+],
+"prices": [
+"1 triệu USD",
+"2 triệu USD",
+"1 triệu USD",
+"15.000 USD"
+],
+"offers": [
+"giới hạn"
+],
+"places": [],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Tin chính sách"
+]
+},
+{
+"id": "4e063ea7ba50",
+"company": "usis",
+"src": "web",
+"outlet": "",
+"title": "USCIS RA MẮT MẪU ĐƠN CHO VISA THẺ VÀNG CỦA TRUMP",
+"url": "https://usis.us/tin-tuc-usis/uscis-ra-mat-mau-don-cho-visa-the-vang-cua-trump",
+"date": "2025-12-11T12:00:00+00:00",
+"cats": [
+"Tin tức Mỹ"
+],
+"summary": "Mẫu đơn I-140G, tức Đơn xin định cư theo Chương trình Thẻ Vàng , hiện đã có thể nộp thông qua trang web của Sở Di trú và Nhập tịch Hoa Kỳ (USCIS). Đây là bước tiến mới nhất trong quá trình xây dựng chương trình thị thực mới được thiết lập bởi Tổng thống Donald Trump thông qua một Sắc lệnh Hành pháp. Mẫu đơn này là một biến thể của Form I-140, vốn được sử dụng cho các đơn xin định cư diện lao động và trước đó đã được Văn phòng Quản lý và Ngân sách (OMB) phê duyệt. Mốc quan trọng này nhằm đáp ứng thời hạn triển khai chương trình vào ngày 18/12. Tuy nhiên, việc công bố mẫu đơn không đồng nghĩa chương trình Thẻ Vàng đã chính thức được triển khai, vì vẫn cần Quốc hội phê chuẩn. Bernard Wolfsdorf từ WR Immigration nhận định: “Công bố mẫu đơn không phải vạch đích — mà chỉ là vạch xuất phát.” Ông cho biết Form I-140G chỉ là một phần trong gói tài liệu lớn hơn được yêu cầu theo Sắc lệnh Hành pháp 14351, chỉ đạo các cơ quan liên quan xây dựng chương trình Thẻ Vàng. Wolfsdorf cảnh báo còn nhiều bước phải hoàn thiện: Hoàn thiện hướng dẫn nộp đơn Công bố quy trình nộp khoản đóng góp bắt buộc Quy định nộp hồ sơ chính thức Ông cũng cho biết chương trình $1M Gold Card có vẻ sắp hoàn tất, nhưng còn chờ hướng dẫn về gói Platinum Card trị giá $2M. Luật sư Dennis Tristani (Tristani Law) cho rằng việc tạo mẫu đơn riêng “cho thấy chính phủ đang chủ động xây dựng hạ tầng tiếp nhận hồ sơ, nhưng chương trình vẫn đang ở giai đoạn tiền ra mắt và chưa mở cho nộp hồ sơ trực tiếp.” Charles Kuck (Kuck Baxt",
+"programs": [],
+"p4": [
+"price"
+],
+"prices": [
+"$1M",
+"$2M"
+],
+"offers": [],
+"places": [],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Tin chính sách"
+]
+},
+{
+"id": "087442ea28c0",
+"company": "usis",
+"src": "web",
+"outlet": "",
+"title": "CÁC DỰ ÁN URBAN TEA VẪN GIỮ SỨC HÚT MẠNH MẼ TRONG EB-5",
+"url": "https://usis.us/tin-tuc-usis/cac-du-an-urban-tea-van-giu-suc-hut-manh-me-trong-eb-5",
+"date": "2025-12-01T12:00:00+00:00",
+"cats": [
+"Tin tức Mỹ"
+],
+"summary": "Kể từ khi Đạo luật Cải cách và Liêm chính EB-5 (RIA) được ban hành năm 2022, các dự án đô thị (Urban) nằm trong khu vực việc làm mục tiêu (TEA) vẫn giữ vai trò quan trọng, dù các dự án vùng nông thôn (Rural) chiếm ưu thế nhờ thời gian xử lý ưu tiên cho hồ sơ EB-5. Theo Trevor Anderson từ HomeFed, Andrew Wall từ Dynaxe Capital và Christian Triantaphyllis của Jackson Walker chia sẻ tại webinar của EB5Investors.com, các dự án Urban TEA vẫn có tính cạnh tranh và mang lại lựa chọn khác biệt so với dự án Rural. Có sự đồng thuận rằng việc chọn dự án Urban hay Rural TEA phụ thuộc mạnh vào mục tiêu và thời gian mong muốn của nhà đầu tư. Rural có thể mang lại tốc độ xử lý nhanh, trong khi Urban lại sở hữu cấu trúc kinh tế khác nhau và sự tham gia của các đơn vị cho vay. Ngoài ra, thời điểm gia đình, tình trạng tồn đọng hồ sơ theo từng quốc gia, nhu cầu làm việc/di chuyển tại Mỹ, phương thức thanh toán, và việc có con dưới 21 tuổi cũng là yếu tố ảnh hưởng lớn đến quyết định. Urban TEA EB-5 là gì? Các dự án này nằm ngoài ba nhóm “set-asides” mà RIA đưa ra: Rural, Vùng Thất nghiệp Cao (HUA) và Hạ tầng. Vì vậy, chúng thuộc nhóm Unreserved , bao gồm cả hồ sơ EB-5 nộp trước tháng 3/2022. Triantaphyllis cho biết, trước đây các dự án Urban chiếm ưu thế trong thị trường EB-5. “Khi chương trình được tái khởi động năm 2022, hầu hết dự án sẵn có đều là Urban HUA,” ông nói. Sau khi RIA có hiệu lực, ông đã nộp rất nhiều hồ sơ loại này trong 12 đến 24 tháng đầu tiên. Wall bổ sung rằng thị trường khi ",
+"programs": [
+"eb5"
+],
+"p4": [
+"product"
+],
+"prices": [],
+"offers": [],
+"places": [],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Hướng dẫn / Kiến thức"
+]
+},
+{
+"id": "02961aadbd25",
+"company": "usis",
+"src": "web",
+"outlet": "",
+"title": "USCIS XÚC TIẾN CHƯƠNG TRÌNH THẺ VÀNG CỦA TRUMP",
+"url": "https://usis.us/tin-tuc-usis/uscis-xuc-tien-chuong-trinh-the-vang-cua-trump",
+"date": "2025-11-24T12:00:00+00:00",
+"cats": [
+"Tin tức Mỹ"
+],
+"summary": "Chính quyền Trump đang tiến bước trong việc triển khai chương trình Thẻ Vàng (Gold Card) . Sở Di trú và Nhập tịch Hoa Kỳ (USCIS) đã gửi bản dự thảo một mẫu đơn mới – Form I-140G – đến Văn phòng Quản lý và Ngân sách (OMB), đánh dấu bước phát triển mới nhất trong việc xây dựng chương trình thị thực này. Bản dự thảo mẫu đơn Thẻ Vàng phải trải qua quá trình rà soát bắt buộc của liên bang trước khi trở thành tài liệu chính thức. Theo hãng luật Fragomen, việc OMB phê duyệt là yếu tố then chốt để chương trình có thể triển khai đúng thời hạn 18/12 mà Tổng thống Trump đặt ra thông qua sắc lệnh hành pháp. Chương trình Thẻ Vàng hiện vẫn chưa có hiệu lực; USCIS và Bộ Thương mại dự kiến sẽ công bố thêm thông tin khi gần đến thời điểm ra mắt. Mẫu đơn Thẻ Vàng sẽ hoạt động thế nào? Mẫu đơn mới là một phiên bản tùy chỉnh từ Form I-140 , vốn được dùng để nộp đơn xin định cư cho người nước ngoài dựa trên diện lao động. Bản dự thảo mô tả quy trình xử lý của Thẻ Vàng, bao gồm: Nhà đầu tư phải nộp hồ sơ qua Bộ Thương mại Hoa Kỳ , Thanh toán phí nộp đơn không hoàn lại 15.000 USD qua pay.gov, Nộp Form I-140G cho USCIS để xác định họ có đủ điều kiện theo diện EB-1 hoặc EB-2 hay không. Ngoài ra, nhà đầu tư phải chứng minh nguồn tiền hợp pháp mà họ dự định sử dụng cho khoản đầu tư theo chương trình mới. Sau khi mẫu đơn được phê duyệt, theo WR Immigration, người nộp đơn Thẻ Vàng sẽ cần trải qua quy trình lãnh sự để nhận thị thực nhập cư và trở thành thường trú nhân Hoa Kỳ. Yêu cầu đầu tư đối với Thẻ Và",
+"programs": [
+"niw"
+],
+"p4": [
+"product",
+"price"
+],
+"prices": [
+"15.000 USD"
+],
+"offers": [],
+"places": [],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Tin chính sách"
+]
+},
+{
+"id": "5d4ac8464f7e",
+"company": "usis",
+"src": "web",
+"outlet": "",
+"title": "LỆ PHÍ EB-5 GIẢM SAU PHÁN QUYẾT CỦA TÒA ÁN",
+"url": "https://usis.us/tin-tuc-usis/le-phi-eb-5-giam-sau-phan-quyet-cua-toa-an",
+"date": "2025-11-17T12:00:00+00:00",
+"cats": [
+"Tin tức Mỹ"
+],
+"summary": "Sở Di trú và Nhập tịch Hoa Kỳ (USCIS) đã giảm phí nộp hồ sơ EB-5 theo yêu cầu của một phán quyết tòa án gần đây — một diễn biến quan trọng đối với các nhà đầu tư EB-5 mới. Biểu phí điều chỉnh đã được cập nhật trên trang web USCIS, đưa mức phí quay trở về mức trước ngày 1/4/2024. Cụ thể, phí nộp đơn I-526/I-526E đã giảm từ 11.160 USD xuống còn 3.675 USD , và phí mẫu I-829 hiện là 3.750 USD , giảm từ mức 9.525 USD, cùng với các khoản phí khác liên quan EB-5. Động thái này xuất phát từ phán quyết ngày 12/11 cho rằng Bộ An ninh Nội địa (DHS) và USCIS đã tăng phí trái phép, vi phạm Đạo luật Thủ tục Hành chính (APA) và Đạo luật Cải cách & Liêm chính EB-5 năm 2022 (RIA). Phán quyết này là kết quả của vụ kiện do Liên minh Nhà đầu tư Nhập cư Mỹ (AIIA), nhà đầu tư EB-5 Samantha Moody, và IT Service Alliance đệ trình nhằm phản đối đợt tăng phí vào tháng 3/2024. Lệ phí EB-5 sẽ được giữ ở mức cũ trong bao lâu? Tuy nhiên, các luật sư EB-5 cảnh báo rằng mức phí hiện tại chỉ mang tính tạm thời, vì DHS đang chuẩn bị ban hành quy định cuối cùng với mức phí “thấp hơn phí đã tăng”, nhưng vẫn cao hơn mức trước khi tăng . Luật sư di trú Hoa Kỳ Oliver Yang từ Reid & Wise nhận định: “Phán quyết ở Colorado chắc chắn là một chiến thắng cho nhà đầu tư, nhưng việc quay về mức phí trước tháng 4/2024 có thể chỉ diễn ra trong thời gian ngắn.” Ông cũng không kỳ vọng sẽ có làn sóng nộp đơn EB-5 ngay lập tức. “Một vài nhà đầu tư đã chuẩn bị sẵn hồ sơ có thể tận dụng khoảng thời gian tiết kiệm này. Tuy nhiên, ",
+"programs": [
+"eb5"
+],
+"p4": [
+"product",
+"price"
+],
+"prices": [
+"11.160 USD",
+"3.675 USD",
+"3.750 USD",
+"9.525 USD"
+],
+"offers": [],
+"places": [],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Tin chính sách"
+]
+},
+{
+"id": "32cb9cd5e34b",
+"company": "usis",
+"src": "web",
+"outlet": "",
+"title": "QUY ĐỊNH SINH TRẮC HỌC MỚI VỀ VIỆC NHẬP CẢNH VÀO HOA KỲ",
+"url": "https://usis.us/tin-tuc-usis/quy-dinh-sinh-trac-hoc-moi-ve-viec-nhap-canh-vao-hoa-ky",
+"date": "2025-11-12T12:00:00+00:00",
+"cats": [
+"Tin tức Mỹ"
+],
+"summary": "Bộ An ninh Nội địa Hoa Kỳ (DHS) đang đề xuất một quy định mới yêu cầu Cơ quan Hải quan và Biên phòng (CBP) chụp ảnh gần như tất cả những người không phải công dân Hoa Kỳ khi họ nhập cảnh và xuất cảnh khỏi Hoa Kỳ. Quy định này cũng bao gồm việc triển khai các hệ thống khác nhằm theo dõi đặc điểm sinh trắc học của con người khi cần thiết. Đề xuất hiện đang được mở để lấy ý kiến công chúng trên Federal Register (Công báo Liên bang) cho đến ngày 26 tháng 11 năm 2025. Nếu được thông qua, hệ thống mới này sẽ thay thế chương trình thử nghiệm hiện tại và có thể được triển khai tại các sân bay, cảng biển và cửa khẩu đường bộ. Điều này có nghĩa là du khách, bao gồm cả thường trú nhân hợp pháp, sẽ phải chụp ảnh khuôn mặt định kỳ mỗi khi nhập cảnh hoặc rời Hoa Kỳ. Các luật sư EB-5 cho biết rằng, quy định được đề xuất hiện tại sẽ không ảnh hưởng đến việc nộp hồ sơ EB-5, nhưng sẽ được áp dụng cho các nhà đầu tư EB-5 ở nhiều giai đoạn khác nhau của quá trình, bao gồm cả khi họ di chuyển ra vào Hoa Kỳ. Quy định sinh trắc học mới này sẽ yêu cầu gì đối với nhà đầu tư EB-5? Luật sư di trú Hoa Kỳ Yuliya Veremiyenko-Campos từ YVC Legal cho biết: “Đối với các nhà đầu tư EB-5, quy định này không thay đổi điều kiện đủ tiêu chuẩn EB-5, quy trình xét duyệt hồ sơ, cấp thị thực, hoặc quy trình nộp đơn I-829 để gỡ bỏ điều kiện thường trú có điều kiện.” Bà bổ sung rằng, cũng như mọi công dân nước ngoài khác khi ra vào Hoa Kỳ, nhà đầu tư EB-5 nên chuẩn bị tâm lý rằng họ sẽ bị chụp ảnh tại cửa khẩu nhập cản",
+"programs": [
+"eb5"
+],
+"p4": [
+"product"
+],
+"prices": [],
+"offers": [],
+"places": [],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Tin chính sách"
+]
+},
+{
+"id": "4573917803b3",
+"company": "usis",
+"src": "web",
+"outlet": "",
+"title": "THANH TOÁN TỪNG PHẦN ĐÚNG HẠN LÀ CHÌA KHÓA THÀNH CÔNG CHO HỒ SƠ EB-5",
+"url": "https://usis.us/tin-tuc-usis/thanh-toan-tung-phan-dung-han-la-chia-khoa-thanh-cong-cho-ho-so-eb-5",
+"date": "2025-11-05T12:00:00+00:00",
+"cats": [
+"Tin tức Mỹ"
+],
+"summary": "Gần đây, trong cộng đồng EB-5 có thông tin rằng một số hồ sơ I-526 bị từ chối vì các nhà đầu tư trong các dự án trung tâm vùng (Regional Center) không hoàn tất khoản đầu tư cam kết , chỉ mới thanh toán một phần khi hồ sơ được xem xét. Luật sư di trú Kate Kalmykov thuộc hãng luật Greenberg Traurig cho biết Sở Di trú và Nhập tịch Hoa Kỳ ( USCIS ) đã ban hành các quyết định từ chối này vì các khoản đầu tư chưa được xem là “đủ điều kiện phê duyệt tại thời điểm nộp hồ sơ” , theo bài viết trên blog của bà. “Nhà đầu tư phải hoặc đã đầu tư đầy đủ số vốn yêu cầu, hoặc đang trong quá trình cam kết không hủy ngang khoản vốn đó để sử dụng ngay cho doanh nghiệp tạo việc làm,” bà giải thích. Thuật ngữ “không hủy ngang” (irrevocably) có nghĩa là số tiền này phải đang được chuyển từ Doanh nghiệp Thương mại Mới (NCE) – đơn vị quản lý vốn đầu tư – đến Tổ chức tạo việc làm (JCE) để sử dụng theo đúng kế hoạch kinh doanh của dự án EB-5. Do đó, USCIS kỳ vọng rằng phần vốn còn lại phải được cam kết rõ ràng , dù tiền chưa thực sự đến tài khoản của JCE. Nếu một nhà đầu tư EB-5 vẫn giữ tiền mà chưa có bước cụ thể nào để hoàn tất khoản đầu tư còn lại , hồ sơ đó sẽ không được xem là hợp lệ để phê duyệt . Vấn đề cốt lõi không nằm ở việc thanh toán từng phần , mà là sự chậm trễ trong việc hoàn tất phần vốn còn lại . Luật sư Robert Divine (hãng luật Baker Donelson ) cũng xác nhận ông đã nghe về các trường hợp từ chối tương tự và cho biết giải pháp an toàn nhất là thanh toán toàn bộ vốn càng sớm càng tốt tr",
+"programs": [
+"eb5"
+],
+"p4": [
+"product",
+"price"
+],
+"prices": [],
+"offers": [],
+"places": [],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Câu chuyện thành công",
+"Hướng dẫn / Kiến thức"
+]
+},
+{
+"id": "27e58490e6fd",
+"company": "usis",
+"src": "web",
+"outlet": "",
+"title": "DHS CHẤM DỨT CƠ CHẾ TỰ ĐỘNG GIA HẠN THẺ EAD",
+"url": "https://usis.us/tin-tuc-usis/dhs-cham-dut-co-che-tu-dong-gia-han-the-ead",
+"date": "2025-11-03T12:00:00+00:00",
+"cats": [
+"Tin tức Mỹ"
+],
+"summary": "Bộ An ninh Nội địa Hoa Kỳ (DHS) vừa công bố quy định mới có hiệu lực từ ngày 30/10/2025 , chấm dứt việc tự động gia hạn giấy phép lao động (EAD) cho phần lớn người nước ngoài khi nộp hồ sơ gia hạn.Người lao động cần chủ động và thận trọng. Trước đây, nhiều nhóm đương đơn được tự động gia hạn quyền làm việc tối đa 540 ngày trong khi hồ sơ đang được USCIS xử lý. Tuy nhiên, quy định mới loại bỏ cơ chế này đối với hầu hết diện EAD – nghĩa là người lao động sẽ không còn được phép làm việc sau khi EAD hết hạn , trừ khi hồ sơ đã được duyệt hoặc thuộc nhóm ngoại lệ. Các ngoại lệ còn được giữ: Những trường hợp được luật quy định rõ ràng , như đương đơn xin tị nạn (asylum pending). TPS (Temporary Protected Status – Chương trình nhân đạo) khi Cơ quan Liên bang công bố gia hạn trong Federal Register . Sinh viên F-1 diện STEM OPT , do quy trình được ICE quản lý riêng. Các EAD đã được tự động gia hạn trước ngày 30/10/2025 không bị ảnh hưởng. Ảnh hưởng đối với người lao động Quy định này có thể dẫn đến khoảng trống thời gian không được phép làm việc nếu hồ sơ gia hạn chưa được giải quyết trước khi EAD hiện tại hết hạn. Điều đó đồng nghĩa với nguy cơ: Gián đoạn thu nhập; Mất tình trạng việc làm hợp pháp; Khó khăn trong việc tuân thủ quy định I-9 của doanh nghiệp. DHS khuyến nghị người lao động nộp hồ sơ gia hạn sớm nhất có thể – tối đa 180 ngày trước khi EAD hết hạn , đồng thời theo dõi tiến độ trực tuyến và lưu giữ bằng chứng nộp đơn . Lưu ý dành cho nhà tuyển dụng Các doanh nghiệp có nhân ",
+"programs": [
+"us_study"
+],
+"p4": [
+"product"
+],
+"prices": [],
+"offers": [],
+"places": [],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Tin chính sách"
+]
+},
+{
+"id": "c4b83aba62f7",
+"company": "usis",
+"src": "web",
+"outlet": "",
+"title": "BƯỚC NGOẶT LỚN CHO NGƯỜI PHỤ THUỘC TRONG CHƯƠNG TRÌNH EB-5",
+"url": "https://usis.us/tin-tuc-usis/buoc-ngoat-lon-cho-nguoi-phu-thuoc-trong-chuong-trinh-eb-5",
+"date": "2025-10-30T12:00:00+00:00",
+"cats": [
+"Tin tức Mỹ"
+],
+"summary": "Trong bản dự thảo quy định mới nhằm giảm một số khoản phí EB-5 và giới thiệu các loại phí mới , Bộ An ninh Nội địa Hoa Kỳ (DHS) cùng Sở Di trú và Nhập tịch Hoa Kỳ (USCIS) cũng đề xuất những thay đổi và hướng dẫn mới cho đơn I-829 dành cho vợ/chồng và con phụ thuộc của nhà đầu tư EB-5 . Mẫu đơn I-829 là bước cuối cùng trong quy trình EB-5 , được nộp để xóa bỏ điều kiện trên thẻ xanh có điều kiện khi khoản đầu tư EB-5 của nhà đầu tư đáp ứng đầy đủ các yêu cầu về tạo việc làm và duy trì vốn đầu tư . Theo hướng dẫn mới, nếu nhà đầu tư EB-5 qua đời hoặc từ bỏ hồ sơ , nhưng đáp ứng các tiêu chí về đầu tư và tạo việc làm , thân nhân phụ thuộc vẫn có thể tự nộp đơn I-829 độc lập . Luật sư EB-5 Matthew Kolodziej (JIA Law Group) cho biết: “Quy định này làm rõ thời điểm và cách thức các thành viên gia đình phụ thuộc có thể nộp đơn I-829 độc lập trong trường hợp nhà đầu tư chính qua đời hoặc không nộp đơn.” Luật sư Elissa Lu (Law Office of Lu & Associates) nhận định: “Đề xuất thể hiện một cách tiếp cận công bằng và thực tế, giúp đơn giản hóa quy trình cho nhà đầu tư và gia đình — đặc biệt trong các trường hợp nhà đầu tư chính qua đời.” Những điểm chính trong hướng dẫn mới về I-829: Theo luật sư Jennifer Hermansky , Chủ tịch Ủy ban EB-5 của Hiệp hội Luật sư Di trú Hoa Kỳ (AILA), bản đề xuất nêu rõ: Nếu nhà đầu tư qua đời , tất cả người phụ thuộc (vợ/chồng và con) có thể được nộp chung trên một đơn I-829 . Trong các trường hợp khác, mỗi người phụ thuộc phải nộp đơn I-829 riêng biệt nếu khô",
+"programs": [
+"eb5"
+],
+"p4": [
+"product",
+"price"
+],
+"prices": [],
+"offers": [],
+"places": [],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Tin chính sách"
+]
+},
+{
+"id": "840f77be42ab",
+"company": "usis",
+"src": "web",
+"outlet": "",
+"title": "USCIS BẮT ĐẦU TIẾN HÀNH THANH TRA CÁC TRUNG TÂM VÙNG EB-5",
+"url": "https://usis.us/tin-tuc-usis/uscis-bat-dau-tien-hanh-thanh-tra-cac-trung-tam-vung-eb-5",
+"date": "2025-10-29T12:00:00+00:00",
+"cats": [
+"Tin tức Mỹ"
+],
+"summary": "Sở Di trú và Nhập tịch Hoa Kỳ (USCIS) đã chính thức khởi động quy trình thanh tra (audit) đối với các Trung tâm vùng EB-5 , theo quy định của Đạo luật Cải cách và Liêm chính EB-5 năm 2022 (RIA) — thực hiện cam kết xem xét, kiểm tra tất cả các Trung tâm vùng được phê duyệt ít nhất một lần trong vòng 5 năm . Văn phòng Chương trình Nhà đầu tư Định cư (IPO) , cụ thể là Bộ phận Thanh tra (Audit Branch) , đã bắt đầu gửi thông báo thanh tra chính thức đến các Trung tâm vùng trên toàn nước Mỹ. Các cuộc thanh tra sẽ đánh giá việc tuân thủ ở những lĩnh vực trọng yếu như: Báo cáo tạo việc làm Hoạt động đầu tư của nhà đầu tư EB-5 Lưu trữ hồ sơ và tài liệu Phần lớn các cuộc thanh tra dự kiến sẽ được thực hiện từ xa , tuy nhiên USCIS có thể tiến hành kiểm tra trực tiếp tại Trung tâm vùng , Doanh nghiệp thương mại mới (NCE) hoặc Doanh nghiệp tạo việc làm (JCE) có liên quan. Trách nhiệm của Trung tâm vùng Các Trung tâm vùng được yêu cầu phải: Xác nhận đã nhận được thư thanh tra và chỉ định người liên hệ chính trong vòng 7 ngày ; Cung cấp đầy đủ tài liệu theo yêu cầu trong thời hạn do USCIS quy định (thông thường là vài tuần ); Hợp tác đầy đủ trong quá trình thanh tra — việc không phản hồi hoặc cố tình cản trở có thể dẫn đến đề xuất chấm dứt hoạt động Trung tâm vùng . Khuyến nghị cho các Trung tâm vùng EB-5 Khi các hạn chót đang đến gần và những thông báo thanh tra đầu tiên đã được gửi đi , tất cả các Trung tâm vùng nên chủ động : Rà soát và sắp xếp lại hồ sơ 5 năm gần nhất ; Chuẩn bị sẵn sàn",
+"programs": [
+"eb5"
+],
+"p4": [
+"product"
+],
+"prices": [],
+"offers": [],
+"places": [],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Tin chính sách"
+]
+},
+{
+"id": "04141a8ea74b",
+"company": "usis",
+"src": "web",
+"outlet": "",
+"title": "BỘ TÀI CHÍNH MỸ CÔNG BỐ QUY ĐỊNH MỚI “KHÔNG ĐÁNH THUẾ TIỀN TIP”",
+"url": "https://usis.us/tin-tuc-usis/bo-tai-chinh-my-cong-bo-quy-dinh-moi-khong-danh-thue-tien-tip",
+"date": "2025-10-27T12:00:00+00:00",
+"cats": [
+"Tin tức Mỹ"
+],
+"summary": "Ngày 20/10/2025 , Bộ Tài Chính Mỹ (U.S. Treasury Department) đã công bố bản dự thảo quy định về chính sách “ No Tax on Tips ” – tức là không đánh thuế thu nhập liên bang đối với một phần tiền tip mà người lao động nhận được . Chính sách này nằm trong đạo luật mới có tên One Big Beautiful Bill Act (OBBBA) và được dự kiến áp dụng từ năm 2025 đến hết năm 2028 . 1. “No Tax on Tips” nghĩa là gì? Từ trước đến nay, tiền tip (tiền boa) được xem là thu nhập chịu thuế – người lao động phải khai và đóng thuế thu nhập liên bang (Federal Income Tax), cũng như thuế An sinh xã hội (Social Security) và thuế Medicare (FICA taxes). Tuy nhiên, theo quy định mới, người nhận tip sẽ được trừ một phần tiền tip ra khỏi thu nhập chịu thuế liên bang , giúp giảm đáng kể số thuế phải nộp vào cuối năm. Mỗi người có thể được trừ tối đa 25.000 USD/năm tiền tip hợp lệ khỏi thu nhập chịu thuế. Chính sách này chỉ áp dụng cho 4 năm (2025 – 2028). Nếu không được gia hạn, từ năm 2029 trở đi, tiền tip sẽ lại bị đánh thuế như cũ. 2. Ai được hưởng chính sách này? Những người có thể hưởng lợi gồm: Nhân viên làm việc trong ngành nghề thường xuyên nhận tip như nhà hàng, khách sạn, spa, salon, sân golf, valet, nhân viên phục vụ, bartender, thợ làm móng, nhân viên spa, hoặc cả người sáng tạo nội dung (content creator) có nhận tip online. Cả nhân viên chính thức và người làm độc lập (independent contractor) đều có thể được khấu trừ, miễn là họ có thu nhập từ tip hợp lệ . Tuy nhiên, để được hưởng, người nộp thuế phải có s",
+"programs": [],
+"p4": [
+"price",
+"place"
+],
+"prices": [
+"25.000 USD"
+],
+"offers": [],
+"places": [
+"Huế"
+],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Tin chính sách"
+]
+},
+{
+"id": "2f0309fbc6f5",
+"company": "usis",
+"src": "web",
+"outlet": "",
+"title": "BỘ AN NINH NỘI ĐỊA MỸ (DHS) ĐỀ XUẤT GIẢM LỆ PHÍ HỒ SƠ EB-5",
+"url": "https://usis.us/tin-tuc-usis/bo-an-ninh-noi-dia-my-dhs-de-xuat-giam-le-phi-ho-so-eb-5",
+"date": "2025-10-23T12:00:00+00:00",
+"cats": [
+"Tin tức Mỹ"
+],
+"summary": "Bộ An ninh Nội địa Hoa Kỳ (DHS) đang đề xuất giảm phần lớn các khoản phí hiện tại mà Sở Di trú và Nhập tịch Hoa Kỳ (USCIS) đang thu đối với nhà đầu tư EB-5 và trung tâm vùng , đồng thời tạo ra các loại đơn và lệ phí mới . Thời gian và mục tiêu của đề xuất Đề xuất này sẽ được công bố lên Công báo Liên bang (Federal Registry) vào ngày 23/10/2025 để lấy ý kiến công chúng trong 60 ngày . Theo Ishaan Khanna , Chủ tịch Liên minh Nhà đầu tư Nhập cư Hoa Kỳ (AIIA) , việc điều chỉnh này nhằm đồng bộ hóa lệ phí với chi phí xử lý thực tế và mục tiêu của chương trình EB-5 . “Đây là nỗ lực đáng khen và đã được mong đợi từ lâu của DHS để xây dựng một khung phí công bằng, bền vững hơn cho các nhà đầu tư và các bên liên quan nhỏ trong lĩnh vực EB-5,” Khanna nói. DHS cho biết việc giảm phí sẽ giúp USCIS cải thiện quy trình xử lý hồ sơ, rút ngắn thời gian xét duyệt , và nâng cấp hệ thống công nghệ thông tin phục vụ cho chương trình EB-5. Nếu được phê duyệt, ước tính khoảng 11.260 hồ sơ EB-5 mỗi năm sẽ chịu tác động (dựa trên số liệu 2024–2025). Phản ứng của cộng đồng EB-5 Phần lớn các luật sư và chuyên gia EB-5 hoan nghênh động thái này , song vẫn thận trọng chờ kết quả cuối cùng : Tahmina Watson (Watson Immigration Law) gọi đây là “bước đi tích cực và đúng lúc” . Joey Barnett (WR Immigration) cho rằng đề xuất “cuối cùng đã cung cấp hướng dẫn thực thi cụ thể hơn” cho Đạo luật Cải cách và Liêm chính EB-5 (RIA). Charles Kuck (Kuck Baxter) nói: “USCIS lần này không tăng phí với nhóm có khả năng ch",
+"programs": [
+"eb5"
+],
+"p4": [
+"product",
+"price"
+],
+"prices": [],
+"offers": [],
+"places": [],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Hướng dẫn / Kiến thức"
+]
+},
+{
+"id": "c0bc4331a143",
+"company": "usis",
+"src": "web",
+"outlet": "",
+"title": "ITIN – CÓ PHẢI LÀ “GIẤY PHÉP LÀM VIỆC” TẠI MỸ?",
+"url": "https://usis.us/tin-tuc-usis/itin-co-phai-la-giay-phep-lam-viec-tai-my",
+"date": "2025-10-22T12:00:00+00:00",
+"cats": [
+"Tin tức Mỹ"
+],
+"summary": "Trong quá trình chuẩn bị hồ sơ hoặc đầu tư tại Mỹ, nhiều cá nhân thường nghe đến mã số ITIN (Individual Taxpayer Identification Number) và cho rằng việc sở hữu ITIN đồng nghĩa với có thể làm việc hợp pháp tại Mỹ. Trên thực tế, ITIN chỉ là mã số thuế – không phải giấy phép lao động. ITIN là gì? ITIN được Sở Thuế vụ Hoa Kỳ (IRS) cấp cho những cá nhân không đủ điều kiện nhận số An sinh Xã hội (SSN) , như: Người không cư trú tại Mỹ; Người phụ thuộc của công dân hoặc thường trú nhân Mỹ; Một số cá nhân đang có hồ sơ di trú nhưng chưa có tình trạng hợp pháp. ITIN giúp người nước ngoài khai báo thuế đúng quy định , thể hiện sự tuân thủ pháp luật Hoa Kỳ – yếu tố được đánh giá cao trong quá trình xét duyệt di trú hoặc đầu tư lâu dài. Điều ITIN không làm được Dù mang ý nghĩa tích cực về mặt thuế, ITIN không cho phép người sở hữu được làm việc tại Mỹ . Cụ thể: Không được sử dụng để điền mẫu I-9 – yêu cầu bắt buộc khi ký hợp đồng lao động tại Mỹ; Không tạo ra quyền hưởng An sinh Xã hội hoặc thay đổi tình trạng di trú ; Và đặc biệt, không hợp pháp hóa việc làm nếu không có visa hoặc giấy phép lao động. Nhà tuyển dụng sử dụng lao động không có giấy phép hợp pháp cũng có thể bị phạt nặng và truy cứu trách nhiệm. Ai mới được phép làm việc hợp pháp? Một cá nhân chỉ được làm việc hợp pháp tại Mỹ khi có: Thẻ cho phép làm việc (EAD) do USCIS cấp; hoặc Visa có quyền lao động , như H-1B, L-1, O-1, TN, hoặc E-2. Đây là các diện visa rõ ràng về mục đích và quyền hạn, không liên quan đến việc sở hữu I",
+"programs": [
+"l1"
+],
+"p4": [
+"product",
+"place"
+],
+"prices": [],
+"offers": [],
+"places": [
+"Huế"
+],
 "event": false,
 "event_dates": [],
 "risk": [],

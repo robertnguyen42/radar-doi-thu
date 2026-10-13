@@ -1,106 +1,117 @@
 {
- "headline": "Đối thủ đang chuyển từ nội dung sang trải nghiệm thực tế: iCanfield đăng recap 2 chuyến khảo sát cho khách (Thổ Nhĩ Kỳ, Alberta). Mảng Mỹ chuyển sang mốc mới (phí EB-5 từ 30/11, giữ mức 800.000 USD trước 31/12/2026). SI tuần này chỉ có 1 bài về Family Office, chưa có sự kiện hay chương trình nào.",
+ "headline": "Sau mốc grandfathering EB-5 30/09, các hãng Mỹ chuyển sang hai hạn chót mới là 30/11 (lệ phí) và 31/12 (giữ mức 800.000 USD), còn iCanfield đẩy mạnh tour khảo sát thực tế Thổ Nhĩ Kỳ và Alberta. Trong khi đó, SI tuần này chỉ có một bài web về Family Office, chưa có sự kiện hay ưu đãi nào.",
  "market_trends": [
-  "EB-5 tạo cấp bách theo mốc nối tiếp: grandfathering 30/09 (Maple Leaf, USIMI, American Plus), phí mới từ 30/11/2026 (American Plus, USIMI), giữ mức 800.000 USD trước 31/12/2026 (American Plus). Đi kèm là nội dung tiêu chí chọn dự án an toàn và cập nhật tiến độ dự án (Hawaii Koloa, Cormont Deer Valley, CMB).",
-  "Bản tin chính sách Mỹ dày đặc được dùng làm lý do chuyển khách sang EB-5: Visa Bulletin hàng tháng, phí OPT 70.000 USD, đình chỉ PERM với Big Tech, phí H-1B, tạm dừng phỏng vấn visa. Thông điệp chung là diện lao động/du học rủi ro, EB-5 ổn định hơn.",
-  "Sự kiện chuyển dịch theo hai hướng. Thứ nhất là tọa đàm, hội thảo kèm bài recap (iCanfield Góc nhìn A-Z Hà Nội, Canada PNP; Maple Leaf tọa đàm EB-5, Canada, Châu Âu, bảo toàn tài sản). Thứ hai là chuyến khảo sát thực địa có gặp chủ đầu tư và luật sư (iCanfield).",
-  "Golden Visa Châu Âu công khai giá cụ thể: Hy Lạp từ 250.000 EUR (iCanfield, AIMS), Latvia từ 50.000/150.000 EUR, Malta thay đổi thuế 2027, Síp trước khi vào Schengen. Song song là quốc tịch đầu tư: Thổ Nhĩ Kỳ 400.000 USD, Grenada 270.000 USD.",
-  "Canada diện doanh nhân tỉnh bang (Alberta, BC) được đẩy mạnh thay cho Start-Up Visa đã đóng (iCanfield, AIMS, Maple Leaf)."
+  "EB-5 được bán bằng hạn chót nối tiếp nhau. Đầu tiên là grandfathering 30/09 [37][80][113][122][129][166][192], nay là lệ phí mới từ 30/11 [67][93] và cơ hội giữ mức 800.000 USD đến 31/12 [66]. Các bài thường kèm tiêu chí chọn dự án an toàn [78][90][113] và cập nhật tiến độ dự án [62][101][115].",
+  "Sự kiện offline là kênh chốt khách chính. Các hình thức gồm tọa đàm, hội thảo [119][121][122][123][124][129], recap sự kiện [28][30][36] và tour khảo sát dự án tại nước sở tại kèm gặp chủ đầu tư, luật sư [22][24].",
+  "Golden Visa và cư trú châu Âu được bán theo mức vốn cụ thể. Ví dụ: Hy Lạp từ 250.000 EUR [34][147], Latvia từ 150.000 EUR [33] và 50.000 EUR [153], so sánh 5 chương trình theo vốn [155]. Các bài cũng cập nhật chính sách nhanh như Malta tăng thuế từ 2027 [26], Hy Lạp đề xuất thuế mua nhà 15% [168], Síp chuẩn bị gia nhập Schengen [43][174].",
+  "Tin siết chính sách Mỹ được dùng để đẩy EB-5 là lộ trình ổn định. Các tin gồm phí OPT 70.000 USD [60][91], đình chỉ PERM với big tech [61][89], phí H-1B 103.265 USD [110][172], Visa Bond [118][187] và so sánh H-1B với EB-5 [188].",
+  "Canada diện doanh nhân tỉnh bang (PNP) được định vị là phương án thay thế khi Start-Up Visa tạm ngừng [32][144][123][36][40]. Song song là quốc tịch thứ hai giá thấp như Thổ Nhĩ Kỳ 400.000 USD làm bàn đạp xin E-2 [29], Grenada 270.000 USD [75], Caribbean [161]."
  ],
  "companies": [
   {
    "id": "icanfield",
-   "positioning": "Đơn vị tư vấn toàn diện về đầu tư tài chính, bất động sản và định cư cho gia đình Việt. Danh mục đa thị trường: Châu Âu, Thổ Nhĩ Kỳ, Canada, Mỹ EB-5.",
-   "this_week": "Đăng recap chuyến khảo sát BĐS Thổ Nhĩ Kỳ cho khách: khảo sát dự án, gặp chủ đầu tư và luật sư, quốc tịch qua BĐS 400.000 USD. Đăng recap chuyến khảo sát thực tế Red Deer County, Alberta (diện Doanh nhân Tỉnh bang). Cập nhật chính sách bảo mật dữ liệu cá nhân.",
-   "product": "Quốc tịch Thổ Nhĩ Kỳ (bàn đạp E-2 Mỹ); Golden Visa Hy Lạp, Malta, Latvia, Síp; Canada PNP doanh nhân (Alberta, BC); EB-5; thông tin Séc.",
-   "price": "Thổ Nhĩ Kỳ 400.000 USD; Hy Lạp từ 250.000 EUR; Latvia 150.000/250.000/280.000 EUR; Malta Global Resident 35.000 EUR/năm (từ 2027); EB-5 800.000 USD, thanh toán từng phần từ 200.000 USD.",
-   "place": "Sự kiện tại Hà Nội; chuyến khảo sát Thổ Nhĩ Kỳ và Alberta; website.",
-   "promotion": "Sự kiện Góc nhìn A-Z (19/09, 26/09 Hà Nội); hội thảo Canada PNP (22/08); phỏng vấn chuyên gia nước ngoài (Giannis Louzis, Dr. Charlon Gouder, Kevin Wright); recap chuyến khảo sát.",
+   "positioning": "Đơn vị tư vấn toàn diện về đầu tư tài chính, bất động sản và định cư cho gia đình Việt, phủ Mỹ, Canada, châu Âu và Thổ Nhĩ Kỳ.",
+   "this_week": "Đăng recap hai chuyến khảo sát thực tế: dự án bất động sản Thổ Nhĩ Kỳ (quốc tịch từ 400.000 USD, có gặp chủ đầu tư và luật sư) và Red Deer County, Alberta (diện doanh nhân tỉnh bang). Ngoài ra cập nhật chính sách bảo mật dữ liệu cá nhân.",
+   "product": "EB-5; Canada PNP doanh nhân; Golden Visa Hy Lạp, Malta, Latvia; PR Síp; quốc tịch Thổ Nhĩ Kỳ làm bàn đạp E-2.",
+   "price": "Quốc tịch Thổ Nhĩ Kỳ 400.000 USD; EB-5 800.000 USD; Golden Visa Latvia 150.000/250.000/280.000 EUR; Golden Visa Hy Lạp 250.000 EUR; Malta Global Resident 35.000 EUR/năm.",
+   "place": "Web; sự kiện tại Hà Nội; tour khảo sát Thổ Nhĩ Kỳ và Alberta.",
+   "promotion": "Chuỗi sự kiện 'Góc nhìn A-Z' (Hà Nội, 26/09); hội thảo Canada PNP; mời chuyên gia nước ngoài (Giannis Louzis, Dr. Charlon Gouder, Kevin Wright); EB-5 cho thanh toán từng phần từ 200.000 USD.",
    "threat": "cao",
-   "threat_reason": "Trùng trực tiếp với SI ở Golden Visa Châu Âu, Síp–Schengen và BĐS đa dạng hóa tài sản. Đi trước SI về sự kiện, chuyến khảo sát thực tế và giá công khai."
+   "threat_reason": "Trùng trực tiếp với SI ở Golden Visa châu Âu, Síp Schengen và quốc tịch thứ hai qua bất động sản. Có sự kiện, tour khảo sát và chuyên gia nước ngoài, là những thứ SI chưa có."
   },
   {
    "id": "newachieve",
-   "positioning": "Tư vấn di trú Úc, New Zealand, Canada cho lao động tay nghề và doanh nhân.",
+   "positioning": "Tư vấn visa tay nghề, doanh nghiệp bảo lãnh và nhà đầu tư cho Úc, New Zealand và Canada Express Entry.",
    "this_week": "",
-   "product": "Visa Úc 494, 482, 186; New Zealand Business Investor, Active Investor Plus, Green List, SMC; Canada Express Entry.",
+   "product": "Visa Úc 482, 186, 494; New Zealand Business Investor, Active Investor Plus, Green List, SMC; Express Entry.",
    "price": "Business Investor Visa New Zealand 1.000.000 NZD và 2.000.000 NZD.",
-   "place": "Website.",
-   "promotion": "Bài hướng dẫn chuyên sâu, mang tính giáo dục.",
+   "place": "Web.",
+   "promotion": "Content hướng dẫn chuyên sâu, dạng so sánh lộ trình.",
    "threat": "thấp",
-   "threat_reason": "Tập trung vào thị trường Úc/NZ và diện tay nghề, ít trùng với nhóm khách HNWI Châu Âu của SI. Chỉ chạm nhẹ qua AIP New Zealand."
+   "threat_reason": "Tập trung diện tay nghề Úc, New Zealand, Canada, ít trùng với mảng Golden Visa, quốc tịch và quản trị gia sản của SI."
   },
   {
    "id": "americanplus",
-   "positioning": "Chuyên gia định cư Mỹ, trọng tâm EB-5. Kênh tin tức di trú Mỹ cập nhật nhanh.",
-   "this_week": "Đăng 7 bài mới, chủ yếu là tin chính sách Mỹ: vụ kiện USCIS về I-485, phí OPT 70.000 USD, đình chỉ PERM 8 công ty công nghệ, USCIS tăng phí từ 16/10/2026, Visa Bond, phí H-1B bị chặn. Cập nhật tiến độ dự án EB-5 Hawaii Koloa Village 1&2.",
-   "product": "EB-5 (Hawaii Koloa Village, CMB); quốc tịch Grenada qua dự án La Sagesse Collection.",
-   "price": "EB-5 800.000 USD (cảnh báo tăng lên 1.050.000 USD); Grenada 270.000 USD.",
-   "place": "Website.",
-   "promotion": "Thông điệp khan hiếm theo mốc (31/12/2026, 30/11/2026); ưu đãi chuỗi đặc quyền nghỉ dưỡng thượng lưu cho Grenada.",
+   "positioning": "Chuyên định cư Mỹ, trọng tâm EB-5, có thêm quốc tịch Grenada.",
+   "this_week": "Cập nhật dự án EB-5 Hawaii Koloa Village; USCIS tăng phí từ 16/10/2026; tin đề xuất phí OPT 70.000 USD; Mỹ đình chỉ PERM với 8 công ty công nghệ; vụ kiện USCIS về I-485; quy định Visa Bond.",
+   "product": "EB-5 (Koloa Village, CMB); quốc tịch Grenada qua dự án La Sagesse.",
+   "price": "EB-5 800.000 USD và 1.050.000 USD; Grenada 270.000 USD.",
+   "place": "Web.",
+   "promotion": "Thông điệp hạn chót 31/12/2026 để giữ mức 800.000 USD và 30/11 cho lệ phí; Grenada kèm chuỗi đặc quyền nghỉ dưỡng thượng lưu; nêu việc CMB đã hoàn trả 1,6 tỷ USD để tạo uy tín.",
    "threat": "trung bình",
-   "threat_reason": "Mạnh về EB-5 và tần suất tin tức. Chạm vào phân khúc CBI Caribbean mà SI đang cảnh báo rủi ro [7]."
+   "threat_reason": "Cạnh tranh ở EB-5 và CBI Caribbean với cùng tệp khách có tài sản, nhưng ít đụng mảng châu Âu."
   },
   {
    "id": "usimi",
-   "positioning": "Tư vấn định cư Mỹ cho nhà đầu tư và doanh nghiệp: EB-5 Rural, L-1A/EB-1C, EB-3.",
-   "this_week": "Đăng bài 5 tiêu chí chọn dự án EB-5 Rural an toàn (800.000 USD). Cập nhật Mỹ siết PERM/H-1B với Big Tech và phí OPT 70.000 USD.",
-   "product": "EB-5 Rural (Cormont Deer Valley); L-1A lên EB-1C; EB-3; thông tin du học Mỹ.",
-   "price": "EB-5 800.000 USD; phí EB-5 7.850/7.615/5.000 USD; L-1 từ 4.000 đến 25.000+ USD.",
-   "place": "Website.",
-   "promotion": "Cập nhật tiến độ dự án, dữ liệu USCIS theo quý, thúc giục nộp hồ sơ trước các mốc 30/09 và 30/11.",
+   "positioning": "Chuyên định cư Mỹ diện EB-5 Rural, L-1, EB-1C cho nhà đầu tư và quản lý doanh nghiệp.",
+   "this_week": "Bài 5 tiêu chí chọn dự án EB-5 Rural an toàn; tin Mỹ tạm dừng PERM với Microsoft và 6 big tech; tin đề xuất phí OPT 70.000 USD.",
+   "product": "EB-5 Rural (Cormont Deer Valley); L-1A, EB-1C; EB-3.",
+   "price": "EB-5 800.000 USD; lệ phí EB-5 7.850 / 7.615 / 5.000 USD; L-1 từ 4.000 đến hơn 25.000 USD.",
+   "place": "Web.",
+   "promotion": "Thúc nộp hồ sơ trước 30/11/2026 để hưởng mức phí hiện hành; dùng dữ liệu USCIS và cập nhật tiến độ dự án.",
    "threat": "trung bình",
-   "threat_reason": "Lộ trình L-1A/EB-1C cho doanh nghiệp mở rộng sang Mỹ cạnh tranh với mảng quốc tế hóa doanh nghiệp của SI [6][12]."
+   "threat_reason": "Hướng tới doanh nhân, nhà đầu tư Mỹ và quốc tế hóa doanh nghiệp qua L-1, EB-1C, gần với chủ đề quốc tế hóa doanh nghiệp của SI."
   },
   {
    "id": "mapleleaf",
-   "positioning": "Chuyên gia an toàn hồ sơ EB-5, Canada và Châu Âu cho gia đình thượng lưu.",
+   "positioning": "Tư vấn Mỹ, Canada, châu Âu cho gia đình thượng lưu, nhấn bảo toàn tài sản và an toàn hồ sơ.",
    "this_week": "",
-   "product": "EB-5; Canada Doanh nhân Tỉnh bang; BĐS nghỉ dưỡng kèm cư trú/quốc tịch Châu Âu; AIP New Zealand; EB-2 NIW.",
-   "price": "EB-5 800.000 USD; Canada Doanh nhân Tỉnh bang 150.000 CAD.",
-   "place": "Hội thảo tại TP.HCM; tọa đàm.",
-   "promotion": "Chuỗi tọa đàm EB-5, Canada, Châu Âu, \"Bảo toàn tài sản & Quốc tịch thứ 2\"; tư vấn 1:1 cùng RCIC và luật sư; hội thảo giới hạn số lượng; câu chuyện khách hàng nhận thẻ xanh.",
-   "threat": "trung bình",
-   "threat_reason": "Dùng đúng thông điệp bảo toàn tài sản cho gia đình thượng lưu như SI, nhưng đã biến thông điệp này thành sự kiện."
+   "product": "EB-5; Canada doanh nhân tỉnh bang; bất động sản nghỉ dưỡng kèm thẻ xanh/quốc tịch châu Âu; New Zealand AIP.",
+   "price": "EB-5 800.000 USD; Canada doanh nhân tỉnh bang 150.000 CAD.",
+   "place": "Web; hội thảo tại TP.HCM.",
+   "promotion": "Tọa đàm dày đặc: bảo toàn tài sản và quốc tịch thứ 2, EB-5 sau 30/09, Canada, định cư châu Âu 2026. Ưu đãi tư vấn 1:1 cùng RCIC và luật sư di trú; giới hạn số lượng khách; đăng case khách nhận thẻ xanh.",
+   "threat": "cao",
+   "threat_reason": "Cùng thông điệp bảo toàn tài sản, quốc tịch thứ 2 cho gia đình thượng lưu như SI, nhưng có sự kiện chuyển đổi khách."
   },
   {
    "id": "uca",
-   "positioning": "Định cư Mỹ diện lao động EB-3 và visa làm việc New Zealand cho người lao động.",
+   "positioning": "Định cư lao động phổ thông: EB-3 Mỹ và Work Visa New Zealand.",
    "this_week": "",
-   "product": "EB-3 Other Worker; Work Visa AEWV New Zealand.",
+   "product": "EB-3 Other Worker; AEWV New Zealand.",
    "price": "",
-   "place": "Website.",
-   "promotion": "Chuỗi bài chúc mừng khách hàng, hồ sơ duyệt LC; bài thắng kiện GTV SEO để khẳng định uy tín.",
+   "place": "Web.",
+   "promotion": "Dày đặc case khách thành công (duyệt Labor Certification, nhận visa New Zealand); tin thắng kiện GTV SEO.",
    "threat": "thấp",
-   "threat_reason": "Phân khúc lao động phổ thông, khác hẳn nhóm khách HNWI của SI."
+   "threat_reason": "Phân khúc lao động, khác tệp khách HNWI của SI."
   },
   {
    "id": "aims",
-   "positioning": "Thương hiệu di trú 20+ năm từ Singapore, 10 năm tại Việt Nam. Danh mục đa dạng từ lao động đến đầu tư.",
+   "positioning": "Thương hiệu di trú hơn 20 năm từ Singapore, 10 năm tại Việt Nam, đa thị trường.",
    "this_week": "",
-   "product": "Golden Visa Hy Lạp; Latvia; CBI Caribbean; định cư Singapore; EB-3; Úc 482/186; AAIP Alberta; du học New Zealand.",
-   "price": "Hy Lạp từ 250.000 EUR; Latvia từ 50.000 EUR.",
-   "place": "Website.",
-   "promotion": "Kỷ niệm 10 năm; cảnh báo lừa đảo Golden Visa; so sánh chương trình theo mức vốn.",
+   "product": "Golden Visa Hy Lạp; Latvia; CBI Caribbean; Singapore; Úc 482/186; EB-3; Alberta AAIP; du học New Zealand.",
+   "price": "Golden Visa Hy Lạp 250.000 EUR; Latvia từ 50.000 EUR.",
+   "place": "Web.",
+   "promotion": "Kỷ niệm 10 năm tại Việt Nam; cảnh báo lừa đảo Golden Visa; content so sánh CBI với Golden Visa và so sánh chương trình theo mức vốn.",
    "threat": "trung bình",
-   "threat_reason": "Nội dung trùng nhiều với SI (CBI hay Golden Visa, xếp hạng hộ chiếu, Singapore) nhưng 90 ngày qua không có sự kiện."
+   "threat_reason": "Trùng với SI ở châu Âu, Caribbean, Singapore và xếp hạng hộ chiếu, nhưng chưa có sự kiện hay ưu đãi."
   },
   {
-   "id": "henley",
-   "positioning": "Hãng tư vấn đầu tư cư trú và quốc tịch toàn cầu, nổi tiếng với chỉ số xếp hạng hộ chiếu.",
+   "id": "victory",
+   "positioning": "Tư vấn định cư đa nước, mạnh về bản tin chính sách Mỹ, Canada, EU, New Zealand.",
+   "this_week": "Bản tin Canada mở rộng hạn chế LMIA lương thấp tại 6 khu vực; bản tin USCIS kiểm tra hàng xóm khi xét nhập quốc tịch.",
+   "product": "EB-5, EB-3, EB-1/2; Canada; New Zealand; EU.",
+   "price": "EB-5 800.000 USD (TEA) và 1.050.000 USD (ngoài TEA); phí NSNP 1.000 CAD (lao động) và 2.000 CAD (doanh nhân).",
+   "place": "Web.",
+   "promotion": "Bản tin chính sách đều đặn theo thị trường, kèm FAQ chuyên sâu.",
+   "threat": "trung bình",
+   "threat_reason": "Bản tin EU (Hy Lạp tăng thuế, Síp Schengen, Caribbean mất miễn visa) chạm chủ đề của SI và cập nhật nhanh hơn."
+  },
+  {
+   "id": "usis",
+   "positioning": "Chuyên EB-5 Mỹ.",
    "this_week": "",
-   "product": "",
+   "product": "EB-5.",
    "price": "",
-   "place": "",
-   "promotion": "Xuất hiện trên báo chí qua xếp hạng hộ chiếu và báo cáo điểm đến (Singapore dẫn đầu với nhà đầu tư tiền mã hóa).",
+   "place": "Web.",
+   "promotion": "Content giải thích grandfathering và cảnh báo USCIS siết hồ sơ.",
    "threat": "thấp",
-   "threat_reason": "Dữ liệu chỉ có tin báo chí, không thấy hoạt động bán hàng trực tiếp tại Việt Nam."
+   "threat_reason": "Hoạt động thưa, chỉ có EB-5."
   }
  ],
  "si_actions": [
   {
-   "action": "Tổ chức chuyến khảo sát BĐS kèm Golden Visa (Dubai hoặc Síp) cho khách HNWI, có gặp chủ đầu tư và luật sư. Đăng recap chi tiết sau chuyến đi.",
-   "why": "iCanfield đang dùng recap chuyến khảo sát Thổ Nhĩ Kỳ và Alberta để tạo niềm tin. SI mới chỉ có bài viết về khung thẩm định 5 lớp, Dubai và Síp, chưa có trải nghiệm thực tế nào.",
+   "action": "Tổ chức tour khảo sát thực tế dự án Golden Visa (Dubai, Síp hoặc Hy Lạp) cho khách HNWI, có gặp chủ đầu tư và luật sư địa phương, sau đó đăng recap.",
+   "why": "iCanfield dùng tour khảo sát Thổ Nhĩ Kỳ và Alberta làm điểm chạm niềm tin ngay trong tuần [22][24]. SI đã có khung thẩm định 5 lớp và bài Golden Visa Dubai nhưng chưa có trải nghiệm thực địa [3][8].",
    "sources": [
     {
      "title": "TOÀN CẢNH VỀ CHUYẾN KHẢO SÁT BẤT ĐỘNG SẢN THỔ NHĨ KỲ CỦA KHÁCH HÀNG ICANFIELD",
@@ -125,86 +136,86 @@
    ]
   },
   {
-   "action": "Mở tọa đàm offline \"Family Office & quản trị rủi ro gia sản\" tại Hà Nội/TP.HCM, kèm tư vấn 1:1 với chuyên gia thuế và pháp lý.",
-   "why": "SI có chuỗi nội dung độc quyền về Family Office và quản trị rủi ro nhưng chưa có sự kiện. Maple Leaf và iCanfield đã chuyển thông điệp bảo toàn tài sản thành tọa đàm để thu khách.",
+   "action": "Mở tọa đàm offline 'Family Office và quản trị rủi ro gia sản' cho giới tinh hoa, mời luật sư hoặc chuyên gia nước ngoài, có tư vấn 1:1 và giới hạn số chỗ.",
+   "why": "Maple Leaf và iCanfield đang dùng tọa đàm bảo toàn tài sản và mời chuyên gia nước ngoài để chốt khách [124][28][44][47]. SI có chuỗi bài về quản trị rủi ro và Family Office nhưng chưa chuyển thành sự kiện [0][1][4].",
    "sources": [
-    {
-     "title": "Family Office đóng vai trò gì trong mô hình quản trị rủi ro gia sản?",
-     "url": "https://sigroup.vn/tin-tuc/family-office/",
-     "company": "si"
-    },
-    {
-     "title": "Quản trị rủi ro cá nhân là gì? Đâu là tấm khiên chiến lược của giới tinh hoa?",
-     "url": "https://sigroup.vn/tin-tuc/quan-tri-rui-ro-ca-nhan/",
-     "company": "si"
-    },
-    {
-     "title": "Quản trị rủi ro gia đình là gì? Vì sao giới tinh hoa cần quan tâm?",
-     "url": "https://sigroup.vn/tin-tuc/quan-tri-rui-ro-gia-dinh/",
-     "company": "si"
-    },
     {
      "title": "TỌA ĐÀM: BẢO TOÀN TÀI SẢN & QUỐC TỊCH THỨ 2 CHO GIA ĐÌNH THƯỢNG LƯU TRƯỚC LÀN SÓNG SIẾT LUẬT DI TRÚ 2026",
      "url": "https://mapleleafvn.com/toa-dam-bao-toan-tai-san-quoc-tich-thu-2-cho-gia-dinh-thuong-luu-truoc-lan-song-siet-luat-di-tru-2026/",
      "company": "mapleleaf"
+    },
+    {
+     "title": "[RECAP] TỪ ĐẦU TƯ ĐẾN ĐỊNH CƯ, NHỮNG ĐIỂM NHẤN TẠI SỰ KIỆN “GÓC NHÌN A-Z” HÀ NỘI",
+     "url": "https://icanfield.vn/tin-tuc/recap-su-kien-goc-nhin-a-z-ha-noi",
+     "company": "icanfield"
+    },
+    {
+     "title": "ICANFIELD CÙNG MR. GIANNIS LOUZIS: GIẢI MÃ TOÀN DIỆN PHÁP LÝ CỦA CHƯƠNG TRÌNH GOLDEN VISA HY LẠP",
+     "url": "https://icanfield.vn/tin-tuc/icanfield-cung-mr-giannis-louzis-giai-ma-toan-dien-phap-ly-cua-chuong-trinh-golden-visa-hy-lap",
+     "company": "icanfield"
+    },
+    {
+     "title": "PHỎNG VẤN ĐỘC QUYỀN CÙNG LUẬT SƯ DI TRÚ MALTA DR. CHARLON GOUDER VỀ CHƯƠNG TRÌNH THƯỜNG TRÚ NHÂN MALTA (MPRP)",
+     "url": "https://icanfield.vn/tin-tuc/phong-van-doc-quyen-cung-luat-su-di-tru-malta-dr-charlon-gouder-ve-chuong-trinh-thuong-tru-nhan-malta-mprp",
+     "company": "icanfield"
     }
    ]
   },
   {
-   "action": "Xuất bản bảng so sánh chi phí công khai các chương trình SI tư vấn: Golden Visa EU, quốc tịch EU, Dubai, Síp. Bảng gồm mức vốn tối thiểu, phí, thuế duy trì.",
-   "why": "Đối thủ nêu giá cụ thể: Hy Lạp 250.000 EUR, Latvia 150.000 EUR, Malta 35.000 EUR/năm, Thổ Nhĩ Kỳ 400.000 USD. Hầu hết bài của SI không có con số.",
+   "action": "Ra chuyên mục 'Bản tin chính sách châu Âu' cập nhật trong 48 giờ, ưu tiên Malta tăng thuế 2027, Hy Lạp đề xuất thuế mua nhà 15% và tốc độ xử lý hồ sơ Golden Visa, Latvia mở hình thức quỹ 150.000 EUR.",
+   "why": "Đối thủ cập nhật các thay đổi này nhanh để tạo lý do hành động [26][168][34][33]. SI chưa có bài nào về các thay đổi trên, dù mảng châu Âu là thế mạnh cốt lõi.",
    "sources": [
+    {
+     "title": "MALTA THAY ĐỔI CHÍNH SÁCH THUẾ TỪ NĂM 2027: MỨC THUẾ TỐI THIỂU TĂNG LÊN 35.000 EUR/NĂM",
+     "url": "https://icanfield.vn/tin-tuc/malta-thay-doi-chinh-sach-thue-tu-nam-2027",
+     "company": "icanfield"
+    },
+    {
+     "title": "[Bản tin EU] Hy Lạp đề xuất tăng thuế mua nhà từ 3% lên 15% với người ngoài EU",
+     "url": "https://dinhcucacnuoc.com/tin-tuc-hy-lap-tang-thue-mua-nha-len-15/",
+     "company": "victory"
+    },
     {
      "title": "GOLDEN VISA HY LẠP 2026: HỒ SƠ GIẢM 39%, LƯỢNG TỒN ĐỌNG GIẢM GẦN MỘT NỬA",
      "url": "https://icanfield.vn/tin-tuc/golden-visa-hy-lap-2026",
      "company": "icanfield"
     },
     {
+     "title": "GOLDEN VISA LATVIA THAY ĐỔI CHÍNH SÁCH, THÊM HÌNH THỨC ĐẦU TƯ MỚI 150.000 EUR",
+     "url": "https://icanfield.vn/tin-tuc/golden-visa-latvia-thay-doi-chinh-sach-them-hinh-thuc-dau-tu-moi-150-000-eur",
+     "company": "icanfield"
+    }
+   ]
+  },
+  {
+   "action": "Công bố bảng so sánh các chương trình cư trú và quốc tịch theo ngân sách, nêu mức vốn tối thiểu cụ thể, và cân nhắc phương án thanh toán theo giai đoạn.",
+   "why": "Đối thủ đều công khai mức vốn [147][153][155][29][75], iCanfield còn có thanh toán từng phần từ 200.000 USD [37]. Bài của SI chủ yếu là kiến thức, ít nêu giá; bài Golden Visa Dubai [8] là ngoại lệ.",
+   "sources": [
+    {
      "title": "Sở hữu quyền cư trú Châu Âu khi đầu tư căn hộ Athens Hy Lạp từ 250.000 EUR",
      "url": "https://aimsvietnam.com/chau-au/can-ho-athens-hy-lap/",
      "company": "aims"
     },
     {
-     "title": "GOLDEN VISA LATVIA THAY ĐỔI CHÍNH SÁCH, THÊM HÌNH THỨC ĐẦU TƯ MỚI 150.000 EUR",
-     "url": "https://icanfield.vn/tin-tuc/golden-visa-latvia-thay-doi-chinh-sach-them-hinh-thuc-dau-tu-moi-150-000-eur",
-     "company": "icanfield"
+     "title": "Đầu tư định cư Latvia 2026: Lộ trình cư trú Châu Âu từ 50.000 EUR",
+     "url": "https://aimsvietnam.com/chau-au/dau-tu-dinh-cu-latvia-2026-lo-trinh-cu-tru-chau-au-tu-50-000-eur/",
+     "company": "aims"
     },
     {
-     "title": "MALTA THAY ĐỔI CHÍNH SÁCH THUẾ TỪ NĂM 2027: MỨC THUẾ TỐI THIỂU TĂNG LÊN 35.000 EUR/NĂM",
-     "url": "https://icanfield.vn/tin-tuc/malta-thay-doi-chinh-sach-thue-tu-nam-2027",
+     "title": "5 chương trình đầu tư định cư Châu Âu có giá trị từ thấp đến cao năm 2026",
+     "url": "https://aimsvietnam.com/chau-au/5-chuong-trinh-dau-tu-dinh-cu-chau-au-co-gia-tri-tu-thap-den-cao-nam-2026/",
+     "company": "aims"
+    },
+    {
+     "title": "HƯỚNG ĐẾN THỊ TRƯỜNG MỸ, VÌ SAO QUỐC TỊCH THỔ NHĨ KỲ ĐƯỢC NHIỀU NHÀ ĐẦU TƯ QUAN TÂM?",
+     "url": "https://icanfield.vn/tin-tuc/huong-den-thi-truong-my-vi-sao-quoc-tich-tho-nhi-ky-duoc-nhieu-nha-dau-tu-quan-tam",
      "company": "icanfield"
     }
    ]
   },
   {
-   "action": "Ra bản tin nhanh về thay đổi chính sách Châu Âu và CBI: thuế Malta 2027, Latvia đổi hình thức đầu tư, tiến độ Síp vào Schengen. Lồng ghép góc nhìn quản trị rủi ro của SI.",
-   "why": "iCanfield cập nhật chính sách EU nhanh. Bài cảnh báo rủi ro CBI–EU của SI là lợi thế khác biệt nên cần duy trì đều đặn.",
-   "sources": [
-    {
-     "title": "MALTA THAY ĐỔI CHÍNH SÁCH THUẾ TỪ NĂM 2027: MỨC THUẾ TỐI THIỂU TĂNG LÊN 35.000 EUR/NĂM",
-     "url": "https://icanfield.vn/tin-tuc/malta-thay-doi-chinh-sach-thue-tu-nam-2027",
-     "company": "icanfield"
-    },
-    {
-     "title": "GOLDEN VISA LATVIA THAY ĐỔI CHÍNH SÁCH, THÊM HÌNH THỨC ĐẦU TƯ MỚI 150.000 EUR",
-     "url": "https://icanfield.vn/tin-tuc/golden-visa-latvia-thay-doi-chinh-sach-them-hinh-thuc-dau-tu-moi-150-000-eur",
-     "company": "icanfield"
-    },
-    {
-     "title": "SÍP SẮP GIA NHẬP SCHENGEN, NÊN XUỐNG TIỀN Ở THỜI ĐIỂM NÀY, HAY NÊN CHỜ ĐẾN KHI MỌI THỨ TRỞ NÊN RÕ RÀNG HƠN?",
-     "url": "https://icanfield.vn/tin-tuc/sip-sap-gia-nhap-schengen",
-     "company": "icanfield"
-    },
-    {
-     "title": "Cơ chế miễn thị thực EU: Rủi ro nào với các nhà đầu tư nắm giữ hộ chiếu Caribbean (CBI)?",
-     "url": "https://sigroup.vn/tin-tuc/co-che-mien-thi-thuc-eu/",
-     "company": "si"
-    }
-   ]
-  },
-  {
-   "action": "Xây chuỗi case study khách hàng (ẩn danh): lộ trình Golden Visa lên quốc tịch EU, thiết lập Holding/Family Office.",
-   "why": "Maple Leaf, UCA và iCanfield dùng câu chuyện khách hàng thành công làm bằng chứng. SI chưa có nội dung social proof nào.",
+   "action": "Xây content bằng chứng: case khách hàng đã nhận thẻ cư trú hoặc quốc tịch (ẩn danh), và cập nhật tiến độ các dự án bất động sản SI đang phân phối.",
+   "why": "Maple Leaf, UCA, American Plus và USIMI tạo niềm tin bằng case thành công và tiến độ dự án [126][136][140][62][101]. SI hiện chỉ có bài tự kiểm chứng 6 tiêu chí chọn đơn vị uy tín, chưa có bằng chứng thực tế [2].",
    "sources": [
     {
      "title": "EB5 – KHÁCH HÀNG DIỆN ĐẦU TƯ EB5 CỦA MAPLE LEAF VIETNAM NHẬN THẺ XANH MỸ CHỈ SAU 3 THÁNG NHẬP CẢNH!",
@@ -222,14 +233,14 @@
      "company": "uca"
     },
     {
-     "title": "TOÀN CẢNH VỀ CHUYẾN KHẢO SÁT BẤT ĐỘNG SẢN THỔ NHĨ KỲ CỦA KHÁCH HÀNG ICANFIELD",
-     "url": "https://icanfield.vn/tin-tuc/toan-canh-ve-chuyen-khao-sat-bat-dong-san-tho-nhi-ky-cua-khach-hang-icanfield",
-     "company": "icanfield"
+     "title": "Cập Nhật Dự Án EB-5 Hawaii Koloa Village 1&2 Tháng 8/2026",
+     "url": "https://americanplus.vn/cap-nhat-du-an-eb-5-hawaii-koloa-village-1-2/",
+     "company": "americanplus"
     }
    ]
   }
  ],
  "model": "claude-opus-5-5",
- "generated": "2026-10-13T02:43+00:00",
+ "generated": "2026-10-13T03:29+00:00",
  "week": "2026-W42"
 }

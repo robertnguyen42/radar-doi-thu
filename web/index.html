@@ -36,7 +36,6 @@ nav button[aria-selected="true"]{color:var(--accent);border-color:var(--accent)}
 button:focus-visible,select:focus-visible,a:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:4px}
 .panel{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:16px;display:grid;gap:12px;min-width:0}
 .grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,520px),1fr));gap:16px}
-.grid4{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,270px),1fr));gap:12px}
 .scroll{overflow-x:auto}
 table{border-collapse:collapse;width:100%;font-size:13px}
 th,td{text-align:left;padding:7px 8px;border-bottom:1px solid var(--line);vertical-align:top}
@@ -51,8 +50,29 @@ tr.click{cursor:pointer} tr.click:hover td{background:var(--sunk)}
 .chip.muted{color:var(--muted)}
 .stamp{font-family:var(--f-mono);font-size:10.5px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;padding:2px 6px;border:1.5px solid currentColor;border-radius:3px;transform:rotate(-2deg);display:inline-block}
 .s-product{color:var(--p-product)} .s-price{color:var(--p-price)} .s-place{color:var(--p-place)} .s-promotion{color:var(--p-promo)}
-.pcard{border:1px solid var(--line);border-radius:8px;padding:12px;display:grid;gap:8px;align-content:start;min-width:0}
-.pcard header{align-items:center}
+.p4{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,440px),1fr));gap:16px}
+.pcard{--p:var(--accent);background:var(--surface);border:1px solid var(--line);border-radius:10px;display:grid;grid-template-rows:auto 1fr;min-width:0;overflow:hidden}
+.pcard.product{--p:var(--p-product)} .pcard.price{--p:var(--p-price)} .pcard.place{--p:var(--p-place)} .pcard.promotion{--p:var(--p-promo)}
+.phead{display:flex;align-items:center;gap:12px;padding:12px 16px;border-bottom:1px solid var(--line);background:color-mix(in srgb,var(--p) 7%,var(--surface))}
+.phead .stamp{color:var(--p);flex:none}
+.phead .pt{font-weight:600;font-size:15px;flex:1;min-width:0}
+.phead .pk{font-family:var(--f-mono);font-size:12px;color:var(--muted);text-align:right;white-space:nowrap}
+.phead .pk b{color:var(--p);font-size:18px;font-weight:600;display:block;line-height:1.1}
+.pbody{display:grid;grid-template-columns:1fr 1fr;gap:16px;padding:14px 16px 16px;align-content:start}
+.pbody > div{display:grid;gap:8px;align-content:start;min-width:0}
+.pbody.one{grid-template-columns:1fr}
+@media (max-width:520px){.pbody{grid-template-columns:1fr}}
+.meter{display:grid;grid-template-columns:minmax(0,1fr) 64px 28px;gap:8px;align-items:center;font-size:13px}
+.meter span:first-child{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.meter .t{height:6px;background:var(--sunk);border-radius:3px;overflow:hidden}
+.meter .t i{display:block;height:100%;background:var(--p);border-radius:3px}
+.meter .v{font-family:var(--f-mono);font-size:12px;text-align:right;font-variant-numeric:tabular-nums}
+.prow{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:2px 10px;font-size:13px;padding-block:5px;border-bottom:1px dashed var(--line)}
+.prow:last-child{border-bottom:0}
+.prow .amt{font-family:var(--f-mono);font-weight:600;color:var(--p);white-space:nowrap;font-variant-numeric:tabular-nums}
+.prow .nt{grid-column:1/-1;color:var(--muted);font-size:11.5px}
+.ptag{display:inline-flex;font-size:12px;padding:2px 8px;border-radius:5px;margin:0 4px 4px 0;background:color-mix(in srgb,var(--p) 10%,var(--surface));color:var(--fg);border:1px solid color-mix(in srgb,var(--p) 22%,transparent)}
+.more{font-size:11.5px;color:var(--muted)}
 .heat td.h{text-align:center;font-family:var(--f-mono);font-size:12px;min-width:44px}
 .bar{display:grid;grid-template-columns:minmax(120px,190px) 1fr 36px;gap:8px;align-items:center;font-size:13px}
 .bar .t{height:10px;background:var(--sunk);border-radius:3px;overflow:hidden}
@@ -172,7 +192,6 @@ overview(){
 company(){
   const c = C[state.co];
   const opts = ids.map(id => `<option value="${id}" ${id===state.co?'selected':''}>${esc(C[id].name)}</option>`).join('');
-  const progs = c.product.programs.filter(([,n,h]) => n||h).map(([p,n,h]) => `<span class="chip" title="${n} bài · trang chủ ${h} lần">${K[P[p].country].flag} ${esc(pn(p))} <b>${n}</b></span>`).join('') || '<span class="empty">—</span>';
   const posts = D.items.filter(i => i.company===state.co).slice(0,15).map(i => `<li><a href="${esc(i.url)}" target="_blank" rel="noopener">${esc(i.title)}</a><span class="sub">${fmtD(i.date)} · ${i.src==='news'?esc(i.outlet||'báo'):'web'} · ${i.p4.map(p => `<span class="s-${p}">${p}</span>`).join(' ')}</span></li>`).join('');
   const ev = c.promotion.events.map(e => `<li><a href="${esc(e.url)}" target="_blank" rel="noopener">${esc(e.title)}</a><span class="sub">đăng ${fmtD(e.date)}${e.when.length?' · diễn ra '+e.when.map(fmtD).join(', '):''}</span></li>`).join('');
   const risks = c.promotion.risks.map(r => `<li><span class="chip warn">${esc(r.text)}</span> <a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.title)}</a></li>`).join('');
@@ -181,12 +200,7 @@ company(){
    ${(() => { const a = AI && AI.companies.find(x => x.id === state.co); return a
       ? `<div class="verdict"><b>Nhận định AI</b> <span class="threat ${threatCls(a.threat)}">Cạnh tranh ${esc(a.threat)}</span><br>${esc(a.positioning)}${a.this_week ? '<br><b>Tuần này:</b> ' + esc(a.this_week) : ''}</div>`
       : `<div class="verdict"><b>Đánh giá tổng quan:</b> ${esc(c.summary)}</div>`; })()}
-   <div class="grid4">
-    <section class="pcard"><span class="stamp s-product">Product</span><h3>Chương trình đang bán / đẩy content</h3><div>${progs}</div></section>
-    <section class="pcard"><span class="stamp s-price">Price</span><h3>Mức giá / đầu tư công bố</h3><div>${(() => { const ps = aiPrices(state.co); return ps.length ? ps.map(p => `<span class="chip" title="${esc(p.note)}">${esc(p.program)}: <b>${esc(p.amount)}</b></span>`).join('') : chips(c.price.prices); })()}</div><h3>Ưu đãi</h3><div>${chips(c.price.offers)}</div></section>
-    <section class="pcard"><span class="stamp s-place">Place</span><h3>Địa điểm / văn phòng</h3><div>${chips(c.place.places)}</div><h3>Kênh</h3><div>${chips(c.place.channels)}</div></section>
-    <section class="pcard"><span class="stamp s-promotion">Promotion</span><h3>Loại content</h3><div>${c.promotion.content_types.map(([t,n]) => `<span class="chip">${esc(t)} <b>${n}</b></span>`).join('') || '<span class="empty">—</span>'}</div><h3>Thông điệp lặp lại</h3><div>${c.promotion.phrases.map(([g,n]) => `<span class="chip">“${esc(g)}” ×${n}</span>`).join('') || '<span class="empty">—</span>'}</div></section>
-   </div>
+   <div class="p4">${p4cards(c)}</div>
    <div class="grid2">
     <section class="panel"><h2>Bài mới nhất</h2><ul class="list">${posts || '<li class="empty">Chưa có bài.</li>'}</ul></section>
     <div style="display:grid;gap:16px;align-content:start">
@@ -233,6 +247,38 @@ feed(){
 }
 };
 
+const MAXR = 6;
+const more = (n) => n > MAXR ? `<div class="more">+${n - MAXR} mục khác</div>` : '';
+const sec = (label, body) => `<div><h3>${label}</h3>${body}</div>`;
+function meters(rows){ // rows: [label, value]
+  if (!rows.length) return '<span class="empty">Chưa có dữ liệu</span>';
+  const mx = Math.max(1, ...rows.map(r => r[1]));
+  return rows.slice(0, MAXR).map(([l, v]) => `<div class="meter"><span title="${esc(l)}">${l}</span><span class="t"><i style="width:${100*v/mx}%"></i></span><span class="v">${v}</span></div>`).join('') + more(rows.length);
+}
+const tags = arr => arr && arr.length ? arr.slice(0, 10).map(x => `<span class="ptag">${esc(x)}</span>`).join('') : '<span class="empty">Chưa có dữ liệu</span>';
+function card(key, title, kpi, kpiLabel, body, one){
+  return `<section class="pcard ${key}"><div class="phead"><span class="stamp">${key}</span><span class="pt">${title}</span><span class="pk"><b>${kpi}</b>${kpiLabel}</span></div><div class="pbody${one?' one':''}">${body}</div></section>`;
+}
+function p4cards(c){
+  const progs = c.product.programs.filter(([,n,h]) => n||h);
+  const byCountry = c.product.countries.map(([k,n]) => [`${K[k].flag} ${esc(K[k].name)}`, n]);
+  const prices = aiPrices(state.co);
+  const priceRows = prices.length
+    ? prices.slice(0, MAXR).map(p => `<div class="prow"><span>${esc(p.program)}</span><span class="amt">${esc(p.amount)}</span>${p.note ? `<span class="nt">${esc(p.note)}</span>` : ''}</div>`).join('') + more(prices.length)
+    : tags(c.price.prices);
+  const offers = [...new Set([...c.price.offers, ...D.items.filter(i => i.company === state.co && i.ai).flatMap(i => i.ai.offers)])];
+  const ct = c.promotion.content_types.map(([t,n]) => [esc(t), n]);
+  const ph = c.promotion.phrases.map(([g,n]) => `“${g}” ×${n}`);
+  return card('product', 'Sản phẩm', progs.length, 'chương trình',
+      sec('Chương trình (số bài)', meters(progs.map(([p,n]) => [`${K[P[p].country].flag} ${esc(pn(p))}`, n]))) +
+      sec('Theo thị trường', meters(byCountry)))
+    + card('price', 'Giá & ưu đãi', prices.length || c.price.prices.length, 'mức giá',
+      sec('Mức đầu tư / phí công bố', priceRows) + sec('Ưu đãi', tags(offers)))
+    + card('place', 'Kênh phân phối', c.place.places.length + c.place.channels.length, 'điểm chạm',
+      sec('Văn phòng / địa điểm', tags(c.place.places)) + sec('Kênh online', tags(c.place.channels)))
+    + card('promotion', 'Truyền thông', c.posts + c.news, 'bài 90 ngày',
+      sec('Loại content', meters(ct)) + sec('Thông điệp lặp lại', tags(ph)));
+}
 function aiPrices(cid){
   const seen = new Set();
   return D.items.filter(i => i.company === cid && i.ai).flatMap(i => i.ai.prices).filter(p => { const k = p.program + p.amount; if (seen.has(k)) return false; seen.add(k); return true; }).slice(0,10);

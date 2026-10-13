@@ -1,0 +1,218 @@
+<title>Radar Đối thủ Định cư</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap">
+<style>
+/* Layout: header + thanh tab; mỗi tab là bảng/lưới quét nhanh. 4Ps = 4 màu "mực dấu visa". */
+:root{
+  --bg:#f5f7fa; --surface:#ffffff; --sunk:#eef1f6; --line:#dbe1ea;
+  --fg:#16202e; --muted:#5b6778; --accent:#1f4fa8; --accent-soft:#e3ebfa;
+  --p-product:#1f4fa8; --p-price:#0f7a5a; --p-place:#8a5a00; --p-promo:#a3306b;
+  --warn:#b4231f; --warn-soft:#fbe6e4; --self:#0f7a5a; --self-soft:#e1f3ec;
+  --heat:31,79,168;
+  --f-body:"Be Vietnam Pro",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --f-mono:"JetBrains Mono",ui-monospace,Menlo,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0f141c; --surface:#161d28; --sunk:#1c2532; --line:#2a3546;
+  --fg:#e6ebf2; --muted:#9aa6b8; --accent:#7ea6f2; --accent-soft:#1f2c45;
+  --p-product:#7ea6f2; --p-price:#4cc59a; --p-place:#e0b049; --p-promo:#e48ab8;
+  --warn:#f07a73; --warn-soft:#3a1f20; --self:#4cc59a; --self-soft:#163329; --heat:126,166,242; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0f141c; --surface:#161d28; --sunk:#1c2532; --line:#2a3546;
+  --fg:#e6ebf2; --muted:#9aa6b8; --accent:#7ea6f2; --accent-soft:#1f2c45;
+  --p-product:#7ea6f2; --p-price:#4cc59a; --p-place:#e0b049; --p-promo:#e48ab8;
+  --warn:#f07a73; --warn-soft:#3a1f20; --self:#4cc59a; --self-soft:#163329; --heat:126,166,242; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font:14px/1.55 var(--f-body);margin:0}
+.wrap{max-width:1240px;margin:0 auto;padding-inline:20px;padding-block:20px 48px;display:grid;gap:18px}
+header{display:flex;flex-wrap:wrap;align-items:end;justify-content:space-between;gap:12px}
+h1{font-size:24px;line-height:1.2;margin:0;font-weight:700;letter-spacing:-.01em;text-wrap:balance}
+h2{font-size:16px;margin:0;font-weight:600;text-wrap:balance}
+h3{font-size:12px;margin:0;font-weight:600;text-transform:uppercase;letter-spacing:.06em;color:var(--muted)}
+.meta{color:var(--muted);font-size:12.5px;font-family:var(--f-mono)}
+nav{display:flex;gap:4px;flex-wrap:wrap;border-bottom:1px solid var(--line)}
+nav button{font:inherit;font-weight:500;background:none;border:0;border-bottom:2px solid transparent;color:var(--muted);padding:8px 12px;cursor:pointer;margin-bottom:-1px}
+nav button[aria-selected="true"]{color:var(--accent);border-color:var(--accent)}
+button:focus-visible,select:focus-visible,a:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:4px}
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:16px;display:grid;gap:12px;min-width:0}
+.grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,520px),1fr));gap:16px}
+.grid4{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,270px),1fr));gap:12px}
+.scroll{overflow-x:auto}
+table{border-collapse:collapse;width:100%;font-size:13px}
+th,td{text-align:left;padding:7px 8px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-size:11px;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);font-weight:600;white-space:nowrap}
+td.n,th.n{text-align:right;font-family:var(--f-mono);font-variant-numeric:tabular-nums}
+tr.self td{background:var(--self-soft)}
+tr.click{cursor:pointer} tr.click:hover td{background:var(--sunk)}
+.name{font-weight:600;white-space:nowrap}
+.chip{display:inline-flex;align-items:center;gap:4px;font-size:11.5px;padding:1px 7px;border-radius:999px;border:1px solid var(--line);background:var(--sunk);white-space:nowrap;margin:1px 2px 1px 0}
+.chip.warn{background:var(--warn-soft);border-color:transparent;color:var(--warn);font-weight:600}
+.chip.self{background:var(--self-soft);border-color:transparent;color:var(--self);font-weight:600}
+.chip.muted{color:var(--muted)}
+.stamp{font-family:var(--f-mono);font-size:10.5px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;padding:2px 6px;border:1.5px solid currentColor;border-radius:3px;transform:rotate(-2deg);display:inline-block}
+.s-product{color:var(--p-product)} .s-price{color:var(--p-price)} .s-place{color:var(--p-place)} .s-promotion{color:var(--p-promo)}
+.pcard{border:1px solid var(--line);border-radius:8px;padding:12px;display:grid;gap:8px;align-content:start;min-width:0}
+.pcard header{align-items:center}
+.heat td.h{text-align:center;font-family:var(--f-mono);font-size:12px;min-width:44px}
+.bar{display:grid;grid-template-columns:minmax(120px,190px) 1fr 36px;gap:8px;align-items:center;font-size:13px}
+.bar .t{height:10px;background:var(--sunk);border-radius:3px;overflow:hidden}
+.bar .t i{display:block;height:100%;background:var(--accent);border-radius:3px}
+.bar .v{font-family:var(--f-mono);text-align:right;font-variant-numeric:tabular-nums}
+.list{display:grid;gap:8px;margin:0;padding:0;list-style:none}
+.list li{display:grid;gap:2px;min-width:0}
+.list a{color:var(--fg);text-decoration:none} .list a:hover{color:var(--accent);text-decoration:underline}
+.sub{color:var(--muted);font-size:12px}
+.verdict{background:var(--accent-soft);border-radius:6px;padding:10px 12px;line-height:1.6;max-width:90ch}
+select{font:inherit;padding:6px 10px;border-radius:6px;border:1px solid var(--line);background:var(--surface);color:var(--fg)}
+.row{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.note{color:var(--muted);font-size:12.5px;max-width:95ch}
+.empty{color:var(--muted);font-style:italic;font-size:13px}
+.big{font-size:22px;font-weight:700;font-family:var(--f-mono);font-variant-numeric:tabular-nums}
+.delta{font-family:var(--f-mono);font-size:11.5px}
+.up{color:var(--p-price)} .down{color:var(--warn)}
+@media (prefers-reduced-motion:no-preference){nav button{transition:color .15s,border-color .15s}}
+</style>
+
+<div class="wrap">
+  <header>
+    <div>
+      <h1>Radar Đối thủ Định cư</h1>
+      <div class="meta" id="meta"></div>
+    </div>
+    <div class="row sub"><span class="stamp s-product">Product</span><span class="stamp s-price">Price</span><span class="stamp s-place">Place</span><span class="stamp s-promotion">Promotion</span></div>
+  </header>
+  <nav role="tablist" id="tabs">
+    <button role="tab" data-tab="overview" aria-selected="true">Tổng quan</button>
+    <button role="tab" data-tab="company">Hồ sơ 4Ps</button>
+    <button role="tab" data-tab="content">Content lặp lại</button>
+    <button role="tab" data-tab="events">Sự kiện</button>
+    <button role="tab" data-tab="gap">SI vs Thị trường</button>
+    <button role="tab" data-tab="feed">Tất cả bài</button>
+  </nav>
+  <main id="view"></main>
+  <p class="note">Dữ liệu tự động từ RSS website công ty, Google News và trang chủ; phân loại bằng từ khoá (sửa trong <code>taxonomy.json</code>). Số liệu là tín hiệu tham khảo, không phải số đếm tuyệt đối. Henley &amp; Partners không có RSS nên chỉ có dữ liệu báo chí.</p>
+</div>
+
+<script id="data" type="application/json">__DATA__</script>
+<script>
+const D = JSON.parse(document.getElementById('data').textContent);
+const C = D.companies, P = D.programs, K = D.countries;
+const ids = Object.keys(C);
+const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const pn = id => P[id] ? P[id].name : id;
+const fmtD = s => s ? s.slice(8,10)+'/'+s.slice(5,7) : '';
+const chips = (arr, cls='') => arr && arr.length ? arr.map(x => `<span class="chip ${cls}">${esc(x)}</span>`).join('') : '<span class="empty">—</span>';
+document.getElementById('meta').textContent = `Tuần ${D.week} · cập nhật ${D.updated.replace('T',' ').slice(0,16)} UTC · ${ids.length} công ty · ${D.items.length} bài/90 ngày`;
+let state = {tab:'overview', co: ids.find(i => C[i].self) || ids[0]};
+try { const s = JSON.parse(localStorage.getItem('radar') || '{}'); Object.assign(state, s); } catch(e){}
+const save = () => { try { localStorage.setItem('radar', JSON.stringify(state)); } catch(e){} };
+
+function delta(cid){
+  if (!D.prev || !D.prev[cid]) return '';
+  const d = C[cid].posts - D.prev[cid].posts;
+  return d ? `<span class="delta ${d>0?'up':'down'}">${d>0?'+':''}${d}</span>` : '';
+}
+function topCountries(c){
+  const cs = c.product.countries, tot = cs.reduce((a,[,n]) => a+n, 0);
+  return cs.slice(0,3).map(([k,n]) => `<span class="chip">${K[k].flag} ${esc(K[k].name)} ${Math.round(100*n/tot)}%</span>`).join('') || '<span class="empty">chưa đủ dữ liệu</span>';
+}
+
+const views = {
+overview(){
+  const rows = ids.slice().sort((a,b) => (C[b].self-C[a].self) || (C[b].posts+C[b].news) - (C[a].posts+C[a].news)).map(id => {
+    const c = C[id];
+    return `<tr class="click ${c.self?'self':''}" data-co="${id}">
+      <td class="name">${esc(c.name)} ${c.self?'<span class="chip self">SI</span>':''}</td>
+      <td class="n">${c.posts} ${delta(id)}</td><td class="n">${c.posts_7d}</td><td class="n">${c.news}</td>
+      <td>${topCountries(c)}</td>
+      <td class="n">${c.promotion.events.length}</td>
+      <td>${c.promotion.risks.length ? `<span class="chip warn">⚠ ${c.promotion.risks.length}</span>` : ''}${c.home_ok ? '' : '<span class="chip muted">web chặn</span>'}</td></tr>`;
+  }).join('');
+  const max = Math.max(1, ...D.trend.map(t => t[1]));
+  const trend = D.trend.slice(0,12).map(([p,n]) => `<div class="bar"><span>${K[P[p].country].flag} ${esc(pn(p))}</span><span class="t"><i style="width:${100*n/max}%"></i></span><span class="v">${n}</span></div>`).join('');
+  // Ma trận Công ty × Thị trường (số bài nhắc tới)
+  const cols = Object.keys(K);
+  const cell = (c,k) => { const f = c.product.countries.find(x => x[0]===k); return f ? f[1] : 0; };
+  const hmax = Math.max(1, ...ids.flatMap(id => cols.map(k => cell(C[id],k))));
+  const heat = ids.map(id => `<tr class="${C[id].self?'self':''}"><td class="name">${esc(C[id].name)}</td>${cols.map(k => { const v = cell(C[id],k); return `<td class="h" style="background:rgba(var(--heat),${v? .12+.7*v/hmax : 0})">${v||''}</td>`; }).join('')}</tr>`).join('');
+  return `<div class="grid2" style="grid-template-columns:1fr">
+   <section class="panel"><h2>Bảng so sánh</h2>
+    <div class="scroll"><table><thead><tr><th>Công ty</th><th class="n">Bài web 90n</th><th class="n">7 ngày</th><th class="n">Tin báo</th><th>Trọng tâm thị trường</th><th class="n">Sự kiện</th><th>Cờ</th></tr></thead><tbody>${rows}</tbody></table></div>
+    <p class="note">Bấm một dòng để xem hồ sơ 4Ps. Số nhỏ màu cạnh "Bài web" là chênh lệch so với tuần ${esc(D.prev_week||'trước')}.</p></section>
+   <div class="grid2">
+    <section class="panel"><h2>Chương trình được nhắc nhiều nhất (toàn thị trường, 90 ngày)</h2>${trend}</section>
+    <section class="panel"><h2>Ma trận Product: công ty × thị trường</h2><div class="scroll"><table class="heat"><thead><tr><th></th>${cols.map(k => `<th class="n" title="${esc(K[k].name)}">${K[k].flag} ${esc(K[k].name.split(' ')[0])}</th>`).join('')}</tr></thead><tbody>${heat}</tbody></table></div><p class="note">Số bài (90 ngày) nhắc tới chương trình thuộc thị trường đó. Ô đậm = đối thủ đang dồn content.</p></section>
+   </div></div>`;
+},
+company(){
+  const c = C[state.co];
+  const opts = ids.map(id => `<option value="${id}" ${id===state.co?'selected':''}>${esc(C[id].name)}</option>`).join('');
+  const progs = c.product.programs.filter(([,n,h]) => n||h).map(([p,n,h]) => `<span class="chip" title="${n} bài · trang chủ ${h} lần">${K[P[p].country].flag} ${esc(pn(p))} <b>${n}</b></span>`).join('') || '<span class="empty">—</span>';
+  const posts = D.items.filter(i => i.company===state.co).slice(0,15).map(i => `<li><a href="${esc(i.url)}" target="_blank" rel="noopener">${esc(i.title)}</a><span class="sub">${fmtD(i.date)} · ${i.src==='news'?esc(i.outlet||'báo'):'web'} · ${i.p4.map(p => `<span class="s-${p}">${p}</span>`).join(' ')}</span></li>`).join('');
+  const ev = c.promotion.events.map(e => `<li><a href="${esc(e.url)}" target="_blank" rel="noopener">${esc(e.title)}</a><span class="sub">đăng ${fmtD(e.date)}${e.when.length?' · diễn ra '+e.when.map(fmtD).join(', '):''}</span></li>`).join('');
+  const risks = c.promotion.risks.map(r => `<li><span class="chip warn">${esc(r.text)}</span> <a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.title)}</a></li>`).join('');
+  return `<div style="display:grid;gap:16px">
+   <div class="row"><label for="co" class="sub">Công ty</label><select id="co">${opts}</select>${c.web?`<a class="sub" href="${esc(c.web)}" target="_blank" rel="noopener">${esc(c.web.replace('https://',''))} ↗</a>`:''}</div>
+   <div class="verdict"><b>Đánh giá tổng quan:</b> ${esc(c.summary)}</div>
+   <div class="grid4">
+    <section class="pcard"><span class="stamp s-product">Product</span><h3>Chương trình đang bán / đẩy content</h3><div>${progs}</div></section>
+    <section class="pcard"><span class="stamp s-price">Price</span><h3>Mức giá / đầu tư công bố</h3><div>${chips(c.price.prices)}</div><h3>Ưu đãi</h3><div>${chips(c.price.offers)}</div></section>
+    <section class="pcard"><span class="stamp s-place">Place</span><h3>Địa điểm / văn phòng</h3><div>${chips(c.place.places)}</div><h3>Kênh</h3><div>${chips(c.place.channels)}</div></section>
+    <section class="pcard"><span class="stamp s-promotion">Promotion</span><h3>Loại content</h3><div>${c.promotion.content_types.map(([t,n]) => `<span class="chip">${esc(t)} <b>${n}</b></span>`).join('') || '<span class="empty">—</span>'}</div><h3>Thông điệp lặp lại</h3><div>${c.promotion.phrases.map(([g,n]) => `<span class="chip">“${esc(g)}” ×${n}</span>`).join('') || '<span class="empty">—</span>'}</div></section>
+   </div>
+   <div class="grid2">
+    <section class="panel"><h2>Bài mới nhất</h2><ul class="list">${posts || '<li class="empty">Chưa có bài.</li>'}</ul></section>
+    <div style="display:grid;gap:16px;align-content:start">
+     <section class="panel"><h2>Sự kiện / hội thảo</h2><ul class="list">${ev || '<li class="empty">Không thấy sự kiện trong 90 ngày.</li>'}</ul></section>
+     <section class="panel"><h2>Câu quảng cáo cần lưu ý</h2><ul class="list">${risks || '<li class="empty">Không phát hiện câu cam kết/đảm bảo.</li>'}</ul></section>
+    </div>
+   </div></div>`;
+},
+content(){
+  const blocks = ids.filter(id => C[id].promotion.phrases.length || C[id].promotion.repeated.length).map(id => {
+    const c = C[id];
+    const rep = c.promotion.repeated.map(g => `<li><span>${esc(g.title)}</span><span class="sub">${g.count} bài · ${fmtD(g.first)} → ${fmtD(g.last)}</span></li>`).join('');
+    return `<section class="panel"><div class="row"><h2>${esc(c.name)}</h2>${c.self?'<span class="chip self">SI</span>':''}</div>
+      <h3>Cụm từ lặp lại trong tiêu đề</h3><div>${c.promotion.phrases.map(([g,n]) => `<span class="chip">“${esc(g)}” ×${n}</span>`).join('')}</div>
+      ${rep ? `<h3>Chủ đề đăng nhiều lần</h3><ul class="list">${rep}</ul>` : ''}</section>`;
+  }).join('');
+  const mk = D.market_repeated.map(g => `<li><span>${esc(g.title)}</span><span class="sub">${g.count} bài · ${g.companies.map(x => esc(C[x]?.name||x)).join(', ')}</span></li>`).join('');
+  return `<div style="display:grid;gap:16px">
+    <section class="panel"><h2>Chủ đề nhiều công ty cùng đăng</h2><ul class="list">${mk || '<li class="empty">Chưa có chủ đề trùng giữa các công ty. Sẽ rõ hơn khi dữ liệu tích luỹ vài tuần.</li>'}</ul></section>
+    <div class="grid2">${blocks}</div></div>`;
+},
+events(){
+  const ev = ids.flatMap(id => C[id].promotion.events.map(e => ({...e, co:id}))).sort((a,b) => ((b.when[0]||b.date) > (a.when[0]||a.date) ? 1 : -1));
+  const today = new Date().toISOString().slice(0,10);
+  const rows = ev.map(e => { const w = e.when[0]; const up = w && w >= today;
+    return `<tr><td class="n">${w?fmtD(w)+'/'+w.slice(2,4):'—'}</td><td>${up?'<span class="chip self">sắp diễn ra</span>':'<span class="chip muted">đã qua</span>'}</td><td class="name">${esc(C[e.co].name)}</td><td><a href="${esc(e.url)}" target="_blank" rel="noopener">${esc(e.title)}</a></td><td class="n">${fmtD(e.date)}</td></tr>`; }).join('');
+  return `<section class="panel"><h2>Lịch sự kiện / hội thảo / toạ đàm của đối thủ</h2>
+   <div class="scroll"><table><thead><tr><th class="n">Ngày diễn ra</th><th>Trạng thái</th><th>Công ty</th><th>Sự kiện</th><th class="n">Đăng</th></tr></thead><tbody>${rows || '<tr><td colspan="5" class="empty">Chưa có sự kiện.</td></tr>'}</tbody></table></div>
+   <p class="note">Ngày diễn ra được đọc tự động từ nội dung bài (dd/mm), có thể sai với bài nhắc nhiều mốc ngày.</p></section>`;
+},
+gap(){
+  const rows = D.gap.map(g => {
+    const flag = g.si_posts === 0 ? (g.si_home ? '<span class="chip warn">Có trên web, chưa có content</span>' : '<span class="chip warn">SI chưa có</span>') : `<span class="chip self">SI ${g.si_posts} bài</span>`;
+    return `<tr><td class="name">${K[P[g.program].country].flag} ${esc(pn(g.program))}</td><td class="n">${g.companies.length}</td><td class="n">${g.mentions}</td><td>${flag}</td><td>${g.companies.map(esc).join(', ')}</td></tr>`;
+  }).join('');
+  return `<section class="panel"><h2>Đối thủ đang đẩy gì mà SI chưa (hoặc ít) làm content?</h2>
+   <div class="scroll"><table><thead><tr><th>Chương trình</th><th class="n">Số đối thủ</th><th class="n">Bài đối thủ</th><th>SI</th><th>Đối thủ đang đăng</th></tr></thead><tbody>${rows}</tbody></table></div>
+   <p class="note">Xếp theo số đối thủ cùng đẩy chương trình đó (90 ngày). "Có trên web, chưa có content" = trang chủ SI có nhắc nhưng không có bài viết nào gần đây.</p></section>`;
+},
+feed(){
+  const rows = D.items.slice(0,250).map(i => `<tr><td class="n">${fmtD(i.date)}</td><td class="name">${esc(C[i.company]?.name)}</td><td><a href="${esc(i.url)}" target="_blank" rel="noopener">${esc(i.title)}</a><div class="sub">${i.programs.map(pn).map(esc).join(' · ')}</div></td><td>${i.p4.map(p => `<span class="stamp s-${p}">${p.slice(0,5)}</span>`).join(' ')}</td><td>${i.ctype.map(t => `<span class="chip">${esc(t)}</span>`).join('')}${i.risk.length?'<span class="chip warn">⚠</span>':''}</td></tr>`).join('');
+  return `<section class="panel"><h2>Tất cả bài (90 ngày)</h2><div class="scroll"><table><thead><tr><th class="n">Ngày</th><th>Công ty</th><th>Tiêu đề</th><th>4Ps</th><th>Loại</th></tr></thead><tbody>${rows}</tbody></table></div></section>`;
+}
+};
+
+function render(){
+  document.querySelectorAll('#tabs button').forEach(b => b.setAttribute('aria-selected', b.dataset.tab===state.tab));
+  document.getElementById('view').innerHTML = views[state.tab]();
+  save();
+}
+document.getElementById('tabs').addEventListener('click', e => { const t = e.target.closest('button'); if (t){ state.tab = t.dataset.tab; render(); } });
+document.getElementById('view').addEventListener('click', e => { const r = e.target.closest('tr[data-co]'); if (r){ state.co = r.dataset.co; state.tab = 'company'; render(); window.scrollTo(0,0); } });
+document.getElementById('view').addEventListener('change', e => { if (e.target.id==='co'){ state.co = e.target.value; render(); } });
+if (!C[state.co]) state.co = ids[0];
+render();
+</script>

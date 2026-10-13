@@ -1,0 +1,73 @@
+{
+ "_ghi_chu": "Danh sách công ty theo dõi. self=true là SI (dùng để so sánh). feed = RSS WordPress (để trống nếu web chặn bot). q = câu tìm Google News. link_rewrite = [cũ, mới] đổi link bài (web headless CMS).",
+ "companies": [
+  {
+   "id": "si",
+   "name": "SI Group",
+   "self": true,
+   "web": "https://sigroup.vn",
+   "feed": "https://sigroup.vn/feed/",
+   "q": "\"SI Group\" định cư"
+  },
+  {
+   "id": "icanfield",
+   "name": "iCanfield",
+   "web": "https://icanfield.vn",
+   "feed": "https://cms.icanfield.vn/feed/",
+   "link_rewrite": [
+    "https://cms.icanfield.vn/",
+    "https://icanfield.vn/tin-tuc/"
+   ],
+   "q": "\"iCanfield\""
+  },
+  {
+   "id": "newachieve",
+   "name": "New Achieve",
+   "web": "https://newachieve.vn",
+   "feed": "https://newachieve.vn/feed/",
+   "q": "\"New Achieve\" OR \"NewAchieve\" định cư"
+  },
+  {
+   "id": "americanplus",
+   "name": "American Plus",
+   "web": "https://americanplus.vn",
+   "feed": "https://americanplus.vn/feed/",
+   "q": "\"American Plus\" định cư OR EB-5"
+  },
+  {
+   "id": "usimi",
+   "name": "USIMI Group",
+   "web": "https://usimigroup.com",
+   "feed": "https://usimigroup.com/feed/",
+   "q": "\"USIMI\""
+  },
+  {
+   "id": "mapleleaf",
+   "name": "Maple Leaf VN",
+   "web": "https://mapleleafvn.com",
+   "feed": "https://mapleleafvn.com/feed/",
+   "q": "\"Maple Leaf\" định cư"
+  },
+  {
+   "id": "uca",
+   "name": "UCA Immigration",
+   "web": "https://uca.com.vn",
+   "feed": "https://uca.com.vn/feed/",
+   "q": "\"UCA Immigration\" OR \"UCA\" định cư"
+  },
+  {
+   "id": "aims",
+   "name": "AIMS Việt Nam",
+   "web": "https://aimsvietnam.com",
+   "feed": "https://aimsvietnam.com/feed/",
+   "q": "\"AIMS Việt Nam\" OR \"AIMS Immigration\""
+  },
+  {
+   "id": "henley",
+   "name": "Henley & Partners",
+   "web": "https://www.henleyglobal.com",
+   "feed": "",
+   "q": "\"Henley & Partners\" Việt Nam"
+  }
+ ]
+}

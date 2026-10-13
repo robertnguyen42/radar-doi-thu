@@ -1,0 +1,459 @@
+{
+ "_ghi_chu": "Từ khoá phân loại 4Ps. Thêm/sửa tuỳ ý — không cần sửa code. Từ khoá là regex, không phân biệt hoa thường.",
+ "programs": {
+  "US": {
+   "name": "Mỹ",
+   "flag": "🇺🇸",
+   "items": {
+    "eb5": {
+     "name": "EB-5 đầu tư",
+     "kw": [
+      "EB-?5",
+      "I-526",
+      "regional center",
+      "trung tâm vùng"
+     ]
+    },
+    "niw": {
+     "name": "EB-2 NIW",
+     "kw": [
+      "NIW",
+      "EB-?2"
+     ]
+    },
+    "eb3": {
+     "name": "EB-3 lao động",
+     "kw": [
+      "EB-?3",
+      "lao động phổ thông Mỹ",
+      "Labou?r Certification",
+      "PERM"
+     ]
+    },
+    "l1": {
+     "name": "L-1 / E-2",
+     "kw": [
+      "L-?1A?\\b",
+      "E-?2\\b",
+      "visa L1",
+      "visa E2"
+     ]
+    },
+    "us_study": {
+     "name": "Du học Mỹ",
+     "kw": [
+      "du học Mỹ",
+      "F-1"
+     ]
+    }
+   }
+  },
+  "CA": {
+   "name": "Canada",
+   "flag": "🇨🇦",
+   "items": {
+    "suv": {
+     "name": "Startup Visa",
+     "kw": [
+      "start-?up visa",
+      "\\bSUV\\b"
+     ]
+    },
+    "pnp": {
+     "name": "Đề cử tỉnh bang (PNP)",
+     "kw": [
+      "PNP",
+      "đề cử tỉnh bang",
+      "provincial nominee",
+      "OINP",
+      "BC PNP",
+      "AINP",
+      "SINP"
+     ]
+    },
+    "ee": {
+     "name": "Express Entry",
+     "kw": [
+      "express entry",
+      "CRS"
+     ]
+    },
+    "ca_work": {
+     "name": "Lao động Canada (LMIA)",
+     "kw": [
+      "LMIA",
+      "lao động Canada",
+      "work permit"
+     ]
+    },
+    "c11": {
+     "name": "Doanh nhân C11",
+     "kw": [
+      "C11",
+      "doanh nhân Canada",
+      "owner.?operator"
+     ]
+    },
+    "ca_study": {
+     "name": "Du học Canada",
+     "kw": [
+      "du học Canada"
+     ]
+    }
+   }
+  },
+  "AU": {
+   "name": "Úc",
+   "flag": "🇦🇺",
+   "items": {
+    "au_biz": {
+     "name": "Doanh nhân 188/888",
+     "kw": [
+      "188",
+      "888",
+      "business innovation",
+      "doanh nhân Úc"
+     ]
+    },
+    "au_skill": {
+     "name": "Tay nghề 189/190/491",
+     "kw": [
+      "189",
+      "190",
+      "491",
+      "tay nghề Úc",
+      "skilled independent"
+     ]
+    },
+    "au_employer": {
+     "name": "Bảo lãnh chủ 482/186/494",
+     "kw": [
+      "482",
+      "186",
+      "494",
+      "skills in demand",
+      "SID visa",
+      "bảo lãnh chủ"
+     ]
+    },
+    "nIV": {
+     "name": "Tài năng NIV/Global Talent",
+     "kw": [
+      "NIV",
+      "national innovation",
+      "global talent",
+      "858"
+     ]
+    },
+    "au_study": {
+     "name": "Du học Úc",
+     "kw": [
+      "du học Úc",
+      "subclass 500"
+     ]
+    }
+   }
+  },
+  "NZ": {
+   "name": "New Zealand",
+   "flag": "🇳🇿",
+   "items": {
+    "nz_inv": {
+     "name": "Đầu tư NZ (Active Investor/Business)",
+     "kw": [
+      "active investor",
+      "AIP",
+      "business investor visa",
+      "đầu tư New Zealand"
+     ]
+    },
+    "nz_work": {
+     "name": "Lao động / tay nghề NZ",
+     "kw": [
+      "AEWV",
+      "work visa New Zealand",
+      "visa làm việc New Zealand",
+      "Green List",
+      "Skilled Migrant",
+      "(?:visa|định cư|du học|lao động) (?:New Zealand|NZ)\\b",
+      "New Zealand"
+     ]
+    }
+   }
+  },
+  "EU": {
+   "name": "Châu Âu",
+   "flag": "🇪🇺",
+   "items": {
+    "pt": {
+     "name": "Bồ Đào Nha",
+     "kw": [
+      "Bồ Đào Nha",
+      "Portugal"
+     ]
+    },
+    "gr": {
+     "name": "Hy Lạp",
+     "kw": [
+      "Hy Lạp",
+      "Greece",
+      "Greek"
+     ]
+    },
+    "mt": {
+     "name": "Malta",
+     "kw": [
+      "Malta"
+     ]
+    },
+    "hu": {
+     "name": "Hungary",
+     "kw": [
+      "Hungary"
+     ]
+    },
+    "es": {
+     "name": "Tây Ban Nha",
+     "kw": [
+      "Tây Ban Nha",
+      "Spain"
+     ]
+    },
+    "ie_it": {
+     "name": "Ireland / Latvia / Síp / Pháp…",
+     "kw": [
+      "Ireland",
+      "Latvia",
+      "Síp\\b",
+      "Cyprus",
+      "Italy",
+      "(?-i:nước Ý)",
+      "(?-i:định cư Ý)",
+      "(?<!Giải )(?<!giải )(?<!Phương )(?<!phương )(?-i:Pháp)(?! [Ll]ý)",
+      "Schengen",
+      "quốc tịch EU",
+      "hộ chiếu EU",
+      "passport Châu Âu"
+     ]
+    },
+    "uk": {
+     "name": "Anh (UK)",
+     "kw": [
+      "Vương quốc Anh",
+      "\\bUK\\b",
+      "Innovator Founder"
+     ]
+    }
+   }
+  },
+  "CBI": {
+   "name": "Quốc tịch Caribe & khác",
+   "flag": "🏝️",
+   "items": {
+    "carib": {
+     "name": "Caribe (St Kitts, Grenada…)",
+     "kw": [
+      "St\\.? ?Kitts",
+      "Saint Kitts",
+      "Grenada",
+      "Dominica",
+      "Antigua",
+      "St\\.? ?Lucia",
+      "Caribe",
+      "Caribbean"
+     ]
+    },
+    "vanuatu": {
+     "name": "Vanuatu / Thổ Nhĩ Kỳ",
+     "kw": [
+      "Vanuatu",
+      "Thổ Nhĩ Kỳ",
+      "Turkey",
+      "Türkiye"
+     ]
+    }
+   }
+  },
+  "AS": {
+   "name": "Châu Á & Trung Đông",
+   "flag": "🌏",
+   "items": {
+    "sg": {
+     "name": "Singapore",
+     "kw": [
+      "Singapore",
+      "GIP"
+     ]
+    },
+    "ae": {
+     "name": "Dubai / UAE",
+     "kw": [
+      "Dubai",
+      "UAE",
+      "golden visa UAE"
+     ]
+    },
+    "kr_jp": {
+     "name": "Hàn / Nhật / Thái",
+     "kw": [
+      "Hàn Quốc",
+      "Nhật Bản",
+      "Thái Lan",
+      "Thailand Elite",
+      "F-2"
+     ]
+    }
+   }
+  },
+  "RE": {
+   "name": "BĐS quốc tế",
+   "flag": "🏢",
+   "items": {
+    "re": {
+     "name": "Bất động sản quốc tế",
+     "kw": [
+      "bất động sản",
+      "\\bBĐS\\b",
+      "căn hộ",
+      "nhà phố",
+      "property",
+      "condo",
+      "dự án nhà"
+     ]
+    }
+   }
+  }
+ },
+ "price": [
+  "(?:US\\$|AU\\$|CA\\$|\\$|€|USD|AUD|CAD|EUR|NZD|SGD)\\s?(?:\\d{1,3}(?:[.,]\\d{3})+|\\d+(?:[.,]\\d+)?\\s?(?:k|K|nghìn|triệu|tr|tỷ|million|M)\\b|\\d{4,})",
+  "(?:\\d{1,3}(?:[.,]\\d{3})+|\\d+(?:[.,]\\d+)?\\s?(?:nghìn|triệu|tỷ))\\s?(?:USD|AUD|CAD|EUR|NZD|SGD|đô|đồng)"
+ ],
+ "price_terms": [
+  "chi phí",
+  "lệ phí",
+  "phí tư vấn",
+  "mức đầu tư",
+  "vốn đầu tư",
+  "trả góp",
+  "tối thiểu"
+ ],
+ "offer": [
+  "ưu đãi",
+  "giảm \\d+\\s?%",
+  "miễn phí",
+  "tặng",
+  "quà tặng",
+  "khuyến mãi",
+  "voucher",
+  "hoàn phí",
+  "0 đồng",
+  "chiết khấu",
+  "suất cuối",
+  "giới hạn"
+ ],
+ "risk": [
+  "cam kết (?:lợi nhuận|hoàn tiền|đậu|thành công|100)",
+  "bảo đảm (?:thành công|đậu)",
+  "đảm bảo (?:thành công|đậu|100)",
+  "100\\s?% (?:thành công|đậu|hoàn)",
+  "chắc chắn (?:đậu|có thẻ xanh|thành công)",
+  "lợi nhuận \\d+\\s?%"
+ ],
+ "event": [
+  "hội thảo",
+  "sự kiện",
+  "seminar",
+  "webinar",
+  "workshop",
+  "talkshow",
+  "tọa đàm",
+  "toạ đàm",
+  "roadshow",
+  "triển lãm",
+  "\\bexpo\\b",
+  "ngày hội",
+  "gặp gỡ (?:trực tiếp|chuyên gia|luật sư|đại diện)",
+  "livestream",
+  "tư vấn 1[- ]1"
+ ],
+ "places": [
+  "Hà Nội",
+  "TP\\.? ?HCM",
+  "Hồ Chí Minh",
+  "Sài Gòn",
+  "Đà Nẵng",
+  "Cần Thơ",
+  "Hải Phòng",
+  "Nha Trang",
+  "Bình Dương",
+  "Đồng Nai",
+  "Vũng Tàu",
+  "Huế",
+  "Quảng Ninh",
+  "Toronto",
+  "Vancouver",
+  "Sydney",
+  "Melbourne",
+  "California",
+  "New York"
+ ],
+ "content_types": {
+  "Tin chính sách": [
+   "visa bulletin",
+   "cập nhật",
+   "thay đổi",
+   "chính sách",
+   "luật mới",
+   "thông báo",
+   "USCIS",
+   "IRCC",
+   "Home Affairs"
+  ],
+  "Câu chuyện thành công": [
+   "chúc mừng",
+   "nhận thẻ xanh",
+   "thành công",
+   "khách hàng .{0,20}(?:nhận|đạt|được cấp)",
+   "approved",
+   "được duyệt",
+   "cấp visa"
+  ],
+  "Hướng dẫn / Kiến thức": [
+   "hướng dẫn",
+   "là gì",
+   "điều kiện",
+   "thủ tục",
+   "quy trình",
+   "hồ sơ",
+   "cách ",
+   "kinh nghiệm",
+   "bí quyết"
+  ],
+  "So sánh / Tư vấn chọn": [
+   "so sánh",
+   "nên chọn",
+   "\\bvs\\b",
+   "lựa chọn",
+   "top \\d+",
+   "tốt nhất"
+  ],
+  "Sự kiện / Hội thảo": [
+   "hội thảo",
+   "sự kiện",
+   "seminar",
+   "webinar",
+   "talkshow",
+   "tọa đàm"
+  ],
+  "Thương hiệu / PR": [
+   "kỷ niệm",
+   "giải thưởng",
+   "đối tác",
+   "ký kết",
+   "khai trương",
+   "thắng kiện",
+   "vinh danh",
+   "tuyển dụng"
+  ]
+ }
+}

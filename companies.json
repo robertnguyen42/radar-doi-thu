@@ -70,11 +70,18 @@
    "q": "\"Victory\" định cư"
   },
   {
-   "id": "usis",
-   "name": "USIS",
-   "web": "https://usis.us",
-   "feed": "https://usis.us/feed/",
-   "q": "\"USIS\" EB-5 OR định cư"
+   "id": "kornova",
+   "name": "Kornova",
+   "web": "https://kornova-viet.com",
+   "feed": "https://kornova-viet.com/feed/",
+   "q": "\"Kornova\""
+  },
+  {
+   "id": "bsop",
+   "name": "BSOP (Bắc Sơn)",
+   "web": "https://bsop.com.vn",
+   "feed": "https://bsop.com.vn/feed/",
+   "q": "\"BSOP\" OR \"Bắc Sơn\" định cư"
   }
  ]
 }

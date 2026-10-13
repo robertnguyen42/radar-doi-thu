@@ -121,6 +121,13 @@ def parse_date(s):
         d = parsedate_to_datetime(s)
         return (d if d.tzinfo else d.replace(tzinfo=timezone.utc)).astimezone(timezone.utc)
     except Exception:
+        m = re.match(r"\s*(\d{1,2})/(\d{1,2})/(\d{4})", s or "")  # kiểu dd/mm/yyyy (USIS)
+        if m:
+            d, mo, y = map(int, m.groups())
+            try:
+                return datetime(y, mo, d, 12, tzinfo=timezone.utc)
+            except ValueError:
+                pass
         return NOW
 
 

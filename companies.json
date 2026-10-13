@@ -63,11 +63,18 @@
    "q": "\"AIMS Việt Nam\" OR \"AIMS Immigration\""
   },
   {
-   "id": "henley",
-   "name": "Henley & Partners",
-   "web": "https://www.henleyglobal.com",
-   "feed": "",
-   "q": "\"Henley & Partners\" Việt Nam"
+   "id": "victory",
+   "name": "Victory",
+   "web": "https://dinhcucacnuoc.com",
+   "feed": "https://dinhcucacnuoc.com/feed/",
+   "q": "\"Victory\" định cư"
+  },
+  {
+   "id": "usis",
+   "name": "USIS",
+   "web": "https://usis.us",
+   "feed": "https://usis.us/feed/",
+   "q": "\"USIS\" EB-5 OR định cư"
   }
  ]
 }

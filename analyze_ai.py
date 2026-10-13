@@ -156,8 +156,12 @@ def main():
                         f"{i['title']}" + (" || " + " | ".join(extra) if extra else ""))
         tag = " — SI (công ty của mình)" if c.get("self") else ""
         blocks.append(f"### [{cid}] {c['name']}{tag} ({c.get('web', '')})\n" + "\n".join(rows))
-    rep = client_parse(client, max_tokens=32000, output_config={"effort": "medium"}, system=REPORT,
-                       messages=[{"role": "user", "content": "\n\n".join(blocks)}], output_format=Report)
+    try:
+        rep = client_parse(client, max_tokens=16000, output_config={"effort": "medium"}, system=REPORT,
+                           messages=[{"role": "user", "content": "\n\n".join(blocks)}], output_format=Report)
+    except Exception as e:  # lỗi báo cáo không được làm mất kết quả bước 1
+        print(f"  ! Báo cáo tuần lỗi: {e}", file=sys.stderr)
+        rep = None
     latest_p = DATA / "latest.json"
     latest = json.loads(latest_p.read_text("utf-8"))
     by_url = {i["url"]: i for i in items}

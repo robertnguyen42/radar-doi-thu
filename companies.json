@@ -82,6 +82,13 @@
    "web": "https://bsop.com.vn",
    "feed": "https://bsop.com.vn/feed/",
    "q": "\"BSOP\" OR \"Bắc Sơn\" định cư"
+  },
+  {
+   "id": "khaiphu",
+   "name": "Khai Phú",
+   "web": "https://tuvanditru.com",
+   "feed": "https://tuvanditru.com/feed/",
+   "q": "\"Khai Phú\" định cư OR EB-5"
   }
  ]
 }

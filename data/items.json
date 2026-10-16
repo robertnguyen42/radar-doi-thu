@@ -6459,6 +6459,33 @@
 "ai_v": 1
 },
 {
+"id": "8e7bead181c0",
+"company": "khaiphu",
+"src": "news",
+"outlet": "Báo Biên phòng",
+"title": "Định cư EB-5 2026: Điều kiện, quy trình và cập nhật dự thảo luật mới",
+"url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPbjJXanhCZlNyM28xLXFYNFU4X0pyaGUtU0RaSXpfLXVfa1J2NVlDT2VfOFhCTG01SF9INEdJM1htM1ViRnJJQ1M0NUVnbjIyNnktdlVuQ0R5dm9peGJETFJJSnA0ZDhlbFZCWkhkNjY5ZllFSDRMMGpEVGxpaE9zdjlsZUVaYkptSlNTUjBfdXdLbU5NeFNZSUdBaTZfTUV4VUFKaUx5Z0RRbk9Ha3JScA?oc=5",
+"date": "2026-09-11T07:00:00+00:00",
+"cats": [],
+"summary": "Định cư EB-5 2026: Điều kiện, quy trình và cập nhật dự thảo luật mới Báo Biên phòng ",
+"programs": [
+"eb5"
+],
+"p4": [
+"product"
+],
+"prices": [],
+"offers": [],
+"places": [],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Tin chính sách",
+"Hướng dẫn / Kiến thức"
+]
+},
+{
 "id": "d8404c088fdb",
 "company": "si",
 "src": "web",

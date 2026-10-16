@@ -131,7 +131,20 @@ def main():
         print(f"  ✓ {k + len(chunk)}/{len(todo)}")
     (DATA / "items.json").write_text(json.dumps(items, ensure_ascii=False, indent=0), "utf-8")
 
-    # ---- Bước 2: báo cáo tuần ----
+    latest_p = DATA / "latest.json"
+    latest = json.loads(latest_p.read_text("utf-8"))
+    by_url = {i["url"]: i for i in items}
+    for it in latest.get("items", []):
+        if by_url.get(it["url"], {}).get("ai"):
+            it["ai"] = by_url[it["url"]]["ai"]
+
+    # ---- Bước 2: báo cáo tuần (mỗi tuần 1 lần; các lần chạy hằng giờ dùng lại báo cáo đã có) ----
+    old = sorted((DATA / "ai").glob("*.json")) if (DATA / "ai").exists() else []
+    if old and old[-1].stem == latest.get("week") and not os.environ.get("FORCE_REPORT"):
+        latest["ai"] = json.loads(old[-1].read_text("utf-8"))
+        latest_p.write_text(json.dumps(latest, ensure_ascii=False), "utf-8")
+        print(f"Bước 2: đã có báo cáo tuần {old[-1].stem}, bỏ qua")
+        return
     week = (NOW - timedelta(days=7)).isoformat()
     ref, blocks = [], []
     for cid, c in comps.items():
@@ -162,12 +175,8 @@ def main():
     except Exception as e:  # lỗi báo cáo không được làm mất kết quả bước 1
         print(f"  ! Báo cáo tuần lỗi: {e}", file=sys.stderr)
         rep = None
-    latest_p = DATA / "latest.json"
-    latest = json.loads(latest_p.read_text("utf-8"))
-    by_url = {i["url"]: i for i in items}
-    for it in latest.get("items", []):
-        if by_url.get(it["url"], {}).get("ai"):
-            it["ai"] = by_url[it["url"]]["ai"]
+    if not rep and old:  # lỗi thì giữ báo cáo gần nhất
+        latest["ai"] = json.loads(old[-1].read_text("utf-8"))
     if rep:
         r = rep.model_dump()
         r["companies"] = [x for x in r["companies"] if x["id"] in comps and not comps[x["id"]].get("self")]

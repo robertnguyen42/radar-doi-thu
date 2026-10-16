@@ -1,13 +1,26 @@
-name: Radar tuần
+name: Radar cập nhật
 on:
   schedule:
-    - cron: "0 0 * * 1"   # Thứ Hai 07:00 giờ VN
+    - cron: "17 * * * *"   # mỗi giờ (phút 17); báo cáo AI tổng hợp tự viết 1 lần/tuần
   workflow_dispatch:
+    inputs:
+      force_report:
+        description: "Viết lại báo cáo AI tuần này"
+        type: boolean
+        default: false
 permissions:
   contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: radar
+  cancel-in-progress: false
 jobs:
   run:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -17,11 +30,16 @@ jobs:
       - run: python analyze_ai.py
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          FORCE_REPORT: ${{ inputs.force_report && '1' || '' }}
       - run: python build.py
       - name: Commit
         run: |
           git config user.name "radar-bot"
           git config user.email "radar-bot@users.noreply.github.com"
           git add data dist
-          git diff --cached --quiet || git commit -m "Radar tuần $(date -u +%G-W%V)"
-          git push
+          git diff --cached --quiet || git commit -q -m "Radar cập nhật $(date -u +'%F %H:%M')"
+          git pull -q --rebase && git push -q
+      - uses: actions/upload-pages-artifact@v3
+        with: { path: dist }
+      - id: deploy
+        uses: actions/deploy-pages@v4

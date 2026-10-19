@@ -1,5 +1,48 @@
 [
 {
+"id": "cfb99804aeb3",
+"company": "victory",
+"src": "web",
+"outlet": "",
+"title": "[Bản tin Canada] Canada cải tổ điểm Express Entry từ 03/11/2026: 150 điểm, bỏ LMIA",
+"url": "https://dinhcucacnuoc.com/tin-tuc-canada-cai-to-he-thong-diem-crs/",
+"date": "2026-10-19T23:34:41+00:00",
+"cats": [
+"Tin tức Canada",
+"Tin tức",
+"Tin tức di trú 24h"
+],
+"summary": "Ngày 16/10/2026, Bộ Di trú, Tị nạn và Quốc tịch Canada (IRCC) công bố cải tổ hệ thống tính điểm Express Entry (CRS), có hiệu lực từ ngày 03/11/2026. Theo quy định mới, ứng viên có kinh nghiệm làm việc hợp lệ tại Canada có thể đạt tối đa 150 điểm CRS, trong khi người[...] ",
+"programs": [
+"ee",
+"ca_work"
+],
+"p4": [
+"product"
+],
+"prices": [],
+"offers": [],
+"places": [],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Tin chính sách"
+],
+"ai": {
+"programs": [
+"Express Entry Canada"
+],
+"prices": [],
+"offers": [],
+"event": null,
+"content_type": "Tin chính sách",
+"message": "Cập nhật thay đổi điểm CRS Express Entry từ 03/11/2026 để khách hàng quan tâm định cư Canada nắm bắt cơ hội và liên hệ tư vấn.",
+"risk_claims": []
+},
+"ai_v": 1
+},
+{
 "id": "373c87c93989",
 "company": "mapleleaf",
 "src": "web",

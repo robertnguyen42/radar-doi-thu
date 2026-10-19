@@ -1,0 +1,294 @@
+{
+ "headline": "BSOP mở BSOP EXPO 7 (khai mạc trực tuyến 14/10), ra mắt chương trình kiến trúc gia sản cá nhân hóa Bespoke Wealth Architect và mời gặp Cục trưởng Cục Di trú Malta tại TP.HCM ngày 23/10. Đây là đòn cạnh tranh trực tiếp vào định vị quản trị gia sản, Family Office mà SI đang xây dựng.",
+ "market_trends": [
+  "Chạy đua hạn chót EB-5: nhiều đối thủ thúc giục giữ mức 800.000 USD trước 31/12/2026 và nộp trước đợt tăng phí USCIS 30/11/2026 (American Plus, Kornova, Khai Phú, USIMI, iCanfield).",
+  "Đề xuất Hy Lạp tăng thuế chuyển nhượng BĐS với người ngoài EU từ khoảng 3% lên 15% được dùng làm thông điệp 'hành động sớm' cho Golden Visa Hy Lạp (BSOP, Khai Phú, Victory).",
+  "Sự kiện offline/online và chuyến khảo sát thực tế là kênh chốt khách chính: hội thảo, tọa đàm, expo, tour khảo sát Thổ Nhĩ Kỳ, Alberta (BSOP, iCanfield, Maple Leaf, Khai Phú).",
+  "Tin chính sách Mỹ thắt chặt (phí OPT, H-1B, đình chỉ PERM, Visa Bond) được dùng để dẫn khách sang EB-5 như lộ trình ổn định hơn (Kornova, USIMI, American Plus).",
+  "Quốc tịch thứ hai và phương án ngoài EU được quảng bá kèm giá cụ thể: Thổ Nhĩ Kỳ 400.000 USD, Grenada 270.000 USD, Argentina từ 350.000 USD; song song là nội dung thuế, gia sản (thuế xuất cảnh, thuế tài sản)."
+ ],
+ "companies": [
+  {
+   "id": "icanfield",
+   "positioning": "Đơn vị tư vấn toàn diện đầu tư tài chính, bất động sản và định cư cho gia đình Việt. Mạnh ở Canada PNP, Golden Visa châu Âu, EB-5 và quốc tịch Thổ Nhĩ Kỳ.",
+   "this_week": "Đăng recap chuyến khảo sát BĐS Thổ Nhĩ Kỳ: khách gặp chủ đầu tư và luật sư, gắn với quốc tịch qua BĐS 400.000 USD. Cập nhật chính sách bảo mật dữ liệu.",
+   "product": "Quốc tịch Thổ Nhĩ Kỳ, Golden Visa Hy Lạp, Latvia, Malta, Síp, Canada PNP doanh nhân, EB-5.",
+   "price": "Thổ Nhĩ Kỳ 400.000 USD; Latvia 150.000, 250.000, 280.000 EUR; Hy Lạp 250.000 EUR; EB-5 800.000 USD, thanh toán từng phần từ 200.000 USD; Malta 35.000 EUR/năm (thuế tối thiểu từ 2027).",
+   "place": "Website; sự kiện tại Hà Nội; tour khảo sát Thổ Nhĩ Kỳ và Alberta.",
+   "promotion": "Sự kiện 'Góc nhìn A-Z' (19/09, 26/09), recap tour khảo sát, chuyên gia (Mr. Giannis Louzis, Mr. Kevin Wright), tin chính sách cập nhật nhanh.",
+   "threat": "cao",
+   "threat_reason": "Cùng định vị đa dạng hóa tài sản, BĐS quốc tế, định cư cho gia đình. Có tour khảo sát và sự kiện đều đặn, trong khi SI chưa có."
+  },
+  {
+   "id": "newachieve",
+   "positioning": "Tư vấn định cư diện tay nghề, việc làm New Zealand, Úc và Canada Express Entry.",
+   "this_week": "Loạt bài New Zealand: thủ tục visa, Resident và PRV, NZQA, diện tay nghề. Bài về việc Úc siết visa.",
+   "product": "NZ SMC, Green List, AIP, Business Investor; Úc 482, 186, 494; Express Entry.",
+   "price": "Business Investor NZ 1.000.000 và 2.000.000 NZD.",
+   "place": "Website.",
+   "promotion": "Content hướng dẫn, checklist hồ sơ.",
+   "threat": "thấp",
+   "threat_reason": "Tập trung diện tay nghề, ít trùng với tệp khách HNWI của SI."
+  },
+  {
+   "id": "americanplus",
+   "positioning": "Chuyên định cư Mỹ, EB-5, kèm tin di trú Mỹ cập nhật dày.",
+   "this_week": "Sáu bài tin USCIS, DHS: tuân thủ liên bang, giấy tờ quay lại Mỹ, gia hạn visa không định cư, vụ kiện I-485, phí OPT 70.000 USD, đình chỉ PERM.",
+   "product": "EB-5 (Hawaii Koloa Village, CMB), quốc tịch Grenada (La Sagesse).",
+   "price": "EB-5 800.000 USD và 1.050.000 USD; Grenada 270.000 USD.",
+   "place": "Website.",
+   "promotion": "Hạn chót 31/12/2026 giữ mức 800.000 USD, mốc phí 30/11/2026, cập nhật tiến độ dự án, CMB hoàn trả 1,6 tỷ USD.",
+   "threat": "trung bình",
+   "threat_reason": "Cạnh tranh mảng EB-5 và CBI Caribbean, nơi SI ít hiện diện về nội dung."
+  },
+  {
+   "id": "usimi",
+   "positioning": "Chuyên định cư Mỹ: EB-5 Rural, L-1A, EB-1C, EB-3.",
+   "this_week": "Cảnh báo chấm dứt gia hạn tự động EAD 540 ngày; DS-260 thêm câu hỏi.",
+   "product": "EB-5 Rural (Cormont Deer Valley), L-1A, EB-1C, EB-3.",
+   "price": "EB-5 800.000 USD; phí EB-5 7.850, 7.615, 5.000 USD; L-1 4.000 đến hơn 25.000 USD.",
+   "place": "Website.",
+   "promotion": "Tiêu chí chọn dự án an toàn, số liệu USCIS, mốc phí 30/11/2026.",
+   "threat": "thấp",
+   "threat_reason": "Tập trung thị trường Mỹ, không trùng mảng châu Âu, gia sản của SI."
+  },
+  {
+   "id": "mapleleaf",
+   "positioning": "Tư vấn định cư Mỹ EB-5, Canada, châu Âu cho gia đình thượng lưu.",
+   "this_week": "",
+   "product": "EB-5, Canada doanh nhân tỉnh bang, định cư châu Âu kèm BĐS nghỉ dưỡng, AIP New Zealand.",
+   "price": "EB-5 800.000 USD; Doanh nhân Tỉnh bang Canada 150.000 CAD.",
+   "place": "Website; hội thảo tại TP.HCM.",
+   "promotion": "Chuỗi tọa đàm (EB-5, Canada, 'Bảo toàn tài sản & Quốc tịch thứ 2'), tư vấn 1:1 với RCIC và luật sư, câu chuyện khách thành công.",
+   "threat": "trung bình",
+   "threat_reason": "Đã dùng thông điệp bảo toàn tài sản và quốc tịch thứ 2 cho gia đình thượng lưu, trùng hướng SI."
+  },
+  {
+   "id": "uca",
+   "positioning": "Tư vấn định cư diện lao động EB-3 Mỹ và work visa New Zealand.",
+   "this_week": "",
+   "product": "EB-3 Other Worker, AEWV New Zealand.",
+   "price": "",
+   "place": "Website.",
+   "promotion": "Case thành công (duyệt LC, nhận visa), bài thắng kiện GTV SEO.",
+   "threat": "thấp",
+   "threat_reason": "Phân khúc lao động phổ thông, khác tệp khách SI."
+  },
+  {
+   "id": "aims",
+   "positioning": "Mạng lưới tư vấn đầu tư định cư lâu năm: EB-3, châu Âu, Úc, Singapore.",
+   "this_week": "Bài news về 20 năm phát triển mạng lưới tư vấn đầu tư định cư.",
+   "product": "EB-3, Golden Visa Hy Lạp, Latvia, CBI, Úc 482-186, AAIP Alberta, Singapore.",
+   "price": "Hy Lạp 250.000 EUR; Latvia 50.000 EUR.",
+   "place": "Website, mạng lưới văn phòng.",
+   "promotion": "Thông điệp uy tín lâu năm (10 năm tại VN), cảnh báo lừa đảo Golden Visa, so sánh chương trình theo mức vốn.",
+   "threat": "trung bình",
+   "threat_reason": "Trùng mảng Golden Visa châu Âu, CBI và thông điệp chọn đơn vị uy tín."
+  },
+  {
+   "id": "victory",
+   "positioning": "Tư vấn định cư đa quốc gia, dùng bản tin chính sách Mỹ, Canada, EU, NZ làm content chủ lực.",
+   "this_week": "Bản tin Canada mở rộng hạn chế LMIA lương thấp; USCIS kiểm tra hàng xóm khi xét nhập tịch.",
+   "product": "EB-5, EB-1/2/3, Canada, EU, NZ.",
+   "price": "EB-5 TEA 800.000 USD, ngoài TEA 1.050.000 USD; NSNP 1.000 và 2.000 CAD.",
+   "place": "Website.",
+   "promotion": "Bản tin chính sách thường xuyên, FAQ.",
+   "threat": "trung bình",
+   "threat_reason": "Phủ rộng tin EU, Caribbean, Hy Lạp; cạnh tranh về lưu lượng tìm kiếm."
+  },
+  {
+   "id": "kornova",
+   "positioning": "Chuyên gia EB-5 cho gia đình Việt, đặc biệt gia đình có con du học F-1.",
+   "this_week": "Bài EB-1A giảm tỷ lệ duyệt, đình chỉ PERM, RFE/NOID EB-5; tất cả dẫn về EB-5.",
+   "product": "EB-5 (Koloa Village, 550 West Chelsea), thẩm định dự án.",
+   "price": "EB-5 800.000 USD, có nhắc mức 940.000 USD; phí I-526E 7.850 và 8.950 USD.",
+   "place": "Website.",
+   "promotion": "Content dày đặc theo ngách (F-1, CSPA, checklist thẩm định), mốc 01/01/2027 và 30/11/2026.",
+   "threat": "trung bình",
+   "threat_reason": "Chiếm ngách EB-5 gia đình có con du học, mảng SI chưa có nội dung."
+  },
+  {
+   "id": "bsop",
+   "positioning": "Hệ sinh thái đầu tư quốc tế, kiến trúc gia sản cho nhà đầu tư có năng lực tài chính. Mạnh ở BĐS Hy Lạp, Síp, Dubai, Malta.",
+   "this_week": "Khai mạc BSOP EXPO 7 (14/10); ra mắt Bespoke Wealth Architect 2026; mời gặp Cục trưởng Cục Di trú Malta tại TP.HCM 23/10; bán vé Silver, Gold, Diamond.",
+   "product": "Golden Visa Hy Lạp (Piraeus Residences, Syntagma Central Suites), thường trú Malta, thẻ xanh Síp, BĐS và công ty Dubai, kiến trúc gia sản.",
+   "price": "",
+   "place": "Website; expo trực tuyến và TP.HCM; mở bán tại Hà Nội; hợp tác PGBank.",
+   "promotion": "Expo nhiều cấp vé, quan chức nước ngoài, mở bán dự án (60% giỏ hàng Piraeus được booking), tin vui khách nhận thẻ nhanh, đối tác ngân hàng.",
+   "threat": "cao",
+   "threat_reason": "Trùng trực tiếp định vị gia sản, BĐS quốc tế, Dubai của SI, với quy mô sự kiện và đối tác ngân hàng lớn."
+  },
+  {
+   "id": "khaiphu",
+   "positioning": "Tư vấn di trú đa quốc gia: EB-5, EB-3, Golden Visa, CBI, kèm góc nhìn thuế và tài sản.",
+   "this_week": "",
+   "product": "EB-5 (Audubon Houston), EB-3 Puerto Rico, Golden Visa Hy Lạp, Síp, Bồ Đào Nha, quốc tịch Thổ Nhĩ Kỳ, Argentina, AIP New Zealand.",
+   "price": "EB-5 800.000 USD; Hy Lạp 250.000 và 500.000 EUR; Argentina 350.000 và 800.000 USD; AIP NZ 5.000.000 NZD.",
+   "place": "Website; buổi gặp gỡ chuyên đề.",
+   "promotion": "Mốc 31/12/2026 cho EB-5, mốc thuế Hy Lạp, case I-526E, sự kiện EB-3 ngày 09/10.",
+   "threat": "cao",
+   "threat_reason": "Có nội dung thuế xuất cảnh, thuế tài sản, CBI, quốc tịch theo nơi sinh, sát với mảng quản trị rủi ro, Plan B của SI."
+  }
+ ],
+ "si_actions": [
+  {
+   "action": "Tổ chức roundtable kín (20-30 khách HNWI) về Family Office và Plan B quốc tịch ngay sau BSOP EXPO 7, có chuyên gia quốc tế, kèm thẩm định 1:1.",
+   "why": "BSOP đang chiếm thông điệp kiến trúc gia sản bằng expo quy mô lớn và quan chức Malta. SI có content Family Office, quản trị rủi ro nhưng chưa có sự kiện nào. Định dạng nhỏ, chuyên sâu giúp SI khác biệt.",
+   "sources": [
+    {
+     "title": "BSOP EXPO 7 khai mạc thành công, mở ra “Hành trình độc bản trong kỷ nguyên mới”",
+     "url": "https://bsop.com.vn/bsop-expo-7-khai-mac-thanh-cong/",
+     "company": "bsop"
+    },
+    {
+     "title": "[BSOP EXPO 7] Cơ hội gặp trực tiếp Cục trưởng Cục di trú Malta cùng các chuyên gia quốc tế tại Tp. Hồ Chí Minh",
+     "url": "https://bsop.com.vn/gap-go-cuc-truong-cuc-di-tru-malta-tai-bsop-expo-7/",
+     "company": "bsop"
+    },
+    {
+     "title": "BSOP EXPO 7 ra mắt Bespoke Wealth Architect 2026 – Chương trình kiến trúc gia sản và đầu tư quốc tế cá nhân hóa",
+     "url": "https://bsop.com.vn/bsop-expo-7-ra-mat-bespoke-wealth-architect/",
+     "company": "bsop"
+    },
+    {
+     "title": "TỌA ĐÀM: BẢO TOÀN TÀI SẢN & QUỐC TỊCH THỨ 2 CHO GIA ĐÌNH THƯỢNG LƯU TRƯỚC LÀN SÓNG SIẾT LUẬT DI TRÚ 2026",
+     "url": "https://mapleleafvn.com/toa-dam-bao-toan-tai-san-quoc-tich-thu-2-cho-gia-dinh-thuong-luu-truoc-lan-song-siet-luat-di-tru-2026/",
+     "company": "mapleleaf"
+    }
+   ]
+  },
+  {
+   "action": "Ra bài và mini-webinar về đề xuất Hy Lạp tăng thuế chuyển nhượng lên 15%, áp khung thẩm định 5 lớp của SI vào lựa chọn trước mốc thay đổi.",
+   "why": "Ba đối thủ đã khai thác chủ đề này, SI chưa có bài. SI có sẵn khung thẩm định BĐS quốc tế để tạo góc nhìn khác biệt.",
+   "sources": [
+    {
+     "title": "Golden Visa Hy Lạp trước đề xuất tăng thuế: Nhà đầu tư cần chuẩn bị gì?",
+     "url": "https://bsop.com.vn/golden-visa-hy-lap-truoc-de-xuat-tang-thue/",
+     "company": "bsop"
+    },
+    {
+     "title": "Hy Lạp dự kiến tăng thuế chuyển nhượng bất động sản lên 15%",
+     "url": "https://bsop.com.vn/hy-lap-tang-thue-chuyen-nhuong-bat-dong-san/",
+     "company": "bsop"
+    },
+    {
+     "title": "Golden visa Hy Lạp 2026 mua nhà hay gửi tiền ngân hàng?",
+     "url": "https://tuvanditru.com/golden-visa-hy-lap-2026-mua-nha-hay-gui-tien/",
+     "company": "khaiphu"
+    },
+    {
+     "title": "Bất động sản Hy Lạp tăng năm lần thuế chuyển nhượng từ Tháng 1/2027",
+     "url": "https://tuvanditru.com/bat-dong-san-hy-lap-tang-nam-lan-thue-chuyen-nhuong/",
+     "company": "khaiphu"
+    }
+   ]
+  },
+  {
+   "action": "Xây cụm content EB-5 gắn quản trị gia sản: mốc giữ 800.000 USD trước 31/12/2026, phí mới từ 30/11/2026, EB-5 cho con du học F-1.",
+   "why": "Đây là chủ đề nóng nhất thị trường, nhưng SI chỉ có một bài Visa Bulletin.",
+   "sources": [
+    {
+     "title": "31/12/2026 – Cơ Hội Cuối Để Giữ Mức Đầu Tư EB-5 800.000 USD?",
+     "url": "https://americanplus.vn/31-12-2026-co-hoi-cuoi-de-giu-muc-dau-tu-eb-5/",
+     "company": "americanplus"
+    },
+    {
+     "title": "Thay Đổi Lệ Phí Nộp Hồ Sơ EB-5 Từ 30/11/2026",
+     "url": "https://americanplus.vn/thay-doi-le-phi-nop-ho-so-eb-5-tu-30-11-2026/",
+     "company": "americanplus"
+    },
+    {
+     "title": "EB-5 Q4/2026: Mức đầu tư $800,000 vẫn áp dụng trước đợt điều chỉnh 01/01/2027",
+     "url": "https://kornova-viet.com/eb-5-q4-2026-muc-dau-tu-800000",
+     "company": "kornova"
+    },
+    {
+     "title": "Lỡ cột mốc 30/09? Cột mốc 31/12/2026 là cơ hội cuối cùng giữ mức đầu tư EB-5 800.000 USD",
+     "url": "https://tuvanditru.com/buoi-chia-se-dinh-cu-my-eb5/",
+     "company": "khaiphu"
+    }
+   ]
+  },
+  {
+   "action": "Thiết kế tour khảo sát thực tế Dubai (BĐS và Golden Visa), kèm gặp chủ đầu tư và luật sư; đăng recap.",
+   "why": "iCanfield dùng tour khảo sát để tạo niềm tin. SI đã có content Golden Visa Dubai và Holding Company nhưng thiếu trải nghiệm thực tế.",
+   "sources": [
+    {
+     "title": "TOÀN CẢNH VỀ CHUYẾN KHẢO SÁT BẤT ĐỘNG SẢN THỔ NHĨ KỲ CỦA KHÁCH HÀNG ICANFIELD",
+     "url": "https://icanfield.vn/tin-tuc/toan-canh-ve-chuyen-khao-sat-bat-dong-san-tho-nhi-ky-cua-khach-hang-icanfield",
+     "company": "icanfield"
+    },
+    {
+     "title": "TOÀN CẢNH VỀ CHUYẾN KHẢO SÁT THỰC TẾ TẠI ALBERTA CỦA KHÁCH HÀNG ICANFIELD",
+     "url": "https://icanfield.vn/tin-tuc/toan-canh-ve-chuyen-khao-sat-thuc-te-tai-alberta-cua-khach-hang-icanfield",
+     "company": "icanfield"
+    },
+    {
+     "title": "Golden Visa Dubai thông qua đầu tư bất động sản: Cần bao nhiêu tiền và điều kiện nào cần kiểm tra?",
+     "url": "https://sigroup.vn/tin-tuc/golden-visa-dubai-thong-qua-dau-tu-bat-dong-san/",
+     "company": "si"
+    },
+    {
+     "title": "Holding Company là gì? Cửa ngõ quốc tế hóa doanh nghiệp, tài sản và Global Mobility",
+     "url": "https://sigroup.vn/tin-tuc/holding-company/",
+     "company": "si"
+    }
+   ]
+  },
+  {
+   "action": "Đăng loạt case study, tin vui khách hàng (ẩn danh) về thời gian nhận thẻ và kết quả thẩm định.",
+   "why": "BSOP, Maple Leaf, Khai Phú liên tục dùng bằng chứng thành công. Content SI hiện thuần kiến thức, chưa có bằng chứng thực tế.",
+   "sources": [
+    {
+     "title": "TIN VUI: Chúc mừng hai gia đình khách hàng nhận thẻ Golden Visa Hy Lạp",
+     "url": "https://bsop.com.vn/hai-gia-dinh-khach-hang-nhan-the-golden-visa-hy-lap/",
+     "company": "bsop"
+    },
+    {
+     "title": "TIN VUI: Khách hàng BSOP nhận White Paper Golden Visa Hy Lạp chỉ sau 16 ngày",
+     "url": "https://bsop.com.vn/white-paper-golden-visa-hy-lap-chi-sau-16-ngay/",
+     "company": "bsop"
+    },
+    {
+     "title": "TIN VUI: Chúc mừng Khách hàng BSOP nhận Thư phê duyệt Thẻ thường trú Malta sau 5 tháng nộp hồ sơ",
+     "url": "https://bsop.com.vn/thu-phe-duyet-the-thuong-tru-malta-sau-5-thang/",
+     "company": "bsop"
+    },
+    {
+     "title": "EB5 – KHÁCH HÀNG DIỆN ĐẦU TƯ EB5 CỦA MAPLE LEAF VIETNAM NHẬN THẺ XANH MỸ CHỈ SAU 3 THÁNG NHẬP CẢNH!",
+     "url": "https://mapleleafvn.com/eb5-khach-hang-dien-dau-tu-eb5-cua-maple-leaf-vietnam-nhan-the-xanh-my-chi-sau-3-thang-nhap-canh/",
+     "company": "mapleleaf"
+    }
+   ]
+  },
+  {
+   "action": "Ra bài so sánh các phương án quốc tịch thứ hai ngoài Caribbean (Thổ Nhĩ Kỳ, Argentina) theo góc rủi ro miễn thị thực EU, kèm bảng mức vốn.",
+   "why": "Đối thủ quảng bá quốc tịch kèm giá cụ thể. SI đã có bài cảnh báo rủi ro Caribbean, nên có thể dẫn tiếp sang phương án thay thế.",
+   "sources": [
+    {
+     "title": "HƯỚNG ĐẾN THỊ TRƯỜNG MỸ, VÌ SAO QUỐC TỊCH THỔ NHĨ KỲ ĐƯỢC NHIỀU NHÀ ĐẦU TƯ QUAN TÂM?",
+     "url": "https://icanfield.vn/tin-tuc/huong-den-thi-truong-my-vi-sao-quoc-tich-tho-nhi-ky-duoc-nhieu-nha-dau-tu-quan-tam",
+     "company": "icanfield"
+    },
+    {
+     "title": "Quốc tịch Argentina qua đầu tư: từ 350.000 USD, mở quý IV/2026",
+     "url": "https://tuvanditru.com/quoc-tich-argentina-qua-dau-tu/",
+     "company": "khaiphu"
+    },
+    {
+     "title": "Quốc tịch Thổ Nhĩ Kỳ: 7 lý do chương trình đầu tư hút khách",
+     "url": "https://tuvanditru.com/quoc-tich-tho-nhi-ky-qua-dau-tu/",
+     "company": "khaiphu"
+    },
+    {
+     "title": "Dự Án La Sagesse Collection – Đầu Tư Lấy Quốc Tịch Grenada",
+     "url": "https://americanplus.vn/la-sagesse-collection-dau-tu-lay-quoc-tich-grenada/",
+     "company": "americanplus"
+    }
+   ]
+  }
+ ],
+ "model": "claude-opus-5-5",
+ "generated": "2026-10-19T01:05+00:00",
+ "week": "2026-W43"
+}

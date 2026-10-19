@@ -1,5 +1,91 @@
 [
 {
+"id": "d04db829ebb8",
+"company": "victory",
+"src": "web",
+"outlet": "",
+"title": "[Bản tin Mỹ] Mỹ đình chỉ hồ sơ thẻ xanh Microsoft và 7 công ty, điều tra 9 trường đại học",
+"url": "https://dinhcucacnuoc.com/tin-tuc-my-dinh-chi-ho-so-the-xanh-cua-8-cong-ty-cong-nghe/",
+"date": "2026-10-19T08:33:08+00:00",
+"cats": [
+"Tin tức Mỹ",
+"Tin tức",
+"Tin tức di trú 24h"
+],
+"summary": "Ngày 08/10/2026, chính quyền Tổng thống Donald Trump thông báo đình chỉ tiếp nhận và xử lý hồ sơ chứng nhận lao động thường trú (PERM) của Microsoft cùng 7 công ty công nghệ lớn, bao gồm cả hồ sơ mới và hồ sơ đang chờ xét duyệt. Đồng thời, 9 trường đại học hàng[...] ",
+"programs": [
+"eb3"
+],
+"p4": [
+"product"
+],
+"prices": [],
+"offers": [],
+"places": [],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Hướng dẫn / Kiến thức"
+],
+"ai": {
+"programs": [],
+"prices": [],
+"offers": [],
+"event": null,
+"content_type": "Tin chính sách",
+"message": "Cập nhật việc Mỹ đình chỉ hồ sơ PERM của Microsoft và 7 công ty công nghệ, điều tra 9 trường đại học, để khách quan tâm diễn biến chính sách định cư Mỹ.",
+"risk_claims": []
+},
+"ai_v": 1
+},
+{
+"id": "3b0ce2d0f03f",
+"company": "newachieve",
+"src": "web",
+"outlet": "",
+"title": "Xin visa New Zealand mất bao lâu? Lập kế hoạch định cư",
+"url": "https://newachieve.vn/xin-visa-new-zealand-mat-bao-lau/",
+"date": "2026-10-19T08:07:20+00:00",
+"cats": [
+"Định cư New Zealand",
+"định cư New Zealand"
+],
+"summary": "Thời gian định cư New Zealand không chỉ là thời gian xét đơn. Bài viết tách các giai đoạn của SMC, Green List, Active Investor Plus và Business Investor, kèm số liệu INZ và checklist lập kế hoạch dự phòng. Xin visa New Zealand mất bao lâu phụ thuộc loại đơn và giai đoạn bạn đang tính. Với hồ sơ định cư, cần tách thời gian chuẩn bị, bước trước khi nộp, thời gian INZ xét đơn và thời gian làm việc hoặc đầu tư để đủ điều kiện chuyển bước. Thống kê xét duyệt chỉ phản ánh những hồ sơ đã xử lý, không bảo đảm ngày cấp visa cho bạn. Bài viết này giúp lập kế hoạch cho SMC, Green List, Active Investor Plus và Business Investor, không áp dụng cho visa du lịch hoặc du học. Mục lục 1. Tách bốn loại thời gian trước khi tính ngày đi 2. Bảng thời gian xét đơn theo lộ trình 3. Các mốc không nằm trong thời gian xét đơn 4. Chuẩn bị hồ sơ mà không làm lại giấy tờ 5. Kiểm tra tiến độ và phản hồi bổ sung 6. Checklist lập kế hoạch có dự phòng 7. Câu hỏi thường gặp 8. Kết luận 9. Nhận tư vấn và đánh giá hồ sơ 1. Tách bốn loại thời gian trước khi tính ngày đi Không nên lấy một con số xét duyệt rồi dùng làm tổng thời gian định cư. Trước hết, hãy xác định điểm xuất phát và kết quả bạn muốn đạt: được đi làm, được cấp Resident Visa hay đủ điều kiện xin Permanent Resident Visa. 1.1 Chuẩn bị điều kiện và hoàn tất bước trước đơn Chuẩn bị có thể gồm tiếng Anh, đánh giá bằng, đăng ký nghề, tìm công việc phù hợp hoặc làm rõ nguồn vốn. Đây là phần phụ thuộc hoàn cảnh cá nhân; bài không đặt một định mức vài tuần ",
+"programs": [
+"eb3",
+"nz_inv",
+"nz_work"
+],
+"p4": [
+"product"
+],
+"prices": [],
+"offers": [],
+"places": [],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Câu chuyện thành công"
+],
+"ai": {
+"programs": [
+"Skilled Migrant Category (SMC) New Zealand",
+"Green List New Zealand",
+"Active Investor Plus New Zealand",
+"Business Investor New Zealand"
+],
+"prices": [],
+"offers": [],
+"event": null,
+"content_type": "Hướng dẫn / Kiến thức",
+"message": "Giúp khách hiểu các giai đoạn và thời gian xét duyệt từng lộ trình định cư New Zealand để lập kế hoạch hồ sơ phù hợp.",
+"risk_claims": []
+},
+"ai_v": 1
+},
+{
 "id": "30c18a7e6126",
 "company": "newachieve",
 "src": "web",

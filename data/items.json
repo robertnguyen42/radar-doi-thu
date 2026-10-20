@@ -1,5 +1,62 @@
 [
 {
+"id": "8ae0aa768d3d",
+"company": "americanplus",
+"src": "web",
+"outlet": "",
+"title": "Đề Xuất Phí OPT Mới Khiến Visa EB-5 Trở Nên Hấp Dẫn Hơn",
+"url": "https://americanplus.vn/phi-opt-moi-khien-visa-eb-5-tro-nen-hap-dan-hon/",
+"date": "2026-10-20T04:10:29+00:00",
+"cats": [
+"Tin EB-5"
+],
+"summary": "Bộ An ninh Nội địa Mỹ (DHS) đề xuất áp dụng mức phí 70.000 USD cho mỗi hồ sơ OPT ban đầu và 30.000 USD cho mỗi hồ sơ OPT tiếp theo, bao gồm cả chương trình gia hạn OPT dành cho sinh viên ngành STEM. Thời gian để lấy ý kiến công chúng cho... Bộ An ninh Nội địa Mỹ (DHS) đề xuất áp dụng mức phí 70.000 USD cho mỗi hồ sơ OPT ban đầu và 30.000 USD cho mỗi hồ sơ OPT tiếp theo , bao gồm cả chương trình gia hạn OPT dành cho sinh viên ngành STEM. Thời gian để lấy ý kiến công chúng cho đề xuất này sẽ kết thúc ngày 9/11/2026. Đề xuất phí OPT mới khiến visa EB-5 trở nên hấp dẫn hơn Theo cơ chế được đề xuất, các trường học được chứng nhận bởi Chương trình Sinh viên và Khách trao đổi (SEVP) sẽ chịu trách nhiệm thanh toán khoản phí này trước khi cán bộ nhà trường được chỉ định cấp lại Mẫu I-20 đã cập nhật cho sinh viên. Tuy nhiên, các trường có thể chuyển nghĩa vụ chi trả sang sinh viên hoặc người sử dụng lao động. Xem thêm : Thông Báo Tuân Thủ Quy Định Liên Bang Của USCIS Gánh nặng chi phí sau tốt nghiệp tăng cao Mức phí này có thể làm tăng đáng kể chi phí của sinh viên quốc tế sau khi tốt nghiệp. Cụ thể, sinh viên chỉ tham gia chương trình OPT tiêu chuẩn kéo dài 12 tháng có thể phải chịu khoản phí 70.000 USD. Trong khi đó, sinh viên ngành STEM sử dụng cả OPT ban đầu và chương trình gia hạn sẽ phải đối mặt với tổng mức phí lên tới 100.000 USD. Đây là khoản chi phí lớn, có thể ảnh hưởng trực tiếp đến kế hoạch học tập, tìm việc và ở lại Mỹ làm việc của sinh viên cũng như gia đình họ. Trước đâ",
+"programs": [
+"eb5"
+],
+"p4": [
+"product",
+"price"
+],
+"prices": [
+"70.000 USD",
+"30.000 USD",
+"70.000 USD",
+"30.000 USD"
+],
+"offers": [],
+"places": [],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Tin chính sách"
+],
+"ai": {
+"programs": [
+"EB-5"
+],
+"prices": [
+{
+"program": "OPT",
+"amount": "70.000 USD",
+"note": "Phí chính phủ (DHS) đề xuất cho mỗi hồ sơ OPT ban đầu, lấy ý kiến đến 9/11/2026"
+},
+{
+"program": "OPT",
+"amount": "30.000 USD",
+"note": "Phí chính phủ (DHS) đề xuất cho mỗi hồ sơ OPT tiếp theo"
+}
+],
+"offers": [],
+"event": null,
+"content_type": "Tin chính sách",
+"message": "Đề xuất phí OPT mới làm con đường du học - làm việc tại Mỹ tốn kém hơn, khiến EB-5 trở thành lựa chọn hấp dẫn hơn cho gia đình có con du học Mỹ.",
+"risk_claims": []
+},
+"ai_v": 1
+},
+{
 "id": "b34ed1132f53",
 "company": "khaiphu",
 "src": "web",

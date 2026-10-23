@@ -1,5 +1,57 @@
 [
 {
+"id": "b532a97f502e",
+"company": "bsop",
+"src": "web",
+"outlet": "",
+"title": "BSOP EXPO 7: Cập nhật lịch sự kiện – Hành trình kiến tạo gia sản và đầu tư quốc tế cá nhân hóa",
+"url": "https://bsop.com.vn/bsop-expo-7-cap-nhat-lich-su-kien/",
+"date": "2026-10-23T08:23:28+00:00",
+"cats": [
+"Tin tức"
+],
+"summary": "Từ tháng 10 đến tháng 12/2026, hành trình BSOP EXPO 7 mở ra chuỗi sự kiện trực tuyến, hội thảo trực tiếp và phiên tư vấn riêng tại Hà Nội, TP.HCM, Đà Nẵng, mang đến cho nhà đầu tư cơ hội cập nhật thị trường, khám phá các chương trình đầu tư quốc tế và xây dựng lộ trình phù hợp với mục tiêu gia sản của mỗi gia đình. Bài viết BSOP EXPO 7: Cập nhật lịch sự kiện – Hành trình kiến tạo gia sản và đầu tư quốc tế cá nhân hóa đã xuất hiện đầu tiên vào ngày Công ty tư vấn đầu tư & định cư quốc tế Bắc Sơn . BSOP EXPO 7 – Hành trình đầu tư quốc tế theo chiến lược riêng Hiện nay, các gia đình Việt ngày càng quan tâm đến việc đa dạng hóa tài sản, mở rộng cơ hội sinh sống và học tập tại nước ngoài, cũng như chủ động trước những thay đổi của môi trường đầu tư toàn cầu, việc lựa chọn một chương trình đầu tư quốc tế không còn đơn thuần là quyết định về một thị trường hay một sản phẩm riêng lẻ. Điều quan trọng hơn là xác định mục tiêu dài hạn, đánh giá nguồn lực hiện có và lựa chọn chiến lược phù hợp với từng gia đình. Với định hướng đó, BSOP EXPO 7 – Bespoke Wealth Architect 2026 được triển khai như một hành trình kiến trúc gia sản và đầu tư quốc tế cá nhân hóa, kết nối nhà đầu tư Việt Nam với các chương trình cư trú, quốc tịch, bất động sản và giải pháp đầu tư tại nhiều quốc gia. Chuỗi sự kiện được thiết kế theo nhiều hình thức, từ hội thảo trực tuyến, hội thảo trực tiếp, bàn tròn đầu tư đến các phiên tư vấn 1-1 cùng đội ngũ chuyên gia và đối tác quốc tế. Mỗi chương trình mở ra một góc nhìn r",
+"programs": [
+"re"
+],
+"p4": [
+"product",
+"place",
+"promotion"
+],
+"prices": [],
+"offers": [],
+"places": [
+"Hà Nội",
+"TP\\.? ?HCM",
+"Đà Nẵng"
+],
+"event": true,
+"event_dates": [
+"2027-01-01"
+],
+"risk": [],
+"ctype": [
+"Tin chính sách",
+"Sự kiện / Hội thảo"
+],
+"ai": {
+"programs": [],
+"prices": [],
+"offers": [],
+"event": {
+"kind": "invite",
+"name": "BSOP EXPO 7",
+"date": "",
+"city": "Hà Nội, TP.HCM, Đà Nẵng"
+},
+"content_type": "Sự kiện / Hội thảo",
+"message": "Mời nhà đầu tư tham gia chuỗi sự kiện BSOP EXPO 7 (tháng 10–12/2026) để cập nhật thị trường và xây dựng lộ trình đầu tư quốc tế cá nhân hóa cho gia sản gia đình.",
+"risk_claims": []
+},
+"ai_v": 1
+},
+{
 "id": "16ddc0d55df4",
 "company": "icanfield",
 "src": "web",
@@ -6202,6 +6254,45 @@
 "event": null,
 "content_type": "Hướng dẫn / Kiến thức",
 "message": "Nhà đầu tư EB-5 cần tự kiểm tra hồ sơ đã nộp thật để tránh rủi ro gian lận.",
+"risk_claims": []
+},
+"ai_v": 1
+},
+{
+"id": "08808b679f41",
+"company": "victory",
+"src": "web",
+"outlet": "",
+"title": "Ngân hàng Hy Lạp 2026: Danh sách, cách mở tài khoản và chuyển tiền",
+"url": "https://dinhcucacnuoc.com/ngan-hang-hy-lap/",
+"date": "2026-09-20T08:39:47+00:00",
+"cats": [
+"Tin tức Châu Âu",
+"Tin tức"
+],
+"summary": "Hy Lạp sử dụng đồng Euro (EUR) và có 4 ngân hàng lớn gồm National Bank of Greece, Alpha Bank, Eurobank và Piraeus Bank. Người nước ngoài, bao gồm công dân Việt Nam, có thể đăng ký mở tài khoản khi đáp ứng điều kiện của từng ngân hàng. Tiền gửi đủ điều kiện được[...] ",
+"programs": [
+"gr"
+],
+"p4": [
+"product"
+],
+"prices": [],
+"offers": [],
+"places": [],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Hướng dẫn / Kiến thức"
+],
+"ai": {
+"programs": [],
+"prices": [],
+"offers": [],
+"event": null,
+"content_type": "Hướng dẫn / Kiến thức",
+"message": "Hướng dẫn người Việt chọn ngân hàng, mở tài khoản và chuyển tiền tại Hy Lạp, gián tiếp hỗ trợ khách quan tâm đầu tư Hy Lạp.",
 "risk_claims": []
 },
 "ai_v": 1

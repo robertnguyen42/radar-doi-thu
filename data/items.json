@@ -1,5 +1,45 @@
 [
 {
+"id": "be04b3b34e05",
+"company": "victory",
+"src": "web",
+"outlet": "",
+"title": "[Bản tin NZ] New Zealand xác nhận cấm thu tiền để đổi lấy việc làm",
+"url": "https://dinhcucacnuoc.com/tin-tuc-new-zealand-cam-thu-tien-de-co-viec-lam/",
+"date": "2026-10-26T09:10:45+00:00",
+"cats": [
+"Tin tức Úc",
+"Tin tức",
+"Tin tức di trú 24h"
+],
+"summary": "Ngày 20/10/2026, Cơ quan Di trú New Zealand (Immigration New Zealand – INZ) chính thức thông báo phán quyết của Tòa Lao động, xác nhận việc thu tiền để đổi lấy việc làm tại New Zealand là bất hợp pháp, kể cả khi khoản tiền được thanh toán ở nước ngoài. Quy định này áp[...] ",
+"programs": [
+"nz_work"
+],
+"p4": [
+"product"
+],
+"prices": [],
+"offers": [],
+"places": [],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Tin chính sách"
+],
+"ai": {
+"programs": [],
+"prices": [],
+"offers": [],
+"event": null,
+"content_type": "Tin chính sách",
+"message": "Cập nhật cho khách việc New Zealand xác nhận thu tiền để đổi lấy việc làm là bất hợp pháp, kể cả khi thanh toán ở nước ngoài, nhằm định vị Victory là nguồn tin chính sách đáng tin cậy.",
+"risk_claims": []
+},
+"ai_v": 1
+},
+{
 "id": "f1824bd6c316",
 "company": "bsop",
 "src": "web",

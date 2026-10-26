@@ -1,5 +1,60 @@
 [
 {
+"id": "bd59d8352f40",
+"company": "newachieve",
+"src": "web",
+"outlet": "",
+"title": "Định cư Mỹ diện EB5: Điều kiện và lộ trình",
+"url": "https://newachieve.vn/dinh-cu-my-dien-eb5/",
+"date": "2026-10-26T10:36:29+00:00",
+"cats": [
+"Định cư Mỹ"
+],
+"summary": "EB-5 là lộ trình xin thường trú Mỹ thông qua đầu tư đáp ứng điều kiện. Tìm hiểu vốn, nguồn tiền, việc làm, ngân sách, quyền lợi gia đình và những rủi ro cần đánh giá trước khi lựa chọn phương án đầu tư. Định cư Mỹ diện EB5 yêu cầu đầu tư hợp pháp và tạo ít nhất 10 việc làm toàn thời gian. Mức vốn đầu tư tối thiểu thông thường là 1.050.000 đô la Mỹ (USD); mức 800.000 USD áp dụng cho khu vực việc làm mục tiêu hoặc dự án hạ tầng đủ điều kiện. Vợ/chồng và con chưa kết hôn dưới 21 tuổi có thể đi cùng nếu đáp ứng yêu cầu. Nhà đầu tư được cấp thường trú có điều kiện ban đầu và phải nộp hồ sơ xin gỡ điều kiện theo quy định. Mục lục 1. EB-5 là gì, phù hợp với ai? 2. Điều kiện về vốn, nguồn tiền và việc làm 3. Định cư Mỹ diện EB5 cần chuẩn bị những khoản tiền nào? 4. Hai hình thức đầu tư EB-5: Độc lập và qua trung tâm vùng 5. Quy trình EB-5: Từ chuẩn bị hồ sơ đến gỡ điều kiện thẻ xanh 6. Định cư Mỹ diện EB5 mất bao lâu? 7. Người thân đi cùng và cách xem xét tuổi con 8. Rủi ro EB-5 và những việc cần kiểm tra trước khi đầu tư 9. Câu hỏi thường gặp 10. Kết luận và bước tiếp theo 1. EB-5 là gì, phù hợp với ai? EB-5 là tên gọi của nhóm ưu tiên việc làm thứ năm (Employment-Based Fifth Preference), cho phép xin thường trú qua đầu tư vào doanh nghiệp tại Hoa Kỳ. Thẻ xanh chứng minh tư cách thường trú, khác với quốc tịch. Chương trình do Sở Di trú và Nhập tịch Hoa Kỳ (U.S. Citizenship and Immigration Services, USCIS) quản lý. Trước khi tham gia, đánh giá nguồn lực ngoài vốn đầu tư và hồ sơ chứn",
+"programs": [
+"eb5"
+],
+"p4": [
+"product",
+"price"
+],
+"prices": [
+"1.050.000 đô",
+"800.000 USD"
+],
+"offers": [],
+"places": [],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Hướng dẫn / Kiến thức"
+],
+"ai": {
+"programs": [
+"EB-5"
+],
+"prices": [
+{
+"program": "EB-5",
+"amount": "1.050.000 USD",
+"note": "Mức đầu tư tối thiểu thông thường"
+},
+{
+"program": "EB-5",
+"amount": "800.000 USD",
+"note": "Khu vực việc làm mục tiêu (TEA) hoặc dự án hạ tầng đủ điều kiện"
+}
+],
+"offers": [],
+"event": null,
+"content_type": "Hướng dẫn / Kiến thức",
+"message": "Giúp khách hiểu rõ điều kiện, chi phí, quy trình và rủi ro của EB-5 để cân nhắc lựa chọn phương án đầu tư định cư Mỹ phù hợp.",
+"risk_claims": []
+},
+"ai_v": 1
+},
+{
 "id": "be04b3b34e05",
 "company": "victory",
 "src": "web",

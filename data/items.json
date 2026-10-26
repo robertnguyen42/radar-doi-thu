@@ -1,5 +1,57 @@
 [
 {
+"id": "f1824bd6c316",
+"company": "bsop",
+"src": "web",
+"outlet": "",
+"title": "RECAP BSOP EXPO 7 TP.HCM: Kết nối chuyên gia, mở rộng cơ hội đầu tư toàn cầu",
+"url": "https://bsop.com.vn/recap-bsop-expo-7-tp-hcm/",
+"date": "2026-10-26T08:19:46+00:00",
+"cats": [
+"Sự kiện",
+"Sự kiện không thể bỏ qua",
+"Tin tức"
+],
+"summary": "Ngày 23/10/2026, trong khuôn khổ hành trình BSOP EXPO 7 – Bespoke Wealth Architect, sự kiện chuyên đề “GO GLOBAL – Tài sản, Dịch chuyển & Cơ hội toàn cầu” đã diễn ra tại khách sạn Sheraton Saigon, TP. Hồ Chí Minh, quy tụ các chuyên gia quốc tế và đội ngũ tư vấn BSOP nhằm mang đến góc nhìn đa chiều về chiến lược đầu tư, quy hoạch tài sản và các giải pháp dịch chuyển quốc tế. Bài viết RECAP BSOP EXPO 7 TP.HCM: Kết nối chuyên gia, mở rộng cơ hội đầu tư toàn cầu đã xuất hiện đầu tiên vào ngày Công ty tư vấn đầu tư & định cư quốc tế Bắc Sơn . Với sự tham gia của các diễn giả đến từ Malta, UAE, New Zealand và Australia, chương trình mở ra cơ hội để khách hàng tiếp cận thông tin chuyên sâu về thị trường quốc tế, đồng thời tìm kiếm những định hướng phù hợp với mục tiêu tài chính và kế hoạch dài hạn của gia đình. Tại sự kiện, khách hàng có cơ hội trao đổi trực tiếp với các chuyên gia về những chương trình đầu tư và cư trú quốc tế, cập nhật thông tin từ các thị trường trọng điểm và tìm hiểu những phương án có thể cân nhắc theo nhu cầu thực tế. Một trong những điểm nhấn của chương trình là sự góp mặt của ông Kurt Farrugia – Cục Trưởng Cục Di trú Malta, mang đến góc nhìn thực tiễn về thị trường đầu tư và cư trú Malta. Sự hiện diện của các chuyên gia thuộc nhiều lĩnh vực giúp khách hàng có thêm cơ sở để tìm hiểu các chương trình, đối chiếu những lựa chọn và đánh giá mức độ phù hợp với định hướng của bản thân và gia đình. Không chỉ dừng lại ở việc cập nhật thông tin, GO GLOBAL còn tạo điều",
+"programs": [
+"nz_work",
+"mt",
+"ae"
+],
+"p4": [
+"product",
+"place",
+"promotion"
+],
+"prices": [],
+"offers": [],
+"places": [
+"TP\\.? ?HCM",
+"Hồ Chí Minh"
+],
+"event": true,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Tin chính sách"
+],
+"ai": {
+"programs": [],
+"prices": [],
+"offers": [],
+"event": {
+"kind": "recap",
+"name": "BSOP EXPO 7 – GO GLOBAL – Tài sản, Dịch chuyển & Cơ hội toàn cầu",
+"date": "2026-10-23",
+"city": "TP. Hồ Chí Minh"
+},
+"content_type": "Sự kiện / Hội thảo",
+"message": "BSOP kết nối khách hàng với chuyên gia quốc tế (Malta, UAE, New Zealand, Australia) để định hướng chiến lược đầu tư, quy hoạch tài sản và dịch chuyển toàn cầu phù hợp kế hoạch dài hạn của gia đình.",
+"risk_claims": []
+},
+"ai_v": 1
+},
+{
 "id": "3fc607690f43",
 "company": "kornova",
 "src": "web",

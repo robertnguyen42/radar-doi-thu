@@ -1,5 +1,48 @@
 [
 {
+"id": "cd45187c0368",
+"company": "uca",
+"src": "web",
+"outlet": "",
+"title": "Visa Bulletin Tháng 11/2026: EB3 Tiến Ngày Cả Hai Diện Lao Động",
+"url": "https://uca.com.vn/blog/my/visa-bulletin-thang-11-2026/",
+"date": "2026-10-28T00:29:16+00:00",
+"cats": [
+"Mỹ",
+"Kiến thức",
+"Tin di trú Mỹ"
+],
+"summary": "Visa Bulletin tháng 11/2026 đã được Bộ Ngoại giao Hoa Kỳ công bố. Đối với người Việt Nam quan tâm đến định cư Mỹ diện lao động, hai nhóm quan trọng nhất là EB3 Skilled Worker (lao động có tay nghề) và EB3 Unskilled Worker / Other Workers (lao động phổ thông). Sau đợt lùi[...] ",
+"programs": [
+"eb3"
+],
+"p4": [
+"product"
+],
+"prices": [],
+"offers": [],
+"places": [],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Tin chính sách"
+],
+"ai": {
+"programs": [
+"EB-3 Skilled Worker",
+"EB-3 Unskilled Worker"
+],
+"prices": [],
+"offers": [],
+"event": null,
+"content_type": "Tin chính sách",
+"message": "Cập nhật Visa Bulletin tháng 11/2026 cho thấy EB-3 tiến ngày ở cả hai diện lao động, khuyến khích người Việt quan tâm định cư Mỹ diện lao động theo dõi và nắm bắt cơ hội.",
+"risk_claims": []
+},
+"ai_v": 1
+},
+{
 "id": "bc5911812f32",
 "company": "kornova",
 "src": "web",

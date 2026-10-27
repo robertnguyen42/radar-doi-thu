@@ -43,6 +43,42 @@
 "ai_v": 1
 },
 {
+"id": "eef92a1137fa",
+"company": "victory",
+"src": "web",
+"outlet": "",
+"title": "[Bản tin Canada] Canada phát tín hiệu có thể tăng chỉ tiêu nhập cư trở lại",
+"url": "https://dinhcucacnuoc.com/tin-tuc-canada-co-the-tang-chi-tieu-nhap-cu-tro-lai/",
+"date": "2026-10-27T09:20:10+00:00",
+"cats": [
+"Tin tức Canada",
+"Tin tức",
+"Tin tức di trú 24h"
+],
+"summary": "Ngày 16/10/2026, Bộ trưởng Di trú Canada Lena Diab phát tín hiệu chính phủ có thể tăng chỉ tiêu nhập cư trở lại sau giai đoạn cắt giảm, trong bối cảnh tốc độ tăng dân số xuống mức thấp nhất trong hơn 80 năm. Theo Statistics Canada, dân số Canada chỉ tăng 0,5% trong 12[...] ",
+"programs": [],
+"p4": [],
+"prices": [],
+"offers": [],
+"places": [],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Khác"
+],
+"ai": {
+"programs": [],
+"prices": [],
+"offers": [],
+"event": null,
+"content_type": "Tin chính sách",
+"message": "Canada có thể tăng chỉ tiêu nhập cư trở lại do dân số tăng chậm, khách nên theo dõi và chuẩn bị cơ hội định cư Canada.",
+"risk_claims": []
+},
+"ai_v": 1
+},
+{
 "id": "bc5911812f32",
 "company": "kornova",
 "src": "web",

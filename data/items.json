@@ -1,5 +1,53 @@
 [
 {
+"id": "bc5911812f32",
+"company": "kornova",
+"src": "web",
+"outlet": "",
+"title": "Thẻ Vàng Mỹ: 483 yêu cầu, 3 hồ sơ được duyệt cuối cùng",
+"url": "https://kornova-viet.com/the-vang-my-483-yeu-cau-3-ho-so-duoc-duyet",
+"date": "2026-10-27T03:28:57+00:00",
+"cats": [
+"Chương trình EB-5",
+"Tin định cư Mỹ",
+"định cư Mỹ",
+"Eb-5",
+"Gold Card"
+],
+"summary": "Chương trình Thẻ Vàng Mỹ (Gold Card) từng được giới thiệu với những dự báo lớn về số người tham gia và nguồn thu cho chính phủ. Tuy nhiên, các số liệu trong hồ sơ tòa án mới đây cho thấy một bức tranh thận trọng hơn: 483 yêu cầu tìm hiểu thông tin, 88 […] The post Thẻ Vàng Mỹ: 483 yêu cầu, 3 hồ sơ được duyệt cuối cùng appeared first on Kornova . Chương trình Thẻ Vàng Mỹ (Gold Card) từng được giới thiệu với những dự báo lớn về số người tham gia và nguồn thu cho chính phủ. Tuy nhiên, các số liệu trong hồ sơ tòa án mới đây cho thấy một bức tranh thận trọng hơn: 483 yêu cầu tìm hiểu thông tin, 88 đơn I-140G được nộp và chỉ 3 hồ sơ được phê duyệt cuối cùng. Đây là số liệu được trích từ các bản khai có tuyên thệ của quan chức Sở Di trú và Nhập tịch Hoa Kỳ (USCIS), trong một vụ kiện đang diễn ra tại Mỹ. Với nhà đầu tư đang tìm hiểu con đường định cư Mỹ, dữ liệu này gợi ra một câu hỏi thực tế: cần nhìn chương trình mới như thế nào khi quy trình xét duyệt, tính pháp lý và nghĩa vụ tài chính vẫn đang được theo dõi? Thẻ Vàng Mỹ (Gold Card) là gì? Thẻ Vàng Mỹ, hay Gold Card , là một chương trình nhập cư được thiết lập theo Sắc lệnh Hành pháp 14351, công bố ngày 19/9/2025. Chương trình hướng đến người nước ngoài có khả năng đóng góp tài chính lớn cho Mỹ, với cơ chế xét hồ sơ qua Mẫu I-140G. Theo sắc lệnh, khoản quà tặng được nêu là 1 triệu USD nếu cá nhân tự nộp đơn , hoặc 2 triệu USD nếu doanh nghiệp bảo lãnh một cá nhân . Lệ phí nộp hồ sơ được báo cáo là 15.000 USD. www.whitehouse.gov T",
+"programs": [],
+"p4": [
+"price",
+"promotion"
+],
+"prices": [
+"1 triệu USD",
+"2 triệu USD",
+"15.000 USD"
+],
+"offers": [
+"quà tặng"
+],
+"places": [],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Câu chuyện thành công",
+"Hướng dẫn / Kiến thức"
+],
+"ai": {
+"programs": [],
+"prices": [],
+"offers": [],
+"event": null,
+"content_type": "Tin chính sách",
+"message": "Cảnh báo Thẻ Vàng Mỹ có tỷ lệ duyệt rất thấp (3/88 đơn I-140G) để nhà đầu tư cân nhắc kỹ con đường định cư Mỹ phù hợp hơn.",
+"risk_claims": []
+},
+"ai_v": 1
+},
+{
 "id": "27ea330d1da2",
 "company": "khaiphu",
 "src": "web",
@@ -16684,6 +16732,58 @@
 "250.000 USD",
 "400.000 USD"
 ],
+"offers": [],
+"places": [],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Hướng dẫn / Kiến thức"
+]
+},
+{
+"id": "7a14c717dd96",
+"company": "uca",
+"src": "web",
+"outlet": "",
+"title": "UCA Immigration được vinh danh Top 10 Thương hiệu tư vấn định cư quốc tế xuất sắc",
+"url": "https://uca.com.vn/tin-tuc/uca-immigration-duoc-vinh-danh-top-10-thuong-hieu-tu-van-dinh-cu-quoc-te-xuat-sac/",
+"date": "2026-05-20T09:09:39+00:00",
+"cats": [
+"Tin tức"
+],
+"summary": "Trong bối cảnh nền kinh tế toàn cầu liên tục thay đổi, nhu cầu tìm kiếm cơ hội học tập, làm việc, đầu tư và ổn định cuộc sống tại các quốc gia phát triển ngày càng trở thành mục tiêu quan trọng của nhiều gia đình Việt Nam. Đằng sau mỗi quyết định định[...] ",
+"programs": [],
+"p4": [
+"promotion"
+],
+"prices": [],
+"offers": [],
+"places": [],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"So sánh / Tư vấn chọn",
+"Thương hiệu / PR"
+]
+},
+{
+"id": "d0a802069e67",
+"company": "uca",
+"src": "web",
+"outlet": "",
+"title": "Một Ngày Đặc Biệt Của Gia Đình Anh Tuyền Tại Canada Sau Khi Nhận CoPR",
+"url": "https://uca.com.vn/khach-hang-thanh-cong/mot-ngay-dac-biet-cua-gia-dinh-anh-tuyen-tai-canada-sau-khi-nhan-copr/",
+"date": "2026-05-05T04:11:23+00:00",
+"cats": [
+"Khách hàng thành công",
+"Khách hàng thành công Canada"
+],
+"summary": "Gia đình anh Tuyền đã chính thức bước sang một giai đoạn mới trong hành trình định cư Canada sau khi nhận CoPR, xác nhận tư cách Thường trú nhân Canada. Đây là cột mốc quan trọng, đánh dấu việc gia đình anh đã hoàn tất một chặng đường dài và bắt đầu những bước[...] ",
+"programs": [],
+"p4": [],
+"prices": [],
 "offers": [],
 "places": [],
 "event": false,

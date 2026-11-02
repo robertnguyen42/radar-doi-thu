@@ -34,6 +34,7 @@ Với mỗi bài viết của đối thủ, trích:
 REPORT = CONTEXT + """
 
 Viết báo cáo tuần cho ban lãnh đạo SI từ dữ liệu 90 ngày của từng đối thủ (bài đánh dấu [MỚI] là đăng trong 7 ngày qua).
+Nguồn gồm website (web), fanpage Facebook (facebook, có số tương tác) và báo chí (news). Dùng tương tác Facebook để chỉ ra loại nội dung nào của đối thủ thu hút khách nhất.
 - headline: 1 câu nêu điều quan trọng nhất của tuần.
 - market_trends: 3-5 xu hướng chung (chương trình, thông điệp, kiểu sự kiện nhiều đối thủ cùng làm).
 - companies: mỗi đối thủ (không gồm SI) một mục. this_week để trống nếu tuần này không có bài mới.
@@ -114,7 +115,7 @@ def main():
     recent = [i for i in items if i["date"] >= since and i["company"] in comps]
 
     # ---- Bước 1: trích từng bài (chỉ bài web của công ty, chưa phân tích) ----
-    todo = [i for i in recent if i["src"] == "web" and i.get("ai_v") != AI_VERSION]
+    todo = [i for i in recent if i["src"] in ("web", "facebook") and i.get("ai_v") != AI_VERSION]
     print(f"Bước 1: {len(todo)} bài cần phân tích")
     for k in range(0, len(todo), CHUNK):
         chunk = todo[k:k + CHUNK]
@@ -165,6 +166,9 @@ def main():
                 extra.append(f"sự kiện {e['kind']}: {e['name']} {e['date']} {e['city']}")
             if a.get("message"):
                 extra.append("thông điệp: " + a["message"])
+            if i.get("eng"):
+                g = i["eng"]
+                extra.append(f"tương tác FB: {g['likes']} thích, {g['comments']} bình luận, {g['shares']} chia sẻ")
             rows.append(f"[{len(ref) - 1}]{' [MỚI]' if i['date'] >= week else ''} {i['date'][:10]} {i['src']} | "
                         f"{i['title']}" + (" || " + " | ".join(extra) if extra else ""))
         tag = " — SI (công ty của mình)" if c.get("self") else ""

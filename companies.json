@@ -1,5 +1,5 @@
 {
- "_ghi_chu": "Danh sách công ty theo dõi. self=true là SI (dùng để so sánh). feed = RSS WordPress (để trống nếu web chặn bot). q = câu tìm Google News. link_rewrite = [cũ, mới] đổi link bài (web headless CMS).",
+ "_ghi_chu": "Danh sách công ty theo dõi. self=true là SI (dùng để so sánh). feed = RSS WordPress (để trống nếu web chặn bot). q = câu tìm Google News. link_rewrite = [cũ, mới] đổi link bài (web headless CMS). fb = link fanpage Facebook (đọc qua Apify, cần secret APIFY_TOKEN).",
  "companies": [
   {
    "id": "si",
@@ -7,7 +7,8 @@
    "self": true,
    "web": "https://sigroup.vn",
    "feed": "https://sigroup.vn/feed/",
-   "q": "\"SI Group\" định cư"
+   "q": "\"SI Group\" định cư",
+   "fb": "https://www.facebook.com/SIGroupVietNam"
   },
   {
    "id": "icanfield",
@@ -18,7 +19,8 @@
     "https://cms.icanfield.vn/",
     "https://icanfield.vn/tin-tuc/"
    ],
-   "q": "\"iCanfield\""
+   "q": "\"iCanfield\"",
+   "fb": "https://www.facebook.com/icanfield.vn"
   },
   {
    "id": "newachieve",
@@ -32,7 +34,8 @@
    "name": "American Plus",
    "web": "https://americanplus.vn",
    "feed": "https://americanplus.vn/feed/",
-   "q": "\"American Plus\" định cư OR EB-5"
+   "q": "\"American Plus\" định cư OR EB-5",
+   "fb": "https://www.facebook.com/muanhamy.vn"
   },
   {
    "id": "usimi",
@@ -46,49 +49,64 @@
    "name": "Maple Leaf VN",
    "web": "https://mapleleafvn.com",
    "feed": "https://mapleleafvn.com/feed/",
-   "q": "\"Maple Leaf\" định cư"
+   "q": "\"Maple Leaf\" định cư",
+   "fb": "https://www.facebook.com/mapleleafvietnam.dinhcuquocte"
   },
   {
    "id": "uca",
    "name": "UCA Immigration",
    "web": "https://uca.com.vn",
    "feed": "https://uca.com.vn/feed/",
-   "q": "\"UCA Immigration\" OR \"UCA\" định cư"
+   "q": "\"UCA Immigration\" OR \"UCA\" định cư",
+   "fb": "https://www.facebook.com/uca.com.vn"
   },
   {
    "id": "aims",
    "name": "AIMS Việt Nam",
    "web": "https://aimsvietnam.com",
    "feed": "https://aimsvietnam.com/feed/",
-   "q": "\"AIMS Việt Nam\" OR \"AIMS Immigration\""
+   "q": "\"AIMS Việt Nam\" OR \"AIMS Immigration\"",
+   "fb": "https://www.facebook.com/aimsvn"
   },
   {
    "id": "victory",
    "name": "Victory",
    "web": "https://dinhcucacnuoc.com",
    "feed": "https://dinhcucacnuoc.com/feed/",
-   "q": "\"Victory\" định cư"
+   "q": "\"Victory\" định cư",
+   "fb": "https://www.facebook.com/victorydinhcu"
   },
   {
    "id": "kornova",
    "name": "Kornova",
    "web": "https://kornova-viet.com",
    "feed": "https://kornova-viet.com/feed/",
-   "q": "\"Kornova\""
+   "q": "\"Kornova\"",
+   "fb": "https://www.facebook.com/kornova.tuvanditru"
   },
   {
    "id": "bsop",
    "name": "BSOP (Bắc Sơn)",
    "web": "https://bsop.com.vn",
    "feed": "https://bsop.com.vn/feed/",
-   "q": "\"BSOP\" OR \"Bắc Sơn\" định cư"
+   "q": "\"BSOP\" OR \"Bắc Sơn\" định cư",
+   "fb": "https://www.facebook.com/BSOPdinhcuchauau"
   },
   {
    "id": "khaiphu",
    "name": "Khai Phú",
    "web": "https://tuvanditru.com",
    "feed": "https://tuvanditru.com/feed/",
-   "q": "\"Khai Phú\" định cư OR EB-5"
+   "q": "\"Khai Phú\" định cư OR EB-5",
+   "fb": "https://www.facebook.com/khaiphuimmigration"
+  },
+  {
+   "id": "imm",
+   "name": "IMM Group",
+   "web": "https://immgroup.com",
+   "feed": "",
+   "q": "\"IMM Group\" định cư",
+   "fb": "https://www.facebook.com/immgroup.vn"
   }
  ]
 }

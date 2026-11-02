@@ -262,6 +262,10 @@ def analyze(items, comps, homes, tax):
             "name": c["name"], "self": c.get("self", False), "web": c.get("web"), "home_ok": h.get("ok", False),
             "posts": len(own), "news": len([i for i in its if i["src"] == "news"]),
             "posts_7d": len([i for i in own if i["date"] >= week]),
+            "fb": len([i for i in its if i["src"] == "facebook"]),
+            "fb_7d": len([i for i in its if i["src"] == "facebook" and i["date"] >= week]),
+            "fb_eng": sum(sum((i.get("eng") or {}).get(k, 0) for k in ("likes", "comments", "shares")) for i in its if i["src"] == "facebook"),
+            "fb_page": c.get("fb", ""),
             "news_7d": len([i for i in its if i["src"] == "news" and i["date"] >= week]),
             "product": {"programs": [[p, n, h.get("programs", {}).get(p, 0)] for p, n in prog_cnt.most_common()],
                         "countries": country_cnt.most_common()},
@@ -358,7 +362,8 @@ def main():
     res = analyze(items, comps, homes, tax)
     res.update(updated=NOW.isoformat(timespec="minutes"), week=week_id(),
                countries=tax["countries"], programs={k: {"name": v["name"], "country": v["country"]} for k, v in tax["progs"].items()},
-               items=[{k: i[k] for k in ("company", "src", "outlet", "title", "url", "date", "programs", "p4", "event", "ctype", "risk")}
+               items=[{**{k: i[k] for k in ("company", "src", "outlet", "title", "url", "date", "programs", "p4", "event", "ctype", "risk")},
+                       **({"eng": i["eng"]} if i.get("eng") else {})}
                       for i in items if i["date"] >= (NOW - timedelta(days=90)).isoformat()])
     prev = sorted((DATA / "weeks").glob("*.json"))
     prev = [x for x in prev if x.stem != res["week"]]

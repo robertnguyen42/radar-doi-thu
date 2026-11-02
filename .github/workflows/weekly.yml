@@ -8,6 +8,10 @@ on:
         description: "Viết lại báo cáo AI tuần này"
         type: boolean
         default: false
+      force_fb:
+        description: "Quét Facebook ngay (bình thường 1 lần/ngày)"
+        type: boolean
+        default: false
 permissions:
   contents: write
   pages: write
@@ -26,6 +30,10 @@ jobs:
       - uses: actions/setup-python@v5
         with: { python-version: "3.12" }
       - run: pip install -q anthropic pydantic
+      - run: python fetch_fb.py
+        env:
+          APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
+          FORCE_FB: ${{ inputs.force_fb && '1' || '' }}
       - run: python fetch.py
       - run: python analyze_ai.py
         env:

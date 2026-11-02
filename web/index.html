@@ -82,6 +82,9 @@ tr.click{cursor:pointer} tr.click:hover td{background:var(--sunk)}
 .fchip[aria-pressed="true"] i{color:var(--surface)}
 .fchip:hover{border-color:var(--accent)}
 .fcount{font-size:12px;color:var(--muted)}
+.srct{display:inline-block;font-size:10.5px;font-weight:600;padding:0 6px;border-radius:4px;background:var(--sunk);color:var(--muted);margin-right:4px}
+.srct.facebook{background:var(--accent-soft);color:var(--accent)}
+.eng{font-family:var(--f-mono);font-size:11px;color:var(--muted);margin-right:6px;white-space:nowrap}
 .heat td.h{text-align:center;font-family:var(--f-mono);font-size:12px;min-width:44px}
 .bar{display:grid;grid-template-columns:minmax(120px,190px) 1fr 36px;gap:8px;align-items:center;font-size:13px}
 .bar .t{height:10px;background:var(--sunk);border-radius:3px;overflow:hidden}
@@ -125,7 +128,7 @@ select{font:inherit;padding:6px 10px;border-radius:6px;border:1px solid var(--li
     <button role="tab" data-tab="feed">Tất cả bài</button>
   </nav>
   <main id="view"></main>
-  <p class="note">Dữ liệu tự động từ RSS website công ty, Google News và trang chủ; phân loại bằng từ khoá (sửa trong <code>taxonomy.json</code>). Số liệu là tín hiệu tham khảo, không phải số đếm tuyệt đối.</p>
+  <p class="note">Dữ liệu tự động từ RSS website công ty, fanpage Facebook (bài liên quan định cư, quét mỗi ngày), Google News và trang chủ; phân loại bằng từ khoá (sửa trong <code>taxonomy.json</code>). Số liệu là tín hiệu tham khảo, không phải số đếm tuyệt đối.</p>
 </div>
 
 <script id="data" type="application/json">__DATA__</script>
@@ -177,7 +180,7 @@ overview(){
     const c = C[id];
     return `<tr class="click ${c.self?'self':''}" data-co="${id}">
       <td class="name">${esc(c.name)} ${c.self?'<span class="chip self">SI</span>':''}</td>
-      <td class="n">${c.posts} ${delta(id)}</td><td class="n">${c.posts_7d}</td><td class="n">${c.news}</td>
+      <td class="n">${c.posts} ${delta(id)}</td><td class="n">${c.posts_7d}</td><td class="n">${c.news}</td><td class="n">${c.fb ? c.fb + (c.fb_7d ? ` <span class="delta up">+${c.fb_7d}</span>` : '') : (c.fb_page ? '0' : '<span class="sub">—</span>')}</td>
       <td>${topCountries(c)}</td>
       <td class="n">${c.promotion.events.length}</td>
       <td>${c.promotion.risks.length ? `<span class="chip warn">⚠ ${c.promotion.risks.length}</span>` : ''}${c.home_ok ? '' : '<span class="chip muted">web chặn</span>'}</td></tr>`;
@@ -191,7 +194,7 @@ overview(){
   const heat = ids.map(id => `<tr class="${C[id].self?'self':''}"><td class="name">${esc(C[id].name)}</td>${cols.map(k => { const v = cell(C[id],k); return `<td class="h" style="background:rgba(var(--heat),${v? .12+.7*v/hmax : 0})">${v||''}</td>`; }).join('')}</tr>`).join('');
   return `<div class="grid2" style="grid-template-columns:1fr">
    <section class="panel"><h2>Bảng so sánh</h2>
-    <div class="scroll"><table><thead><tr><th>Công ty</th><th class="n">Bài web 90n</th><th class="n">7 ngày</th><th class="n">Tin báo</th><th>Trọng tâm thị trường</th><th class="n">Sự kiện</th><th>Cờ</th></tr></thead><tbody>${rows}</tbody></table></div>
+    <div class="scroll"><table><thead><tr><th>Công ty</th><th class="n">Bài web 90n</th><th class="n">7 ngày</th><th class="n">Tin báo</th><th class="n">Facebook</th><th>Trọng tâm thị trường</th><th class="n">Sự kiện</th><th>Cờ</th></tr></thead><tbody>${rows}</tbody></table></div>
     <p class="note">Bấm một dòng để xem hồ sơ 4Ps. Số nhỏ màu cạnh "Bài web" là chênh lệch so với tuần ${esc(D.prev_week||'trước')}.</p></section>
    <div class="grid2">
     <section class="panel"><h2>Chương trình được nhắc nhiều nhất (toàn thị trường, 90 ngày)</h2>${trend}</section>
@@ -201,7 +204,7 @@ overview(){
 company(){
   const c = C[state.co];
   const opts = ids.map(id => `<option value="${id}" ${id===state.co?'selected':''}>${esc(C[id].name)}</option>`).join('');
-  const posts = D.items.filter(i => i.company===state.co).slice(0,15).map(i => `<li><a href="${esc(i.url)}" target="_blank" rel="noopener">${esc(i.title)}</a><span class="sub">${fmtD(i.date)} · ${i.src==='news'?esc(i.outlet||'báo'):'web'} · ${i.p4.map(p => `<span class="s-${p}">${p}</span>`).join(' ')}</span></li>`).join('');
+  const posts = D.items.filter(i => i.company===state.co).slice(0,15).map(i => `<li><a href="${esc(i.url)}" target="_blank" rel="noopener">${esc(i.title)}</a><span class="sub">${fmtD(i.date)} · ${srcTag(i)} ${engH(i)} · ${i.p4.map(p => `<span class="s-${p}">${p}</span>`).join(' ')}</span></li>`).join('');
   const ev = c.promotion.events.map(e => `<li><a href="${esc(e.url)}" target="_blank" rel="noopener">${esc(e.title)}</a><span class="sub">đăng ${fmtD(e.date)}${e.when.length?' · diễn ra '+e.when.map(fmtD).join(', '):''}</span></li>`).join('');
   const risks = c.promotion.risks.map(r => `<li><span class="chip warn">${esc(r.text)}</span> <a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.title)}</a></li>`).join('');
   return `<div style="display:grid;gap:16px">
@@ -282,7 +285,7 @@ function p4cards(c){
       sec('Mức đầu tư / phí công bố', priceRows) + sec('Ưu đãi', tags(offers)))
     + card('place', 'Kênh phân phối', c.place.places.length + c.place.channels.length, 'điểm chạm',
       sec('Văn phòng / địa điểm', tags(c.place.places)) + sec('Kênh online', tags(c.place.channels)))
-    + card('promotion', 'Truyền thông', c.posts + c.news, 'bài 90 ngày',
+    + card('promotion', 'Truyền thông', c.posts + c.news + (c.fb || 0), 'bài 90 ngày (web, FB, báo)',
       sec('Loại content', meters(ct)) + sec('Thông điệp lặp lại', tags(ph)));
 }
 function aiPrices(cid){
@@ -294,15 +297,28 @@ function eventList(){
   return (aiEv.length ? aiEv : ids.flatMap(id => C[id].promotion.events.map(e => ({...e, co:id})))).sort((a,b) => ((b.when[0]||b.date) > (a.when[0]||a.date) ? 1 : -1));
 }
 const fold = t => String(t||'').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/đ/g,'d');
+const SRC = {web: 'Website', facebook: 'Facebook', news: 'Báo chí'};
+const fmtN = n => n >= 1000 ? (n/1000).toFixed(n >= 10000 ? 0 : 1) + 'k' : String(n || 0);
+const engH = i => i.eng ? `<span class="eng" title="Thích · bình luận · chia sẻ">♥ ${fmtN(i.eng.likes)} · 💬 ${fmtN(i.eng.comments)} · ↗ ${fmtN(i.eng.shares)}</span>` : '';
+const srcTag = i => `<span class="srct ${i.src}">${i.src === 'news' ? esc(i.outlet || 'Báo') : SRC[i.src] || i.src}</span>`;
 function filterBar(list){
   const cnt = {}; list.forEach(x => cnt[x.co] = (cnt[x.co]||0) + 1);
   const sel = new Set(state.fco || []);
   const chipsH = `<button type="button" class="fchip" data-fco="" aria-pressed="${sel.size===0}">Tất cả <i>${list.length}</i></button>` +
     ids.filter(id => cnt[id]).map(id => `<button type="button" class="fchip" data-fco="${id}" aria-pressed="${sel.has(id)}">${esc(C[id].name)} <i>${cnt[id]}</i></button>`).join('');
   return `<div class="filter"><label class="sub" for="fq">Tìm kiếm</label><input id="fq" type="search" placeholder="Gõ từ khoá: EB-5, Hy Lạp, hội thảo…" value="${esc(state.q||'')}" autocomplete="off">
-    <div class="fchips" role="group" aria-label="Lọc theo công ty">${chipsH}</div><span class="fcount" id="fcount"></span></div>`;
+    <div class="fchips" role="group" aria-label="Lọc theo công ty">${chipsH}</div>${srcChips(list)}<span class="fcount" id="fcount"></span></div>`;
+}
+function srcChips(list){
+  if (!list.length || !list[0].src || state.tab !== 'feed') return '';
+  const cnt = {}; list.forEach(x => cnt[x.src] = (cnt[x.src]||0) + 1);
+  const cur = state.srcf || '';
+  return `<div class="fchips" role="group" aria-label="Lọc theo nguồn"><span class="sub" style="align-self:center">Nguồn:</span>` +
+    [['', 'Tất cả nguồn', list.length], ...['web','facebook','news'].filter(k => cnt[k]).map(k => [k, SRC[k], cnt[k]])]
+      .map(([k, l, n]) => `<button type="button" class="fchip" data-fsrc="${k}" aria-pressed="${cur===k}">${l} <i>${n}</i></button>`).join('') + '</div>';
 }
 function matchF(x, text){
+  if (state.tab === 'feed' && state.srcf && x.src && x.src !== state.srcf) return false;
   const sel = state.fco || [];
   if (sel.length && !sel.includes(x.co)) return false;
   const q = fold(state.q).trim();
@@ -318,7 +334,7 @@ function fillRows(){
       return `<tr><td class="n">${w?fmtD(w)+'/'+w.slice(2,4):'—'}</td><td>${e.kind==='recap'?'<span class="chip muted">bài tổng kết</span>':up?'<span class="chip self">sắp diễn ra</span>':'<span class="chip muted">đã qua</span>'}</td><td class="name">${esc(C[e.co].name)}</td><td><a href="${esc(e.url)}" target="_blank" rel="noopener">${esc(e.title)}</a></td><td class="n">${fmtD(e.date)}</td></tr>`; });
   } else {
     total = D.items.length;
-    rows = D.items.filter(i => matchF({co: i.company}, i.title + ' ' + i.programs.map(pn).join(' ') + ' ' + (i.ai ? i.ai.programs.join(' ') + ' ' + i.ai.message : '') + ' ' + C[i.company]?.name)).map(i => `<tr><td class="n">${fmtD(i.date)}</td><td class="name">${esc(C[i.company]?.name)}</td><td><a href="${esc(i.url)}" target="_blank" rel="noopener">${esc(i.title)}</a><div class="sub">${esc(i.ai && i.ai.message ? i.ai.message : i.programs.map(pn).join(' · '))}</div></td><td>${i.p4.map(p => `<span class="stamp s-${p}">${p.slice(0,5)}</span>`).join(' ')}</td><td>${(i.ai ? [i.ai.content_type] : i.ctype).map(t => `<span class="chip">${esc(t)}</span>`).join('')}${i.risk.length?'<span class="chip warn">⚠</span>':''}</td></tr>`);
+    rows = D.items.filter(i => matchF({co: i.company, src: i.src}, i.title + ' ' + i.programs.map(pn).join(' ') + ' ' + (i.ai ? i.ai.programs.join(' ') + ' ' + i.ai.message : '') + ' ' + C[i.company]?.name)).map(i => `<tr><td class="n">${fmtD(i.date)}</td><td class="name">${esc(C[i.company]?.name)}</td><td><a href="${esc(i.url)}" target="_blank" rel="noopener">${esc(i.title)}</a><div class="sub">${srcTag(i)} ${engH(i)} ${esc(i.ai && i.ai.message ? i.ai.message : i.programs.map(pn).join(' · '))}</div></td><td>${i.p4.map(p => `<span class="stamp s-${p}">${p.slice(0,5)}</span>`).join(' ')}</td><td>${(i.ai ? [i.ai.content_type] : i.ctype).map(t => `<span class="chip">${esc(t)}</span>`).join('')}${i.risk.length?'<span class="chip warn">⚠</span>':''}</td></tr>`);
   }
   tb.innerHTML = rows.join('') || '<tr><td colspan="5" class="empty">Không có kết quả phù hợp. Bỏ bớt bộ lọc hoặc đổi từ khoá.</td></tr>';
   const fc = document.getElementById('fcount'); if (fc) fc.textContent = `Hiển thị ${rows.length} / ${total}`;
@@ -338,6 +354,12 @@ document.getElementById('view').addEventListener('click', e => {
   sel = id === '' ? [] : sel.includes(id) ? sel.filter(x => x !== id) : [...sel, id];
   state.fco = sel; save();
   document.querySelectorAll('.fchip').forEach(c => c.setAttribute('aria-pressed', c.dataset.fco === '' ? sel.length === 0 : sel.includes(c.dataset.fco)));
+  fillRows();
+});
+document.getElementById('view').addEventListener('click', e => {
+  const b = e.target.closest('[data-fsrc]'); if (!b) return;
+  state.srcf = b.dataset.fsrc; save();
+  document.querySelectorAll('[data-fsrc]').forEach(c => c.setAttribute('aria-pressed', c.dataset.fsrc === state.srcf));
   fillRows();
 });
 document.getElementById('view').addEventListener('input', e => { if (e.target.id === 'fq'){ state.q = e.target.value; save(); fillRows(); } });

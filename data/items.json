@@ -1,5 +1,53 @@
 [
 {
+"id": "1d010515c484",
+"company": "victory",
+"src": "web",
+"outlet": "",
+"title": "[Bản tin EU] Giới nhà giàu đổ về Hy Lạp, bất động sản Athens thay đổi",
+"url": "https://dinhcucacnuoc.com/tin-tuc-gioi-nha-giau-do-ve-hy-lap/",
+"date": "2026-11-02T07:56:38+00:00",
+"cats": [
+"Tin tức Châu Âu",
+"Tin tức",
+"Tin tức di trú 24h"
+],
+"summary": "Theo cuộc điều tra của Financial Times công bố ngày 31/10/2026, giới nhà giàu nước ngoài đang đổ về Hy Lạp nhờ chính sách ưu đãi thuế và sức hấp dẫn của thị trường bất động sản, đặc biệt tại Athens Riviera. Làn sóng này thu hút thêm dòng vốn quốc tế, thúc đẩy phát[...] ",
+"programs": [
+"gr",
+"re"
+],
+"p4": [
+"product",
+"price",
+"place",
+"promotion"
+],
+"prices": [],
+"offers": [
+"ưu đãi"
+],
+"places": [
+"Huế"
+],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Tin chính sách"
+],
+"ai": {
+"programs": [],
+"prices": [],
+"offers": [],
+"event": null,
+"content_type": "Tin chính sách",
+"message": "Giới nhà giàu đang đổ về Hy Lạp nhờ ưu đãi thuế và bất động sản Athens hấp dẫn, khuyến khích khách quan tâm đầu tư Hy Lạp.",
+"risk_claims": []
+},
+"ai_v": 1
+},
+{
 "id": "11e0e58d2f67",
 "company": "kornova",
 "src": "web",
@@ -51,6 +99,48 @@
 "event": null,
 "content_type": "Hướng dẫn / Kiến thức",
 "message": "Nhà đầu tư cần rà soát toàn bộ ngân sách, chứng minh nguồn tiền và hồ sơ EB-5 ngay trước mốc điều chỉnh mức đầu tư năm 2027.",
+"risk_claims": []
+},
+"ai_v": 1
+},
+{
+"id": "240d28f7fc49",
+"company": "khaiphu",
+"src": "web",
+"outlet": "",
+"title": "Có nên đi Mỹ theo diện EB-3? Ưu nhược điểm và ai phù hợp",
+"url": "https://tuvanditru.com/co-nen-di-my-theo-dien-eb-3/",
+"date": "2026-11-02T01:00:27+00:00",
+"cats": [
+"TIN ĐỊNH CƯ MỸ"
+],
+"summary": "Có nên đi Mỹ theo diện EB-3? Phân tích chi tiết điều kiện, quy trình, chi phí và rủi ro di trú lao động phổ thông. Đưa ra quyết định thông minh! The post Có nên đi Mỹ theo diện EB-3? Ưu nhược điểm và ai phù hợp appeared first on Khai Phú Investments & Migration . Có nên đi Mỹ theo diện EB-3? Ưu nhược điểm và ai phù hợp Có nên đi Mỹ theo diện EB-3? EB-3 phù hợp với gia đình muốn có thẻ xanh Mỹ mà không cần vốn đầu tư, chấp nhận chờ khoảng 3 – 6 năm và sẵn sàng làm đúng công việc được bảo lãnh; diện này ít phù hợp với người cần thẻ xanh nhanh hoặc có con sắp 21 tuổi. Bài viết tổng hợp ưu nhược điểm, chi phí, thời gian và so sánh EB-3 với EB-5 theo thông tin cập nhật 2026. Có nên đi Mỹ theo diện EB-3? Phân tích điều kiện & chi phí Có nên đi Mỹ theo diện EB3? Ai phù hợp và ai không Định cư EB-3 phù hợp hay không phụ thuộc vào bốn yếu tố: mục tiêu định cư, khả năng chờ đợi, độ tuổi của con và mức sẵn sàng làm công việc được bảo lãnh. Visa EB-3 là diện thẻ xanh dành cho người có thư mời làm việc toàn thời gian từ chủ lao động Mỹ; thẻ xanh là thẻ thường trú nhân, cho phép sống và làm việc lâu dài tại Mỹ. Bảng dưới đây giúp đối chiếu nhanh hoàn cảnh gia đình với đặc điểm của diện EB-3: Tiêu chí Phù hợp với EB-3 Ít phù hợp với EB-3 Mục tiêu Thẻ xanh cho cả gia đình, ưu tiên tương lai học tập của con Cần ra đi trong 1 – 2 năm Tài chính Không có hoặc không muốn dùng vốn đầu tư lớn Có sẵn vốn và muốn rút ngắn thời gian Thời gian chờ Chấp nhận chờ khoảng 3–4 năm (tay nghề) hoặc 5–6 năm (p",
+"programs": [
+"eb5",
+"eb3"
+],
+"p4": [
+"product",
+"price"
+],
+"prices": [],
+"offers": [],
+"places": [],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Tin chính sách"
+],
+"ai": {
+"programs": [
+"EB-3"
+],
+"prices": [],
+"offers": [],
+"event": null,
+"content_type": "So sánh / Tư vấn chọn",
+"message": "EB-3 phù hợp với gia đình muốn thẻ xanh Mỹ không cần vốn đầu tư, chấp nhận chờ 3–6 năm; khách nên cân nhắc so với EB-5 để chọn diện phù hợp.",
 "risk_claims": []
 },
 "ai_v": 1

@@ -1,5 +1,41 @@
 [
 {
+"id": "2c02c0e4baae",
+"company": "victory",
+"src": "web",
+"outlet": "",
+"title": "[Bản tin Canada] Canada đàm phán mở rộng chương trình trao đổi sinh viên Erasmus+ với EU",
+"url": "https://dinhcucacnuoc.com/tin-tuc-canada-dam-phan-mo-rong-chuong-trinh-erasmus-plus/",
+"date": "2026-11-02T23:57:39+00:00",
+"cats": [
+"Tin tức Canada",
+"Tin tức",
+"Tin tức di trú 24h"
+],
+"summary": "Ngày 30/10/2026, Chính phủ Canada chính thức thông báo khởi động đàm phán với Liên minh châu Âu (EU) nhằm mở rộng tham gia chương trình trao đổi sinh viên Erasmus+, hướng đến tăng cơ hội học tập, thực tập và đào tạo quốc tế. Thông báo được đưa ra sau Hội nghị Thượng đỉnh[...] ",
+"programs": [],
+"p4": [],
+"prices": [],
+"offers": [],
+"places": [],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Tin chính sách"
+],
+"ai": {
+"programs": [],
+"prices": [],
+"offers": [],
+"event": null,
+"content_type": "Tin chính sách",
+"message": "Cập nhật tin Canada đàm phán mở rộng Erasmus+ với EU, gợi mở cơ hội học tập, thực tập quốc tế cho người học tại Canada.",
+"risk_claims": []
+},
+"ai_v": 1
+},
+{
 "id": "8fec658e7eed",
 "company": "newachieve",
 "src": "web",

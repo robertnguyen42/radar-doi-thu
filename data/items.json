@@ -1,5 +1,103 @@
 [
 {
+"id": "49bf051b3d64",
+"company": "victory",
+"src": "facebook",
+"outlet": "Facebook",
+"title": "Cũng là định cư Mỹ, vì sao có người chọn EB-5 nhưng lại có người chọn EB-3?",
+"url": "https://www.facebook.com/reel/1798913811343535/",
+"date": "2026-11-05T13:01:08+00:00",
+"cats": [],
+"summary": "Cũng là định cư Mỹ, vì sao có người chọn EB-5 nhưng lại có người chọn EB-3? #victoryinvestmentconsultant #dinhcuvictory #dinhcumy #eb3 #usa #eb5",
+"eng": {
+"likes": 6,
+"comments": 1,
+"shares": 0,
+"views": 482
+},
+"programs": [
+"eb5",
+"eb3"
+],
+"p4": [
+"product"
+],
+"prices": [],
+"offers": [],
+"places": [],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Khác"
+],
+"ai": {
+"programs": [
+"EB-5",
+"EB-3"
+],
+"prices": [],
+"offers": [],
+"event": null,
+"content_type": "So sánh / Tư vấn chọn",
+"message": "Giúp khách hiểu khác biệt để chọn giữa EB-5 và EB-3 khi định cư Mỹ.",
+"risk_claims": []
+},
+"ai_v": 1
+},
+{
+"id": "feced11e134c",
+"company": "icanfield",
+"src": "facebook",
+"outlet": "Facebook",
+"title": "🇨🇦 CANADA PNP 2026: TOP 6 NHÓM NGÀNH TIỀM NĂNG CHO DOANH NHÂN VIỆT",
+"url": "https://www.facebook.com/icanfield.vn/posts/pfbid0LkVmhK12Tx3f7g4hw9ZwLiYrJg9FiwKE5yukJpxWcoNUPjjfK4SJQLUKmhrovjdql",
+"date": "2026-11-05T12:00:06+00:00",
+"cats": [],
+"summary": "🇨🇦 CANADA PNP 2026: TOP 6 NHÓM NGÀNH TIỀM NĂNG CHO DOANH NHÂN VIỆT Một ý tưởng kinh doanh tiềm năng, đáp ứng nhu cầu thực tế và tạo việc làm cho người dân Canada sẽ là lợi thế đáng kể trong quá trình xét duyệt và đánh giá hồ sơ. ⌛Thời gian: 08H30, Thứ Sáu, ngày 13/11/2026. 📍Hình thức: Văn phòng iCanfield Vietnam - Tầng 16, Tòa nhà Saigon Marina IFC, 02 Tôn Đức Thắng, Phường Sài Gòn. 🔗Đăng ký ngay: https://forms.gle/iU78j7JmYLjrd1ANA – 🍁Trong chương trình Canada PNP diện Doanh nhân, lựa chọn lĩnh vực kinh doanh phù hợp với nhu cầu phát triển kinh tế của từng địa phương là một trong những yếu tố quan trọng, nâng cao tính khả thi của hồ sơ và cơ hội nhận được sự ủng hộ từ cộng đồng. Vậy đâu là những nhóm ngành đáng cân nhắc khi đầu tư, thành lập doanh nghiệp tại Canada trong năm 2026? 1️⃣Sản xuất và Chế biến Góp phần phát triển chuỗi cung ứng và gia tăng giá trị sản phẩm địa phương, với các mô hình như sản xuất gỗ kỹ thuật, linh kiện công nghiệp và chế biến thực phẩm. 2️⃣Công nghệ và Đổi mới sáng tạo Thúc đẩy chuyển đổi số và nâng cao năng lực cạnh tranh thông qua phát triển phần mềm, ứng dụng AI, tự động hóa và nghiên cứu khoa học (R&D). 3️⃣Nông nghiệp Phát triển các mô hình trang trại, chăn nuôi và sản xuất nông nghiệp ứng dụng công nghệ, góp phần nâng cao năng suất và thúc đẩy kinh tế địa phương. 4️⃣Y tế và chăm sóc sức khỏe Đáp ứng nhu cầu chăm sóc sức khỏe cộng đồng thông qua các dịch vụ y tế tư nhân, chăm sóc người cao tuổi và cung ứng thiết bị y tế. 5️⃣Xây dựng và dịch vụ",
+"eng": {
+"likes": 5,
+"comments": 1,
+"shares": 1,
+"views": 0
+},
+"programs": [
+"pnp"
+],
+"p4": [
+"product",
+"place"
+],
+"prices": [],
+"offers": [],
+"places": [
+"Sài Gòn"
+],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"So sánh / Tư vấn chọn"
+],
+"ai": {
+"programs": [
+"Canada PNP diện Doanh nhân"
+],
+"prices": [],
+"offers": [],
+"event": {
+"kind": "invite",
+"name": "Canada PNP 2026: Top 6 nhóm ngành tiềm năng cho doanh nhân Việt",
+"date": "2026-11-13",
+"city": "TP.HCM"
+},
+"content_type": "Sự kiện / Hội thảo",
+"message": "Mời doanh nhân tham dự hội thảo để chọn ngành kinh doanh phù hợp, tăng khả thi hồ sơ PNP Canada.",
+"risk_claims": []
+},
+"ai_v": 1
+},
+{
 "id": "2679f0c4cb04",
 "company": "kornova",
 "src": "web",
@@ -41,6 +139,48 @@
 "content_type": "So sánh / Tư vấn chọn",
 "message": "Gia đình có con giữ H-1B tại Mỹ nên cân nhắc EB-5 như lộ trình thường trú ít phụ thuộc nhà tuyển dụng, sau khi cân đối vốn và rủi ro.",
 "risk_claims": []
+},
+"ai_v": 1
+},
+{
+"id": "2754b60a453f",
+"company": "bsop",
+"src": "facebook",
+"outlet": "Facebook",
+"title": "NẮM TRỌN QUYỀN CHỦ ĐỘNG TRONG ĐẦU TƯ QUỐC TẾ CHỈ VỚI NỀN TẢNG BWA",
+"url": "https://www.facebook.com/reel/2629579357482359/",
+"date": "2026-11-05T10:25:57+00:00",
+"cats": [],
+"summary": "NẮM TRỌN QUYỀN CHỦ ĐỘNG TRONG ĐẦU TƯ QUỐC TẾ CHỈ VỚI NỀN TẢNG BWA Tài liệu ở một nơi, kế hoạch ở một nơi, các hoạt động đầu tư lại được theo dõi ở nhiều nơi khác nhau. Điều này khiến Nhà đầu tư mất thêm thời gian tìm kiếm, khó kiểm soát mọi thông tin và tiến độ đầu tư một cách xuyên suốt. Đó cũng là lý do BSOP phát triển nền tảng BWA - Bespoke Wealth Architect | Nền tảng Kiến trúc gia sản và đầu tư quốc tế đầu tiên tại Việt Nam, nơi Nhà đầu tư có thể quản lý các thông tin, hồ sơ và kế hoạch đầu tư chỉ với 1 nền tảng. Đến với nền tảng BWA, Nhà đầu tư có thể theo dõi lộ trình tư vấn và tiến độ kế hoạch cá nhân, lưu trữ hồ sơ tập trung, kết nối với chuyên gia và tiếp cận những nội dung được AI đề xuất theo nhu cầu riêng. Cùng lắng nghe ông Lưu Minh Ngọc - Founder, CEO BSOP & Bắc Sơn Group chia sẻ về cách nền tảng BWA hỗ trợ Nhà đầu tư trên hành trình đầu tư quốc tế và đăng ký để trải nghiệm nền tảng BWA phiên bản 1.0 ngay tại BSOP EXPO 7 – BESPOKE WEALTH ARCHITECT 2026 | KIẾN TRÚC GIA SẢN & ĐẦU TƯ QUỐC TẾ 📲 Đăng ký ngay qua QR Code hoặc liên hệ: ☎️ 0904 966 797 – 098 913 6666 📩 Inbox: https://m.me/BSOPdinhcuchauau 🌐 https://www.bsopexpo.com/ #BSOPEXPO7 #BSOPEXPO #BespokeWealthArchitect #BWAEXPO7 #KienTrucGiaSan #DauTuQuocTe",
+"eng": {
+"likes": 3,
+"comments": 1,
+"shares": 0,
+"views": 104
+},
+"programs": [],
+"p4": [
+"promotion"
+],
+"prices": [],
+"offers": [],
+"places": [],
+"event": true,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Hướng dẫn / Kiến thức"
+],
+"ai": {
+"programs": [],
+"prices": [],
+"offers": [],
+"event": null,
+"content_type": "Thương hiệu / PR",
+"message": "Giới thiệu nền tảng BWA giúp nhà đầu tư quản lý toàn bộ kế hoạch đầu tư quốc tế, kêu gọi đăng ký trải nghiệm.",
+"risk_claims": [
+"Nền tảng Kiến trúc gia sản và đầu tư quốc tế đầu tiên tại Việt Nam"
+]
 },
 "ai_v": 1
 },
@@ -131,6 +271,53 @@
 "ai_v": 1
 },
 {
+"id": "a7461bebe5ed",
+"company": "kornova",
+"src": "facebook",
+"outlet": "Facebook",
+"title": "COTA VERA: TỪ XÂY DỰNG ĐẾN HOÀN VỐN, NHÀ ĐẦU TƯ EB-5 CẦN NHÌN GÌ?",
+"url": "https://www.facebook.com/kornova.tuvanditru/posts/pfbid02TDdeAFchyxUkxoat1F9SUchQohLwUezzADkieWLQzdhrUgbZaAsPiWxuXKEYy1D3l",
+"date": "2026-11-05T08:14:55+00:00",
+"cats": [],
+"summary": "COTA VERA: TỪ XÂY DỰNG ĐẾN HOÀN VỐN, NHÀ ĐẦU TƯ EB-5 CẦN NHÌN GÌ? Theo bản cập nhật tháng 11/2026, 44 nhà đầu tư EB-5 đủ điều kiện tại Cota Vera 1 đã được hoàn trả đầy đủ vốn. Cùng thời điểm, các giai đoạn khác tiếp tục ghi nhận tiến triển: 🏗️ Cota Vera 3: Hoàn tất phần móng các tòa nhà tại Harmony; tường chắn đất tại Serenity hoàn thành khoảng 80%. 🏘️ Cota Vera 2: Ba khu căn hộ đã hoàn tất xây dựng. Riêng Artisan đạt tỷ lệ cho thuê 93% tính đến ngày 23/10/2026. 🔎 Với nhà đầu tư, mỗi con số trả lời một câu hỏi khác nhau: tiến độ xây dựng, khả năng vận hành hay kết quả hoàn vốn. Kết quả của Cota Vera 1 cũng cần được phân biệt với triển vọng của Cota Vera 2 và 3. 👉 Những cập nhật này có ý nghĩa gì khi đánh giá dự án cho kế hoạch định cư Mỹ? Anh/chị xem phân tích chi tiết tại bình luận ghim. Anh/Chị có thể nhắn Kornova để trao đổi thêm về Cota Vera và các thông tin cần làm rõ trước khi đầu tư. #EB5 #Kornova #DinhCuMy #CotaVera #DauTuDinhCuMy",
+"eng": {
+"likes": 4,
+"comments": 2,
+"shares": 1,
+"views": 0
+},
+"programs": [
+"eb5",
+"re"
+],
+"p4": [
+"product"
+],
+"prices": [],
+"offers": [],
+"places": [],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Tin chính sách"
+],
+"ai": {
+"programs": [
+"EB-5"
+],
+"prices": [],
+"offers": [],
+"event": null,
+"content_type": "Dự án / Chương trình",
+"message": "Cập nhật tiến độ và hoàn vốn Cota Vera để tạo niềm tin, mời khách nhắn tin tư vấn dự án EB-5.",
+"risk_claims": [
+"44 nhà đầu tư EB-5 đủ điều kiện tại Cota Vera 1 đã được hoàn trả đầy đủ vốn"
+]
+},
+"ai_v": 1
+},
+{
 "id": "bde45b74a52e",
 "company": "kornova",
 "src": "web",
@@ -174,6 +361,113 @@
 "risk_claims": [
 "ghi nhận kết quả hoàn vốn cho các nhà đầu tư EB-5 đủ điều kiện"
 ]
+},
+"ai_v": 1
+},
+{
+"id": "266df1f6a610",
+"company": "khaiphu",
+"src": "facebook",
+"outlet": "Facebook",
+"title": "Câu hỏi khi phỏng vấn định cư Mỹ EB-3 sau khi áp dụng Public Charge #60sdinhcu #publiccharge #dinhcumy #visamy #eb3",
+"url": "https://www.facebook.com/reel/1133742472435394/",
+"date": "2026-11-05T06:24:46+00:00",
+"cats": [],
+"summary": "Câu hỏi khi phỏng vấn định cư Mỹ EB-3 sau khi áp dụng Public Charge #60sdinhcu #publiccharge #dinhcumy #visamy #eb3",
+"eng": {
+"likes": 65,
+"comments": 0,
+"shares": 2,
+"views": 38746
+},
+"programs": [
+"eb3"
+],
+"p4": [
+"product"
+],
+"prices": [],
+"offers": [],
+"places": [],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Khác"
+],
+"ai": {
+"programs": [
+"EB-3"
+],
+"prices": [],
+"offers": [],
+"event": null,
+"content_type": "Hướng dẫn / Kiến thức",
+"message": "Hướng dẫn chuẩn bị câu hỏi phỏng vấn EB-3 sau quy định Public Charge.",
+"risk_claims": []
+},
+"ai_v": 1
+},
+{
+"id": "0342a6a97300",
+"company": "aims",
+"src": "facebook",
+"outlet": "Facebook",
+"title": "DỰ ÁN EB-5 THE LEN RESIDENCES, LAKE OCONEE",
+"url": "https://www.facebook.com/aimsvn/posts/pfbid0V29YQfSHhkGUsdpmg9reJfSnr237m7Cfvpe1NdeTueN4nd7TNFc1QKvt7brvkzxil",
+"date": "2026-11-05T05:00:11+00:00",
+"cats": [],
+"summary": "DỰ ÁN EB-5 THE LEN RESIDENCES, LAKE OCONEE Tại HỘI NGHỊ ĐẦU TƯ ĐỊNH CƯ: HOA KỲ – CANADA – CHÂU ÂU – SINGAPORE, Peachtree Group sẽ giới thiệu dự án tại Lake Oconee, Georgia, anh chị có thể trực tiếp tìm hiểu: 🔹 Khả năng tạo việc làm dự kiến 🔹 Làm rõ tài sản bảo đảm, thứ tự ưu tiên thanh toán, điều kiện xử lý và phương án hoàn vốn 🔹 Tìm hiểu định vị sản phẩm, nhu cầu thị trường và kế hoạch phát triển, vận hành dự án Một cuộc gặp trực tiếp là cơ hội để đi từ thông tin giới thiệu đến những câu hỏi cụ thể về khoản đầu tư của gia đình. Đăng ký nhận vé mời miễn phí: https://forms.cloud.microsoft/r/FZLhNhnE0k 📍 09:00–16:00 | 07/11/2026 Grand Ballroom – Khách sạn Park Hyatt Saigon 02 Công trường Lam Sơn, Phường Sài Gòn, TP. Hồ Chí Minh. ---------- 📌 KHÁCH HÀNG THÀNH CÔNG CỦA AIMS: https://aimsvietnam.com/cau-chuyen-thanh-cong Liên hệ AIMS Việt Nam để được tư vấn & thẩm định hồ sơ miễn phí: 📞 TP.HCM: 088 640 2625 | Hà Nội: 088 888 6898 ✉️ Email: vietnam@aims.sg 🌐 Website: aimsvietnam.com 🏢Tp. HCM: Tầng 10, Tòa nhà A&T, 171 Hai Bà Trưng, Phường Xuân Hòa 🏢Tp. HN: P.0909, Tầng 9, Tòa nhà Epic Tower, 19 Duy Tân, Phường Cầu Giấy",
+"eng": {
+"likes": 0,
+"comments": 0,
+"shares": 1,
+"views": 0
+},
+"programs": [
+"eb5",
+"sg"
+],
+"p4": [
+"product",
+"price",
+"place",
+"promotion"
+],
+"prices": [],
+"offers": [
+"miễn phí"
+],
+"places": [
+"Hà Nội",
+"TP\\.? ?HCM",
+"Hồ Chí Minh",
+"Sài Gòn"
+],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Câu chuyện thành công"
+],
+"ai": {
+"programs": [
+"EB-5"
+],
+"prices": [],
+"offers": [
+"Vé mời miễn phí",
+"Tư vấn & thẩm định hồ sơ miễn phí"
+],
+"event": {
+"kind": "invite",
+"name": "Hội nghị Đầu tư Định cư: Hoa Kỳ – Canada – Châu Âu – Singapore",
+"date": "2026-11-07",
+"city": "TP.HCM"
+},
+"content_type": "Sự kiện / Hội thảo",
+"message": "Mời đăng ký hội nghị để gặp trực tiếp Peachtree Group tìm hiểu dự án EB-5 The Len Residences.",
+"risk_claims": []
 },
 "ai_v": 1
 },
@@ -246,6 +540,131 @@
 "event": null,
 "content_type": "Tin chính sách",
 "message": "Phỏng vấn visa định cư tiếp tục bị hoãn và đương đơn, kể cả EB-5, cần chuẩn bị chứng minh theo hướng dẫn Public Charge.",
+"risk_claims": []
+},
+"ai_v": 1
+},
+{
+"id": "e769a30768c6",
+"company": "victory",
+"src": "facebook",
+"outlet": "Facebook",
+"title": "🔥BẦU CỬ GIỮA NHIỆM KỲ MỸ 2026: ĐẢNG CỘNG HÒA MẤT QUYỀN KIỂM SOÁT CẢ HẠ VIỆN VÀ THƯỢNG VIỆN - CHÍNH QUYỀN TỔNG THỐNG TRUMP ĐỐI MẶT VỚI 2 NĂM…",
+"url": "https://www.facebook.com/victorydinhcu/posts/pfbid02QxgycVL2hvHuC7Kh2PPV4rqcPec31DXv2Zoxa1UNeJMF3iKcB21Q3ueJTmJNM7ZHl",
+"date": "2026-11-05T02:00:06+00:00",
+"cats": [],
+"summary": "🔥BẦU CỬ GIỮA NHIỆM KỲ MỸ 2026: ĐẢNG CỘNG HÒA MẤT QUYỀN KIỂM SOÁT CẢ HẠ VIỆN VÀ THƯỢNG VIỆN - CHÍNH QUYỀN TỔNG THỐNG TRUMP ĐỐI MẶT VỚI 2 NĂM CUỐI NHIỆM KỲ ĐẦY THÁCH THỨC 🇺🇸",
+"eng": {
+"likes": 2,
+"comments": 1,
+"shares": 1,
+"views": 0
+},
+"programs": [],
+"p4": [],
+"prices": [],
+"offers": [],
+"places": [],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Khác"
+],
+"ai": {
+"programs": [],
+"prices": [],
+"offers": [],
+"event": null,
+"content_type": "Tin chính sách",
+"message": "Cập nhật kết quả bầu cử giữa kỳ Mỹ 2026 và tác động đến chính quyền Trump.",
+"risk_claims": []
+},
+"ai_v": 1
+},
+{
+"id": "2e42969bf07a",
+"company": "khaiphu",
+"src": "facebook",
+"outlet": "Facebook",
+"title": "🇺🇸 Mỹ tiếp tục trục xuất 22 người Việt - Đợt thứ 7 trong năm 2026",
+"url": "https://www.facebook.com/khaiphuimmigration/posts/pfbid0mTmf4MnLE3TyXX36oujxUeW6FAywC6bzjFGbnKBkp55wVW1BQeXtji3Nt5zXGkRql",
+"date": "2026-11-05T01:59:35+00:00",
+"cats": [],
+"summary": "🇺🇸 Mỹ tiếp tục trục xuất 22 người Việt - Đợt thứ 7 trong năm 2026",
+"eng": {
+"likes": 204,
+"comments": 56,
+"shares": 15,
+"views": 0
+},
+"programs": [],
+"p4": [],
+"prices": [],
+"offers": [],
+"places": [],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Khác"
+],
+"ai": {
+"programs": [],
+"prices": [],
+"offers": [],
+"event": null,
+"content_type": "Tin chính sách",
+"message": "Cập nhật tin Mỹ trục xuất người Việt, nhấn mạnh tầm quan trọng định cư hợp pháp.",
+"risk_claims": []
+},
+"ai_v": 1
+},
+{
+"id": "1bff32a7791a",
+"company": "bsop",
+"src": "facebook",
+"outlet": "Facebook",
+"title": "15 THẺ XANH SÍP ĐÃ CẬP BẾN TẠI BSOP – TIN VUI LIÊN TIẾP ĐẾN VỚI NHÀ ĐẦU TƯ!",
+"url": "https://www.facebook.com/BSOPdinhcuchauau/posts/pfbid0rhV2dyha2GvR7Zu8pM6Zivpi8RNxqoAujdRaxqLD1oSSBrjmsrdBJuo7kJes3GLwl",
+"date": "2026-11-05T01:52:32+00:00",
+"cats": [],
+"summary": "15 THẺ XANH SÍP ĐÃ CẬP BẾN TẠI BSOP – TIN VUI LIÊN TIẾP ĐẾN VỚI NHÀ ĐẦU TƯ! 🎉 Tin vui dành cho các Nhà đầu tư! 15 Thẻ xanh Síp đã chính thức về đến BSOP. Đây là kết quả đáng chúc mừng của các gia đình trên hành trình hoàn thiện hồ sơ và sở hữu quyền thường trú tại Cộng hòa Síp. Xin chúc mừng các Nhà đầu tư đã có thêm một dấu mốc quan trọng trong kế hoạch mở rộng lựa chọn sinh sống và phát triển tương lai tại châu Âu! 🌍 SỞ HỮU THẺ XANH SÍP, NHÀ ĐẦU TƯ SẼ ĐƯỢC NHỮNG QUYỀN LỢI ĐẶC BIỆT: 🔹 Quyền thường trú vô thời hạn tại Síp: Được sinh sống lâu dài tại Cộng hòa Síp theo quy định, không phải gia hạn quyền thường trú định kỳ. 🔹 Cơ hội giáo dục cho con cái: Trẻ em cư trú tại Síp có thể tiếp cận hệ thống giáo dục công lập miễn phí từ 4 tuổi 8 tháng đến 18 tuổi. 🔹 Môi trường sống tại châu Âu: Gia đình có thêm lựa chọn về nơi sinh sống, học tập và xây dựng tương lai. 🔹 Tiếp cận hệ thống y tế GeSY: Có thể đăng ký sử dụng hệ thống y tế quốc gia khi đáp ứng điều kiện tham gia. 🔹 Quyền sở hữu bất động sản: Có thể sở hữu, khai thác cho thuê hoặc chuyển nhượng bất động sản theo quy định pháp luật Síp. 🔹 Lộ trình nhập quốc tịch: Có thể tìm hiểu và nộp hồ sơ xin nhập quốc tịch khi đáp ứng các điều kiện về thời gian cư trú, ngôn ngữ và những yêu cầu pháp lý khác. Với BSOP, mỗi tấm thẻ được cấp là một kết quả đáng trân trọng sau quá trình chuẩn bị và theo sát hồ sơ cùng Nhà đầu tư. Đội ngũ BSOP luôn nỗ lực đồng hành từ những bước đầu tiên cho đến khi Nhà đầu tư nhận được kết quả. Một lần nữa, B",
+"eng": {
+"likes": 8,
+"comments": 1,
+"shares": 5,
+"views": 0
+},
+"programs": [
+"ie_it",
+"re"
+],
+"p4": [
+"product",
+"price",
+"promotion"
+],
+"prices": [],
+"offers": [
+"miễn phí"
+],
+"places": [],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Câu chuyện thành công"
+],
+"ai": {
+"programs": [
+"Thường trú Síp"
+],
+"prices": [],
+"offers": [],
+"event": null,
+"content_type": "Câu chuyện thành công",
+"message": "Chúc mừng 15 thẻ xanh Síp về tay khách, khẳng định năng lực BSOP và quyền lợi thường trú Síp.",
 "risk_claims": []
 },
 "ai_v": 1
@@ -340,6 +759,55 @@
 "ai_v": 1
 },
 {
+"id": "dcc31678db72",
+"company": "victory",
+"src": "facebook",
+"outlet": "Facebook",
+"title": "EB-3: MỞ LỐI \"GIẤC MƠ MỸ” THÔNG QUA CƠ HỘI VIỆC LÀM",
+"url": "https://www.facebook.com/victorydinhcu/posts/pfbid02FJ7aExdmYcP4wZwRWKG3L4MWCebknCXsiFAitLSfaSaTxGdQYXQNMvvUD4eVi5rNl",
+"date": "2026-11-04T13:00:07+00:00",
+"cats": [],
+"summary": "EB-3: MỞ LỐI \"GIẤC MƠ MỸ” THÔNG QUA CƠ HỘI VIỆC LÀM Chương trình EB-3 là lộ trình định cư diện việc làm dành cho những lao động nước ngoài đáp ứng điều kiện của chương trình và vị trí tuyển dụng từ nhà tuyển dụng Mỹ. Đây là một trong những diện định cư được Chính phủ Mỹ ưu tiên cấp thẻ xanh. 🇺🇸EB-3 mở ra cơ hội định cư Mỹ cho nhiều đối tượng khách hàng, từ chuyên gia có bằng cấp đến các công nhân có tay nghề. Bao gồm: ➖Skilled Workers - Lao động có tay nghề: Dành cho các vị trí yêu cầu tối thiểu 2 năm đào tạo hoặc kinh nghiệm làm việc liên quan. ➖Professionals – Chuyên gia: Dành cho các vị trí yêu cầu bằng cử nhân Mỹ hoặc bằng cấp tương đương từ nước ngoài. ➖Other Workers - Lao động phổ thông: Dành cho các công việc yêu cầu dưới 2 năm đào tạo hoặc kinh nghiệm. ⁉️VÌ SAO EB-3 ĐƯỢC NHIỀU NGƯỜI QUAN TÂM? 🔻Cơ hội định cư cho cả gia đình: Vợ/chồng và con chưa kết hôn dưới 21 tuổi được cấp Thẻ Xanh định cư Mỹ. Đồng thời, con cái được học tập miễn phí tại hệ thống trường công lập từ lớp 1 đến lớp 12 và hưởng học phí ưu đãi tại các trường Cao đẳng, Đại học. 🔻Cơ hội làm việc lâu dài tại Mỹ: EB-3 mang đến cơ hội làm việc toàn thời gian tại Mỹ thông qua nhà tuyển dụng bảo lãnh với mức lương theo quy định, giúp anh chị từng bước xây dựng cuộc sống và tương lai cho gia đình. 🔻Quyền lợi lao động được pháp luật bảo vệ: Người lao động được hưởng các quyền lợi và chế độ lao động bình đẳng như người bản xứ theo quy định của luật Lao Động Mỹ. 🔻Hoạch định cuộc sống lâu dài tại Mỹ: EB-3 mở ra lộ t",
+"eng": {
+"likes": 3,
+"comments": 1,
+"shares": 1,
+"views": 0
+},
+"programs": [
+"eb3"
+],
+"p4": [
+"product",
+"price",
+"promotion"
+],
+"prices": [],
+"offers": [
+"miễn phí",
+"ưu đãi"
+],
+"places": [],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Hướng dẫn / Kiến thức"
+],
+"ai": {
+"programs": [
+"EB-3"
+],
+"prices": [],
+"offers": [],
+"event": null,
+"content_type": "Hướng dẫn / Kiến thức",
+"message": "Giới thiệu EB-3 là lộ trình định cư Mỹ qua việc làm cho cả gia đình, nhiều đối tượng.",
+"risk_claims": []
+},
+"ai_v": 1
+},
+{
 "id": "3ffea2f68a3f",
 "company": "kornova",
 "src": "facebook",
@@ -350,10 +818,10 @@
 "cats": [],
 "summary": "🎥 Trước khi đầu tư EB-5, Anh/Chị muốn hỏi gì về dự án? Gặp trực tiếp TJ Kang – Giám đốc Pháp lý & Tài chính Bether Capital – để tìm hiểu Koloa Village II tại hội thảo “Định cư Mỹ – Đừng chờ đến 2027” cùng Kornova. 🗓 09:00 | 14/11/2026 | Văn phòng Kornova, TP.HCM 👉 Liên hệ Kornova đăng ký giữ chỗ và đặt câu hỏi trực tiếp với chuyên gia #EB5 #Kornova #DinhCuMy #KoloaVillageII",
 "eng": {
-"likes": 11,
+"likes": 28,
 "comments": 2,
 "shares": 2,
-"views": 1519
+"views": 6978
 },
 "programs": [
 "eb5"
@@ -451,6 +919,59 @@
 "ai_v": 1
 },
 {
+"id": "f2f0a80c8c81",
+"company": "aims",
+"src": "facebook",
+"outlet": "Facebook",
+"title": "CMB NHÓM 106 – EDGE BRAVO POWER: DỰ ÁN EB-5 HẠ TẦNG NĂNG LƯỢNG TẠI TEXAS",
+"url": "https://www.facebook.com/aimsvn/posts/pfbid02z1yx8XTPAHKkP8cQNfRvoGzGvtU2L8jVWuAiM7ggDnC2b2aRLeAcYEQWiHQPxDWpl",
+"date": "2026-11-04T11:00:21+00:00",
+"cats": [],
+"summary": "CMB NHÓM 106 – EDGE BRAVO POWER: DỰ ÁN EB-5 HẠ TẦNG NĂNG LƯỢNG TẠI TEXAS Edge Bravo Power – CMB Nhóm 106 mang đến một phương án để nhà đầu tư tìm hiểu trong lĩnh vực hạ tầng năng lượng. Dự án phát triển 17 tổ máy phát điện chạy bằng khí tự nhiên tại vùng nông thôn Tây Texas, dự kiến đấu nối vào lưới điện do ERCOT quản lý. Những điểm đáng chú ý của dự án gồm: 🔹 Vị trí tại khu vực nông thôn Các địa điểm triển khai thuộc vùng nông thôn Texas, đáp ứng tiêu chí khu vực việc làm mục tiêu TEA nông thôn. 🔹 Quy mô đầu tư và cơ cấu vốn rõ ràng Tổng chi phí dự án ước tính khoảng 392,65 triệu USD, trong đó khoản vay EB-5 của CMB Nhóm 106 là 79,2 triệu USD, tương ứng tối đa 99 suất đầu tư. Nguồn vốn còn lại gồm vốn chủ sở hữu và tài trợ thiết bị. 🔹 Sự phối hợp của các đơn vị trong lĩnh vực năng lượng Dự án có sự tham gia của Hillwood, Grey Rock Investment Partners và Conduit Power, từ phát triển đến xây dựng hệ thống điện phân tán. 🔹 Cơ chế bảo đảm khoản vay và cam kết hoàn thành xây dựng Quyền bảo đảm ưu tiên cao nhất đối với 100% cổ phần ưu đãi thuộc sở hữu của bên vay, cùng cam kết hoàn thành xây dựng dành cho CMB Nhóm 106. Tại HỘI NGHỊ ĐẦU TƯ ĐỊNH CƯ: HOA KỲ – CANADA – CHÂU ÂU – SINGAPORE, Anh/Chị có cơ hội trao đổi trực tiếp cùng đại diện CMB về tiến độ triển khai, cơ sở tính toán việc làm và chiến lược thoái vốn của dự án. Hiểu rõ cấu trúc khoản đầu tư là bước cần thiết trước khi đặt kỳ vọng vào kết quả dài hạn. Đăng ký nhận vé mời miễn phí: https://forms.cloud.microsoft/r/FZLhNhnE0",
+"eng": {
+"likes": 0,
+"comments": 0,
+"shares": 1,
+"views": 0
+},
+"programs": [
+"eb5",
+"sg"
+],
+"p4": [
+"product",
+"price",
+"promotion"
+],
+"prices": [
+"392,65 triệu USD",
+"79,2 triệu USD"
+],
+"offers": [
+"miễn phí",
+"ưu đãi"
+],
+"places": [],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Khác"
+],
+"ai": {
+"programs": [
+"EB-5"
+],
+"prices": [],
+"offers": [],
+"event": null,
+"content_type": "Dự án / Chương trình",
+"message": "Giới thiệu dự án EB-5 hạ tầng năng lượng Edge Bravo Power tại TEA nông thôn Texas, suất giới hạn.",
+"risk_claims": []
+},
+"ai_v": 1
+},
+{
 "id": "1145be93b37b",
 "company": "icanfield",
 "src": "facebook",
@@ -484,6 +1005,44 @@
 "event": null,
 "content_type": "Tin chính sách",
 "message": "Cập nhật tin tức đề cử tỉnh bang Canada mới nhất.",
+"risk_claims": []
+},
+"ai_v": 1
+},
+{
+"id": "0e957a639600",
+"company": "icanfield",
+"src": "facebook",
+"outlet": "Facebook",
+"title": "🇨🇦 BẢN TIN CANADA: HƠN 1.300 THƯ MỜI TỈNH BANG VÀ NHỮNG CẬP NHẬT MỚI NHẤT",
+"url": "https://www.facebook.com/icanfield.vn/posts/pfbid0XwkXuQYHTdvv19dutA3At3DaLA9WL8F7AEkVqavEcgVkhFECpqPcCxFTL5Hz8ZPEl",
+"date": "2026-11-04T10:24:31+00:00",
+"cats": [],
+"summary": "🇨🇦 BẢN TIN CANADA: HƠN 1.300 THƯ MỜI TỈNH BANG VÀ NHỮNG CẬP NHẬT MỚI NHẤT",
+"eng": {
+"likes": 55,
+"comments": 18,
+"shares": 5,
+"views": 0
+},
+"programs": [],
+"p4": [],
+"prices": [],
+"offers": [],
+"places": [],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Tin chính sách"
+],
+"ai": {
+"programs": [],
+"prices": [],
+"offers": [],
+"event": null,
+"content_type": "Tin chính sách",
+"message": "Cập nhật các đợt thư mời tỉnh bang Canada mới nhất.",
 "risk_claims": []
 },
 "ai_v": 1
@@ -533,6 +1092,55 @@
 "event": null,
 "content_type": "Hướng dẫn / Kiến thức",
 "message": "Thường trú nhân Malta giúp con tiếp cận giáo dục chuẩn Anh với chi phí tối ưu, miễn học phí trường công.",
+"risk_claims": []
+},
+"ai_v": 1
+},
+{
+"id": "f09bac6c7715",
+"company": "mapleleaf",
+"src": "facebook",
+"outlet": "Facebook",
+"title": "SỞ HỮU THƯỜNG TRÚ NHÂN MALTA & TIẾP CẬN HỆ THỐNG GIÁO DỤC CHUẨN ANH QUỐC CHO TƯƠNG LAI CỦA CON",
+"url": "https://www.facebook.com/mapleleafvietnam.dinhcuquocte/posts/pfbid0xnfmCAscXbvQ4PjPtkZqgbqT8dtoNrtsD2MWUfvtbXZYyWZzNYFYc2R8WAGvRRM2l",
+"date": "2026-11-04T10:23:22+00:00",
+"cats": [],
+"summary": "SỞ HỮU THƯỜNG TRÚ NHÂN MALTA & TIẾP CẬN HỆ THỐNG GIÁO DỤC CHUẨN ANH QUỐC CHO TƯƠNG LAI CỦA CON Khi lựa chọn một quốc gia để khởi đầu cuộc sống mới, chất lượng đào tạo giáo dục cho con em luôn là mối bận tâm hàng đầu của các nhà đầu tư. Được ví như \"viên ngọc địa trung hải\", Malta không chỉ sở hữu chính sách an sinh vượt trội mà còn có nền tảng học thuật kế thừa 100% tiêu chuẩn khắt khe từ Vương Quốc Anh với chi phí tối ưu. Cùng Maple Leaf Vietnam khám phá lộ trình phát triển toàn diện của học sinh tại Malta qua bài viết dưới đây! 1. Hệ Thống Trường Học Đa Dạng – Phù Hợp Mọi Định Hướng Tại Malta, các bậc phụ huynh dễ dàng lựa chọn môi trường học tập tối ưu cho con dựa trên năng lực và định hướng cá nhân: - Trường công lập: Miễn phí hoàn toàn học phí cho học sinh bản xứ & người có thẻ thường trú nhân. - Trường tư thục & Quốc tế: Giảng dạy 100% bằng tiếng Anh theo tiêu chuẩn Anh Quốc, bằng cấp giá trị toàn cầu. - Trường dòng: Thuộc quản lý của Giáo hội bản địa. 2. Lộ Trình Cấp Học Chi Tiết Theo Độ Tuổi Hệ thống bậc học tại Malta được phân chia khoa học, tương đồng với các quốc gia phát triển như Mỹ hay Anh Quốc, giúp trẻ dễ dàng hội nhập mà không gặp rào cản lớn: - Dưới 5 tuổi: Giai đoạn giữ trẻ sơ sinh và Mẫu giáo (K1-K2) – Tự nguyện. - Từ 5 – 11 tuổi: Bậc Tiểu học (Lớp 1 đến Lớp 6) – Bắt buộc. - Từ 11 – 16 tuổi: Bậc Trung học (Lớp 7 đến Lớp 11) – Bắt buộc. 3. Hai Cột Mốc Bản Lề Định Hình Tương Lai - Tốt nghiệp THPT (16 tuổi): Học sinh hoàn thành kỳ thi THPT (chứng chỉ IGCSE). ",
+"eng": {
+"likes": 1,
+"comments": 0,
+"shares": 1,
+"views": 0
+},
+"programs": [
+"mt",
+"uk"
+],
+"p4": [
+"product",
+"price",
+"promotion"
+],
+"prices": [],
+"offers": [
+"miễn phí"
+],
+"places": [],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Tin chính sách"
+],
+"ai": {
+"programs": [
+"Thường trú nhân Malta"
+],
+"prices": [],
+"offers": [],
+"event": null,
+"content_type": "Hướng dẫn / Kiến thức",
+"message": "Thường trú nhân Malta giúp con tiếp cận giáo dục chuẩn Anh với chi phí tối ưu.",
 "risk_claims": []
 },
 "ai_v": 1
@@ -592,10 +1200,10 @@
 "cats": [],
 "summary": "BẤT ĐỘNG SẢN HY LẠP 2026: TỐI ƯU DÒNG TIỀN, THÁO GỠ NÚT THẮT GOLDEN VISA Đầu tư bất động sản Hy Lạp đang mở ra những cơ hội nào? Làm thế nào để tối ưu dòng tiền cho thuê và tháo gỡ những vướng mắc về chuyển tiền, thủ tục Golden Visa? Cùng BSOP và luật sư Kobi.C tìm hiểu thị trường bất động sản Athens – Piraeus, đồng thời giải đáp những thắc mắc trên ngay trong livestream hôm nay! TẠI SỰ KIỆN, NHÀ ĐẦU TƯ SẼ ĐƯỢC: 🔹 Phân tích tiềm năng thị trường bất động sản Athens – Piraeus. 🔹 Tìm hiểu phương án tối ưu dòng tiền cho thuê, với tỷ suất lợi nhuận kỳ vọng 5–7%. 🔹 Tháo gỡ những vướng mắc về chuyển tiền và thủ tục Golden Visa Hy Lạp. Đặc biệt: Cơ hội nhận iPhone Duo, iPhone 18 Pro Max, iPhone 17 Pro Max xe ô tô cao cấp,... THEO DÕI LIVESTREAM NGAY để cập nhật thông tin, lắng nghe chuyên gia và khám phá định hướng đầu tư quốc tế cùng BSOP EXPO 7! Hotline: 0904 966 797 – 098 913 6666 #BSOPEXPO7 #BSOPEXPO #BespokeWealthArchitect #BWAEXPO7 #KienTrucGiaSan #DauTuQuocTe",
 "eng": {
-"likes": 31,
+"likes": 33,
 "comments": 15,
 "shares": 5,
-"views": 53266
+"views": 54187
 },
 "programs": [
 "gr",
@@ -674,6 +1282,44 @@
 "ai_v": 1
 },
 {
+"id": "e9b7cfb66581",
+"company": "icanfield",
+"src": "facebook",
+"outlet": "Facebook",
+"title": "🇺🇲 BẦU CỬ GIỮA KỲ MỸ (CẬP NHẬT 14H NGÀY 04.11.2026): ĐẢNG DÂN CHỦ KIỂM SOÁT CẢ HẠ VIỆN VÀ THƯỢNG VIỆN",
+"url": "https://www.facebook.com/icanfield.vn/posts/pfbid0LD3XSwdw6QjkP4i5qXijLvFoUPARytpTRBt8vXFbpBzuZQP2yhdZsgkfVe664wvQl",
+"date": "2026-11-04T07:10:45+00:00",
+"cats": [],
+"summary": "🇺🇲 BẦU CỬ GIỮA KỲ MỸ (CẬP NHẬT 14H NGÀY 04.11.2026): ĐẢNG DÂN CHỦ KIỂM SOÁT CẢ HẠ VIỆN VÀ THƯỢNG VIỆN",
+"eng": {
+"likes": 19,
+"comments": 1,
+"shares": 1,
+"views": 0
+},
+"programs": [],
+"p4": [],
+"prices": [],
+"offers": [],
+"places": [],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Tin chính sách"
+],
+"ai": {
+"programs": [],
+"prices": [],
+"offers": [],
+"event": null,
+"content_type": "Tin chính sách",
+"message": "Cập nhật kết quả bầu cử giữa kỳ Mỹ.",
+"risk_claims": []
+},
+"ai_v": 1
+},
+{
 "id": "20e95546cb6c",
 "company": "kornova",
 "src": "facebook",
@@ -707,6 +1353,44 @@
 "event": null,
 "content_type": "Tin chính sách",
 "message": "Thông báo Đảng Dân chủ thắng bầu cử giữa nhiệm kỳ Mỹ.",
+"risk_claims": []
+},
+"ai_v": 1
+},
+{
+"id": "611d9e90cce3",
+"company": "kornova",
+"src": "facebook",
+"outlet": "Facebook",
+"title": "🚨🇺🇸",
+"url": "https://www.facebook.com/kornova.tuvanditru/posts/pfbid0D1rw8kYrioyeZd2XX1jWedyWr9iVHijCKHbRNnyi7qvgH3SZLKVcETdDuxRxP7Acl",
+"date": "2026-11-04T07:06:18+00:00",
+"cats": [],
+"summary": "🚨🇺🇸 ĐẢNG DÂN CHỦ THẮNG BẦU CỬ GIỮA NHIỆM KỲ MỸ 👇",
+"eng": {
+"likes": 7,
+"comments": 2,
+"shares": 1,
+"views": 0
+},
+"programs": [],
+"p4": [],
+"prices": [],
+"offers": [],
+"places": [],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Khác"
+],
+"ai": {
+"programs": [],
+"prices": [],
+"offers": [],
+"event": null,
+"content_type": "Tin chính sách",
+"message": "Cập nhật Đảng Dân chủ thắng bầu cử giữa kỳ Mỹ.",
 "risk_claims": []
 },
 "ai_v": 1
@@ -791,6 +1475,178 @@
 "event": null,
 "content_type": "Tin chính sách",
 "message": "Tóm tắt kết quả bầu cử giữa kỳ Mỹ 2026 và các mốc chính sách liên quan nhà đầu tư EB-5.",
+"risk_claims": []
+},
+"ai_v": 1
+},
+{
+"id": "e7eed7b311ef",
+"company": "khaiphu",
+"src": "facebook",
+"outlet": "Facebook",
+"title": "Nóng 🔥 Đảng Dân chủ giành quyền kiểm soát cả Hạ viện và Thượng viện sau bầu cử giữa kỳ Mỹ 🇺🇸",
+"url": "https://www.facebook.com/khaiphuimmigration/posts/pfbid0W7P341RoEJynVP5oRz8SvwGbVvJQuJ9aB5cXhZBCPsHi5nGe8Z1So3yVDNe5nZ6tl",
+"date": "2026-11-04T06:22:20+00:00",
+"cats": [],
+"summary": "Nóng 🔥 Đảng Dân chủ giành quyền kiểm soát cả Hạ viện và Thượng viện sau bầu cử giữa kỳ Mỹ 🇺🇸",
+"eng": {
+"likes": 328,
+"comments": 40,
+"shares": 5,
+"views": 0
+},
+"programs": [],
+"p4": [],
+"prices": [],
+"offers": [],
+"places": [],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Khác"
+],
+"ai": {
+"programs": [],
+"prices": [],
+"offers": [],
+"event": null,
+"content_type": "Tin chính sách",
+"message": "Cập nhật Đảng Dân chủ kiểm soát Quốc hội Mỹ.",
+"risk_claims": []
+},
+"ai_v": 1
+},
+{
+"id": "089c5c05c385",
+"company": "khaiphu",
+"src": "facebook",
+"outlet": "Facebook",
+"title": "🇦🇺 Úc: Tỷ lệ từ chối visa du học tăng mạnh - gần 27% hồ sơ bị từ chối trong Quý I 2026 - 2027",
+"url": "https://www.facebook.com/khaiphuimmigration/posts/pfbid0252vFxRL3vzFufuLGmRLCV4ubHq7pWX3Rsro8QdSM8n29DirKYGEyVTBXTKXzMXe8l",
+"date": "2026-11-04T03:39:44+00:00",
+"cats": [],
+"summary": "🇦🇺 Úc: Tỷ lệ từ chối visa du học tăng mạnh - gần 27% hồ sơ bị từ chối trong Quý I 2026 - 2027",
+"eng": {
+"likes": 54,
+"comments": 1,
+"shares": 1,
+"views": 0
+},
+"programs": [],
+"p4": [],
+"prices": [],
+"offers": [],
+"places": [],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Hướng dẫn / Kiến thức"
+],
+"ai": {
+"programs": [],
+"prices": [],
+"offers": [],
+"event": null,
+"content_type": "Tin chính sách",
+"message": "Cảnh báo tỷ lệ từ chối visa du học Úc tăng mạnh.",
+"risk_claims": []
+},
+"ai_v": 1
+},
+{
+"id": "a9d021caa58a",
+"company": "uca",
+"src": "facebook",
+"outlet": "Facebook",
+"title": "🇨🇦 THẺ PR THEO CHƯƠNG TRÌNH ALBERTA CÓ GÌ KHÁC BIỆT?",
+"url": "https://www.facebook.com/reel/1573092714627082/",
+"date": "2026-11-04T03:04:33+00:00",
+"cats": [],
+"summary": "🇨🇦 THẺ PR THEO CHƯƠNG TRÌNH ALBERTA CÓ GÌ KHÁC BIỆT? ❤️ Chúc mừng gia đình chị Thảo đã chính thức cầm trên tay tấm thẻ PR Canada – dấu mốc quan trọng, khép lại một chặng đường và mở ra hành trình an cư mới tại xứ sở lá phong! Nhiều khách hàng thường thắc mắc: Thẻ PR theo chương trình Alberta có gì khác so với PR của các tỉnh bang khác? Hãy cùng đón xem video nhé! MỘT TẤM THẺ PR – MỘT HÀNH TRÌNH MỚI BẮT ĐẦU! Với UCA Immigration, niềm vui không chỉ nằm ở khoảnh khắc khách hàng nhận được visa hay thẻ PR, mà còn là khi cả gia đình từng bước ổn định cuộc sống và xây dựng tương lai tại Canada. Một lần nữa, UCA chúc mừng gia đình chị Thảo. Chúc gia đình thật nhiều sức khỏe, hạnh phúc và có một khởi đầu thuận lợi tại Canada! #UCA chuyên visa Định Cư Canada (Immigrant hay còn gọi là PR) #Visa Định Cư (Immigrant) và Visa làm việc (Worker) là 2 loại Visa khác nhau. Visa Làm Việc (Worker) không giúp bạn có được Visa Định Cư (Immigrant) mà là Đề Cử Tỉnh Bang (Nomination) ———————————————————————————— “SỰ THÀNH CÔNG CỦA KHÁCH HÀNG, LÀ TÀI SẢN LỚN NHẤT CỦA CÔNG TY CHÚNG TÔI” ————————————————————————————— 👉✅Minh Chứng qua 👨‍👩‍👧‍👦👨‍👩‍👧Khách hàng thành công: https://uca.com.vn/khach-hang-thanh-cong/ 👉✅Với Đội Ngũ Chuyên Nghiệp: https://uca.com.vn/gioi-thieu-ve-uca/ 👉✅Cùng Hệ thống Đối Tác Quốc tế uy tín: https://uca.com.vn/doi-tac-uca/ ————————————————————————————— 🔑 Liên hệ ngay để được tư vấn việc làm và định cư tại Canada cả gia đình ️🎯 UCA – Định Cư Canada Úc Cả Gia Đình ☎",
+"eng": {
+"likes": 3,
+"comments": 0,
+"shares": 0,
+"views": 788
+},
+"programs": [
+"pnp"
+],
+"p4": [
+"product"
+],
+"prices": [],
+"offers": [],
+"places": [],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Câu chuyện thành công"
+],
+"ai": {
+"programs": [
+"Alberta PNP"
+],
+"prices": [],
+"offers": [],
+"event": null,
+"content_type": "Câu chuyện thành công",
+"message": "Chúc mừng khách nhận PR Canada qua chương trình Alberta, khẳng định UCA chuyên visa định cư.",
+"risk_claims": []
+},
+"ai_v": 1
+},
+{
+"id": "b84317539fbd",
+"company": "khaiphu",
+"src": "facebook",
+"outlet": "Facebook",
+"title": "Tiệc tri ân - Kết nối - Cập nhật thông tin cùng nhà đầu tư EB-5 20/11/2026 TP.HCM, 21/11/2026 HN #60sdinhcu #dinhcumy #visamy #eb5",
+"url": "https://www.facebook.com/reel/2234845913913612/",
+"date": "2026-11-04T02:05:48+00:00",
+"cats": [],
+"summary": "Tiệc tri ân - Kết nối - Cập nhật thông tin cùng nhà đầu tư EB-5 20/11/2026 TP.HCM, 21/11/2026 HN #60sdinhcu #dinhcumy #visamy #eb5",
+"eng": {
+"likes": 63,
+"comments": 0,
+"shares": 2,
+"views": 76712
+},
+"programs": [
+"eb5"
+],
+"p4": [
+"product",
+"place"
+],
+"prices": [],
+"offers": [],
+"places": [
+"TP\\.? ?HCM"
+],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Tin chính sách"
+],
+"ai": {
+"programs": [
+"EB-5"
+],
+"prices": [],
+"offers": [],
+"event": {
+"kind": "invite",
+"name": "Tiệc tri ân - Kết nối - Cập nhật thông tin cùng nhà đầu tư EB-5",
+"date": "2026-11-20",
+"city": "TP.HCM, Hà Nội"
+},
+"content_type": "Sự kiện / Hội thảo",
+"message": "Mời nhà đầu tư EB-5 dự tiệc tri ân, kết nối và cập nhật thông tin.",
 "risk_claims": []
 },
 "ai_v": 1
@@ -962,6 +1818,72 @@
 "ai_v": 1
 },
 {
+"id": "51f7e752d6af",
+"company": "americanplus",
+"src": "facebook",
+"outlet": "Facebook",
+"title": "🇺🇸 BẢN TIN DI TRÚ & BẤT ĐỘNG SẢN MỸ TUẦN 2 THÁNG 11/2026 🇺🇸",
+"url": "https://www.facebook.com/muanhamy.vn/posts/pfbid0GUGC1t8Q7ovYee3tNhPgEreVgEsNpMWbeEVPMKim1uBULFLtXvZMt5gQs7fRszrcl",
+"date": "2026-11-04T00:30:02+00:00",
+"cats": [],
+"summary": "🇺🇸 BẢN TIN DI TRÚ & BẤT ĐỘNG SẢN MỸ TUẦN 2 THÁNG 11/2026 🇺🇸 🇺🇸 Cập nhật ngay những thông tin mới nhất và quan trọng nhất về chính sách di trú Mỹ trong tháng 11/2026 từ American Plus Group: 📍 EB-5 Việt Nam tiếp tục giữ trạng thái \"Current\": Cơ hội vàng để nộp hồ sơ xử lý ngay không phải chờ đợi hạn ngạch, trước khi lệ phí chính thức tăng mạnh từ ngày 30/11/2026 (Đơn I-526E tăng lên 7.850 USD, I-829 tăng lên 5.000 USD). 📍 Thực tế chương trình Thẻ Vàng Mỹ (Trump Gold Card): Ghi nhận tỷ lệ yêu cầu bổ sung bằng chứng (RFE) lên tới 97%, đòi hỏi sự chuẩn bị cực kỳ kỹ lưỡng và thận trọng. 📍 Lưu ý khi nộp hồ sơ I-485: Cảnh giác với các điểm bất thường từ USCIS (trả hồ sơ do thiếu chữ ký/thanh toán, RFE giấy khám sức khỏe, thay đổi phiên bản biểu mẫu). 📍 4 thay đổi & đề xuất chính sách lớn trong tháng 11: ▪ Đề xuất phí OPT mới (hạn chót góp ý 09/11). ▪ Đề xuất bỏ thời gian ân hạn 60 ngày cho H-1B, L-1 (hạn chót góp ý 10/11). ▪ Thay đổi cách xem xét hồ sơ gia hạn (hạn chót góp ý 13/11). ▪ Biểu phí EB-5 mới chính thức áp dụng từ 30/11/2026. 👉 Xem ngay nội dung bản tin để nắm bắt thời cơ và lên phương án chuẩn bị hồ sơ tối ưu nhất cho gia đình bạn! 👉 Chi tiết tại: https://www.youtube.com/watch?v=mmz7yHmgmic --------------------------- American Plus Group Tư vấn Mua bán nhà bên Mỹ & Định cư Mỹ - Canada - Châu Âu Liên hệ: Tầng 18.09, Tòa nhà OT2 - Sài Gòn Royal, 34 - 35 Bến Vân Đồn, Phường Xóm Chiếu Hotline: 094 806 4444 www.AmericanPlus.vn | www.MuaNhaMy.vn #AmericanPlusGroup #DinhCuMy #EB",
+"eng": {
+"likes": 1,
+"comments": 0,
+"shares": 0,
+"views": 0
+},
+"programs": [
+"eb5",
+"l1",
+"re"
+],
+"p4": [
+"product",
+"price",
+"place"
+],
+"prices": [
+"7.850 USD",
+"5.000 USD"
+],
+"offers": [],
+"places": [
+"Sài Gòn"
+],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Tin chính sách"
+],
+"ai": {
+"programs": [
+"EB-5"
+],
+"prices": [
+{
+"program": "EB-5",
+"amount": "7.850 USD",
+"note": "Lệ phí chính phủ I-526E từ 30/11/2026"
+},
+{
+"program": "EB-5",
+"amount": "5.000 USD",
+"note": "Lệ phí chính phủ I-829 từ 30/11/2026"
+}
+],
+"offers": [],
+"event": null,
+"content_type": "Tin chính sách",
+"message": "Thúc khách nộp hồ sơ EB-5 ngay khi Việt Nam còn Current, trước khi lệ phí tăng 30/11/2026.",
+"risk_claims": [
+"Cơ hội vàng để nộp hồ sơ xử lý ngay không phải chờ đợi hạn ngạch"
+]
+},
+"ai_v": 1
+},
+{
 "id": "7694229d945f",
 "company": "victory",
 "src": "facebook",
@@ -975,7 +1897,7 @@
 "likes": 4,
 "comments": 1,
 "shares": 0,
-"views": 372
+"views": 387
 },
 "programs": [
 "eb3"
@@ -1077,6 +1999,72 @@
 "ai_v": 1
 },
 {
+"id": "6954a6c68653",
+"company": "icanfield",
+"src": "facebook",
+"outlet": "Facebook",
+"title": "🇺🇲 CHỈ CÒN 2 THÁNG CUỐI NĂM 2026, THỜI ĐIỂM VÀNG MỞ HỒ SƠ EB-5, TIẾT KIỆM HÀNG TRĂM TRIỆU ĐỒNG",
+"url": "https://www.facebook.com/icanfield.vn/posts/pfbid02m1T4LHzV49asP3rmAusYmLEgnRs7ofFFGoEk8dm1KLKWWN67XCQwEJ7iJ4HxMNA2l",
+"date": "2026-11-03T12:00:08+00:00",
+"cats": [],
+"summary": "🇺🇲 CHỈ CÒN 2 THÁNG CUỐI NĂM 2026, THỜI ĐIỂM VÀNG MỞ HỒ SƠ EB-5, TIẾT KIỆM HÀNG TRĂM TRIỆU ĐỒNG Những tháng cuối năm 2026 đang mở ra giai đoạn đáng chú ý đối với chương trình đầu tư định cư Mỹ EB-5. Khi phí hồ sơ chuẩn bị tăng, mức vốn đầu tư đứng trước đợt điều chỉnh mới, đây là thời điểm nhà đầu tư cần chủ động xem xét kế hoạch để tối ưu chi phí và tận dụng điều kiện hiện hành. 1️⃣Từ 30/11/2026, phí nộp hồ sơ EB-5 tăng hơn gấp đôi Theo quy định mới của USCIS, phí nộp đơn I-526E lần đầu sẽ tăng từ 3.675 USD lên 7.850 USD. Nhà đầu tư hoàn tất và nộp hồ sơ trước 30/11/2026 sẽ tiết kiệm 4.175 USD, tương đương khoảng 108 triệu đồng. Bên cạnh đó, chi phí cho đơn I-829 cũng tăng lên 5.000 USD, so với mức chi phí cũ là 3.750 USD. 2️⃣Từ 01/01/2027, vốn đầu tư EB-5 tăng lên đến 900.000 USD 🔸Theo Đạo luật Cải cách và Liêm chính EB-5 năm 2022, mức đầu tư tối thiểu sẽ được điều chỉnh theo lạm phát kể từ đầu năm 2027. 🔸Điều này đồng nghĩa mức vốn ưu đãi 800.000 USD hiện nay có thể tăng lên khoảng 900.000 USD, khiến nhà đầu tư cần chuẩn bị thêm một khoản ngân sách đáng kể. 3️⃣Visa EB-5 tiếp tục “Current” cho nhà đầu tư Việt Nam theo lịch Visa Bulletin mới nhất, cùng hạn ngạch visa 20% dành cho dự án vùng Nông thôn (Rural). Cuối năm 2026 đang được xem là thời điểm quan trọng để chủ động hoàn tất hồ sơ định cư EB-5. 📩 Liên hệ iCanfield ngay hôm nay để được tư vấn chương trình EB-5, đánh giá hồ sơ và lựa chọn dự án phù hợp trước những thay đổi quan trọng sắp tới! —————🌟————— ICANFIELD VIETNAM",
+"eng": {
+"likes": 5,
+"comments": 0,
+"shares": 1,
+"views": 0
+},
+"programs": [
+"eb5"
+],
+"p4": [
+"product",
+"price",
+"promotion"
+],
+"prices": [
+"3.675 USD",
+"7.850 USD",
+"4.175 USD",
+"108 triệu đồng"
+],
+"offers": [
+"ưu đãi"
+],
+"places": [],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Hướng dẫn / Kiến thức"
+],
+"ai": {
+"programs": [
+"EB-5"
+],
+"prices": [
+{
+"program": "EB-5",
+"amount": "3.675 USD",
+"note": "Phí chính phủ I-526E hiện hành, tăng lên 7.850 USD từ 30/11/2026"
+},
+{
+"program": "EB-5",
+"amount": "900.000 USD",
+"note": "Mức vốn đầu tư dự kiến từ 01/01/2027"
+}
+],
+"offers": [],
+"event": null,
+"content_type": "Tin chính sách",
+"message": "Thúc giục nhà đầu tư mở hồ sơ EB-5 trước 30/11/2026 để tiết kiệm phí và tránh vốn đầu tư tăng.",
+"risk_claims": [
+"TIẾT KIỆM HÀNG TRĂM TRIỆU ĐỒNG"
+]
+},
+"ai_v": 1
+},
+{
 "id": "9f2be07288ef",
 "company": "icanfield",
 "src": "facebook",
@@ -1120,6 +2108,54 @@
 "event": null,
 "content_type": "Thương hiệu / PR",
 "message": "Khẳng định CBI St. Kitts & Nevis vẫn triển khai và iCanfield được ủy quyền tiếp thị dự án Marriott.",
+"risk_claims": []
+},
+"ai_v": 1
+},
+{
+"id": "188b22fa96c0",
+"company": "icanfield",
+"src": "facebook",
+"outlet": "Facebook",
+"title": "🇰🇳 CHÍNH PHỦ ST. KITTS & NEVIS XÁC NHẬN CHƯƠNG TRÌNH CBI VẪN ĐƯỢC TRIỂN KHAI",
+"url": "https://www.facebook.com/icanfield.vn/posts/pfbid0mWB1UpPNeiUWB9v2TFFMKWWUFyaHdUvQpJVLAWvdfi2xUHpRwJXYAqFPxJAeE1bPl",
+"date": "2026-11-03T10:33:04+00:00",
+"cats": [],
+"summary": "🇰🇳 CHÍNH PHỦ ST. KITTS & NEVIS XÁC NHẬN CHƯƠNG TRÌNH CBI VẪN ĐƯỢC TRIỂN KHAI Vừa qua, đội ngũ iCanfield Hong Kong đã có buổi gặp gỡ và trao đổi trực tiếp với đại diện Chính phủ St. Kitts & Nevis tại Hong Kong. 💡Thông qua buổi gặp gỡ, phía Chính phủ St. Kitts & Nevis cũng khẳng định chương trình CBI hiện vẫn TIẾP TỤC được triển khai, trong bối cảnh Antigua & Barbuda có thể chấm dứt chương trình CBI dưới áp lực từ Liên minh châu Âu (EU). Buổi gặp gỡ cũng thảo luận về những cập nhật chính sách mới nhất cũng như định hướng phát triển của chương trình CBI St. Kitts & Nevis. ✨Đặc biệt trong buổi gặp gỡ, Tập đoàn iCanfield Group vinh dự nhận chứng nhận từ RSKBRL - Đơn vị sở hữu dự án đầu tư Marriott Public Benefit Option. ✨iCanfield Group được ủy quyền hợp tác cùng Caribbean Investment and Finance Association (CIFA) trong hoạt động tiếp thị và kinh doanh chương trình CBI thông qua dự án Marriott Public Benefit Option tại thị trường Trung Quốc. St. Kitts & Nevis là chương trình Đầu tư Quốc tịch lâu đời nhất thế giới, cho phép nhà đầu tư đủ điều kiện xin quốc tịch thông qua các hình thức như đóng góp vào Quỹ Chính phủ hoặc Đầu tư bất động sản. 🔸Miễn visa đến 140 quốc gia, bao gồm khối Schengen, Vương quốc Anh, Singapore, Hồng Kông. 🔸Thành viên đi kèm bao gồm vợ chồng, con cái dưới 30 tuổi, bố mẹ và ông bà hai bên. 🔸Không yêu cầu cư trú, bằng cấp, kinh nghiệm hay ngoại ngữ. 🔸Cho phép sở hữu song tịch và có thể truyền lại cho thế hệ tiếp theo. 📩iCanfield sẽ tiếp tục theo dõi cập nhật từ",
+"eng": {
+"likes": 9,
+"comments": 0,
+"shares": 1,
+"views": 0
+},
+"programs": [
+"ie_it",
+"uk",
+"carib",
+"sg",
+"re"
+],
+"p4": [
+"product"
+],
+"prices": [],
+"offers": [],
+"places": [],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Tin chính sách"
+],
+"ai": {
+"programs": [
+"CBI St. Kitts & Nevis"
+],
+"prices": [],
+"offers": [],
+"event": null,
+"content_type": "Thương hiệu / PR",
+"message": "Khẳng định CBI St. Kitts & Nevis vẫn hoạt động và iCanfield là đối tác được ủy quyền dự án Marriott.",
 "risk_claims": []
 },
 "ai_v": 1
@@ -1183,6 +2219,64 @@
 "ai_v": 1
 },
 {
+"id": "efa7e622202f",
+"company": "mapleleaf",
+"src": "facebook",
+"outlet": "Facebook",
+"title": "🎉 CHÚC MỪNG KHÁCH HÀNG CHÍNH THỨC NHẬN PR CANADA & MÓN QUÀ TRI ÂN Ý NGHĨA- MAPLE LEAF VIETNAM",
+"url": "https://www.facebook.com/mapleleafvietnam.dinhcuquocte/posts/pfbid0QMxmMGDrv5iQxESoHi12VbrE95uFhZYz99AbYcFtNbpvWhYH2YgTAKLhLQ8p8R5Dl",
+"date": "2026-11-03T10:15:05+00:00",
+"cats": [],
+"summary": "🎉 CHÚC MỪNG KHÁCH HÀNG CHÍNH THỨC NHẬN PR CANADA & MÓN QUÀ TRI ÂN Ý NGHĨA- MAPLE LEAF VIETNAM Maple Leaf Vietnam xin gửi lời chúc mừng chân thành nhất đến Gia đình khách hàng đã chính thức nhận được thông báo Thường trú nhân Canada (PR) Tập thể Maple Leaf Vietnam rất tự hào khi được đồng hành và hiện thực hóa giấc mơ định cư Canada cùng Gia đình Anh chị và cảm ơn Gia đình Anh chị món quà ý nghĩa dành cho tập thể công ty. Chúc Anh chị và gia đình có một khởi đầu mới thật thuận lợi, nhiều may mắn và gặt hái thêm nhiều thành công tại xứ sở lá phong! 👉 Anh/chị đang tìm kiếm cơ hội định cư Canada diện Doanh nhân & Đầu tư? Hãy liên hệ ngay cho Maple Leaf Vietnam để được đánh giá hồ sơ thông qua sự kiện đặc biệt tháng 11/2026 TỌA ĐÀM: CẬP NHẬT KẾ HOẠCH DI TRÚ CANADA THÁNG 11.2026 & YẾU TỐ MẤU CHỐT QUYẾT ĐỊNH THÀNH CÔNG HỒ SƠ DOANH NHÂN TỈNH BANG CANADA 🌟 KHÁCH MỜI ĐẶC BIỆT: ☑️ Ms. Tracy Pham – Cố vấn Di trú Quốc tế (RCIC), Chuyên gia được Chính phủ Canada cấp phép ☑️ Mr. Julien Saint-Georges – Luật sư Di trú Canada giàu kinh nghiệm. ⏱ Thời gian: 9h, 14/11/2026 | TP. Hồ Chí Minh - 15/11/2026 | TP. Đà Nẵng 📍 Địa điểm: Trung tâm TP. HCM 🌐 Link đăng ký tư vấn: https://forms.gle/6HsRPvstg9ty8pfA6 📲 Hotline/Zalo: 0286 286 3010 - 0989 833 010 📍 VP. HCM: Tầng 5 - Serepok Tower, 56 Nguyễn Đình Chiểu, P. Tân Định, TP. Hồ Chí Minh 📍 VP. Hà Nội: Tầng 3 - The Nine Tower, 9 Phạm Văn Đồng, Phú Diễn, Thủ đô Hà Nội",
+"eng": {
+"likes": 3,
+"comments": 0,
+"shares": 1,
+"views": 0
+},
+"programs": [],
+"p4": [
+"place",
+"promotion"
+],
+"prices": [],
+"offers": [],
+"places": [
+"Hà Nội",
+"TP\\.? ?HCM",
+"Hồ Chí Minh",
+"Đà Nẵng"
+],
+"event": true,
+"event_dates": [
+"2026-11-14",
+"2026-11-15"
+],
+"risk": [],
+"ctype": [
+"Câu chuyện thành công"
+],
+"ai": {
+"programs": [
+"Định cư Canada diện Doanh nhân tỉnh bang"
+],
+"prices": [],
+"offers": [
+"Đánh giá hồ sơ tại tọa đàm tháng 11/2026"
+],
+"event": {
+"kind": "invite",
+"name": "Tọa đàm: Cập nhật kế hoạch di trú Canada tháng 11.2026 & yếu tố mấu chốt quyết định thành công hồ sơ doanh nhân tỉnh bang Canada",
+"date": "",
+"city": ""
+},
+"content_type": "Câu chuyện thành công",
+"message": "Chứng minh năng lực qua khách nhận PR và mời tham dự tọa đàm định cư Canada diện doanh nhân.",
+"risk_claims": []
+},
+"ai_v": 1
+},
+{
 "id": "8d52a69d4034",
 "company": "mapleleaf",
 "src": "facebook",
@@ -1225,6 +2319,61 @@
 "ai": {
 "programs": [
 "Doanh nhân tỉnh bang New Brunswick"
+],
+"prices": [],
+"offers": [],
+"event": null,
+"content_type": "Câu chuyện thành công",
+"message": "Khách nhận BPA New Brunswick chứng minh lộ trình định cư doanh nhân an toàn, minh bạch của Maple Leaf.",
+"risk_claims": [
+"lộ trình định cư an toàn, thực tế và minh bạch"
+]
+},
+"ai_v": 1
+},
+{
+"id": "551032b95825",
+"company": "mapleleaf",
+"src": "facebook",
+"outlet": "Facebook",
+"title": "🎉 TIN VUI ĐỊNH CƯ CANADA: CHÚC MỪNG KHÁCH HÀNG ANH L. NHẬN THỎA THUẬN KINH DOANH (BPA) TỈNH BANG NEW BRUNSWICK! 🇨🇦✨",
+"url": "https://www.facebook.com/mapleleafvietnam.dinhcuquocte/posts/pfbid0cLYBzELVMAbHwgEFUjFWdtntwaJ9YVhx8YBMBMKwaqEqwvAH1PaRkERDWMPWJdABl",
+"date": "2026-11-03T10:04:46+00:00",
+"cats": [],
+"summary": "🎉 TIN VUI ĐỊNH CƯ CANADA: CHÚC MỪNG KHÁCH HÀNG ANH L. NHẬN THỎA THUẬN KINH DOANH (BPA) TỈNH BANG NEW BRUNSWICK! 🇨🇦✨ Đội ngũ Maple Leaf Vietnam xin gửi lời chúc mừng đến Gia đình khách hàng đã chính thức nhận được thỏa thuận kinh doanh giữa tỉnh bang và đương đơn xin nhập cư của doanh New Brunswick (BPA)! 📄 BPA (Business Performance Agreement) là gì? Đây là thỏa thuận thực thi kinh doanh giữa Chính phủ tỉnh bang New Brunswick và đương đơn xin nhập cư. Việc cầm trong tay BPA đồng nghĩa hồ sơ đã vượt qua các vòng thẩm định khắt khe, mở ra cánh cửa nhận Đề cử Tỉnh bang và tiến thẳng đến Thẻ Thường Trú Nhân (PR) Canada cho cả gia đình sau khi kinh doanh tại tỉnh ! Thành công này là minh chứng rõ nét cho lộ trình định cư an toàn, thực tế và minh bạch dành cho các doanh nhân, chủ doanh nghiệp Việt Nam. 👉 Anh/chị đang tìm kiếm cơ hội định cư Canada diện Doanh nhân & Đầu tư? Hãy liên hệ ngay cho Maple Leaf Vietnam để được đánh giá hồ sơ thông qua sự kiện đặc biệt tháng 11/2026 TỌA ĐÀM: CẬP NHẬT KẾ HOẠCH DI TRÚ CANADA THÁNG 11.2026 & YẾU TỐ MẤU CHỐT QUYẾT ĐỊNH THÀNH CÔNG HỒ SƠ DOANH NHÂN TỈNH BANG CANADA 🌟 KHÁCH MỜI ĐẶC BIỆT: ☑️ Ms. Tracy Pham – Cố vấn Di trú Quốc tế (RCIC), Chuyên gia được Chính phủ Canada cấp phép ☑️ Mr. Julien Saint-Georges – Luật sư Di trú Canada giàu kinh nghiệm. ⏱ Thời gian: 9h, 14/11/2026 | TP. Hồ Chí Minh - 15/11/2026 | TP. Đà Nẵng 📍 Địa điểm: Trung tâm TP. HCM 🌐 Link đăng ký tư vấn: https://forms.gle/6HsRPvstg9ty8pfA6 📲 Hotline/Zalo: 0286 286 3010 - 0989 833 0",
+"eng": {
+"likes": 1,
+"comments": 0,
+"shares": 1,
+"views": 0
+},
+"programs": [
+"pnp"
+],
+"p4": [
+"product",
+"place",
+"promotion"
+],
+"prices": [],
+"offers": [],
+"places": [
+"TP\\.? ?HCM",
+"Hồ Chí Minh",
+"Đà Nẵng"
+],
+"event": true,
+"event_dates": [
+"2026-11-14",
+"2026-11-15"
+],
+"risk": [],
+"ctype": [
+"Câu chuyện thành công"
+],
+"ai": {
+"programs": [
+"Đề cử tỉnh bang New Brunswick diện Doanh nhân"
 ],
 "prices": [],
 "offers": [],
@@ -1314,6 +2463,44 @@
 "event": null,
 "content_type": "Tin chính sách",
 "message": "Cập nhật 3 đề xuất di trú Mỹ ảnh hưởng du học sinh và người lao động.",
+"risk_claims": []
+},
+"ai_v": 1
+},
+{
+"id": "c9766b11b01b",
+"company": "icanfield",
+"src": "facebook",
+"outlet": "Facebook",
+"title": "🇺🇲 3 ĐỀ XUẤT DI TRÚ ĐÁNG CHÚ Ý TẠI MỸ: HẠN GÓP Ý KẾT THÚC TỪ 09-13/11, DU HỌC SINH VÀ NGƯỜI LAO ĐỘNG CẦN CHÚ Ý GÌ?",
+"url": "https://www.facebook.com/icanfield.vn/posts/pfbid035w7wU5CAFzLpkM8RJMNtBgPT8w2D8gXaeJTVYg2HXAK3gkTCKhE7ML1N81iXxD89l",
+"date": "2026-11-03T09:59:37+00:00",
+"cats": [],
+"summary": "🇺🇲 3 ĐỀ XUẤT DI TRÚ ĐÁNG CHÚ Ý TẠI MỸ: HẠN GÓP Ý KẾT THÚC TỪ 09-13/11, DU HỌC SINH VÀ NGƯỜI LAO ĐỘNG CẦN CHÚ Ý GÌ?",
+"eng": {
+"likes": 22,
+"comments": 1,
+"shares": 2,
+"views": 0
+},
+"programs": [],
+"p4": [],
+"prices": [],
+"offers": [],
+"places": [],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Khác"
+],
+"ai": {
+"programs": [],
+"prices": [],
+"offers": [],
+"event": null,
+"content_type": "Tin chính sách",
+"message": "Cập nhật 3 đề xuất di trú Mỹ cho du học sinh và người lao động.",
 "risk_claims": []
 },
 "ai_v": 1
@@ -1511,6 +2698,50 @@
 "ai_v": 1
 },
 {
+"id": "abbb56c227e5",
+"company": "kornova",
+"src": "facebook",
+"outlet": "Facebook",
+"title": "🇺🇸 Đang ở Mỹ theo diện J-1 và tìm hiểu EB-5?",
+"url": "https://www.facebook.com/kornova.tuvanditru/posts/pfbid02MQHLgDEtFLkHKxUvgB8jMjGq1RuJPRE5qtCzw5Vi6Nukoh2nMENRRtJCQ6XqTgsil",
+"date": "2026-11-03T07:32:36+00:00",
+"cats": [],
+"summary": "🇺🇸 Đang ở Mỹ theo diện J-1 và tìm hiểu EB-5? Trước khi tính đến việc nộp hồ sơ, anh/chị hãy kiểm tra có thuộc diện phải cư trú tại quê nhà hai năm theo Điều khoản 212(e) hay không. Điều kiện này có thể ảnh hưởng đến thời điểm nộp I-485, khả năng xin miễn trừ và cả kế hoạch đi lại khi hồ sơ đang chờ xét duyệt. Mốc 90 ngày cũng không phải “vùng an toàn” bảo đảm hồ sơ được chấp thuận. 👉 Xem phân tích các điểm cần lưu ý và những bước nên tìm hiểu trước khi cân nhắc lộ trình EB-5 tại bình luận ghim. #EB5 #VisaJ1 #DinhCuMy #Kornova #NhaDauTuEB5",
+"eng": {
+"likes": 3,
+"comments": 2,
+"shares": 2,
+"views": 0
+},
+"programs": [
+"eb5"
+],
+"p4": [
+"product"
+],
+"prices": [],
+"offers": [],
+"places": [],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Hướng dẫn / Kiến thức"
+],
+"ai": {
+"programs": [
+"EB-5"
+],
+"prices": [],
+"offers": [],
+"event": null,
+"content_type": "Hướng dẫn / Kiến thức",
+"message": "Người diện J-1 cần kiểm tra điều khoản 212(e) trước khi theo EB-5.",
+"risk_claims": []
+},
+"ai_v": 1
+},
+{
 "id": "12bce2db5641",
 "company": "kornova",
 "src": "web",
@@ -1565,10 +2796,10 @@
 "cats": [],
 "summary": "Quy trình đầu tư AIP định cư New Zealand #dinhcu #AIP #60sdinhcu #dinhcunewzealand #newzealand",
 "eng": {
-"likes": 1,
+"likes": 10,
 "comments": 0,
 "shares": 1,
-"views": 6143
+"views": 27256
 },
 "programs": [
 "nz_inv",
@@ -1633,6 +2864,44 @@
 "event": null,
 "content_type": "Tin chính sách",
 "message": "Cập nhật hạn chót góp ý 3 đề xuất thay đổi chính sách di trú Mỹ.",
+"risk_claims": []
+},
+"ai_v": 1
+},
+{
+"id": "cee097bc81ac",
+"company": "khaiphu",
+"src": "facebook",
+"outlet": "Facebook",
+"title": "🇺🇸 Mỹ: Đếm ngược hạn chót góp ý 3 đề xuất thay đổi chính sách di trú",
+"url": "https://www.facebook.com/khaiphuimmigration/posts/pfbid0M4jadA3PVwuomwNWumzfhWwh7uv11LrMHFHtzyQK8QxiH6A32gRbkwNJZNXF1T9tl",
+"date": "2026-11-03T03:14:20+00:00",
+"cats": [],
+"summary": "🇺🇸 Mỹ: Đếm ngược hạn chót góp ý 3 đề xuất thay đổi chính sách di trú",
+"eng": {
+"likes": 85,
+"comments": 1,
+"shares": 1,
+"views": 0
+},
+"programs": [],
+"p4": [],
+"prices": [],
+"offers": [],
+"places": [],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Tin chính sách"
+],
+"ai": {
+"programs": [],
+"prices": [],
+"offers": [],
+"event": null,
+"content_type": "Tin chính sách",
+"message": "Nhắc hạn chót góp ý 3 đề xuất di trú Mỹ.",
 "risk_claims": []
 },
 "ai_v": 1
@@ -1825,6 +3094,77 @@
 "ai_v": 1
 },
 {
+"id": "3b9ab065c770",
+"company": "bsop",
+"src": "facebook",
+"outlet": "Facebook",
+"title": "🌍 GO GLOBAL TẠI ĐÀ NẴNG: KẾT NỐI 5 THỊ TRƯỜNG QUỐC , MỞ RỘNG TẦM NHÌN TOÀN CẦU",
+"url": "https://www.facebook.com/BSOPdinhcuchauau/posts/pfbid01J8xZM5aYkLkwMePfZwUE11Dy4Mdau3rwFai4J3nKnt3MSk3QqidjydSt9eSmD5Nl",
+"date": "2026-11-03T02:20:01+00:00",
+"cats": [],
+"summary": "🌍 GO GLOBAL TẠI ĐÀ NẴNG: KẾT NỐI 5 THỊ TRƯỜNG QUỐC , MỞ RỘNG TẦM NHÌN TOÀN CẦU Tiếp nối TP. Hồ Chí Minh và TP. Hà Nội, hành trình BSOP EXPO 7 tiếp tục đến với Đà Nẵng vào ngày 07/11/2026, mang đến cơ hội gặp chuyên gia, đối tác quốc tế và cập nhật những thông tin mới về đầu tư, dịch chuyển quốc tế tại 5 thị trường: Síp, Hy Lạp, Bồ Đào Nha, UAE và New Zealand. SỰ KIỆN - GO GLOBAL TẠ ĐÀ NẴNG: TÀI SẢN, DỊCH CHUYỂN & CƠ HỘI TOÀN CẦU ⏰ Thời gian: 08:30 – 12:00 | Thứ Bảy, ngày 07/11/2026 📍Địa điểm: Phòng The West & East Room, Tầng M, Khách sạn Courtyard by Marriott Danang, 58 Bạch Đằng, Hải Châu, Đà Nẵng. Tại sự kiện, Nhà đầu tư sẽ được tìm hiểu những cơ hội đầu tư và định cư tại 5 thị trường quốc tế: 🌟 Síp: Đón đầu cơ hội sở hữu thẻ xanh vĩnh viễn trước thềm Síp gia nhập Schengen. 🌟 Hy Lạp: Tìm hiểu cơ hội sở hữu bất động sản tại trung tâm Athens và nắm bắt cơ hội đầu tư, định cư châu Âu. 🌟 Bồ Đào Nha: Khám phá hai chương trình Visa FFI – lộ trình định cư không yêu cầu đầu tư, và Eco Biz – khởi nghiệp tại châu Âu với vốn từ 30.000 EUR. 🌟 UAE: Cập nhật xu hướng dịch chuyển, cơ hội tăng trưởng tài sản tại trung tâm tài chính và đầu tư toàn cầu. 🌟 New Zealand: Khám phá điểm đến định cư lý tưởng, hướng đến tương lai cho cả gia đình. Chương trình có sự tham gia của đội ngũ BSOP và các chuyên gia, đối tác quốc tế, mang đến những góc nhìn đa chiều về thị trường, chính sách và các phương án đầu tư mở ra cơ hội đầu tư và di trú toàn cầu. 🎁 Đặc biệt, sự kiện công bố đặc quyền ưu đãi lên tới",
+"eng": {
+"likes": 5,
+"comments": 0,
+"shares": 1,
+"views": 0
+},
+"programs": [
+"nz_work",
+"pt",
+"gr",
+"ie_it",
+"ae",
+"re"
+],
+"p4": [
+"product",
+"price",
+"place",
+"promotion"
+],
+"prices": [
+"30.000 EUR"
+],
+"offers": [
+"ưu đãi"
+],
+"places": [
+"Hà Nội",
+"Hồ Chí Minh",
+"Đà Nẵng"
+],
+"event": true,
+"event_dates": [
+"2026-11-07"
+],
+"risk": [],
+"ctype": [
+"Tin chính sách"
+],
+"ai": {
+"programs": [
+"Thẻ xanh Síp",
+"Golden Visa Hy Lạp",
+"Bồ Đào Nha",
+"UAE",
+"New Zealand"
+],
+"prices": [],
+"offers": [],
+"event": {
+"kind": "invite",
+"name": "GO GLOBAL tại Đà Nẵng: Tài sản, Dịch chuyển & Cơ hội toàn cầu (BSOP EXPO 7)",
+"date": "2026-11-07",
+"city": "Đà Nẵng"
+},
+"content_type": "Sự kiện / Hội thảo",
+"message": "Mời nhà đầu tư Đà Nẵng tham dự sự kiện tìm hiểu đầu tư định cư 5 thị trường.",
+"risk_claims": []
+},
+"ai_v": 1
+},
+{
 "id": "4ef623c2d19a",
 "company": "khaiphu",
 "src": "web",
@@ -1946,6 +3286,50 @@
 "ai_v": 1
 },
 {
+"id": "3c2cac62106c",
+"company": "victory",
+"src": "facebook",
+"outlet": "Facebook",
+"title": "VISA BULLETIN 11/2026: EB-3 OTHER WORKERS TIẾN MẠNH 5 THÁNG",
+"url": "https://www.facebook.com/victorydinhcu/posts/pfbid035PLiWLCqwjpjxshQYciFNdrZytcR5R3sNdgCGFn34KLLAWswejubKHA8SLhW64cwl",
+"date": "2026-11-02T13:00:07+00:00",
+"cats": [],
+"summary": "VISA BULLETIN 11/2026: EB-3 OTHER WORKERS TIẾN MẠNH 5 THÁNG 🔊Tin vui đáng chú ý dành cho những ai đang quan tâm đến diện chương trình định cư Mỹ EB-3! Visa Bulletin tháng 11/2026 ghi nhận nhiều thay đổi đáng chú ý, đặc biệt là diện EB-3 Other Workers (diện lao động phổ thông). Đây là kỳ Visa Bulletin thứ 2 của năm tài khóa FY2027, bắt đầu từ ngày 01/10/2026. So với tháng 10/2026, lịch xét cấp visa tại Bảng A ghi nhận bước tiến thêm 5 tháng, mở ra những diễn biến tích cực. 📌CẬP NHẬT LỊCH VISA EB-3 THÁNG 11/2026 ⏩DIỆN EB-3 OTHER WORKERS: BẢNG A TIẾN 5 THÁNG 🇦Bảng A – Final Action Dates (Lịch xét cấp visa) - Tháng 10/2026: 01/01/2022 - Tháng 11/2026: 01/06/2022 => tiến thêm 5 tháng 🇧Bảng B Dates For Filing (Lịch mở hồ sơ) - Tháng 10/2026: 01/06/2022 - Tháng 11/2026: 01/07/2022 => tiến thêm 1 tháng ⏩DIỆN EB-3 SKILLED WORKERS & PROFESSIONALS: BẢNG A TIẾN 1 THÁNG 🇦Bảng A – Final Action Dates (Lịch xét cấp visa) - Tháng 10/2026: 15/05/2024 - Tháng 11/2026: 15/06/2024 => tiến thêm 1 tháng 🇧Bảng B Dates For Filing (Lịch mở hồ sơ): Giữ nguyên tại 01/08/2024 ❓Điều này có ý nghĩa gì với người đang theo đuổi EB-3? 🔻Việc Final Action Dates tiến thêm 5 tháng là tín hiệu tích cực với những người đang theo đuổi hồ sơ EB-3 diện Other Workers (lao động phổ thông). 🔻Những ứng viên có ngày ưu tiên gần hoặc sớm hơn mốc áp dụng nên theo dõi sát lịch visa và tình trạng hồ sơ của mình. 🔻Chủ động cập nhật lịch visa thường xuyên, rà soát giấy tờ và nắm rõ quy trình xử lý để chủ động hơn trong hành trìn",
+"eng": {
+"likes": 2,
+"comments": 1,
+"shares": 1,
+"views": 0
+},
+"programs": [
+"eb3"
+],
+"p4": [
+"product"
+],
+"prices": [],
+"offers": [],
+"places": [],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Tin chính sách"
+],
+"ai": {
+"programs": [
+"EB-3"
+],
+"prices": [],
+"offers": [],
+"event": null,
+"content_type": "Tin chính sách",
+"message": "Visa Bulletin 11/2026 tiến mạnh, khuyến khích quan tâm EB-3.",
+"risk_claims": []
+},
+"ai_v": 1
+},
+{
 "id": "54ed4e0d7c48",
 "company": "icanfield",
 "src": "facebook",
@@ -1959,7 +3343,7 @@
 "likes": 4,
 "comments": 0,
 "shares": 0,
-"views": 929
+"views": 960
 },
 "programs": [
 "pnp"
@@ -2112,6 +3496,75 @@
 },
 "content_type": "Sự kiện / Hội thảo",
 "message": "Sự kiện Go Global Hà Nội thu hút đông nhà đầu tư, khẳng định năng lực tư vấn đa thị trường của BSOP.",
+"risk_claims": []
+},
+"ai_v": 1
+},
+{
+"id": "9d4b03bb58d9",
+"company": "bsop",
+"src": "facebook",
+"outlet": "Facebook",
+"title": "🌍 NHÌN LẠI GO GLOBAL HÀ NỘI – KẾT NỐI CƠ HỘI, KIẾN TẠO GIÁ TRỊ TOÀN CẦU",
+"url": "https://www.facebook.com/BSOPdinhcuchauau/posts/pfbid02TDJfSszV36qHPZARQURhJLBiYCZ8ycbJgywfbrTG3MpYormEZqBaqYQ8QxAfkNvEl",
+"date": "2026-11-02T10:32:49+00:00",
+"cats": [],
+"summary": "🌍 NHÌN LẠI GO GLOBAL HÀ NỘI – KẾT NỐI CƠ HỘI, KIẾN TẠO GIÁ TRỊ TOÀN CẦU Tiếp nối thành công tại TP. Hồ Chí Minh, sự kiện GO GLOBAL – TÀI SẢN, DỊCH CHUYỂN & CƠ HỘI TOÀN CẦU tại Hà Nội tiếp tục thu hút đông đảo Nhà đầu tư tham dự. Chương trình diễn ra sôi nổi với sự góp mặt của đội ngũ chuyên gia BSOP cùng các chuyên gia, đối tác quốc tế. Tại sự kiện, Nhà đầu tư được cập nhật thông tin về thị trường đầu tư và xu hướng dịch chuyển tài sản, đồng thời tìm hiểu sâu hơn về các chương trình tại Thổ Nhĩ Kỳ, UAE, New Zealand, Mỹ và Bồ Đào Nha. Nhà đầu tư cơ hội trải nghiệm nền tảng BWA - Nền tảng Kiến trúc gia sản & Đầu tư quốc tế đầu tiên tại Việt Nam; lắng nghe chia sẻ về định hướng đầu tư tại từng thị trường và trực tiếp tư vấn 1:1, giúp Nhà đầu tư hiểu rõ hơn về từng thị trường, tìm hiểu giải pháp phù hợp với nhu cầu riêng của gia đình. Đặc biệt, BSOP công bố phần quà 02 vé máy bay nội địa Vietnam Airlines không giới hạn chặng bay dành cho Nhà đầu tư, cùng nhiều phần quà giá trị khác như ô tô cao cấp, iPhone Duo, iPhone 18 Pro Max, iPhone 17 Pro Max,... 💌 Cảm ơn Quý Nhà đầu tư và Khách mời đã có mặt và đồng hành cùng BSOP trong sự kiện đặc biệt này! 📍 ĐÀ NẴNG SẼ LÀ ĐIỂM HẸN TIẾP THEO – NHÀ ĐẦU TƯ ĐÃ SẴN SÀNG THAM DỰ? Sau Hà Nội, Đà Nẵng sẽ là điểm hẹn tiếp theo dành cho các Nhà đầu tư mong muốn mở rộng cơ hội, kết nối chuyên gia, đối tác quốc tế, tìm hiểu các thị trường đầu tư và nhận những phần quà hấp dẫn tại sự kiện. Đăng ký ngay để không bỏ lỡ sự kiện GO GLOBAL ngày 07/11/2026!",
+"eng": {
+"likes": 9,
+"comments": 0,
+"shares": 0,
+"views": 0
+},
+"programs": [
+"nz_work",
+"pt",
+"vanuatu",
+"ae"
+],
+"p4": [
+"product",
+"price",
+"place",
+"promotion"
+],
+"prices": [],
+"offers": [
+"giới hạn"
+],
+"places": [
+"Hà Nội",
+"Hồ Chí Minh",
+"Đà Nẵng"
+],
+"event": true,
+"event_dates": [
+"2026-11-07"
+],
+"risk": [],
+"ctype": [
+"Tin chính sách"
+],
+"ai": {
+"programs": [
+"Thổ Nhĩ Kỳ",
+"UAE",
+"New Zealand",
+"Mỹ",
+"Bồ Đào Nha"
+],
+"prices": [],
+"offers": [
+"Quà 02 vé máy bay nội địa"
+],
+"event": {
+"kind": "recap",
+"name": "GO GLOBAL – Tài sản, Dịch chuyển & Cơ hội toàn cầu",
+"date": "",
+"city": "Hà Nội"
+},
+"content_type": "Sự kiện / Hội thảo",
+"message": "Tổng kết sự kiện Hà Nội thành công, giới thiệu nền tảng BWA và tư vấn 1:1.",
 "risk_claims": []
 },
 "ai_v": 1
@@ -2336,6 +3789,48 @@
 "ai_v": 1
 },
 {
+"id": "a265f24cb6f7",
+"company": "khaiphu",
+"src": "facebook",
+"outlet": "Facebook",
+"title": "🇦🇬 Thực hư thông tin: 12/11 là ngày kết thúc chương trình đầu tư lấy quốc tịch Antigua & Barbuda",
+"url": "https://www.facebook.com/khaiphuimmigration/posts/pfbid0WeWH9mXZpALQsqdHp2GM1GnWEyyNei5ReePPfezJXrEteLeRzLmnU8tHHahzz6ial",
+"date": "2026-11-02T07:43:14+00:00",
+"cats": [],
+"summary": "🇦🇬 Thực hư thông tin: 12/11 là ngày kết thúc chương trình đầu tư lấy quốc tịch Antigua & Barbuda",
+"eng": {
+"likes": 6,
+"comments": 1,
+"shares": 0,
+"views": 0
+},
+"programs": [
+"carib"
+],
+"p4": [
+"product"
+],
+"prices": [],
+"offers": [],
+"places": [],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Khác"
+],
+"ai": {
+"programs": [],
+"prices": [],
+"offers": [],
+"event": null,
+"content_type": "Tin chính sách",
+"message": "Làm rõ thông tin kết thúc chương trình CBI Antigua & Barbuda.",
+"risk_claims": []
+},
+"ai_v": 1
+},
+{
 "id": "11e0e58d2f67",
 "company": "kornova",
 "src": "web",
@@ -2534,6 +4029,55 @@
 "ai_v": 1
 },
 {
+"id": "56669476d33c",
+"company": "si",
+"src": "facebook",
+"outlet": "Facebook",
+"title": "🎉 SI GROUP – ĐỒNG HÀNH KIẾN TẠO DI SẢN BỀN VỮNG",
+"url": "https://www.facebook.com/SIGroupVietNam/posts/pfbid0xUkyrAjg7mQD8ozBkrgG4co9NF7u9WPnZCCswqyxC2hRaZrvt33cGqrdpAbh8Mgpl",
+"date": "2026-11-02T03:50:00+00:00",
+"cats": [],
+"summary": "🎉 SI GROUP – ĐỒNG HÀNH KIẾN TẠO DI SẢN BỀN VỮNG Một hành trình ý nghĩa vừa khép lại, mở ra những góc nhìn sâu sắc về câu chuyện chuyển giao và gìn giữ giá trị qua nhiều thế hệ. 💎 SI Group rất vinh hạnh được đồng hành cùng FIDT và AIA Việt Nam trong chương trình vừa qua, cùng nhau mang đến một không gian kết nối chuyên môn toàn diện, mạch lạc nhưng cũng đầy gần gũi và chạm đến cảm xúc. 💎 Đối với SI Group, \"Hoạch định di sản\" chưa bao giờ chỉ là những con số hay câu chuyện của tài sản vật chất. Đó là sự chuẩn bị chu toàn cả về tâm thế, trách nhiệm và giải pháp. Để một ngày, thế hệ tiếp nối có thể tự tin tiếp nhận, vận hành và phát huy trọn vẹn những gì người đi trước đã tâm huyết gây dựng. 🤝 Trân trọng cảm ơn Ban tổ chức FIDT, đối tác AIA Việt Nam, các diễn giả cùng toàn thể Quý khách mời đã dành thời gian tham dự, cùng nhau lắng đọng và thảo luận sâu sắc về những điều chúng ta thực sự quan tâm. Sự đồng điệu trong tầm nhìn chính là động lực để SI Group tiếp tục mang đến những giải pháp bảo vệ gia sản và bảo đảm thanh khoản một cách tối ưu cho khách hàng. 🏢: Tầng 44, Bitexco Financial Tower, 02 Hải Triều, P. Sài Gòn, TP. Hồ Chí Minh 🏛️: Tầng 19, Capital Place, 29 Liễu Giai, P. Ngọc Hà, TP. Hà Nội ☎️: (+84) 979 355 355 #SIGroup #FIDT #AIAVietnam #LegacyPlanning #FinancialPlanning #Partnership",
+"eng": {
+"likes": 7,
+"comments": 1,
+"shares": 1,
+"views": 0
+},
+"programs": [],
+"p4": [
+"place"
+],
+"prices": [],
+"offers": [],
+"places": [
+"Hà Nội",
+"Hồ Chí Minh",
+"Sài Gòn"
+],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Hướng dẫn / Kiến thức"
+],
+"ai": {
+"programs": [],
+"prices": [],
+"offers": [],
+"event": {
+"kind": "recap",
+"name": "Chương trình hoạch định di sản cùng FIDT và AIA Việt Nam",
+"date": "",
+"city": ""
+},
+"content_type": "Thương hiệu / PR",
+"message": "SI Group đồng hành hoạch định di sản bền vững qua nhiều thế hệ.",
+"risk_claims": []
+},
+"ai_v": 1
+},
+{
 "id": "cba28fd7c147",
 "company": "uca",
 "src": "facebook",
@@ -2622,6 +4166,50 @@
 "ai_v": 1
 },
 {
+"id": "8132fa048ca2",
+"company": "uca",
+"src": "facebook",
+"outlet": "Facebook",
+"title": "🇨🇦 12 THỰC TẾ KHẮC NGHIỆT CỦA HÀNH TRÌNH DU HỌC CANADA → ĐỊNH CƯ PR",
+"url": "https://www.facebook.com/uca.com.vn/posts/pfbid02NtELwiDWsjXXeJjG43BtcHywYXi3Smp4PnKnFf3nEyvnaeC7S9DWuDudF9fPbLLBl",
+"date": "2026-11-02T03:05:47+00:00",
+"cats": [],
+"summary": "🇨🇦 12 THỰC TẾ KHẮC NGHIỆT CỦA HÀNH TRÌNH DU HỌC CANADA → ĐỊNH CƯ PR Du học Canada có thể mở ra nhiều cơ hội học tập, phát triển nghề nghiệp và trải nghiệm cuộc sống quốc tế. Tuy nhiên, có một sự thật mà nhiều gia đình chỉ nhận ra sau khi đã đầu tư hàng tỷ đồng và dành nhiều năm tại Canada: Tốt nghiệp không đồng nghĩa với được định cư. Trước khi lựa chọn con đường du học với kỳ vọng lấy PR, phụ huynh và du học sinh cần nhìn nhận 12 thực tế sau: 1. Tốt nghiệp chưa chắc được ở lại định cư Có bằng tốt nghiệp tại Canada không đồng nghĩa với việc tự động được cấp thường trú nhân (PR). Du học sinh vẫn phải đáp ứng đầy đủ điều kiện của chương trình định cư tại thời điểm nộp hồ sơ. 2. Đầu tư hàng tỷ đồng nhưng vẫn có thể không đạt PR Học phí, sinh hoạt phí, nhà ở và các chi phí khác có thể trở thành khoản đầu tư rất lớn của cả gia đình. Tuy nhiên, sau khi tốt nghiệp, con vẫn có thể không đủ điều kiện để chuyển sang diện thường trú nhân. 3. PGWP có thời hạn và điều kiện riêng Giấy phép làm việc sau tốt nghiệp (PGWP) không phải giấy phép cư trú vĩnh viễn. Thời hạn được cấp phụ thuộc vào điều kiện chương trình học và quy định hiện hành. Nếu giấy phép hết hạn mà chưa có PR hoặc tư cách lưu trú hợp pháp khác, người lao động cần có phương án phù hợp để tiếp tục ở lại. 4. Điểm CRS cao vẫn chưa chắc nhận được thư mời PR Bằng cấp Canada, trình độ tiếng Anh tốt và kinh nghiệm làm việc là những lợi thế, nhưng không bảo đảm được mời nộp hồ sơ qua Express Entry. Điểm chuẩn CRS và tiêu chí lựa chọn",
+"eng": {
+"likes": 0,
+"comments": 0,
+"shares": 0,
+"views": 0
+},
+"programs": [
+"ee",
+"ca_study"
+],
+"p4": [
+"product",
+"price"
+],
+"prices": [],
+"offers": [],
+"places": [],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Hướng dẫn / Kiến thức"
+],
+"ai": {
+"programs": [],
+"prices": [],
+"offers": [],
+"event": null,
+"content_type": "Hướng dẫn / Kiến thức",
+"message": "Cảnh báo du học Canada không đảm bảo PR, cần cân nhắc lộ trình khác.",
+"risk_claims": []
+},
+"ai_v": 1
+},
+{
 "id": "2d0ba200ce78",
 "company": "khaiphu",
 "src": "facebook",
@@ -2701,6 +4289,48 @@
 "event": null,
 "content_type": "Tin chính sách",
 "message": "Cập nhật chính sách có visa Anh được nhập cảnh Ireland, gia hạn tới 31/12/2026.",
+"risk_claims": []
+},
+"ai_v": 1
+},
+{
+"id": "eb4a1241304b",
+"company": "khaiphu",
+"src": "facebook",
+"outlet": "Facebook",
+"title": "🇮🇪 Có Visa Anh, đến Ireland không cần xin thêm visa - Gia hạn tới 31/12/2026",
+"url": "https://www.facebook.com/khaiphuimmigration/posts/pfbid025yXMMkhN7gvoXwyrjDQJNpj5JQR25iBD17yUhu6XKQCZDgsANhfnn5s48ACVQVm9l",
+"date": "2026-11-02T02:49:51+00:00",
+"cats": [],
+"summary": "🇮🇪 Có Visa Anh, đến Ireland không cần xin thêm visa - Gia hạn tới 31/12/2026",
+"eng": {
+"likes": 69,
+"comments": 12,
+"shares": 4,
+"views": 0
+},
+"programs": [
+"ie_it"
+],
+"p4": [
+"product"
+],
+"prices": [],
+"offers": [],
+"places": [],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Khác"
+],
+"ai": {
+"programs": [],
+"prices": [],
+"offers": [],
+"event": null,
+"content_type": "Tin chính sách",
+"message": "Có visa Anh được nhập cảnh Ireland, gia hạn tới 31/12/2026.",
 "risk_claims": []
 },
 "ai_v": 1
@@ -2833,6 +4463,50 @@
 "event": null,
 "content_type": "Hướng dẫn / Kiến thức",
 "message": "Nhà đầu tư EB-5 nên thẩm định cấu trúc vốn, thứ tự ưu tiên và tài sản bảo đảm để đánh giá khả năng hoàn vốn.",
+"risk_claims": []
+},
+"ai_v": 1
+},
+{
+"id": "a25dd44e9e90",
+"company": "kornova",
+"src": "facebook",
+"outlet": "Facebook",
+"title": "💼 Đầu tư EB-5, ngoài điều kiện định cư, nhà đầu tư nên xem gì để đánh giá khả năng hoàn vốn?",
+"url": "https://www.facebook.com/kornova.tuvanditru/posts/pfbid034wTVM4hA5aDPDg26nBVokViNB2LJXm4KebhWdPg2cUMiW1VL8emDwnLH8ZKQd7Hil",
+"date": "2026-11-02T02:30:04+00:00",
+"cats": [],
+"summary": "💼 Đầu tư EB-5, ngoài điều kiện định cư, nhà đầu tư nên xem gì để đánh giá khả năng hoàn vốn? Hai dự án cùng mức vốn chưa chắc có mức độ rủi ro giống nhau. Trước khi quyết định, Anh/Chị nên tìm hiểu: 🔹 Vốn EB-5 được triển khai dưới dạng khoản vay hay góp vốn? 🔹 Khoản đầu tư đứng ở đâu trong thứ tự ưu tiên thanh toán? 🔹 Tài sản bảo đảm, thời hạn và điều khoản gia hạn được quy định ra sao? Đây là những điểm cần đọc kỹ trong hồ sơ dự án. 👉Xem phân tích từng yếu tố và gợi ý các câu hỏi nhà đầu tư có thể dùng khi thẩm định tại bình luận ghim #EB5 #DinhCuMy #DauTuEB5 #Kornova",
+"eng": {
+"likes": 3,
+"comments": 2,
+"shares": 1,
+"views": 0
+},
+"programs": [
+"eb5"
+],
+"p4": [
+"product"
+],
+"prices": [],
+"offers": [],
+"places": [],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Hướng dẫn / Kiến thức"
+],
+"ai": {
+"programs": [
+"EB-5"
+],
+"prices": [],
+"offers": [],
+"event": null,
+"content_type": "Hướng dẫn / Kiến thức",
+"message": "Hướng dẫn thẩm định dự án EB-5 để đánh giá khả năng hoàn vốn.",
 "risk_claims": []
 },
 "ai_v": 1
@@ -3007,6 +4681,50 @@
 "event": null,
 "content_type": "Hướng dẫn / Kiến thức",
 "message": "Giải thích khác biệt giữa phê duyệt I-956F của dự án và I-526E của nhà đầu tư EB-5.",
+"risk_claims": []
+},
+"ai_v": 1
+},
+{
+"id": "dd574503c596",
+"company": "americanplus",
+"src": "facebook",
+"outlet": "Facebook",
+"title": "🇺🇸 SỰ KHÁC BIỆT GIỮA PHÊ DUYỆT DỰ ÁN VÀ PHÊ DUYỆT ĐƠN XIN THỊ THỰC TRONG CHƯƠNG TRÌNH EB-5 🇺🇸",
+"url": "https://www.facebook.com/muanhamy.vn/posts/pfbid027ycciRctp5xQecDfTvcpwboxwkHXJkKm7miJJ5jrQUChEKnGK8hsJ39PcsiUK3hol",
+"date": "2026-11-02T01:00:24+00:00",
+"cats": [],
+"summary": "🇺🇸 SỰ KHÁC BIỆT GIỮA PHÊ DUYỆT DỰ ÁN VÀ PHÊ DUYỆT ĐƠN XIN THỊ THỰC TRONG CHƯƠNG TRÌNH EB-5 🇺🇸 🇺🇸 Ý nghĩa của việc I-956F được phê duyệt 📍 Phê duyệt dự án đề cập đến việc USCIS phê duyệt I-956F – Đơn xin phê duyệt đầu tư vào một doanh nghiệp thương mại. 📍 Khi USCIS phê duyệt I-956F, có nghĩa là dự án đủ điều kiện là một hình thức đầu tư EB-5. USCIS xem xét kế hoạch kinh doanh, mô hình kinh tế và các tài liệu chào bán chứng khoán ở cấp độ dự án, tách biệt với các đơn xin của từng nhà đầu tư riêng lẻ. 🇺🇸 Ý nghĩa của việc I-526E được chấp thuận 📍 Việc chấp thuận đơn xin cư trú đề cập đến việc USCIS chấp thuận đơn I-526E – Đơn xin cư trú dành cho nhà đầu tư trung tâm khu vực. 📍 Đây là hồ sơ cá nhân của nhà đầu tư và là tài liệu thực sự giúp họ tiến gần hơn đến thường trú nhân có điều kiện. 🇺🇸 Hai sự phê duyệt này phụ thuộc vào nhau như thế nào 📍 Hai hồ sơ này có liên quan với nhau ở cả giai đoạn nộp hồ sơ và giai đoạn phê duyệt. 📍 Giai đoạn nộp hồ sơ: trung tâm khu vực phải nộp I-956F và được USCIS xác nhận trước khi các nhà đầu tư EB-5 có thể nộp I-526E dựa trên khoản đầu tư vào dự án đó. 📍 Giai đoạn phê duyệt: sự phụ thuộc là tuyệt đối. Ngay cả khi nộp I-526E, USCIS sẽ không phê duyệt cho đến khi I-956F liên quan đến dự án được chấp thuận. Mối liên hệ này cũng có chiều ngược lại: nếu I-956F bị từ chối, bất kỳ đơn xin đầu tư nào liên quan đến dự án đó cũng có khả năng bị từ chối, ngay cả khi hồ sơ cá nhân của nhà đầu tư rất đầy đủ. 🇺🇸 Thay đổi quy trình xử lý của USCIS tháng 3/20",
+"eng": {
+"likes": 3,
+"comments": 0,
+"shares": 1,
+"views": 0
+},
+"programs": [
+"eb5"
+],
+"p4": [
+"product"
+],
+"prices": [],
+"offers": [],
+"places": [],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Tin chính sách"
+],
+"ai": {
+"programs": [
+"EB-5"
+],
+"prices": [],
+"offers": [],
+"event": null,
+"content_type": "Hướng dẫn / Kiến thức",
+"message": "Giải thích khác biệt phê duyệt I-956F và I-526E trong EB-5.",
 "risk_claims": []
 },
 "ai_v": 1

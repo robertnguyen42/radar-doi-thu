@@ -63,21 +63,28 @@ def main():
     if last and NOW - last < timedelta(hours=EVERY_HOURS) and not os.environ.get("FORCE_FB"):
         print(f"Facebook: đã chạy lúc {last:%Y-%m-%d %H:%M} UTC, bỏ qua (mỗi ngày 1 lần).")
         return
+    urls = [u for c in comps for u in fb_list(c)]
+    seen = set(state.get("pages", [norm(u) for u in urls] if last else []))  # page đã quét ít nhất 1 lần
     since = (last - timedelta(days=2)).date().isoformat() if last else f"{FIRST_DAYS} days"
-    body = {"startUrls": [{"url": u} for c in comps for u in fb_list(c)],
-            "resultsLimit": PER_PAGE if last else PER_PAGE_FIRST,
-            "onlyPostsNewerThan": since}
-    print(f"Facebook: {len(pages)} fanpage, bài từ {since}")
-    run = api(f"/acts/{ACTOR}/runs", body)["data"]
-    for _ in range(90):                       # chờ tối đa ~15 phút
-        time.sleep(10)
-        run = api(f"/actor-runs/{run['id']}")["data"]
-        if run["status"] in ("SUCCEEDED", "FAILED", "ABORTED", "TIMED-OUT"):
-            break
-    if run["status"] != "SUCCEEDED":
-        print(f"  ! Apify run {run['status']}", file=sys.stderr)
-        return
-    posts = api(f"/datasets/{run['defaultDatasetId']}/items?clean=true&format=json", timeout=120)
+    batches = [(f"{FIRST_DAYS} days", PER_PAGE_FIRST, [u for u in urls if norm(u) not in seen]),  # page mới: lấy 30 ngày
+               (since, PER_PAGE if last else PER_PAGE_FIRST, [u for u in urls if norm(u) in seen])]
+    posts, cost = [], 0.0
+    for since_b, limit, us in batches:
+        if not us:
+            continue
+        print(f"Facebook: {len(us)} fanpage, bài từ {since_b}")
+        run = api(f"/acts/{ACTOR}/runs", {"startUrls": [{"url": u} for u in us],
+                                          "resultsLimit": limit, "onlyPostsNewerThan": since_b})["data"]
+        for _ in range(90):                       # chờ tối đa ~15 phút
+            time.sleep(10)
+            run = api(f"/actor-runs/{run['id']}")["data"]
+            if run["status"] in ("SUCCEEDED", "FAILED", "ABORTED", "TIMED-OUT"):
+                break
+        if run["status"] != "SUCCEEDED":
+            print(f"  ! Apify run {run['status']}", file=sys.stderr)
+            return
+        posts += api(f"/datasets/{run['defaultDatasetId']}/items?clean=true&format=json", timeout=120)
+        cost += run.get("usageTotalUsd") or 0
 
     p = DATA / "items.json"
     items = {i["id"]: i for i in json.loads(p.read_text("utf-8"))} if p.exists() else {}
@@ -109,8 +116,8 @@ def main():
         added += 1
     DATA.mkdir(exist_ok=True)
     p.write_text(json.dumps(sorted(items.values(), key=lambda i: i["date"], reverse=True), ensure_ascii=False, indent=0), "utf-8")
-    cost = run.get("usageTotalUsd")
-    state.update(last_run=NOW.isoformat(timespec="minutes"), last_posts=len(posts), last_cost_usd=cost)
+    state.update(last_run=NOW.isoformat(timespec="minutes"), last_posts=len(posts), last_cost_usd=round(cost, 3),
+                 pages=sorted(norm(u) for u in urls))
     STATE.write_text(json.dumps(state, ensure_ascii=False, indent=1), "utf-8")
     print(f"✓ Facebook: {len(posts)} bài lấy về, {added} bài mới liên quan định cư, {updated} cập nhật tương tác, "
           f"{dropped} bài không liên quan bị loại. Chi phí Apify lần này: {cost} USD")

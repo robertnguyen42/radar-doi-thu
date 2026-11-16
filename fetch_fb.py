@@ -65,14 +65,17 @@ def main():
         print(f"Facebook: đã chạy lúc {last:%Y-%m-%d %H:%M} UTC, bỏ qua (mỗi ngày 1 lần).")
         return
     month = NOW.strftime("%Y-%m")
+    cycle = f"tháng {month}"
     try:  # số đã dùng trong tháng lấy thẳng từ Apify (chính xác hơn tự cộng)
-        used = api("/users/me/limits")["data"]["current"]["monthlyUsageUsd"]
+        lim = api("/users/me/limits")["data"]
+        used = lim["current"]["monthlyUsageUsd"]
+        cycle = f"chu kỳ Apify tới {lim.get('monthlyUsageCycle', {}).get('endAt', '?')[:10]}"
     except Exception:
         used = state.get("month_cost", 0) if state.get("month") == month else 0
     if used >= BUDGET_USD - 0.1:
-        print(f"Facebook: tháng này đã dùng {used:.2f}/{BUDGET_USD} USD Apify, tạm dừng tới tháng sau.")
+        print(f"Facebook: {cycle}: đã dùng {used:.2f}/{BUDGET_USD} USD Apify, tạm dừng tới chu kỳ sau.")
         return
-    print(f"Apify tháng {month}: đã dùng {used:.2f} USD, trần {BUDGET_USD} USD")
+    print(f"Apify {cycle}: đã dùng {used:.2f} USD, trần {BUDGET_USD} USD")
     urls = [u for c in comps for u in fb_list(c)]
     seen = set(state.get("pages", [norm(u) for u in urls] if last else []))  # page đã quét ít nhất 1 lần
     since = (last - timedelta(days=2)).date().isoformat() if last else f"{FIRST_DAYS} days"

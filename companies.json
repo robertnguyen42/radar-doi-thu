@@ -1,5 +1,5 @@
 {
- "_ghi_chu": "Danh sách công ty theo dõi. self=true là SI (dùng để so sánh). feed = RSS WordPress (để trống nếu web chặn bot). q = câu tìm Google News. link_rewrite = [cũ, mới] đổi link bài (web headless CMS). fb = link fanpage Facebook (đọc qua Apify, cần secret APIFY_TOKEN).",
+ "_ghi_chu": "Danh sách công ty theo dõi. self=true là SI (dùng để so sánh). feed = RSS WordPress (để trống nếu web chặn bot). q = câu tìm Google News. link_rewrite = [cũ, mới] đổi link bài (web headless CMS). fb = link fanpage Facebook, hoặc danh sách nhiều link nếu công ty có nhiều page (đọc qua Apify, cần secret APIFY_TOKEN).",
  "companies": [
   {
    "id": "si",

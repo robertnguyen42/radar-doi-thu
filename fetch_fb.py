@@ -41,6 +41,12 @@ def norm(u):
     return re.sub(r"^https?://(www\.|m\.|web\.)?facebook\.com/", "", u)
 
 
+def fb_list(c):
+    """Trường fb là 1 link hoặc danh sách link (công ty có nhiều fanpage)."""
+    v = c.get("fb") or []
+    return [v] if isinstance(v, str) else v
+
+
 def first_line(text, n=140):
     t = re.sub(r"\s+", " ", (text or "").split("\n")[0]).strip() or re.sub(r"\s+", " ", text or "").strip()
     return t if len(t) <= n else t[:n].rsplit(" ", 1)[0] + "…"
@@ -51,14 +57,14 @@ def main():
         print("Chưa có APIFY_TOKEN, bỏ qua Facebook.")
         return
     comps = json.loads((ROOT / "companies.json").read_text("utf-8"))["companies"]
-    pages = {norm(c["fb"]): c["id"] for c in comps if c.get("fb")}
+    pages = {norm(u): c["id"] for c in comps for u in fb_list(c)}
     state = json.loads(STATE.read_text("utf-8")) if STATE.exists() else {}
     last = datetime.fromisoformat(state["last_run"]) if state.get("last_run") else None
     if last and NOW - last < timedelta(hours=EVERY_HOURS) and not os.environ.get("FORCE_FB"):
         print(f"Facebook: đã chạy lúc {last:%Y-%m-%d %H:%M} UTC, bỏ qua (mỗi ngày 1 lần).")
         return
     since = (last - timedelta(days=2)).date().isoformat() if last else f"{FIRST_DAYS} days"
-    body = {"startUrls": [{"url": c["fb"]} for c in comps if c.get("fb")],
+    body = {"startUrls": [{"url": u} for c in comps for u in fb_list(c)],
             "resultsLimit": PER_PAGE if last else PER_PAGE_FIRST,
             "onlyPostsNewerThan": since}
     print(f"Facebook: {len(pages)} fanpage, bài từ {since}")
@@ -77,7 +83,8 @@ def main():
     items = {i["id"]: i for i in json.loads(p.read_text("utf-8"))} if p.exists() else {}
     added = updated = dropped = 0
     for x in posts:
-        cid = pages.get(norm(x.get("inputUrl"))) or pages.get(norm(x.get("facebookUrl")))
+        page = norm(x.get("inputUrl")) if norm(x.get("inputUrl")) in pages else norm(x.get("facebookUrl"))
+        cid = pages.get(page)
         text = x.get("text") or ""
         url = x.get("url") or x.get("topLevelUrl")
         if not cid or not url or not text:
@@ -95,7 +102,7 @@ def main():
             items[iid]["eng"] = eng
             updated += 1
             continue
-        items[iid] = {"id": iid, "company": cid, "src": "facebook", "outlet": "Facebook",
+        items[iid] = {"id": iid, "company": cid, "src": "facebook", "outlet": f"Facebook · {page}",
                       "title": first_line(text), "url": url,
                       "date": datetime.fromisoformat(when.replace("Z", "+00:00")).astimezone(timezone.utc).isoformat(timespec="seconds"),
                       "cats": [], "summary": re.sub(r"\s+", " ", text)[:1500], "eng": eng}

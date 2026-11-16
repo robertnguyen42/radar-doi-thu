@@ -300,7 +300,7 @@ const fold = t => String(t||'').toLowerCase().normalize('NFD').replace(/[\u0300-
 const SRC = {web: 'Website', facebook: 'Facebook', news: 'Báo chí'};
 const fmtN = n => n >= 1000 ? (n/1000).toFixed(n >= 10000 ? 0 : 1) + 'k' : String(n || 0);
 const engH = i => i.eng ? `<span class="eng" title="Thích · bình luận · chia sẻ">♥ ${fmtN(i.eng.likes)} · 💬 ${fmtN(i.eng.comments)} · ↗ ${fmtN(i.eng.shares)}</span>` : '';
-const srcTag = i => `<span class="srct ${i.src}">${i.src === 'news' ? esc(i.outlet || 'Báo') : SRC[i.src] || i.src}</span>`;
+const srcTag = i => `<span class="srct ${i.src}">${i.src === 'news' || (i.src === 'facebook' && i.outlet) ? esc(i.outlet || 'Báo') : SRC[i.src] || i.src}</span>`;
 function filterBar(list){
   const cnt = {}; list.forEach(x => cnt[x.co] = (cnt[x.co]||0) + 1);
   const sel = new Set(state.fco || []);

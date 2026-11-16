@@ -265,7 +265,7 @@ def analyze(items, comps, homes, tax):
             "fb": len([i for i in its if i["src"] == "facebook"]),
             "fb_7d": len([i for i in its if i["src"] == "facebook" and i["date"] >= week]),
             "fb_eng": sum(sum((i.get("eng") or {}).get(k, 0) for k in ("likes", "comments", "shares")) for i in its if i["src"] == "facebook"),
-            "fb_page": c.get("fb", ""),
+            "fb_page": c.get("fb", "") if isinstance(c.get("fb", ""), str) else c["fb"][0],
             "news_7d": len([i for i in its if i["src"] == "news" and i["date"] >= week]),
             "product": {"programs": [[p, n, h.get("programs", {}).get(p, 0)] for p, n in prog_cnt.most_common()],
                         "countries": country_cnt.most_common()},

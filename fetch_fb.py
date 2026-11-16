@@ -110,4 +110,8 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except Exception as e:  # lỗi Facebook (hết credit Apify, mạng...) không được làm dừng cả bot
+        msg = "hết credit Apify (402) — nạp thêm tại console.apify.com/billing" if getattr(e, "code", None) == 402 else e
+        print(f"! Facebook lỗi, bỏ qua lần này: {msg}", file=sys.stderr)

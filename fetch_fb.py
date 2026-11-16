@@ -17,6 +17,7 @@ NOW = datetime.now(timezone.utc)
 EVERY_HOURS = 20          # tối đa ~1 lần/ngày để giữ chi phí thấp
 FIRST_DAYS = 30           # lần đầu lấy 30 ngày gần nhất
 PER_PAGE_FIRST, PER_PAGE = 40, 15
+BUDGET_USD = 4.5          # trần chi Apify mỗi tháng (gói miễn phí 5 USD); chạm trần thì dừng Facebook tới tháng sau
 
 # Bài phải nhắc tới định cư / đầu tư quốc tế / chương trình cụ thể mới được giữ
 RELEVANT = re.compile(
@@ -63,6 +64,15 @@ def main():
     if last and NOW - last < timedelta(hours=EVERY_HOURS) and not os.environ.get("FORCE_FB"):
         print(f"Facebook: đã chạy lúc {last:%Y-%m-%d %H:%M} UTC, bỏ qua (mỗi ngày 1 lần).")
         return
+    month = NOW.strftime("%Y-%m")
+    try:  # số đã dùng trong tháng lấy thẳng từ Apify (chính xác hơn tự cộng)
+        used = api("/users/me/limits")["data"]["current"]["monthlyUsageUsd"]
+    except Exception:
+        used = state.get("month_cost", 0) if state.get("month") == month else 0
+    if used >= BUDGET_USD - 0.1:
+        print(f"Facebook: tháng này đã dùng {used:.2f}/{BUDGET_USD} USD Apify, tạm dừng tới tháng sau.")
+        return
+    print(f"Apify tháng {month}: đã dùng {used:.2f} USD, trần {BUDGET_USD} USD")
     urls = [u for c in comps for u in fb_list(c)]
     seen = set(state.get("pages", [norm(u) for u in urls] if last else []))  # page đã quét ít nhất 1 lần
     since = (last - timedelta(days=2)).date().isoformat() if last else f"{FIRST_DAYS} days"
@@ -73,7 +83,11 @@ def main():
         if not us:
             continue
         print(f"Facebook: {len(us)} fanpage, bài từ {since_b}")
-        run = api(f"/acts/{ACTOR}/runs", {"startUrls": [{"url": u} for u in us],
+        left = BUDGET_USD - used - cost
+        if left < 0.1:
+            print("  ! Sắp chạm trần ngân sách, bỏ qua phần còn lại", file=sys.stderr)
+            break
+        run = api(f"/acts/{ACTOR}/runs?maxTotalChargeUsd={left:.2f}", {"startUrls": [{"url": u} for u in us],
                                           "resultsLimit": limit, "onlyPostsNewerThan": since_b})["data"]
         for _ in range(90):                       # chờ tối đa ~15 phút
             time.sleep(10)
@@ -117,10 +131,10 @@ def main():
     DATA.mkdir(exist_ok=True)
     p.write_text(json.dumps(sorted(items.values(), key=lambda i: i["date"], reverse=True), ensure_ascii=False, indent=0), "utf-8")
     state.update(last_run=NOW.isoformat(timespec="minutes"), last_posts=len(posts), last_cost_usd=round(cost, 3),
-                 pages=sorted(norm(u) for u in urls))
+                 pages=sorted(norm(u) for u in urls), month=month, month_cost=round(used + cost, 3))
     STATE.write_text(json.dumps(state, ensure_ascii=False, indent=1), "utf-8")
     print(f"✓ Facebook: {len(posts)} bài lấy về, {added} bài mới liên quan định cư, {updated} cập nhật tương tác, "
-          f"{dropped} bài không liên quan bị loại. Chi phí Apify lần này: {cost} USD")
+          f"{dropped} bài không liên quan bị loại. Chi phí Apify lần này: {cost:.3f} USD, tháng này {used + cost:.2f}/{BUDGET_USD} USD")
 
 
 if __name__ == "__main__":

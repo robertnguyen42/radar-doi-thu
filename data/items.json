@@ -1,5 +1,49 @@
 [
 {
+"id": "46132185c8ee",
+"company": "khaiphu",
+"src": "facebook",
+"outlet": "Facebook · khaiphuimmigration",
+"title": "🇺🇸 Dự thảo luật EB-5 mới: Tăng lên 15 việc làm, kéo dài thời gian giữ vốn 40 tháng!",
+"url": "https://www.facebook.com/khaiphuimmigration/posts/pfbid02LKPDi17D6hSmMoKrrmjjDJjJqYpd5C1y4Zf7W4gWH8GhrL5HnmAzUdfnDDsXBumcl",
+"date": "2026-11-16T03:24:45+00:00",
+"cats": [],
+"summary": "🇺🇸 Dự thảo luật EB-5 mới: Tăng lên 15 việc làm, kéo dài thời gian giữ vốn 40 tháng!",
+"eng": {
+"likes": 7,
+"comments": 1,
+"shares": 0,
+"views": 0
+},
+"programs": [
+"eb5"
+],
+"p4": [
+"product"
+],
+"prices": [],
+"offers": [],
+"places": [],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Khác"
+],
+"ai": {
+"programs": [
+"EB-5"
+],
+"prices": [],
+"offers": [],
+"event": null,
+"content_type": "Tin chính sách",
+"message": "Cập nhật dự thảo luật EB-5 mới (15 việc làm, giữ vốn 40 tháng) để nhà đầu tư theo dõi thay đổi.",
+"risk_claims": []
+},
+"ai_v": 1
+},
+{
 "id": "dcdb872850c5",
 "company": "si",
 "src": "web",
@@ -37,6 +81,94 @@
 "event": null,
 "content_type": "Hướng dẫn / Kiến thức",
 "message": "Giới thiệu cuộc sống thượng lưu, an ninh và chính sách thuế gần như bằng không ở Monaco để khơi gợi mong muốn định cư tại đây của giới giàu có.",
+"risk_claims": []
+},
+"ai_v": 1
+},
+{
+"id": "5fc129633deb",
+"company": "uca",
+"src": "facebook",
+"outlet": "Facebook · uca.com.vn",
+"title": "🇨🇦 THÊM MỘT GIA ĐÌNH VIỆT NAM CHÍNH THỨC CHẠM ĐẾN GIẤC MƠ ĐỊNH CƯ CANADA!",
+"url": "https://www.facebook.com/uca.com.vn/posts/pfbid02sJSEKfdbaddQjHdybT8JwqoVpZnL4YWNkJ9gTtrh7mbbBF332wKcQPr8W5XpUM2il",
+"date": "2026-11-16T03:00:25+00:00",
+"cats": [],
+"summary": "🇨🇦 THÊM MỘT GIA ĐÌNH VIỆT NAM CHÍNH THỨC CHẠM ĐẾN GIẤC MƠ ĐỊNH CƯ CANADA! ❤️ Chúc mừng gia đình chị Linh đã nhận được email thông báo phê duyệt hồ sơ thường trú nhân Canada (PR). Một cột mốc quan trọng, đánh dấu thành quả sau hành trình kiên trì theo đuổi mục tiêu an cư tại xứ sở lá phong. Đặc biệt, gia đình chị Linh thành công với chương trình SINP – Agriculture Talent Pathway, thuộc Chương trình Đề cử tỉnh bang Saskatchewan (Saskatchewan Immigrant Nominee Program). 🌾 AGRICULTURE TALENT PATHWAY – CƠ HỘI ĐỊNH CƯ DÀNH CHO LAO ĐỘNG NGÀNH NÔNG NGHIỆP Đây là một trong những lộ trình thuộc SINP, hướng đến việc thu hút lao động có kỹ năng và kinh nghiệm phù hợp với nhu cầu nhân lực trong lĩnh vực nông nghiệp tại Saskatchewan. Với những ứng viên đáp ứng điều kiện về công việc, kinh nghiệm, nhà tuyển dụng và các tiêu chí của chương trình, đây có thể là một hướng đi đáng cân nhắc trên hành trình định cư Canada. Mỗi hồ sơ PR được phê duyệt là thêm một niềm vui, một gia đình tiến gần hơn đến mục tiêu xây dựng cuộc sống ổn định tại Canada. 🎉 Một lần nữa, UCA Immigration xin chúc mừng gia đình chị Linh! Chúc anh chị và các thành viên luôn mạnh khỏe, hạnh phúc và sớm có một cuộc sống thật tốt đẹp tại Canada. #UCA chuyên visa Định Cư Canada (Immigrant hay còn gọi là PR) #Visa Định Cư (Immigrant) và Visa làm việc (Worker) là 2 loại Visa khác nhau. Visa Làm Việc (Worker) không giúp bạn có được Visa Định Cư (Immigrant) mà là Đề Cử Tỉnh Bang (Nomination) ———————————————————————————— “SỰ THÀNH C",
+"eng": {
+"likes": 0,
+"comments": 0,
+"shares": 0,
+"views": 0
+},
+"programs": [
+"pnp"
+],
+"p4": [
+"product"
+],
+"prices": [],
+"offers": [],
+"places": [],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Tin chính sách"
+],
+"ai": {
+"programs": [
+"SINP – Agriculture Talent Pathway"
+],
+"prices": [],
+"offers": [],
+"event": null,
+"content_type": "Câu chuyện thành công",
+"message": "Khách hàng UCA nhận PR Canada qua SINP Agriculture Talent Pathway, chứng minh đây là lộ trình đáng cân nhắc cho lao động nông nghiệp.",
+"risk_claims": []
+},
+"ai_v": 1
+},
+{
+"id": "87b16b3234bb",
+"company": "victory",
+"src": "facebook",
+"outlet": "Facebook · victorydinhcu",
+"title": "MỸ TẠM DỪNG XỬ LÝ PERM ĐỐI VỚI 8 DOANH NGHIỆP: NGƯỜI LAO ĐỘNG EB-3 CẦN BIẾT GÌ?",
+"url": "https://www.facebook.com/victorydinhcu/posts/pfbid02y6FrSsSaKN1iyf11KmnfNDjNwFmwR5KGijUDfsLXb2sE2y88K5a4GTNK8741cE3ul",
+"date": "2026-11-15T13:00:23+00:00",
+"cats": [],
+"summary": "MỸ TẠM DỪNG XỬ LÝ PERM ĐỐI VỚI 8 DOANH NGHIỆP: NGƯỜI LAO ĐỘNG EB-3 CẦN BIẾT GÌ? Mới đây, Bộ Lao động Mỹ (DOL) công bố việc tạm dừng tiếp nhận và xử lý hồ sơ chứng nhận lao động PERM liên quan đến 8 doanh nghiệp lớn trong lĩnh vực công nghệ và dịch vụ công nghệ thông tin. 🔛Danh sách 8 doanh nghiệp được đề cập bao gồm: Microsoft, Adobe, Cognizant, Infosys, Tata Consultancy Services (TCS), Wipro, HCL Technologies, Capgemini. ⁉️Theo thông tin được công bố, việc tạm dừng sẽ được duy trì cho đến khi có thông báo mới. Động thái này được cho là nhằm thúc đẩy các doanh nghiệp rà soát hoạt động tuyển dụng và bảo đảm cơ hội việc làm cho lao động Mỹ. Động thái này nhanh chóng thu hút sự chú ý của cộng đồng người lao động nước ngoài đang theo đuổi con đường định cư Mỹ thông qua bảo lãnh việc làm. Tuy nhiên, cần hiểu rõ rằng đây là biện pháp có phạm vi áp dụng cụ thể, không đồng nghĩa toàn bộ chương trình EB-3 hoặc quy trình PERM tại Mỹ bị đình chỉ. 3 ĐIỀU NGƯỜI LAO ĐỘNG EB-3 CẦN LƯU Ý: 🔻Kiểm tra nhà tuyển dụng bảo lãnh: Xác định doanh nghiệp có thuộc danh sách bị tạm dừng hay không và tình trạng hồ sơ hiện tại. 🔻Rà soát từng giai đoạn hồ sơ: Kiểm tra tiến độ PERM, I-140 và các thủ tục định cư tiếp theo để xác định những vấn đề cần xử lý. 🔻Tham vấn trước khi thay đổi kế hoạch: Trao đổi với nhà tuyển dụng và luật sư di trú trước khi đưa ra quyết định liên quan đến công việc hoặc lộ trình định cư. Đối với EB-3, việc lựa chọn nhà tuyển dụng phù hợp, xác minh tính pháp lý và đánh giá khả năng ",
+"eng": {
+"likes": 2,
+"comments": 1,
+"shares": 1,
+"views": 0
+},
+"programs": [
+"eb3"
+],
+"p4": [
+"product"
+],
+"prices": [],
+"offers": [],
+"places": [],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Tin chính sách"
+],
+"ai": {
+"programs": [
+"EB-3"
+],
+"prices": [],
+"offers": [],
+"event": null,
+"content_type": "Tin chính sách",
+"message": "Việc DOL tạm dừng PERM chỉ áp dụng cho 8 doanh nghiệp, không ảnh hưởng toàn bộ chương trình EB-3.",
 "risk_claims": []
 },
 "ai_v": 1
@@ -90,6 +222,150 @@
 "ai_v": 1
 },
 {
+"id": "4325ce8526f1",
+"company": "icanfield",
+"src": "facebook",
+"outlet": "Facebook · icanfield.vn",
+"title": "🇬🇩 \"CHÚNG TÔI MUỐN DUY TRÌ CẢ HAI\": GRENADA MONG MUỐN TIẾP TỤC CHƯƠNG TRÌNH CBI VÀ QUYỀN MIỄN THỊ THỰC SCHENGEN",
+"url": "https://www.facebook.com/icanfield.vn/posts/pfbid0q2wvtsq7Fup5h3Xq8apMyPt9Cgt9Uq9v2zBBbfLRgVkcJrxYxn1VuA2AfuJSViCel",
+"date": "2026-11-15T03:28:08+00:00",
+"cats": [],
+"summary": "🇬🇩 \"CHÚNG TÔI MUỐN DUY TRÌ CẢ HAI\": GRENADA MONG MUỐN TIẾP TỤC CHƯƠNG TRÌNH CBI VÀ QUYỀN MIỄN THỊ THỰC SCHENGEN",
+"eng": {
+"likes": 8,
+"comments": 1,
+"shares": 1,
+"views": 0
+},
+"programs": [
+"ie_it",
+"carib"
+],
+"p4": [
+"product"
+],
+"prices": [],
+"offers": [],
+"places": [],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Khác"
+],
+"ai": {
+"programs": [
+"CBI Grenada"
+],
+"prices": [],
+"offers": [],
+"event": null,
+"content_type": "Tin chính sách",
+"message": "Grenada muốn duy trì cả chương trình CBI và miễn thị thực Schengen, củng cố niềm tin vào chương trình.",
+"risk_claims": []
+},
+"ai_v": 1
+},
+{
+"id": "e6834cc121c8",
+"company": "victory",
+"src": "facebook",
+"outlet": "Facebook · victorydinhcu",
+"title": "Chờ EB-3 nhiều năm: Con đủ 21 tuổi có còn cơ hội đi cùng định cư Mỹ cùng cha mẹ?",
+"url": "https://www.facebook.com/reel/2188783838721809/",
+"date": "2026-11-14T13:01:06+00:00",
+"cats": [],
+"summary": "Chờ EB-3 nhiều năm: Con đủ 21 tuổi có còn cơ hội đi cùng định cư Mỹ cùng cha mẹ? #victoryinvestmentconsultant #dinhcuvictory #dinhcumy #eb3 #usa #cspa",
+"eng": {
+"likes": 2,
+"comments": 1,
+"shares": 0,
+"views": 281
+},
+"programs": [
+"eb3"
+],
+"p4": [
+"product"
+],
+"prices": [],
+"offers": [],
+"places": [],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Khác"
+],
+"ai": {
+"programs": [
+"EB-3"
+],
+"prices": [],
+"offers": [],
+"event": null,
+"content_type": "Hướng dẫn / Kiến thức",
+"message": "Giải đáp quyền đi cùng của con quá 21 tuổi khi chờ EB-3 (CSPA).",
+"risk_claims": []
+},
+"ai_v": 1
+},
+{
+"id": "ab09b5242c5f",
+"company": "bsop",
+"src": "facebook",
+"outlet": "Facebook · bsopdinhcuchauau",
+"title": "🌍 PRIVATE DINNER HY LẠP – GẶP GỠ NHỮNG NHÀ ĐẦU TƯ ĐI TRƯỚC, TÌM HIỂU CƠ HỘI TỪ THỰC TẾ",
+"url": "https://www.facebook.com/BSOPdinhcuchauau/posts/pfbid0H2bTRAV6fppnr1r2rdgFVkQbbTkWPAwZcJH7TM6Mb4AaH8fDXhVgWUPUecGVxv42l",
+"date": "2026-11-14T07:15:00+00:00",
+"cats": [],
+"summary": "🌍 PRIVATE DINNER HY LẠP – GẶP GỠ NHỮNG NHÀ ĐẦU TƯ ĐI TRƯỚC, TÌM HIỂU CƠ HỘI TỪ THỰC TẾ Sau điểm hẹn tại Hà Nội với sự quan tâm vượt mong đợi và sự hiện diện đông đảo của cộng đồng Nhà đầu tư, PRIVATE DINNER – TIỆC TỐI & KẾT NỐI CỘNG ĐỒNG NHÀ ĐẦU TƯ HY LẠP sẽ tiếp tục đến với TP. Hồ Chí Minh vào ngày 18/11/2026. ⏰Thời gian: 18:30 | Thứ Tư, Ngày 18/11/2026 Địa điểm: Khách sạn Caravelle Sài Gòn, 19-23 Công trường Lam Sơn, P. Sài Gòn, TP. Hồ Chí Minh Tại tiệc tối, Nhà đầu tư sẽ có dịp giao lưu và trao đổi trực tiếp cùng hai khách mời: 🔹ÔNG LƯU MINH NGỌC - Founder & CEO Bắc Sơn Group & BSOP. 🔹ÔNG PANOS FOURTUNIS - Đại diện Tập đoàn phát triển bất động sản hàng đầu tại Hy Lạp. Đặc biệt, đây còn là dịp để cộng đồng Nhà đầu tư gặp gỡ, chia sẻ kinh nghiệm và lắng nghe những câu chuyện thực tế từ chính các gia đình đã đầu tư thành công tại Hy Lạp. Qua những trải nghiệm từ quá trình tìm hiểu thị trường, lựa chọn bất động sản đến quyết định đầu tư, mỗi câu chuyện sẽ mang đến thêm góc nhìn thực tiễn để Nhà đầu tư tham khảo và đối chiếu với định hướng của gia đình mình. Trong không gian riêng tư tại khách sạn 5 sao, tiệc tối sẽ mở ra những cuộc trò chuyện, những kết nối để mỗi Nhà đầu tư có thể tìm thấy những góc nhìn đồng điệu trên hành trình khám phá thị trường Hy Lạp. 📲 Số lượng có hạn - Đăng ký tham dự ngay qua QR Code hoặc liên hệ: ☎️ 0904 966 797 – 098 913 6666 📩 Inbox: https://m.me/BSOPdinhcuchauau 🌐 https://www.bsopexpo.com/ #BSOPEXPO7 #BSOPEXPO #BespokeWealthArchitect #BWAEXPO7 #K",
+"eng": {
+"likes": 43,
+"comments": 0,
+"shares": 0,
+"views": 0
+},
+"programs": [
+"gr",
+"re"
+],
+"p4": [
+"product",
+"place"
+],
+"prices": [],
+"offers": [],
+"places": [
+"Hà Nội",
+"Hồ Chí Minh",
+"Sài Gòn"
+],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Câu chuyện thành công"
+],
+"ai": {
+"programs": [
+"Golden Visa Hy Lạp"
+],
+"prices": [],
+"offers": [],
+"event": {
+"kind": "invite",
+"name": "Private Dinner – Tiệc tối & Kết nối cộng đồng Nhà đầu tư Hy Lạp",
+"date": "2026-11-18",
+"city": "TP. Hồ Chí Minh"
+},
+"content_type": "Sự kiện / Hội thảo",
+"message": "Mời nhà đầu tư dự tiệc tối riêng tư để gặp CEO BSOP, đối tác BĐS Hy Lạp và các gia đình đã đầu tư thành công.",
+"risk_claims": []
+},
+"ai_v": 1
+},
+{
 "id": "b54a251e5227",
 "company": "khaiphu",
 "src": "facebook",
@@ -100,10 +376,10 @@
 "cats": [],
 "summary": "Phỏng vấn visa EB-5 năm 2026: Nhà đầu tư cần lưu ý gì về “gánh nặng công”? #60sdinhcu #immigration #dinhcumy #visamy #eb5",
 "eng": {
-"likes": 3,
+"likes": 18,
 "comments": 0,
 "shares": 0,
-"views": 4200
+"views": 69194
 },
 "programs": [
 "eb5"
@@ -186,6 +462,58 @@
 "ai_v": 1
 },
 {
+"id": "d710a54d97a5",
+"company": "bsop",
+"src": "facebook",
+"outlet": "Facebook · bsopdinhcuchauau",
+"title": "📍 TP. HỒ CHÍ MINH | “ĐÓN NHỊP SCHENGEN & GIÁ TRỊ MỚI CỦA THẺ XANH SÍP”",
+"url": "https://www.facebook.com/BSOPdinhcuchauau/posts/pfbid02CCoBmUKEvAZ98Rrv4zDYGmioMGfkk5Zyo8bWxJ3qKTn7EasHunArvPWKaUY2fbdWl",
+"date": "2026-11-14T04:29:57+00:00",
+"cats": [],
+"summary": "📍 TP. HỒ CHÍ MINH | “ĐÓN NHỊP SCHENGEN & GIÁ TRỊ MỚI CỦA THẺ XANH SÍP” 🔥Ngay lúc này, sự kiện đang diễn ra sôi nổi với đông đảo Nhà đầu tư tham dự! 👇👇👇",
+"eng": {
+"likes": 52,
+"comments": 0,
+"shares": 1,
+"views": 0
+},
+"programs": [
+"ie_it"
+],
+"p4": [
+"product",
+"place"
+],
+"prices": [],
+"offers": [],
+"places": [
+"Hồ Chí Minh"
+],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Sự kiện / Hội thảo"
+],
+"ai": {
+"programs": [
+"Thẻ xanh Síp"
+],
+"prices": [],
+"offers": [],
+"event": {
+"kind": "recap",
+"name": "Đón nhịp Schengen & Giá trị mới của Thẻ xanh Síp",
+"date": "2026-11-14",
+"city": "TP. Hồ Chí Minh"
+},
+"content_type": "Sự kiện / Hội thảo",
+"message": "Sự kiện Thẻ xanh Síp đang diễn ra đông đảo nhà đầu tư, nhấn mạnh giá trị khi Síp gia nhập Schengen.",
+"risk_claims": []
+},
+"ai_v": 1
+},
+{
 "id": "cf1d4eea1720",
 "company": "icanfield",
 "src": "facebook",
@@ -225,6 +553,50 @@
 "event": null,
 "content_type": "Tin chính sách",
 "message": "Xu hướng nhà đầu tư EB-5 đã sống tại Mỹ tăng và lợi thế nộp hồ sơ đồng thời (Concurrent Filing).",
+"risk_claims": []
+},
+"ai_v": 1
+},
+{
+"id": "c59c9cc122ae",
+"company": "icanfield",
+"src": "facebook",
+"outlet": "Facebook · icanfield.vn",
+"title": "🇺🇲 HƠN 71% NHÀ ĐẦU TƯ EB-5 ĐÃ SINH SỐNG TẠI MỸ: XU HƯỚNG MỚI VÀ LỢI THẾ NỘP HỒ SƠ ĐỒNG THỜI (CONCURRENT FILLING)",
+"url": "https://www.facebook.com/icanfield.vn/posts/pfbid0yJVLnnsVjGtK44vDFskKNLqMvST2HSGCCzAy5jVLLNdGc1rJwcQprPXsLBMiWo2dl",
+"date": "2026-11-14T04:18:45+00:00",
+"cats": [],
+"summary": "🇺🇲 HƠN 71% NHÀ ĐẦU TƯ EB-5 ĐÃ SINH SỐNG TẠI MỸ: XU HƯỚNG MỚI VÀ LỢI THẾ NỘP HỒ SƠ ĐỒNG THỜI (CONCURRENT FILLING)",
+"eng": {
+"likes": 4,
+"comments": 1,
+"shares": 1,
+"views": 0
+},
+"programs": [
+"eb5"
+],
+"p4": [
+"product"
+],
+"prices": [],
+"offers": [],
+"places": [],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Hướng dẫn / Kiến thức"
+],
+"ai": {
+"programs": [
+"EB-5"
+],
+"prices": [],
+"offers": [],
+"event": null,
+"content_type": "Hướng dẫn / Kiến thức",
+"message": "Phần lớn nhà đầu tư EB-5 đã ở Mỹ, nhấn mạnh lợi thế nộp hồ sơ đồng thời.",
 "risk_claims": []
 },
 "ai_v": 1
@@ -323,6 +695,57 @@
 "ai_v": 1
 },
 {
+"id": "597f7927c5b6",
+"company": "bsop",
+"src": "facebook",
+"outlet": "Facebook · bsopdinhcuchauau",
+"title": "🔥 Không khí sự kiện GREECE PROPERTY COLLECTION 2027 đang diễn ra sôi động tại Khách sạn Melia Hanoi!",
+"url": "https://www.facebook.com/BSOPdinhcuchauau/posts/pfbid0fC7AQmUEWYaBiWWTXzrKE5nCznkkrvTa85MNnxHvtfvhQ32paBpdL2VVd9vAw7E9l",
+"date": "2026-11-14T03:53:46+00:00",
+"cats": [],
+"summary": "🔥 Không khí sự kiện GREECE PROPERTY COLLECTION 2027 đang diễn ra sôi động tại Khách sạn Melia Hanoi! Đặc biệt có sự góp mặt trực tiếp của Mr. Panos Fourtounis - Đại diện Tập đoàn bất động sản hàng đầu tại châu Âu 👇👇👇",
+"eng": {
+"likes": 8,
+"comments": 0,
+"shares": 0,
+"views": 0
+},
+"programs": [
+"gr",
+"re"
+],
+"p4": [
+"product",
+"promotion"
+],
+"prices": [],
+"offers": [],
+"places": [],
+"event": true,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Sự kiện / Hội thảo"
+],
+"ai": {
+"programs": [
+"Golden Visa Hy Lạp"
+],
+"prices": [],
+"offers": [],
+"event": {
+"kind": "recap",
+"name": "Greece Property Collection 2027",
+"date": "2026-11-14",
+"city": "Hà Nội"
+},
+"content_type": "Sự kiện / Hội thảo",
+"message": "Sự kiện BĐS Hy Lạp sôi động với đại diện tập đoàn BĐS châu Âu, thu hút nhà đầu tư quan tâm.",
+"risk_claims": []
+},
+"ai_v": 1
+},
+{
 "id": "2c61c1801a94",
 "company": "khaiphu",
 "src": "facebook",
@@ -360,6 +783,48 @@
 "event": null,
 "content_type": "Khác",
 "message": "Cập nhật tin tức nước Mỹ về sự cố tạm dừng cất cánh toàn quốc của FAA.",
+"risk_claims": []
+},
+"ai_v": 1
+},
+{
+"id": "b80cc00069d3",
+"company": "khaiphu",
+"src": "facebook",
+"outlet": "Facebook · khaiphuimmigration",
+"title": "🇺🇸 MỸ TẠM DỪNG CẤT CÁNH TOÀN QUỐC – GẦN 7.000 CHUYẾN BAY BỊ ẢNH HƯỞNG!",
+"url": "https://www.facebook.com/khaiphuimmigration/posts/pfbid02djo5yrGxY9UyYdwWkMjLQrKbNbwHNwTbHyMcj728ALNdbbnDhWZT2tsT6NrTGL3jl",
+"date": "2026-11-14T03:34:28+00:00",
+"cats": [],
+"summary": "🇺🇸 MỸ TẠM DỪNG CẤT CÁNH TOÀN QUỐC – GẦN 7.000 CHUYẾN BAY BỊ ẢNH HƯỞNG! Ngày 13/11/2026, Cục Hàng không Liên bang Mỹ (FAA) bất ngờ ra lệnh tạm dừng các chuyến bay cất cánh trên toàn quốc do sự cố nghiêm trọng trong hệ thống liên lạc kiểm soát không lưu. 📌 Những thông tin đáng chú ý: ✈️ Gần 7.000 chuyến bay bị hoãn hoặc hủy, theo FlightAware. ✈️ Máy bay đang trên không vẫn được phép hạ cánh, trong khi các chuyến bay chuẩn bị cất cánh phải tạm dừng vì lý do an toàn. ✈️ FAA và Nhà Trắng đề nghị Quốc hội cấp thêm 30,1 tỷ USD để nâng cấp hệ thống hàng không đã xuống cấp. ✅ Cập nhật: FAA đã dỡ bỏ lệnh tạm dừng sau khoảng 4 giờ, tuy nhiên hoạt động hàng không vẫn có thể tiếp tục bị gián đoạn. ⚠️ Sự cố làm dấy lên lo ngại về tình trạng hạ tầng kiểm soát không lưu Mỹ và nhu cầu hiện đại hóa hệ thống. #TinTucNuocMy #FAA #HangKhongMy #ChuyenBay #TinTucQuocTe",
+"eng": {
+"likes": 58,
+"comments": 0,
+"shares": 15,
+"views": 0
+},
+"programs": [],
+"p4": [
+"price"
+],
+"prices": [
+"30,1 tỷ USD"
+],
+"offers": [],
+"places": [],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Tin chính sách"
+],
+"ai": {
+"programs": [],
+"prices": [],
+"offers": [],
+"event": null,
+"content_type": "Khác",
+"message": "Tin tức thời sự Mỹ về sự cố FAA tạm dừng cất cánh toàn quốc.",
 "risk_claims": []
 },
 "ai_v": 1
@@ -404,6 +869,110 @@
 "event": null,
 "content_type": "Hướng dẫn / Kiến thức",
 "message": "Hướng dẫn lập ngân sách visa 482, phân biệt khoản người lao động và doanh nghiệp chịu, kiểm tra báo giá trước khi thanh toán.",
+"risk_claims": []
+},
+"ai_v": 1
+},
+{
+"id": "5a72b7cc0068",
+"company": "victory",
+"src": "facebook",
+"outlet": "Facebook · victorydinhcu",
+"title": "EB-3: MỞ RỘNG CƠ HỘI ĐỊNH CƯ MỸ CHO NGƯỜI LAO ĐỘNG KHÔNG CÓ BẰNG ĐẠI HỌC",
+"url": "https://www.facebook.com/victorydinhcu/posts/pfbid0VQS3A4id1EVhsybvYJktrbCDvPCKFEKfVmtm7sj87FMVFLoeV3vsVVwpdbfmMVDsl",
+"date": "2026-11-13T13:00:08+00:00",
+"cats": [],
+"summary": "EB-3: MỞ RỘNG CƠ HỘI ĐỊNH CƯ MỸ CHO NGƯỜI LAO ĐỘNG KHÔNG CÓ BẰNG ĐẠI HỌC ⁉️Không có bằng đại học, chưa giỏi tiếng Anh hay chưa có nhiều kinh nghiệm thì có định cư Mỹ được không? Đây là một trong những băn khoăn phổ biến của người lao động khi tìm hiểu về các chương trình định cư Mỹ. >>Tuy nhiên, không phải con đường định cư nào cũng yêu cầu ứng viên phải sở hữu bằng cấp cao hay trình độ chuyên môn đặc biệt. Thông qua chương trình định cư việc làm EB-3, nhóm Other Workers mở ra “cánh cửa vàng” hiện thực hóa giấc mơ Mỹ. Other Workers là nhóm lao động thuộc chương trình EB-3, dành cho những vị trí công việc yêu cầu dưới 2 năm đào tạo hoặc kinh nghiệm. Đây là một trong những hướng định cư đáng tìm hiểu đối với người lao động chưa có bằng đại học. Để tham gia diện EB-3 Other Workers, bạn cần đáp ứng các điều kiện: ➖Có nhà tuyển dụng bảo lãnh hợp pháp tại Mỹ ➖Đáp ứng yêu cầu công việc theo tiêu chí của nhà tuyển dụng ➖Sức khỏe tốt và lý lịch trong sạch ➖Có thái độ nghiêm túc, sẵn sàng làm việc Tùy theo nhu cầu tuyển dụng và yêu cầu của từng vị trí, người lao động có thể tìm hiểu các lĩnh vực như: Chế biến thực phẩm, Fast Food, nông nghiệp - trang trại, kho bãi, đóng gói hoặc dịch vụ vệ sinh công nghiệp. 🇺🇸Không có bằng đại học không đồng nghĩa khép lại “cánh cửa” định cư Mỹ. EB-3 mở ra thêm lựa chọn thông qua con đường việc làm, giúp người lao động có thể hoạch định tương lai lâu dài cho bản thân và gia đình. 📩 Liên hệ VICTORY INVESTMENT CONSULTANTS để được tư vấn, đánh giá điều ki",
+"eng": {
+"likes": 2,
+"comments": 1,
+"shares": 1,
+"views": 0
+},
+"programs": [
+"eb3"
+],
+"p4": [
+"product"
+],
+"prices": [],
+"offers": [],
+"places": [],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Hướng dẫn / Kiến thức"
+],
+"ai": {
+"programs": [
+"EB-3 Other Workers"
+],
+"prices": [],
+"offers": [],
+"event": null,
+"content_type": "Hướng dẫn / Kiến thức",
+"message": "EB-3 Other Workers là con đường định cư Mỹ cho người lao động không có bằng đại học.",
+"risk_claims": [
+"“cánh cửa vàng” hiện thực hóa giấc mơ Mỹ"
+]
+},
+"ai_v": 1
+},
+{
+"id": "d7656293979d",
+"company": "icanfield",
+"src": "facebook",
+"outlet": "Facebook · icanfield.vn",
+"title": "🇨🇦 RECAP | TRÂN TRỌNG CẢM ƠN QUÝ KHÁCH HÀNG ĐÃ THAM DỰ SỰ KIỆN CANADA DIỆN DOANH NHÂN",
+"url": "https://www.facebook.com/icanfield.vn/posts/pfbid02DAVczqEJPB5xc12t9Pz72vw1wa3fc8Ci82gjpNojhVJqPTfRQNL7mqDyCdqSNw4sl",
+"date": "2026-11-13T10:15:26+00:00",
+"cats": [],
+"summary": "🇨🇦 RECAP | TRÂN TRỌNG CẢM ƠN QUÝ KHÁCH HÀNG ĐÃ THAM DỰ SỰ KIỆN CANADA DIỆN DOANH NHÂN Sáng ngày 13/11/2026, iCanfield Vietnam đã tổ chức buổi gặp gỡ và chia sẻ chuyên sâu về cơ hội định cư Canada thông qua con đường mở doanh nghiệp. Sự kiện đã tập trung vào những vấn đề cốt lõi mà doanh nhân Việt thường cân nhắc trước khi bắt đầu 🔸Đâu là chương trình định cư doanh nhân Tỉnh bang phù hợp với năng lực tài chính, kinh nghiệm và mục tiêu của từng gia đình? 🔸Với ngân sách từ 100.000 CAD, nhà đầu tư cần cân nhắc những gì khi lựa chọn mô hình và lên kế hoạch vận hành doanh nghiệp? 🔸Những điều kiện, yêu cầu thực tế và các bước quan trọng cần lưu ý trong hành trình hướng đến thường trú nhân Canada. 💡Đặc biệt, với sự đồng hành của Cố vấn Di trú Canada (RCIC) Mr. Dalip Singh Rawat, sự kiện đã mang đến góc nhìn chuyên môn về chính sách, điều kiện hồ sơ và những yếu tố cần xem xét khi xây dựng kế hoạch kinh doanh tại Canada. 🔹iCanfield Vietnam trân trọng cảm ơn Quý khách hàng đã dành thời gian tham dự và đồng hành cùng chương trình. Hy vọng những thông tin được chia sẻ sẽ giúp Quý Anh/Chị có thêm cơ sở để đánh giá cơ hội, chuẩn bị kế hoạch và đưa ra quyết định phù hợp cho hành trình định cư Canada. 📩Quý Anh/Chị quan tâm đến chương trình định cư Canada diện doanh nhân Tỉnh bang? Liên hệ iCanfield Vietnam để được tư vấn và đánh giá lộ trình phù hợp với hồ sơ thực tế. 🔗Xem thêm bài viết: https://icanfield.vn/tin-tuc/recap-tran-trong-cam-on-quy-khach-hang-da-tham-du-su-kien-canada-dien-doanh-",
+"eng": {
+"likes": 10,
+"comments": 0,
+"shares": 1,
+"views": 0
+},
+"programs": [],
+"p4": [
+"price",
+"promotion"
+],
+"prices": [
+"100.000 CAD"
+],
+"offers": [],
+"places": [],
+"event": true,
+"event_dates": [
+"2026-11-13"
+],
+"risk": [],
+"ctype": [
+"Sự kiện / Hội thảo"
+],
+"ai": {
+"programs": [
+"Định cư Canada diện doanh nhân tỉnh bang"
+],
+"prices": [
+{
+"program": "Định cư Canada diện doanh nhân tỉnh bang",
+"amount": "100.000 CAD",
+"note": "Ngân sách từ"
+}
+],
+"offers": [],
+"event": {
+"kind": "recap",
+"name": "Sự kiện Canada diện doanh nhân",
+"date": "2026-11-13",
+"city": ""
+},
+"content_type": "Sự kiện / Hội thảo",
+"message": "iCanfield cùng RCIC tư vấn chuyên sâu định cư Canada qua mở doanh nghiệp từ 100.000 CAD.",
 "risk_claims": []
 },
 "ai_v": 1
@@ -522,6 +1091,64 @@
 "ai_v": 1
 },
 {
+"id": "c882856f4209",
+"company": "bsop",
+"src": "facebook",
+"outlet": "Facebook · bsopdinhcuchauau",
+"title": "PRIVATE DINING HY LẠP HÀ NỘI | NHÌN LẠI MỘT ĐÊM TIỆC SANG TRỌNG VÀ ĐẦY KẾT NỐI",
+"url": "https://www.facebook.com/BSOPdinhcuchauau/posts/pfbid0xpXnnufC4jdzZPybkPTiQPdhafe9rPKQ69aEFdsJBUhn6UGicyLyCgXtuZZQsb1Jl",
+"date": "2026-11-13T09:26:55+00:00",
+"cats": [],
+"summary": "PRIVATE DINING HY LẠP HÀ NỘI | NHÌN LẠI MỘT ĐÊM TIỆC SANG TRỌNG VÀ ĐẦY KẾT NỐI Tối qua, Private Dining Hy Lạp tại Hà Nội đã diễn ra trong không khí ấm cúng và sôi nổi, với sự quan tâm và tham dự của đông đảo Nhà đầu tư, vượt ngoài dự kiến ban đầu của chương trình. Tại không gian khách sạn 5 sao sang trọng, buổi tiệc tạo nên những cuộc gặp riêng tư, nơi các Nhà đầu tư cùng BSOP và chuyên gia thị trường Hy Lạp có dịp kết nối trong bầu không khí thân mật. Những bàn tiệc ấm cúng, những cuộc trò chuyện cởi mở và sự tương tác gần gũi đã tạo nên nét riêng cho chương trình - vừa trang trọng, vừa đủ gần gũi để mỗi cuộc gặp gỡ trở thành một cơ hội chia sẻ giá trị. Không chỉ là một buổi tiệc tối, Private Dining còn là dịp để cộng đồng Nhà đầu tư cùng chia sẻ mối quan tâm về thị trường Hy Lạp, trao đổi góc nhìn và mở rộng những kết nối trong lĩnh vực đầu tư quốc tế. HẸN GẶP LẠI TẠI PRIVATE DINING HY LẠP – TP. HỒ CHÍ MINH NGÀY 18/11/2026 Tiếp nối Hà Nội, Private Dining Hy Lạp sẽ tiếp tục ghé thăm TP. Hồ Chí Minh vào ngày 18/11/2026 mang đến thêm những không gian gặp gỡ riêng tư và cơ hội kết nối dành cho cộng đồng Nhà đầu tư trong hành trình BSOP EXPO 7 – BESPOKE WEALTH ARCHITECT 2026 | KIẾN TRÚC GIA SẢN & ĐẦU TƯ QUỐC TẾ. 📍Địa điểm: Khách sạn Caravelle Sài Gòn, 19-23 Công trường Lam Sơn, P. Sài Gòn, TP. Hồ Chí Minh. Nhà đầu tư quan tâm đến thị trường bất động sản Hy Lạp có thể đăng ký tham dự chương trình tại TP. Hồ Chí Minh để trực tiếp gặp gỡ chuyên gia và mở rộng góc nhìn đầu tư quốc t",
+"eng": {
+"likes": 12,
+"comments": 0,
+"shares": 1,
+"views": 0
+},
+"programs": [
+"gr",
+"re"
+],
+"p4": [
+"product",
+"place",
+"promotion"
+],
+"prices": [],
+"offers": [],
+"places": [
+"Hà Nội",
+"Hồ Chí Minh",
+"Sài Gòn"
+],
+"event": true,
+"event_dates": [
+"2026-11-18"
+],
+"risk": [],
+"ctype": [
+"Khác"
+],
+"ai": {
+"programs": [
+"Golden Visa Hy Lạp"
+],
+"prices": [],
+"offers": [],
+"event": {
+"kind": "recap",
+"name": "Private Dining Hy Lạp",
+"date": "2026-11-12",
+"city": "Hà Nội"
+},
+"content_type": "Sự kiện / Hội thảo",
+"message": "Tiệc tối Hy Lạp sang trọng, thu hút vượt dự kiến, tạo kết nối cộng đồng nhà đầu tư cùng BSOP.",
+"risk_claims": []
+},
+"ai_v": 1
+},
+{
 "id": "0c2f1e26c34b",
 "company": "newachieve",
 "src": "web",
@@ -611,6 +1238,48 @@
 "ai_v": 1
 },
 {
+"id": "bf6d2ac1b09c",
+"company": "khaiphu",
+"src": "facebook",
+"outlet": "Facebook · khaiphuimmigration",
+"title": "🇺🇸🇲🇽 Ông Trump dọa tăng gấp đôi thuế quan với Mexico nếu không ngăn chặn người nhập cư!",
+"url": "https://www.facebook.com/khaiphuimmigration/posts/pfbid02TZJAbG4egNoR3JiztdsYzSibwTvm5Jwi4rVVNgFUjNuvoiHSnRftaGhRDDHthc1jl",
+"date": "2026-11-13T07:04:52+00:00",
+"cats": [],
+"summary": "🇺🇸🇲🇽 Ông Trump dọa tăng gấp đôi thuế quan với Mexico nếu không ngăn chặn người nhập cư!",
+"eng": {
+"likes": 340,
+"comments": 30,
+"shares": 6,
+"views": 0
+},
+"programs": [],
+"p4": [
+"place"
+],
+"prices": [],
+"offers": [],
+"places": [
+"Huế"
+],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Khác"
+],
+"ai": {
+"programs": [],
+"prices": [],
+"offers": [],
+"event": null,
+"content_type": "Tin chính sách",
+"message": "Cập nhật chính sách nhập cư/thuế quan của Mỹ với Mexico.",
+"risk_claims": []
+},
+"ai_v": 1
+},
+{
 "id": "dd1a85c0b02a",
 "company": "kornova",
 "src": "facebook",
@@ -651,6 +1320,51 @@
 "event": null,
 "content_type": "Hướng dẫn / Kiến thức",
 "message": "Hướng dẫn xử lý lịch hẹn sinh trắc học trùng lặp và mời khách nhắn Kornova để được hỗ trợ.",
+"risk_claims": []
+},
+"ai_v": 1
+},
+{
+"id": "f6dededd148d",
+"company": "kornova",
+"src": "facebook",
+"outlet": "Facebook · kornova.tuvanditru",
+"title": "🔎 Đang chờ thẻ xanh EB-5, Anh/Chị nhận thêm lịch hẹn sinh trắc học dù đã hoàn tất trước đó. Liệu hồ sơ có vấn đề, hay chỉ là thông báo…",
+"url": "https://www.facebook.com/kornova.tuvanditru/posts/pfbid02H32i3Wxw7QEqXbrHtyCHvv27VNfoQ9voeKzZQonYfoQY1otdM1Gi2CyvGETZMKBql",
+"date": "2026-11-13T03:56:36+00:00",
+"cats": [],
+"summary": "🔎 Đang chờ thẻ xanh EB-5, Anh/Chị nhận thêm lịch hẹn sinh trắc học dù đã hoàn tất trước đó. Liệu hồ sơ có vấn đề, hay chỉ là thông báo trùng lặp? Thông báo mới chưa đủ để kết luận hồ sơ có vấn đề. Tuy nhiên, Anh/Chị không nên tự bỏ qua lịch hẹn khi chưa có xác nhận khác từ USCIS. 📌 Trước tiên, hãy đối chiếu loại đơn, mã số biên nhận, ngày hẹn và chuyển các thông báo cho luật sư phụ trách kiểm tra. Vậy khi nào cần đến lần nữa? Cần mang giấy tờ gì và xử lý thế nào nếu không thể tham dự? 👉 Xem hướng dẫn chi tiết: https://kornova-viet.com/eb-5-lich-hen-sinh-trac-hoc-trung-lap Nếu gia đình đang gặp tình huống tương tự, Anh/Chị có thể nhắn Kornova để trao đổi và phối hợp làm rõ với luật sư phụ trách. #EB5 #USCIS #SinhTracHoc #TheXanhMy #DinhCuMy #Kornova",
+"eng": {
+"likes": 3,
+"comments": 1,
+"shares": 1,
+"views": 0
+},
+"programs": [
+"eb5"
+],
+"p4": [
+"product"
+],
+"prices": [],
+"offers": [],
+"places": [],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Tin chính sách",
+"Hướng dẫn / Kiến thức"
+],
+"ai": {
+"programs": [
+"EB-5"
+],
+"prices": [],
+"offers": [],
+"event": null,
+"content_type": "Hướng dẫn / Kiến thức",
+"message": "Hướng dẫn xử lý lịch hẹn sinh trắc học trùng lặp khi chờ thẻ xanh EB-5 và mời liên hệ Kornova hỗ trợ.",
 "risk_claims": []
 },
 "ai_v": 1
@@ -750,10 +1464,10 @@
 "cats": [],
 "summary": "Mr. Panos Fourtounis - Giám đốc Kinh doanh của LUX&EASY, Nova Construction gửi lời chào và hẹn gặp các Nhà đầu tư tại BSOP EXPO 7 – BESPOKE WEALTH ARCHITECT 2026 | KIẾN TRÚC GIA SẢN & ĐẦU TƯ QUỐC TẾ. Với 14 năm kinh nghiệm trong lĩnh vực Golden Visa Hy Lạp, ông chia sẻ đã hỗ trợ nhiều Nhà đầu tư triển khai các kế hoạch đầu tư tại Hy Lạp thông qua chương trình Golden Visa, đồng thời khẳng định sẵn sàng chia sẻ kinh nghiệm và hỗ trợ Nhà đầu tư tìm hiểu những cơ hội phù hợp. #BSOPEXPO7 #BSOPEXPO #BespokeWealthArchitect #BWAEXPO7 #KienTrucGiaSan #DauTuQuocTe",
 "eng": {
-"likes": 55,
+"likes": 53,
 "comments": 1,
 "shares": 3,
-"views": 423
+"views": 706
 },
 "programs": [
 "gr"
@@ -908,7 +1622,7 @@
 "likes": 4,
 "comments": 0,
 "shares": 0,
-"views": 261
+"views": 304
 },
 "programs": [
 "eb3"
@@ -949,10 +1663,10 @@
 "cats": [],
 "summary": "CHIẾN THẮNG CỦA ĐẢNG DÂN CHỦ CÓ THỰC SỰ MỞ RA CƠ HỘI MỚI CHO NGƯỜI MUỐN ĐỊNH CƯ MỸ? #iCanfield #iCanfieldvietnam #DinhcuMy",
 "eng": {
-"likes": 1,
+"likes": 6,
 "comments": 0,
 "shares": 0,
-"views": 574
+"views": 881
 },
 "programs": [],
 "p4": [],
@@ -1109,6 +1823,72 @@
 "ai_v": 1
 },
 {
+"id": "e1290810db8c",
+"company": "mapleleaf",
+"src": "facebook",
+"outlet": "Facebook · mapleleafvietnam.dinhcuquocte",
+"title": "ĐẦU TƯ CHO THẾ HỆ MAI SAU – NHẬN QUỐC TỊCH ST. KITTS & NEVIS CHO CẢ GIA ĐÌNH",
+"url": "https://www.facebook.com/mapleleafvietnam.dinhcuquocte/posts/pfbid02pyfqwaHhyWBBmtDQUuvqbX8Pza6B7DvuCVWnxSKc8wsqK4PDrcY5tBTkrL224Vfjl",
+"date": "2026-11-12T10:35:00+00:00",
+"cats": [],
+"summary": "ĐẦU TƯ CHO THẾ HỆ MAI SAU – NHẬN QUỐC TỊCH ST. KITTS & NEVIS CHO CẢ GIA ĐÌNH Sở hữu tấm hộ chiếu ST. KITTS & NEVIS quyền lực thông qua hình thức Trao tặng (Donation) chỉ từ 250.000 USD không chỉ mở ra quyền tự do di chuyển đến hơn 155 quốc gia và vùng lãnh thổ, đảm bảo an toàn tài chính, mà còn là di sản vô giá dành cho tương lai con cái. Thông qua quan hệ hợp tác chính thức với Chính phủ St. Kitts & Nevis, dự án Basseterre High School Public Benefit Option (BHS PBO) mang đến lộ trình nhập quốc tịch chỉ từ 6 tháng – nhanh chóng, minh bạch, song hành cùng sứ mệnh tạo dựng tác động xã hội lâu dài. ĐẶC QUYỀN VÀNG TỪ HỘ CHIẾU QUYỀN LỰC ST. KITTS & NEVIS ▪️ Miễn thị thực toàn cầu: Tự do nhập cảnh hoặc nhận visa tại cửa khẩu đến hơn 155 quốc gia và vùng lãnh thổ. ▪️ Cửa ngõ châu Âu & Anh Quốc: Miễn visa đến 29 quốc gia thuộc khối Schengen (Pháp, Đức, Ý, Thụy Sĩ, Tây Ban Nha...) và Anh Quốc (thông qua eTA nhanh chóng). ▪️ Tiếp cận Bắc Mỹ dễ dàng: - Đủ điều kiện được cấp visa du lịch/công tác Mỹ (B1/B2) với thời hạn lên đến 10 năm. - Dễ dàng nộp Canada eTA trực tuyến (nếu từng sở hữu visa Canada cũ). ▪️ Thiên đường tối ưu thuế & tài sản: Không áp thuế thu nhập cá nhân toàn cầu, không thuế thừa kế, quà tặng hay lãi vốn; hệ thống ngân hàng an toàn, bảo mật. ▪️ Di sản truyền đời: Quyền công dân có giá trị vĩnh viễn và được kế thừa trọn vẹn cho các thế hệ con cháu tương lai. 🔷 CHI PHÍ & LỘ TRÌNH ĐẦU TƯ 🔹 Mức đóng góp không hoàn lại: 250.000 USD (gia đình 4 người) 🔹 Thành viên gia đình ph",
+"eng": {
+"likes": 0,
+"comments": 0,
+"shares": 1,
+"views": 0
+},
+"programs": [
+"es",
+"ie_it",
+"carib"
+],
+"p4": [
+"product",
+"price",
+"place",
+"promotion"
+],
+"prices": [
+"250.000 USD",
+"250.000 USD"
+],
+"offers": [
+"quà tặng",
+"tặng"
+],
+"places": [
+"Huế"
+],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Câu chuyện thành công"
+],
+"ai": {
+"programs": [
+"Quốc tịch St. Kitts & Nevis (BHS PBO)"
+],
+"prices": [
+{
+"program": "Quốc tịch St. Kitts & Nevis (BHS PBO)",
+"amount": "250.000 USD",
+"note": "Trao tặng (Donation), chỉ từ"
+}
+],
+"offers": [],
+"event": null,
+"content_type": "Dự án / Chương trình",
+"message": "Sở hữu hộ chiếu St. Kitts & Nevis cho cả gia đình qua dự án BHS PBO từ 250.000 USD, nhanh và minh bạch.",
+"risk_claims": [
+"lộ trình nhập quốc tịch chỉ từ 6 tháng",
+"đảm bảo an toàn tài chính"
+]
+},
+"ai_v": 1
+},
+{
 "id": "663cc6728c53",
 "company": "icanfield",
 "src": "facebook",
@@ -1182,6 +1962,46 @@
 "event": null,
 "content_type": "Tin chính sách",
 "message": "Canada đưa RCIP thành chương trình định cư lâu dài với 5.500 suất PR năm 2027.",
+"risk_claims": []
+},
+"ai_v": 1
+},
+{
+"id": "3cade05c6e40",
+"company": "icanfield",
+"src": "facebook",
+"outlet": "Facebook · icanfield.vn",
+"title": "🇨🇦 CANADA CHÍNH THỨC ĐƯA RCIP THÀNH CHƯƠNG TRÌNH ĐỊNH CƯ LÂU DÀI, DỰ KIẾN 5.500 SUẤT PR NĂM 2027",
+"url": "https://www.facebook.com/icanfield.vn/posts/pfbid028YAXSsr3P62TmNBZPn4EJGkWW37s8RdHjB3at24cgEamQPs8PkTkutrGVsGdj4G1l",
+"date": "2026-11-12T10:19:35+00:00",
+"cats": [],
+"summary": "🇨🇦 CANADA CHÍNH THỨC ĐƯA RCIP THÀNH CHƯƠNG TRÌNH ĐỊNH CƯ LÂU DÀI, DỰ KIẾN 5.500 SUẤT PR NĂM 2027",
+"eng": {
+"likes": 657,
+"comments": 129,
+"shares": 52,
+"views": 0
+},
+"programs": [],
+"p4": [],
+"prices": [],
+"offers": [],
+"places": [],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Khác"
+],
+"ai": {
+"programs": [
+"RCIP Canada"
+],
+"prices": [],
+"offers": [],
+"event": null,
+"content_type": "Tin chính sách",
+"message": "Canada đưa RCIP thành chương trình lâu dài với 5.500 suất PR năm 2027.",
 "risk_claims": []
 },
 "ai_v": 1
@@ -1275,6 +2095,50 @@
 "ai_v": 1
 },
 {
+"id": "a9501c18c931",
+"company": "uca",
+"src": "facebook",
+"outlet": "Facebook · uca.com.vn",
+"title": "🇺🇸 TIN VUI NỐI TIẾP TIN VUI: KHÁCH HÀNG UCA ĐƯỢC CHẤP THUẬN I-140 EB-3 SKILLED WORKER – HỒ SƠ NGHỀ ĐẦU BẾP (COOK) ĐÃ ĐẾN NVC!",
+"url": "https://www.facebook.com/uca.com.vn/posts/pfbid02pLsDwGwf7Wt9u42HiA2yYRfeBAcKSk4EAWY2FW5LoeiQhG5DVNjhKHGGbgCUaWULl",
+"date": "2026-11-12T08:13:47+00:00",
+"cats": [],
+"summary": "🇺🇸 TIN VUI NỐI TIẾP TIN VUI: KHÁCH HÀNG UCA ĐƯỢC CHẤP THUẬN I-140 EB-3 SKILLED WORKER – HỒ SƠ NGHỀ ĐẦU BẾP (COOK) ĐÃ ĐẾN NVC! 🎉 CHÚC MỪNG KHÁCH HÀNG UCA IMMIGRATION CHINH PHỤC THÊM HAI CỘT MỐC QUAN TRỌNG TRÊN HÀNH TRÌNH ĐỊNH CƯ MỸ! Hành trình định cư Mỹ luôn cần sự chuẩn bị kỹ lưỡng, kiên nhẫn và niềm tin vào mục tiêu phía trước. Và hôm nay, UCA Immigration vui mừng chia sẻ thêm một kết quả tích cực từ hồ sơ khách hàng theo diện EB-3 Skilled Worker – vị trí Đầu bếp (Cook). Không chỉ nhận được thông báo CHẤP THUẬN I-140 từ USCIS, khách hàng còn tiếp tục đón tin vui khi Trung tâm Thị thực Quốc gia Mỹ (NVC) chính thức xác nhận đã tiếp nhận hồ sơ, đánh dấu bước chuyển tiếp quan trọng trong quy trình xin visa định cư Mỹ. ✅ HAI CỘT MỐC – MỘT BƯỚC TIẾN ĐÁNG MỪNG! 🔹 I-140 APPROVED: Sở Di trú và Nhập tịch Mỹ (USCIS) đã chấp thuận đơn bảo lãnh lao động diện EB-3 Skilled Worker cho vị trí Đầu bếp (Cook). 🔹 NVC RECEIVED: Trung tâm Thị thực Quốc gia Mỹ xác nhận tiếp nhận hồ sơ I-140 đã được phê duyệt, đồng thời cấp thông tin để khách hàng tiếp tục thực hiện các thủ tục trên hệ thống CEAC. Từ lá thư chấp thuận I-140 đến thông báo tiếp nhận hồ sơ từ NVC, mỗi kết quả đều là một dấu mốc đáng trân trọng, đưa khách hàng tiến thêm một bước trên hành trình hướng đến tấm thẻ xanh Mỹ. ❤️ THÀNH CÔNG CỦA KHÁCH HÀNG – NIỀM TỰ HÀO CỦA UCA IMMIGRATION! Đằng sau mỗi bộ hồ sơ là những tháng ngày chuẩn bị, chờ đợi và kỳ vọng về một tương lai mới. Vì vậy, mỗi tin vui nhận được không chỉ mang ý nghĩa về mặt ",
+"eng": {
+"likes": 5,
+"comments": 0,
+"shares": 0,
+"views": 0
+},
+"programs": [
+"eb3"
+],
+"p4": [
+"product"
+],
+"prices": [],
+"offers": [],
+"places": [],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Hướng dẫn / Kiến thức"
+],
+"ai": {
+"programs": [
+"EB-3 Skilled Worker"
+],
+"prices": [],
+"offers": [],
+"event": null,
+"content_type": "Câu chuyện thành công",
+"message": "Khách hàng UCA được chấp thuận I-140 EB-3 nghề đầu bếp và hồ sơ đã đến NVC.",
+"risk_claims": []
+},
+"ai_v": 1
+},
+{
 "id": "eb2980ea587a",
 "company": "newachieve",
 "src": "web",
@@ -1328,10 +2192,10 @@
 "cats": [],
 "summary": "Bỏ 1 triệu đô mua tiệm nhượng quyền là được định cư New Zealand? #60sdinhcu #dinhcunewzealand #newzealand #BIV",
 "eng": {
-"likes": 14,
+"likes": 21,
 "comments": 1,
 "shares": 2,
-"views": 33978
+"views": 35236
 },
 "programs": [
 "nz_work"
@@ -1480,6 +2344,69 @@
 "ai_v": 1
 },
 {
+"id": "f48707437489",
+"company": "bsop",
+"src": "facebook",
+"outlet": "Facebook · bsopdinhcuchauau",
+"title": "NHÌN LẠI GO GLOBAL ĐÀ NẴNG – ĐIỂM HẸN CUỐI TRONG HÀNH TRÌNH KẾT NỐI TOÀN CẦU",
+"url": "https://www.facebook.com/BSOPdinhcuchauau/posts/pfbid02XrBkZuTvbWJmTJKnB3mYx5eo8Uhq2dmY3PJf9TxTuH9q4rKFDNHk191iVAnHYi3bl",
+"date": "2026-11-12T03:38:49+00:00",
+"cats": [],
+"summary": "NHÌN LẠI GO GLOBAL ĐÀ NẴNG – ĐIỂM HẸN CUỐI TRONG HÀNH TRÌNH KẾT NỐI TOÀN CẦU Tiếp nối những dấu ấn tại TP. Hồ Chí Minh và Hà Nội, GO GLOBAL – TÀI SẢN, DỊCH CHUYỂN & CƠ HỘI TOÀN CẦU đã có mặt tại Đà Nẵng vào ngày 07/11/2026. Chương trình diễn ra trong không khí sôi nổi với nhiều nội dung trao đổi thiết thực về 5 thị trường Síp, Hy Lạp, Bồ Đào Nha, UAE và New Zealand. Những câu chuyện về đầu tư quốc tế, chính sách cư trú và chiến lược phát triển tài sản đã mang đến nhiều góc nhìn đáng chú ý cho Nhà đầu tư. Không chỉ lắng nghe thông tin, Nhà đầu tư còn được trao đổi trực tiếp cùng các chuyên gia và đội ngũ BSOP, tìm hiểu các chương trình và giải pháp phù hợp với định hướng của mình. Ba thành phố, ba điểm hẹn và một hành trình chung – GO GLOBAL đã khép lại với những kết nối ý nghĩa, tiếp tục khẳng định sức hút của các cơ hội đầu tư và dịch chuyển quốc tế. Và hành trình BSOP EXPO 7 vẫn sẽ tiếp tục, mang đến những hoạt động chia sẻ, kết nối cùng các giải pháp đầu tư và phát triển gia sản được thiết kế riêng, đo ni đóng giày theo mục tiêu của mỗi Nhà đầu tư và gia đình. 📲 Đăng ký tham dự BSOP EXPO 7 ngay hôm nay để đón đầu cơ hội đầu tư quốc tế! ☎️ 0904 966 797 – 098 913 6666 📩 Inbox: https://m.me/BSOPdinhcuchauau 🌐 https://www.bsopexpo.com/ #BSOPEXPO7 #BSOPEXPO #BespokeWealthArchitect #BWAEXPO7 #KienTrucGiaSan #DauTuQuocTe",
+"eng": {
+"likes": 56,
+"comments": 0,
+"shares": 3,
+"views": 0
+},
+"programs": [
+"nz_work",
+"pt",
+"gr",
+"ie_it",
+"ae"
+],
+"p4": [
+"product",
+"place",
+"promotion"
+],
+"prices": [],
+"offers": [],
+"places": [
+"Hà Nội",
+"Hồ Chí Minh",
+"Đà Nẵng"
+],
+"event": true,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Tin chính sách"
+],
+"ai": {
+"programs": [
+"Síp",
+"Hy Lạp",
+"Bồ Đào Nha",
+"UAE",
+"New Zealand"
+],
+"prices": [],
+"offers": [],
+"event": {
+"kind": "recap",
+"name": "GO GLOBAL – Tài sản, Dịch chuyển & Cơ hội toàn cầu",
+"date": "2026-11-07",
+"city": "Đà Nẵng"
+},
+"content_type": "Sự kiện / Hội thảo",
+"message": "Chuỗi GO GLOBAL khép lại tại Đà Nẵng, khẳng định sức hút cơ hội đầu tư cư trú 5 thị trường của BSOP.",
+"risk_claims": []
+},
+"ai_v": 1
+},
+{
 "id": "d2d9c43f9c38",
 "company": "kornova",
 "src": "facebook",
@@ -1563,6 +2490,50 @@
 "event": null,
 "content_type": "Tin chính sách",
 "message": "Khuyên gia đình chuẩn bị EB-5 theo quy định hiện hành, không trì hoãn chờ chính sách sau bầu cử.",
+"risk_claims": []
+},
+"ai_v": 1
+},
+{
+"id": "176cbe91b987",
+"company": "kornova",
+"src": "facebook",
+"outlet": "Facebook · kornova.tuvanditru",
+"title": "🇺🇸 EB-5 SAU BẦU CỬ MỸ 2026: NHÀ ĐẦU TƯ CẦN THEO DÕI ĐIỀU GÌ?",
+"url": "https://www.facebook.com/kornova.tuvanditru/posts/pfbid02Vw1aJpnTMb38uA5PdjstzKFGrecWkc8G7eJ6r4zbwhc8Fdi9fKRXFLbKLmw8aw8Ql",
+"date": "2026-11-12T03:26:09+00:00",
+"cats": [],
+"summary": "🇺🇸 EB-5 SAU BẦU CỬ MỸ 2026: NHÀ ĐẦU TƯ CẦN THEO DÕI ĐIỀU GÌ? Kết quả bầu cử chưa làm thay đổi ngay điều kiện đầu tư EB-5. Tuy nhiên, với gia đình đang chuẩn bị kế hoạch định cư Mỹ, có hai giai đoạn đáng chú ý: 📌 Những tuần cuối của Quốc hội đương nhiệm: Liệu có đề xuất gia hạn Chương trình Trung tâm Vùng hoặc mở rộng cơ chế bảo vệ nhà đầu tư? 📌 Từ ngày 03/01/2027, khi Quốc hội mới bắt đầu nhiệm kỳ: Các ưu tiên về H-1B và nhập cư gia đình có thể ảnh hưởng thế nào đến việc lựa chọn lộ trình EB-5? Đây là những khả năng cần theo dõi, chưa phải quyền lợi mới đã được thông qua. Gia đình nên chủ động chuẩn bị dựa trên quy định hiện hành, đồng thời thẩm định kỹ dự án và nguồn tiền. Kỳ vọng chính sách thuận lợi hơn không nên là cơ sở duy nhất để trì hoãn hoặc vội vàng đầu tư. 🔎 Đọc bài phân tích của Kornova để hiểu rõ hai thời điểm này và những yếu tố cần cân nhắc cho kế hoạch EB-5 trước năm 2027 👉 https://kornova-viet.com/eb-5-sau-bau-cu-my-2026 #EB5 #Kornova #DinhCuMy #DauTuDinhCuMy #BauCuMy2026",
+"eng": {
+"likes": 1,
+"comments": 1,
+"shares": 1,
+"views": 0
+},
+"programs": [
+"eb5"
+],
+"p4": [
+"product"
+],
+"prices": [],
+"offers": [],
+"places": [],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Tin chính sách"
+],
+"ai": {
+"programs": [
+"EB-5"
+],
+"prices": [],
+"offers": [],
+"event": null,
+"content_type": "Tin chính sách",
+"message": "Nhà đầu tư EB-5 nên theo dõi chính sách sau bầu cử nhưng chuẩn bị theo quy định hiện hành.",
 "risk_claims": []
 },
 "ai_v": 1
@@ -1763,6 +2734,58 @@
 "event": null,
 "content_type": "Dự án / Chương trình",
 "message": "Các dự án Cota Vera 1, 2, 3 đạt tiến độ tốt, Cota Vera 3 đã được duyệt I-956F, tạo niềm tin cho nhà đầu tư EB-5.",
+"risk_claims": []
+},
+"ai_v": 1
+},
+{
+"id": "6ab4a90c1b99",
+"company": "americanplus",
+"src": "facebook",
+"outlet": "Facebook · muanhamy.vn",
+"title": "🇺🇸 CẬP NHẬT TIẾN ĐỘ DỰ ÁN COTA VERA 1, 2 VÀ 3 THÁNG 10/2026 🇺🇸",
+"url": "https://www.facebook.com/muanhamy.vn/posts/pfbid025LBRxyAxCuo1eVmaRyDCEdd9WPH1DFcLxfAJsEs3Kbq3UXnFKZNxxkPKifMJZq5Wl",
+"date": "2026-11-12T00:00:10+00:00",
+"cats": [],
+"summary": "🇺🇸 CẬP NHẬT TIẾN ĐỘ DỰ ÁN COTA VERA 1, 2 VÀ 3 THÁNG 10/2026 🇺🇸 🇺🇸 American Plus Group xin gửi đến quý nhà đầu tư thông tin mới nhất về tiến độ dự án Cota Vera trong tháng 10/2026. Cả 3 dự án Cota Vera 1, Cota Vera 2 và Cota Vera 3 đang lần lượt đạt được những cột mốc quan trọng, từ hoạt động bán và bàn giao nhà, vận hành căn hộ cho thuê đến triển khai xây dựng các phân khu mới. 🇺🇸 Tiến độ dự án Cota Vera 3 tháng 10/2026 📍Cota Vera 3 là dự án phát triển khu dân cư quy mô lớn tại Chula Vista, San Diego, California gồm 3 khu căn hộ cho thuê và cùng khu nhà ở đơn lập 121 căn. 📍Tháng 6/2026, Cota Vera 3 đã được USCIS phê duyệt đơn I-956F. Hiện tại, hoạt động xây dựng đang được đẩy mạnh: ▪ Khu Harmony: Toàn bộ phần móng của các tòa nhà đã hoàn thành. Những kiện gỗ xây dựng đầu tiên cũng đã được vận chuyển đến công trường, đánh dấu bước chuyển sang giai đoạn thi công tiếp theo. ▪ Khu Serenity: Hệ thống tường chắn đất đã hoàn thành khoảng 80%. Đồng thời, công tác thi công những phần móng đầu tiên đã được triển khai. 📍Tổng chi phí dự án tính đến hiện tại: 105 triệu USD. 📍Vốn EB-5 đã giải ngân từ tài khoản ký quỹ: 13,6 triệu USD. 📍Số lượng việc làm ước tính tạo ra: 205 việc làm. 🇺🇸 Tiến độ dự án Cota Vera 2 tháng 10/2026 📍Công tác xây dựng tại cả ba khu căn hộ cho thuê Artisan, Luminary và Stirling đã hoàn tất. Tính đến ngày 23/10/2026, tỷ lệ cho thuê tại Artisan đạt 93%, Stirling đạt 77% và Luminary đạt 75%. 📍Những tuyến đường đầu tiên tại khu 8E đã hoàn thành trải nhựa. 📍Tổng chi phí",
+"eng": {
+"likes": 2,
+"comments": 0,
+"shares": 1,
+"views": 0
+},
+"programs": [
+"eb5",
+"re"
+],
+"p4": [
+"product",
+"price",
+"place"
+],
+"prices": [
+"105 triệu USD",
+"13,6 triệu USD"
+],
+"offers": [],
+"places": [
+"California"
+],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Tin chính sách"
+],
+"ai": {
+"programs": [
+"EB-5 Cota Vera 3"
+],
+"prices": [],
+"offers": [],
+"event": null,
+"content_type": "Dự án / Chương trình",
+"message": "Cập nhật tiến độ xây dựng, bàn giao các dự án Cota Vera để khẳng định uy tín và an toàn cho nhà đầu tư EB-5.",
 "risk_claims": []
 },
 "ai_v": 1
@@ -3849,6 +4872,59 @@
 "ai_v": 1
 },
 {
+"id": "146d5d493d82",
+"company": "si",
+"src": "facebook",
+"outlet": "Facebook · sigroupdautu",
+"title": "🎉 SI GROUP TỰ HÀO TRAO TAY 4 TẤM THẺ PR ÚC SAU HAI NĂM ĐỒNG HÀNH!",
+"url": "https://www.facebook.com/SIGroupDauTu/posts/pfbid0GfBxPSZGiF72JTJ935WTYe8c95mcZiLniqiCxa8T6SS3zSstp28rY4vRaysPZCh2l",
+"date": "2026-11-10T07:40:49+00:00",
+"cats": [],
+"summary": "🎉 SI GROUP TỰ HÀO TRAO TAY 4 TẤM THẺ PR ÚC SAU HAI NĂM ĐỒNG HÀNH! Có những hành trình di trú không trải sẵn hoa hồng, nhưng kết quả rực rỡ ngày hôm nay chính là minh chứng cho sự kiên trì và một niềm tin đặt đúng chỗ. SI Group vô cùng tự hào khi vực dậy thành công một bộ hồ sơ từng dang dở, mang tấm visa thường trú nhân Úc (PR 186) về cho gia đình anh H. ⏳ Từng trải qua cảm giác hụt hẫng tại một đơn vị di trú khác, ngày 15/12/2024, anh chị quyết định đặt trọn niềm tin một lần nữa cùng SI Group. Và ngày 07/11/2026, hành trình bền bỉ đã khép lại bằng một kết quả trọn vẹn: Visa Thường trú nhân được phê duyệt cho cả 4 thành viên! 🤝 Để chạm tay vào giấc mơ, đó là cả một hành trình đầy nỗ lực: ✨ Phối hợp nhịp nhàng giữa khách hàng, SI Group và luật sư di trú Úc. ✨ Vượt qua thẩm định khắt khe và các yêu cầu bổ sung nghiêm ngặt từ Bộ Nội vụ Úc (DHA). ✨ Mở ra tương lai mới, quyền lợi an sinh, y tế và giáo dục miễn phí trọn đời cho 2 thiên thần nhỏ. Với SI Group, đây không đơn thuần là một tấm visa, mà là niềm tự hào khi được đồng hành, sẻ chia và mở ra bước ngoặt quốc tế cho cả một thế hệ mai sau. 🎉 Chúc mừng gia đình anh chị đã chính thức an cư tại xứ sở chuột túi! Cảm ơn anh chị vì đã luôn vững tin cùng SI Group trên hành trình này! ❤️ 🏢: Tầng 44, Bitexco Financial Tower, 02 Hải Triều, P. Sài Gòn, TP. Hồ Chí Minh 🏛️: Tầng 19, Capital Place, 29 Liễu Giai, P. Ngọc Hà, TP. Hà Nội ☎️: (+84) 979 355 355 #sigroup #visa186 #CaseStudy #KhachHangThanhCong #pr_úc #thuongtrunhan",
+"eng": {
+"likes": 3,
+"comments": 1,
+"shares": 1,
+"views": 0
+},
+"programs": [
+"au_employer"
+],
+"p4": [
+"product",
+"price",
+"place",
+"promotion"
+],
+"prices": [],
+"offers": [
+"miễn phí"
+],
+"places": [
+"Hà Nội",
+"Hồ Chí Minh",
+"Sài Gòn"
+],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Câu chuyện thành công"
+],
+"ai": {
+"programs": [
+"Visa thường trú Úc 186"
+],
+"prices": [],
+"offers": [],
+"event": null,
+"content_type": "Câu chuyện thành công",
+"message": "SI Group cứu thành công hồ sơ dang dở từ đơn vị khác, mang PR Úc về cho cả gia đình 4 người.",
+"risk_claims": []
+},
+"ai_v": 1
+},
+{
 "id": "5d9487d3932f",
 "company": "newachieve",
 "src": "web",
@@ -5189,6 +6265,52 @@
 },
 "content_type": "Sự kiện / Hội thảo",
 "message": "Mời nhà đầu tư dự tiệc tối riêng tư để khai thác giá trị đầu tư bất động sản Hy Lạp ngoài Golden Visa.",
+"risk_claims": []
+},
+"ai_v": 1
+},
+{
+"id": "0e34e638f612",
+"company": "si",
+"src": "facebook",
+"outlet": "Facebook · sigroupdautu",
+"title": "VISA SCHENGEN THÀNH CÔNG - HỒ SƠ CÀNG KHÓ, BẢN LĨNH SI GROUP CÀNG SẮC NÉT! 🚀",
+"url": "https://www.facebook.com/reel/2295781247885370/",
+"date": "2026-11-09T10:45:59+00:00",
+"cats": [],
+"summary": "VISA SCHENGEN THÀNH CÔNG - HỒ SƠ CÀNG KHÓ, BẢN LĨNH SI GROUP CÀNG SẮC NÉT! 🚀 Khi một đơn vị di trú kỳ cựu và danh tiếng tại Singapore cũng tìm đến SI Group để tháo gỡ một hồ sơ hóc búa ngay trên chính “sân nhà” của họ, đó không chỉ là sự tin tưởng. Mà còn là bảo chứng rõ ràng nhất cho vị thế và năng lực giải quyết bài toán quốc tế của SI Group. ✨ HỒ SƠ \"ĐA TẦNG RÀO CẢN\" CỦA MR.F: Yếu tố đa quốc gia phức tạp: Khách hàng gốc Trung Quốc, mang quốc tịch Campuchia và đang cư trú tại Singapore. Lịch sử visa: Từng bị từ chối visa Schengen ngày 13/07/2026. Với hồ sơ từng bị từ chối, việc nộp lại không thể trông chờ vào may mắn mà đòi hỏi chiến lược pháp lý và chứng minh mục đích chuyến đi cực kỳ chặt chẽ. Kỳ vọng ban đầu từ đối tác: Chỉ mong hồ sơ được phê duyệt, và theo thông lệ với ca khó này, visa nếu có thường chỉ được cấp ngắn hạn (45 ngày đến dưới 03 tháng). 🎯 SI GROUP ĐÃ \"LỘI NGƯỢC DÒNG\" NHƯ THẾ NÀO? Bảo chứng bằng mạng lưới uy tín cấp cao: Dưới sự định hướng trực tiếp của Chủ tịch Phan Nhật Minh, SI Group đã kích hoạt mạng lưới đối tác quốc tế uy tín, thu xếp thư mời chính thống có sức nặng pháp lý và thương mại, bảo chứng cho tính minh bạch của hành trình. Đội ngũ xử lý từ xa chuẩn xác: Dù vận hành từ Việt Nam vào hệ thống xét duyệt tại Singapore, nơi việc đặt lịch hẹn ưu tiên cũng đang là rào cản lớn với đơn vị bản xứ, đội ngũ chuyên viên xử lý hồ sơ của SI Group đã đồng hành cùng khách hàng, xử lý các rào cản để mang về lịch hẹn ưu tiên sớm nhất. 🏆 KẾT QUẢ KỲ TÍCH: Visa Sc",
+"eng": {
+"likes": 8,
+"comments": 1,
+"shares": 2,
+"views": 526
+},
+"programs": [
+"ie_it",
+"sg"
+],
+"p4": [
+"product"
+],
+"prices": [],
+"offers": [],
+"places": [],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Câu chuyện thành công",
+"Hướng dẫn / Kiến thức"
+],
+"ai": {
+"programs": [
+"Visa Schengen"
+],
+"prices": [],
+"offers": [],
+"event": null,
+"content_type": "Câu chuyện thành công",
+"message": "SI Group xử lý được hồ sơ visa Schengen khó, từng bị từ chối, khẳng định năng lực quốc tế.",
 "risk_claims": []
 },
 "ai_v": 1
@@ -17106,6 +18228,55 @@
 "ai_v": 1
 },
 {
+"id": "32c72c3fa603",
+"company": "si",
+"src": "facebook",
+"outlet": "Facebook · sigroupdautu",
+"title": "🎉 SI GROUP – ĐỒNG HÀNH KIẾN TẠO DI SẢN BỀN VỮNG",
+"url": "https://www.facebook.com/SIGroupDauTu/posts/pfbid0YwreDHNhGYmMgBnfYQsPbCuyM54pTAMhVXGHpFraGBSfWXnwRbKRSqqEGPkwc1Kjl",
+"date": "2026-11-02T03:47:13+00:00",
+"cats": [],
+"summary": "🎉 SI GROUP – ĐỒNG HÀNH KIẾN TẠO DI SẢN BỀN VỮNG Một hành trình ý nghĩa vừa khép lại, mở ra những góc nhìn sâu sắc về câu chuyện chuyển giao và gìn giữ giá trị qua nhiều thế hệ. 💎 SI Group rất vinh hạnh được đồng hành cùng FIDT và AIA Việt Nam trong chương trình vừa qua, cùng nhau mang đến một không gian kết nối chuyên môn toàn diện, mạch lạc nhưng cũng đầy gần gũi và chạm đến cảm xúc. 💎 Đối với SI Group, \"Hoạch định di sản\" chưa bao giờ chỉ là những con số hay câu chuyện của tài sản vật chất. Đó là sự chuẩn bị chu toàn cả về tâm thế, trách nhiệm và giải pháp. Để một ngày, thế hệ tiếp nối có thể tự tin tiếp nhận, vận hành và phát huy trọn vẹn những gì người đi trước đã tâm huyết gây dựng. 🤝 Trân trọng cảm ơn Ban tổ chức FIDT, đối tác AIA Việt Nam, các diễn giả cùng toàn thể Quý khách mời đã dành thời gian tham dự, cùng nhau lắng đọng và thảo luận sâu sắc về những điều chúng ta thực sự quan tâm. Sự đồng điệu trong tầm nhìn chính là động lực để SI Group tiếp tục mang đến những giải pháp bảo vệ gia sản và bảo đảm thanh khoản một cách tối ưu cho khách hàng. 🏢: Tầng 44, Bitexco Financial Tower, 02 Hải Triều, P. Sài Gòn, TP. Hồ Chí Minh 🏛️: Tầng 19, Capital Place, 29 Liễu Giai, P. Ngọc Hà, TP. Hà Nội ☎️: (+84) 979 355 355 #SIGroup #FIDT #AIAVietnam #LegacyPlanning #FinancialPlanning #Partnership",
+"eng": {
+"likes": 4,
+"comments": 1,
+"shares": 1,
+"views": 0
+},
+"programs": [],
+"p4": [
+"place"
+],
+"prices": [],
+"offers": [],
+"places": [
+"Hà Nội",
+"Hồ Chí Minh",
+"Sài Gòn"
+],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Hướng dẫn / Kiến thức"
+],
+"ai": {
+"programs": [],
+"prices": [],
+"offers": [],
+"event": {
+"kind": "recap",
+"name": "Chương trình hoạch định di sản cùng FIDT và AIA Việt Nam",
+"date": "",
+"city": ""
+},
+"content_type": "Sự kiện / Hội thảo",
+"message": "SI Group định vị là đối tác đồng hành hoạch định và chuyển giao di sản qua nhiều thế hệ.",
+"risk_claims": []
+},
+"ai_v": 1
+},
+{
 "id": "cba28fd7c147",
 "company": "uca",
 "src": "facebook",
@@ -20846,6 +22017,51 @@
 "ai_v": 1
 },
 {
+"id": "3729b1fbe177",
+"company": "si",
+"src": "facebook",
+"outlet": "Facebook · sigroupdautu",
+"title": "2026–2027: ĐÂU LÀ LỘ TRÌNH ĐỊNH CƯ NEW ZEALAND BỀN VỮNG CHO GIA ĐÌNH NHÀ ĐẦU TƯ?",
+"url": "https://www.facebook.com/SIGroupDauTu/posts/pfbid02Bsghn1EgTDw8Y4xF1goqbb52ubGbqi1ykku63mh6pm4nafoVBn776zsSCzBMa48hl",
+"date": "2026-10-28T03:00:04+00:00",
+"cats": [],
+"summary": "2026–2027: ĐÂU LÀ LỘ TRÌNH ĐỊNH CƯ NEW ZEALAND BỀN VỮNG CHO GIA ĐÌNH NHÀ ĐẦU TƯ? ✨ Khi lựa chọn New Zealand làm nơi an cư lâu dài, điều quan trọng không chỉ là quyền cư trú, mà còn là lộ trình phù hợp với năng lực tài chính và kế hoạch tương lai của gia đình. ✨ Đặc biệt, trước những diễn biến của chính sách di trú, việc xác định đúng chương trình ngay từ đầu càng trở nên quan trọng. Ngày 11/10/2026, Đảng New Zealand First công bố đề xuất thay thế mô hình visa lao động AEWV với 3 định hướng: 🔹 Ưu tiên lao động có kỹ năng đáp ứng nhu cầu thực tế. 🔹 Hạn chế tuyển dụng lao động nước ngoài vào các công việc phổ thông. 🔹 Siết yêu cầu chứng minh nhu cầu tuyển dụng và trách nhiệm của doanh nghiệp bảo lãnh. ❗️ Lưu ý: Đây mới là đề xuất của New Zealand First, chưa được Chính phủ thông qua. Visa AEWV vẫn đang có hiệu lực. Dù chưa trở thành chính sách chính thức, đề xuất cho thấy quan điểm của New Zealand First về việc gắn hoạt động nhập cư với nhu cầu phát triển kinh tế. ✨ ĐỊNH CƯ NEW ZEALAND THÔNG QUA ĐẦU TƯ VÀ KINH DOANH: HAI LỘ TRÌNH ĐÁNG CÂN NHẮC ✅ Active Investor Plus (AIP) – Định cư linh hoạt qua đầu tư: Hướng đến quyền cư trú mà không cần trực tiếp điều hành doanh nghiệp tại New Zealand. ✅ Business Investor Work Visa (BIW) – Định cư thông qua kinh doanh: Hướng đến quyền cư trú thông qua đầu tư và trực tiếp điều hành doanh nghiệp tại New Zealand. ⭐ VÌ SAO NÊN LỰA CHỌN SI GROUP ĐỒNG HÀNH? 📌 Hồ sơ được đánh giá bởi bà Marney Kate Richardson – Phó Tổng Giám đốc SI Group, nguyên Quản ",
+"eng": {
+"likes": 2,
+"comments": 0,
+"shares": 1,
+"views": 0
+},
+"programs": [
+"nz_inv",
+"nz_work"
+],
+"p4": [
+"product"
+],
+"prices": [],
+"offers": [],
+"places": [],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Tin chính sách"
+],
+"ai": {
+"programs": [
+"Định cư New Zealand diện nhà đầu tư"
+],
+"prices": [],
+"offers": [],
+"event": null,
+"content_type": "So sánh / Tư vấn chọn",
+"message": "Trước biến động chính sách, gia đình nhà đầu tư cần chọn đúng lộ trình định cư New Zealand ngay từ đầu.",
+"risk_claims": []
+},
+"ai_v": 1
+},
+{
 "id": "da4cb837ca00",
 "company": "uca",
 "src": "facebook",
@@ -22567,6 +23783,49 @@
 "ai_v": 1
 },
 {
+"id": "baa05aca251c",
+"company": "si",
+"src": "facebook",
+"outlet": "Facebook · sigroupdautu",
+"title": "⁉️ SỢI DÂY DIỀU HAY VÙNG TRỜI TỰ DO?",
+"url": "https://www.facebook.com/SIGroupDauTu/posts/pfbid02Qi4WyPWYDjSgre2A1ssaKyHjRxTfT6FCMdxGCneESM6qHBbNx8Gx6i7DVKnMvpm7l",
+"date": "2026-10-26T03:00:22+00:00",
+"cats": [],
+"summary": "⁉️ SỢI DÂY DIỀU HAY VÙNG TRỜI TỰ DO? Trong quá trình hoạch định chiến lược an cư và đầu tư quốc tế, việc phân biệt rõ bản chất pháp lý giữa Thường trú nhân (PR) và Quyền công dân (Quốc tịch) là yếu tố then chốt. 💥 Sự nhầm lẫn giữa hai vị thế này có thể tác động đáng kể đến mức độ an toàn và tính kế thừa của cấu trúc gia sản dài hạn. 🪁 1. THƯỜNG TRÚ NHÂN (PR) – \"SỢI DÂY DIỀU\" PR thực chất chỉ là một quyết định hành chính cho phép cư trú. 📍 Giới hạn sự tự do: PR không thay thế quốc tịch hoặc hộ chiếu gốc. Muốn đi đến các quốc gia khác Quý vị vẫn phụ thuộc vào quốc tịch gốc và quy định nhập cảnh của từng nước. 📍 Rủi ro chính sách: Vì là quyết định hành chính, quốc gia sở tại có thể giới hạn quyền lợi hưởng chế độ y tế, giáo dục hoặc tăng điều kiện về thời gian cư trú, chứng chỉ ngoại ngữ, thậm chí hủy bỏ tấm thẻ này khi bối cảnh kinh tế thay đổi. 🌅 2. QUỐC TỊCH (CITIZENSHIP) – \"VÙNG TRỜI TỰ DO\" Quyền công dân EU là việc giải phóng giới hạn của \"sợi dây diều\", mở ra quyền tự do sinh sống, làm việc, học tập và sở hữu tài sản bất kỳ đâu trong khối. Quốc tịch là tài sản vô giá, không có điều kiện gia hạn và là di sản truyền đời, đảm bảo sự trường tồn của vị thế công dân toàn cầu. 💼 ĐÍCH ĐẾN CỦA MỘT DI SẢN BỀN VỮNG Tấm thẻ PR là một giải pháp phù hợp cho ngắn hạn. Nhưng để tạo ra một bệ phóng vững chãi, độc lập và mang tính kế thừa, Quyền công dân EU mới là đích đến trọn vẹn. Một kế hoạch di sản xuất sắc cần một công cụ pháp lý tương xứng. 👉 Liên hệ SIG để nhận giải pháp sở hữu Quyền",
+"eng": {
+"likes": 1,
+"comments": 0,
+"shares": 1,
+"views": 0
+},
+"programs": [],
+"p4": [
+"price",
+"promotion"
+],
+"prices": [],
+"offers": [
+"giới hạn"
+],
+"places": [],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Tin chính sách"
+],
+"ai": {
+"programs": [],
+"prices": [],
+"offers": [],
+"event": null,
+"content_type": "Hướng dẫn / Kiến thức",
+"message": "Quốc tịch an toàn và bền vững hơn PR, nên hướng tới quyền công dân để bảo vệ gia sản.",
+"risk_claims": []
+},
+"ai_v": 1
+},
+{
 "id": "b36dd61e6020",
 "company": "americanplus",
 "src": "web",
@@ -22813,6 +24072,62 @@
 "event": null,
 "content_type": "Dự án / Chương trình",
 "message": "Định cư New Zealand giúp gia đình xây dựng cuộc sống lâu dài.",
+"risk_claims": []
+},
+"ai_v": 1
+},
+{
+"id": "f6c5803d5137",
+"company": "si",
+"src": "facebook",
+"outlet": "Facebook · sigrouplaodong",
+"title": "✨ NHÌN LẠI HỘI THẢO EB-3: KHI KẾ HOẠCH ĐỊNH CƯ ĐƯỢC XÂY DỰNG TỪ TẦM NHÌN DÀI HẠN",
+"url": "https://www.facebook.com/SIGroupLaoDong/posts/pfbid0ri9P2VBdLyYMKRUAemfw6SiiUS5vr2Z48trdaXLkNnxpjjjZdBmehdy54Xye4CqGl",
+"date": "2026-10-24T05:22:21+00:00",
+"cats": [],
+"summary": "✨ NHÌN LẠI HỘI THẢO EB-3: KHI KẾ HOẠCH ĐỊNH CƯ ĐƯỢC XÂY DỰNG TỪ TẦM NHÌN DÀI HẠN SI Group trân trọng cảm ơn Quý khách hàng đã dành thời gian tham dự Hội thảo Định cư Mỹ diện EB-3 vừa qua ngày 24/10/2026 tại Bitexco Financial Tower, TP.HCM. Giữa bối cảnh chính sách di trú Mỹ liên tục có những diễn biến mới, việc lựa chọn một lộ trình định cư không chỉ cần sự chủ động mà còn đòi hỏi sự hiểu biết, chuẩn bị kỹ lưỡng và định hướng phù hợp với từng gia đình. 💎 NHỮNG GIÁ TRỊ THIẾT THỰC TỪ HỘI THẢO EB-3 🔹 Hiểu đúng về chương trình EB-3: Cập nhật bối cảnh chính sách di trú Mỹ, làm rõ những lợi thế, điều kiện và vấn đề cần lưu ý khi lựa chọn chương trình. 🔹 Chuẩn bị cho tương lai gia đình: Có thêm góc nhìn về chi phí sinh hoạt, môi trường giáo dục và những quyền lợi liên quan đến Thẻ xanh Mỹ, từ đó chủ động hơn trong kế hoạch dành cho con cái. 🔹 Định hướng lộ trình phù hợp: Trao đổi trực tiếp cùng đội ngũ chuyên môn SI Group, thẩm định hồ sơ 1:1 và tìm hiểu các cơ hội EB-3 theo nhu cầu, điều kiện của từng gia đình. Hơn cả những thông tin về chương trình, SI Group mong rằng hội thảo đã mang đến cho Quý khách hàng thêm cơ sở để cân nhắc những quyết định quan trọng trên hành trình định cư Mỹ. 💐 Một lần nữa, SI Group chân thành cảm ơn sự hiện diện và tin tưởng của Quý khách hàng! 📩 Nếu Quý khách chưa có cơ hội tham dự hội thảo lần này, hãy kết nối cùng SI Group để không bỏ lỡ những buổi chia sẻ chuyên sâu tiếp theo, đồng thời được hỗ trợ tìm hiểu lộ trình EB-3 phù hợp với kế hoạch của gia ",
+"eng": {
+"likes": 1,
+"comments": 0,
+"shares": 1,
+"views": 0
+},
+"programs": [
+"eb3"
+],
+"p4": [
+"product",
+"price",
+"place",
+"promotion"
+],
+"prices": [],
+"offers": [],
+"places": [
+"TP\\.? ?HCM"
+],
+"event": true,
+"event_dates": [
+"2026-10-24"
+],
+"risk": [],
+"ctype": [
+"Sự kiện / Hội thảo"
+],
+"ai": {
+"programs": [
+"EB-3"
+],
+"prices": [],
+"offers": [],
+"event": {
+"kind": "recap",
+"name": "Hội thảo Định cư Mỹ diện EB-3",
+"date": "2026-10-24",
+"city": "TP.HCM"
+},
+"content_type": "Sự kiện / Hội thảo",
+"message": "Tổng kết hội thảo EB-3, nhấn mạnh cần chuẩn bị kỹ lộ trình định cư Mỹ dài hạn cho gia đình.",
 "risk_claims": []
 },
 "ai_v": 1
@@ -23269,6 +24584,118 @@
 "ctype": [
 "Tin chính sách"
 ]
+},
+{
+"id": "7a9e0b94dafe",
+"company": "si",
+"src": "facebook",
+"outlet": "Facebook · sigroupdautu",
+"title": "⁉️ DUY TRÌ BĐS MALTA 05 NĂM ĐỂ ĐI LẠI TỰ DO CHÂU ÂU?",
+"url": "https://www.facebook.com/SIGroupDauTu/posts/pfbid0deSo8NqGKQpEDFAiqwZ77QpA5NZgWswZy8pVC6qKEFdJUngzPMn36PDrBYbHnr1bl",
+"date": "2026-10-23T10:46:53+00:00",
+"cats": [],
+"summary": "⁉️ DUY TRÌ BĐS MALTA 05 NĂM ĐỂ ĐI LẠI TỰ DO CHÂU ÂU? Nếu mục tiêu là tối ưu hóa quyền lợi trên từng đồng vốn bỏ ra, Quyền công dân EU chính là lời giải trọn vẹn nhất cho bài toán chi phí và nghĩa vụ: 🌟 Tối đa hóa quyền lợi di chuyển: Không dừng lại ở việc đi lại có điều kiện trong khối Schengen, cuốn hộ chiếu EU mang lại quyền tự do di chuyển trong khối mà không giới hạn về thời gian. 🌟 Không ảnh hưởng dòng công việc: Không ràng buộc hiện diện thực tế, Quý vị có thể giữ nguyên lịch trình sinh hoạt và vận hành kinh doanh tại Việt Nam mà không có bất kỳ xáo trộn nào. Một khoản đầu tư xứng tầm là khoản đầu tư mang lại quyền lợi tối ưu cho bản thân và doanh nghiệp. 👉 Liên hệ hotline SI Group để được tham vấn lộ trình chuyên biệt cho mục tiêu tự do di chuyển của Quý vị! 🏢: Tầng 44, Bitexco Financial Tower, 02 Hải Triều, P. Sài Gòn, TP. Hồ Chí Minh 🏛️: Tầng 19, Capital Place, 29 Liễu Giai, P. Ngọc Hà, TP. Hà Nội ☎️: (+84) 979 355 355",
+"eng": {
+"likes": 91,
+"comments": 0,
+"shares": 1,
+"views": 0
+},
+"programs": [
+"mt",
+"ie_it",
+"re"
+],
+"p4": [
+"product",
+"price",
+"place",
+"promotion"
+],
+"prices": [],
+"offers": [
+"giới hạn"
+],
+"places": [
+"Hà Nội",
+"Hồ Chí Minh",
+"Sài Gòn"
+],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Hướng dẫn / Kiến thức"
+],
+"ai": {
+"programs": [
+"Quốc tịch EU (Malta)"
+],
+"prices": [],
+"offers": [],
+"event": null,
+"content_type": "So sánh / Tư vấn chọn",
+"message": "Thay vì duy trì BĐS Malta 5 năm, chọn quốc tịch EU để tối ưu quyền lợi di chuyển; liên hệ hotline.",
+"risk_claims": [
+"Không ràng buộc hiện diện thực tế"
+]
+},
+"ai_v": 1
+},
+{
+"id": "da8b09dcd8a0",
+"company": "si",
+"src": "facebook",
+"outlet": "Facebook · sigroupdautu",
+"title": "🎯 CHỦ ĐỘNG CÔNG TÁC & THĂM CON TẠI CHÂU ÂU",
+"url": "https://www.facebook.com/SIGroupDauTu/posts/pfbid0b1fF9cKTgsgrnqFfmabJ9fpdGjuXNXEUQuP26zBd1p2rWz4HM76S3Ao4Bi3PSs2Rl",
+"date": "2026-10-23T10:46:36+00:00",
+"cats": [],
+"summary": "🎯 CHỦ ĐỘNG CÔNG TÁC & THĂM CON TẠI CHÂU ÂU ⚠️ Khi thẻ thường trú Malta bị giới hạn trong 90 ngày? Hãy khám phá lộ trình tự do di chuyển cùng vị thế Quốc tịch! 🌟 Mang lại quyền làm chủ 365 ngày tự do di chuyển, cư trú và làm việc tại 27 quốc gia EU mà không cần đếm ngày hay phụ thuộc vào các điều kiện gia hạn thẻ. 🌟 Mở ra cánh cửa miễn thị thực tới hơn 170 quốc gia khắp năm châu, phục vụ tối ưu cho các chuyến công tác đột xuất. Đồng thời giữ trọn sự nghiệp tại Việt Nam, an tâm điều hành doanh nghiệp tại quê nhà mà vẫn sở hữu vị thế công dân quốc tế. 💎 Đừng đầu tư vào vị thế của một \"vị khách ghé thăm\", hãy hướng tới tư cách Công dân EU để nắm trọn quyền chủ động. 👉 Liên hệ hotline SI Group để được tham vấn lộ trình chuyên biệt cho mục tiêu tự do di chuyển của Quý vị! 🏢: Tầng 44, Bitexco Financial Tower, 02 Hải Triều, P. Sài Gòn, TP. Hồ Chí Minh 🏛️: Tầng 19, Capital Place, 29 Liễu Giai, P. Ngọc Hà, TP. Hà Nội ☎️: (+84) 979 355 355",
+"eng": {
+"likes": 71,
+"comments": 0,
+"shares": 1,
+"views": 0
+},
+"programs": [
+"mt"
+],
+"p4": [
+"product",
+"price",
+"place",
+"promotion"
+],
+"prices": [],
+"offers": [
+"giới hạn"
+],
+"places": [
+"Hà Nội",
+"Hồ Chí Minh",
+"Sài Gòn"
+],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Hướng dẫn / Kiến thức"
+],
+"ai": {
+"programs": [
+"Quốc tịch EU (Malta)"
+],
+"prices": [],
+"offers": [],
+"event": null,
+"content_type": "So sánh / Tư vấn chọn",
+"message": "Thẻ thường trú Malta giới hạn 90 ngày, nên hướng tới quốc tịch EU để tự do di chuyển 365 ngày.",
+"risk_claims": [
+"miễn thị thực tới hơn 170 quốc gia"
+]
+},
+"ai_v": 1
 },
 {
 "id": "c1b9c0309d5d",
@@ -23827,6 +25254,53 @@
 },
 "content_type": "Thương hiệu / PR",
 "message": "AIMS khẳng định uy tín 20 năm, 11 văn phòng tại 9 quốc gia và mời tham dự hội nghị kỷ niệm.",
+"risk_claims": []
+},
+"ai_v": 1
+},
+{
+"id": "c2eea65839f1",
+"company": "si",
+"src": "facebook",
+"outlet": "Facebook · sigroupdautu",
+"title": "🌟 GIỮ VỮNG QUYỀN TỰ DO ĐI LẠI HƠN 180 QUỐC GIA",
+"url": "https://www.facebook.com/SIGroupDauTu/posts/pfbid0P7TBpkPpPj6CCoVHph7oVdjNnWUNKxA2jh8u1AqexqTZxiMC96xsnRrZC8mr6Buvl",
+"date": "2026-10-23T03:00:17+00:00",
+"cats": [],
+"summary": "🌟 GIỮ VỮNG QUYỀN TỰ DO ĐI LẠI HƠN 180 QUỐC GIA Cánh cửa tự do đi lại tại các quốc gia thuộc Schengen thông qua các chương trình quốc tịch Caribbean theo hình thức đầu tư (CBI) đang đứng trước bước ngoặt pháp lý lớn. Việc siết lại quyền miễn thị thực vào các quốc gia trọng điểm này chính là tín hiệu cho thấy: hành trình đặt chân đến các quốc gia này đòi hỏi một giải pháp cư trú bền vững và phù hợp hơn. Vậy đâu là giải pháp thay thế hộ chiếu Caribbean trước giờ G? 🔍 KHI QUYỀN TỰ DO DI CHUYỂN DẦN THU HẸP - ĐÃ ĐẾN LÚC CHUYỂN HƯỚNG 2022: Vanuatu bị EU cảnh báo hủy bỏ quyền miễn visa vì chương trình “golden passport”. 2024-2025: Vanuatu chính thức mất quyền miễn visa vào EU. 2026: Antigua & Barbuda nhận thư yêu cầu xây dựng lộ trình \"phase-out\" chương trình CBI trước ngày 01/06/2028. 🔍 ĐỊNH VỊ ĐÚNG NGUỒN VỐN, TẠO DI SẢN TRUYỀN ĐỜI Nếu EU tiếp tục đi theo đúng lộ trình đã từng áp dụng với Vanuatu, 2028 có thể sẽ là \"deadline\" cải tổ của những chương trình \"thương mại hóa\". 🌏 Đứng trước quyết định liên quan đến kế hoạch tự do di chuyển trong liên minh châu Âu, Qúy vị đang lựa chọn một tấm hộ chiếu \"tạm thời\", hay đang xây dựng một vị thế kiên cố cho nhiều năm tới, thậm chí cho các thế hệ tương lai? Đó mới là bài toán thực tế đáng cân nhắc. 💎 Nhận diện rõ xu thế tất yếu này, SI Group đã xây dựng một giải pháp chuyên biệt, với mức đầu tư tương đồng và thời gian xử lý hồ sơ nhanh chóng hơn các chương trình hộ chiếu Caribbean trước đây. Tuy nhiên, giải pháp này sở hữu nền tảng pháp lý dà",
+"eng": {
+"likes": 1,
+"comments": 0,
+"shares": 1,
+"views": 0
+},
+"programs": [
+"ie_it",
+"carib",
+"vanuatu"
+],
+"p4": [
+"product",
+"price"
+],
+"prices": [],
+"offers": [],
+"places": [],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Hướng dẫn / Kiến thức"
+],
+"ai": {
+"programs": [
+"Quốc tịch đầu tư thay thế CBI Caribbean"
+],
+"prices": [],
+"offers": [],
+"event": null,
+"content_type": "Tin chính sách",
+"message": "Hộ chiếu Caribbean có nguy cơ mất miễn visa EU, khách nên chuyển hướng sang giải pháp bền vững hơn.",
 "risk_claims": []
 },
 "ai_v": 1
@@ -25136,6 +26610,57 @@
 "ĐẦU TƯ 1 NHẬN ĐƯỢC 2",
 "CƠ HỘI SỞ HỮU QUỐC TỊCH NEW ZEALAND VÀ ÚC"
 ]
+},
+"ai_v": 1
+},
+{
+"id": "36baa1f63d89",
+"company": "si",
+"src": "facebook",
+"outlet": "Facebook · sigroupdautu",
+"title": "🌐 KỶ NGUYÊN \"MADE IN EUROPE\": KHI CÁC CHỦ DOANH NGHIỆP Á ĐÔNG ĐANG DẦN DỊCH CHUYỂN BẾN ĐỖ KHỎI SINGAPORE & HONGKONG",
+"url": "https://www.facebook.com/SIGroupDauTu/posts/pfbid029xBVw5enayHfg369VRqs37Qiin1xd3e6HN8pGZM5V7oBhW8kyK8yhT7V1jZV7ex7l",
+"date": "2026-10-21T04:00:07+00:00",
+"cats": [],
+"summary": "🌐 KỶ NGUYÊN \"MADE IN EUROPE\": KHI CÁC CHỦ DOANH NGHIỆP Á ĐÔNG ĐANG DẦN DỊCH CHUYỂN BẾN ĐỖ KHỎI SINGAPORE & HONGKONG Áp lực từ Thuế tối thiểu toàn cầu và làn sóng siết chặt thu nhập ngoại khối đang khiến lợi thế của các trung tâm tài chính cũ dần thu hẹp. Cục diện đang có nhiều thay đổi nhanh chóng. Kỷ nguyên mới gọi tên xu hướng “Made in Europe” nơi đòi hỏi sự hiện diện thực chất, cơ chế bảo hộ đặc biệt và lợi thế thương hiệu toàn cầu. Đó là lý do bộ đôi Liechtenstein & Luxembourg đang là phương án chiến lược được số ít chủ doanh nghiệp đặt lên bàn cân để giải quyết đồng thời hai bài toán: Quốc tế hóa thương hiệu và Bảo toàn dòng tiền thượng tầng. SI Group sẽ cấu trúc chi tiết để định hình lại doanh nghiệp của quý vị: 1️⃣ Công thức 80/20: Bứt phá trần định giá thương hiệu Năng lực sản xuất của doanh nghiệp Việt Nam rất lớn nhưng thường bị giới hạn bởi yếu tố địa lý và định kiến phân khúc. Giải pháp cấu trúc châu Âu mở ra một lối đi thông minh: Giữ 80% khâu sản xuất chi phí thấp tại Việt Nam để tối ưu giá thành. Dịch chuyển 20% khâu hoàn thiện/kiểm định cuối cùng sang EU để nâng chuẩn xuất xứ. Kết quả: Với bảo chứng chất lượng chuẩn Âu, doanh nghiệp có thể tái định vị thương hiệu ở phân khúc cao cấp và tối ưu hóa biên lợi nhuận ở một vị thế khác. 2️⃣ Cấu trúc tài chính: Chuẩn hóa dòng vốn xuyên biên giới Vượt qua những rào cản khắt khe về xác minh dòng tiền hay chi phí vận hành phức tạp của hệ thống ngân hàng quốc tế, pháp nhân tại các trung tâm này sẽ hỗ trợ doanh nghiệp xây ",
+"eng": {
+"likes": 0,
+"comments": 0,
+"shares": 1,
+"views": 0
+},
+"programs": [
+"sg"
+],
+"p4": [
+"product",
+"price",
+"place",
+"promotion"
+],
+"prices": [],
+"offers": [
+"giới hạn"
+],
+"places": [
+"Huế"
+],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Tin chính sách"
+],
+"ai": {
+"programs": [
+"Liechtenstein & Luxembourg"
+],
+"prices": [],
+"offers": [],
+"event": null,
+"content_type": "Hướng dẫn / Kiến thức",
+"message": "Chủ doanh nghiệp nên dịch chuyển sang Liechtenstein & Luxembourg để quốc tế hóa thương hiệu và bảo toàn dòng tiền.",
+"risk_claims": []
 },
 "ai_v": 1
 },
@@ -26465,6 +27990,51 @@
 "ai_v": 1
 },
 {
+"id": "2ccdd37d6af4",
+"company": "si",
+"src": "facebook",
+"outlet": "Facebook · sigroupdautu",
+"title": "🎉 HỒ SƠ THÀNH CÔNG QUÝ 3: DẤU ẤN QUỐC TỊCH VÀ VỊ THẾ CHÂU ÂU TỪ GIẢI PHÁP MAY ĐO CHUYÊN BIỆT",
+"url": "https://www.facebook.com/SIGroupDauTu/posts/pfbid0DhcvZpEEQCVmPGKAR2unzsAqHAC3QkpAs3Upgd2hTmWuUghsiA49Gu8iwHuzMPErl",
+"date": "2026-10-19T12:00:03+00:00",
+"cats": [],
+"summary": "🎉 HỒ SƠ THÀNH CÔNG QUÝ 3: DẤU ẤN QUỐC TỊCH VÀ VỊ THẾ CHÂU ÂU TỪ GIẢI PHÁP MAY ĐO CHUYÊN BIỆT Phía sau hàng loạt hồ sơ định cư châu Âu thành công trong quý này: Câu chuyện từ sự kỹ lưỡng. 🔑 Mỗi kết quả tích cực được trao tay khách hàng tại SI Group là quả ngọt từ hàng trăm giờ làm việc nghiêm túc, tỉ mỉ đến từng chi tiết của đội ngũ chuyên viên. 🔑 Trong bối cảnh luật di trú châu Âu liên tục biến động, chúng tôi tự hào khi luôn duy trì sự minh bạch về pháp lý và quy trình thẩm định hồ sơ chặt chẽ cho khách hàng. Tại SI Group, mỗi bộ hồ sơ là bước ngoặt cuộc đời và tương lai của cả một gia đình. Vì vậy, đội ngũ chuyên viên luôn làm việc bằng tất cả sự thấu cảm: ✅ Lo cùng nỗi lo của khách, xem mục tiêu của khách là mục tiêu của chính mình. ✅ Tỉ mỉ và tận tâm trong từng bước thực hiện để tìm kiếm lộ trình phù hợp. Thành quả lớn nhất sau một quý nỗ lực chính là niềm tin và sự an tâm của Quý khách hàng trên hành trình chuyển giao toàn cầu. Đón nhận một vị thế mới, mở ra cơ hội cho cả gia đình: 🌟 Tự do di chuyển và tiếp cận môi trường giáo dục, y tế chuẩn quốc tế. 🌟 Xây dựng cuộc sống mới vững chắc và gìn giữ sự thịnh vượng cho thế hệ mai sau. SI Group – Đồng hành cùng hành trình định cư quốc tế của gia đình! 👉 Liên hệ ngay với SI Group trong quý này để được các chuyên viên giàu kinh nghiệm hỗ trợ tư vấn lộ trình phù hợp! 📩 Liên hệ SI Group ngay hôm nay để được tham vấn riêng và nhận trọn bộ tài liệu chuyên sâu 🏢: Tầng 44, Bitexco Financial Tower, 02 Hải Triều, P. Sài Gòn, TP. Hồ Chí",
+"eng": {
+"likes": 0,
+"comments": 0,
+"shares": 1,
+"views": 0
+},
+"programs": [],
+"p4": [
+"place"
+],
+"prices": [],
+"offers": [],
+"places": [
+"Sài Gòn"
+],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Câu chuyện thành công",
+"Hướng dẫn / Kiến thức"
+],
+"ai": {
+"programs": [
+"Định cư/quốc tịch châu Âu"
+],
+"prices": [],
+"offers": [],
+"event": null,
+"content_type": "Câu chuyện thành công",
+"message": "Hàng loạt hồ sơ châu Âu thành công quý 3 nhờ giải pháp may đo và quy trình thẩm định chặt chẽ.",
+"risk_claims": []
+},
+"ai_v": 1
+},
+{
 "id": "373c87c93989",
 "company": "mapleleaf",
 "src": "web",
@@ -27052,6 +28622,49 @@
 "content_type": "So sánh / Tư vấn chọn",
 "message": "Tỷ lệ duyệt EB-1A giảm mạnh, gia đình nên cân nhắc EB-5 và liên hệ Kornova để chuẩn bị.",
 "risk_claims": []
+},
+"ai_v": 1
+},
+{
+"id": "e22e2042e343",
+"company": "si",
+"src": "facebook",
+"outlet": "Facebook · sigroupdautu",
+"title": "🔥 04 HỒ SƠ THƯỜNG TRÚ NHÂN BAHAMAS THÀNH CÔNG CHỈ TRONG 26 NGÀY THÁNG 09",
+"url": "https://www.facebook.com/SIGroupDauTu/posts/pfbid023hw1AqCMBdVEidHyGAdpQ46aH4YFbkvmadndVJMDQSYMeymaueoWwFnHmEdTJRB2l",
+"date": "2026-10-19T06:12:25+00:00",
+"cats": [],
+"summary": "🔥 04 HỒ SƠ THƯỜNG TRÚ NHÂN BAHAMAS THÀNH CÔNG CHỈ TRONG 26 NGÀY THÁNG 09 🌟 Tháng 09 vừa qua, SI Group vô cùng tự hào khi được đồng hành và chứng kiến khoảnh khắc đặc biệt của 03 gia đình (gồm 04 thành viên) trên hành trình mở rộng lộ trình tự do dịch chuyển quốc tế ! Đặc biệt, cột mốc thời gian ấn tượng từ gia đình khách hàng Đ.H.L và Đ.T.L đã thiết lập một kỷ lục mới về tốc độ xử lý: ⏱ 26/08/2026: Hoàn tất thủ tục nộp hồ sơ. ⏱ 21/09/2026: Nhận kết quả chấp thuận từ chính phủ chỉ sau 26 ngày. ⏱ 15/10/2026: Chính thức nhận Chứng nhận Thường trú danh giá. ❗ Cùng chung niềm vui đó, gia đình của hai khách hàng N.Đ.D và N.D.A cũng đã đón nhận kết quả chấp thuận trọn vẹn trong tháng 09/2026 này. Những dấu ấn thực tế từ 03 gia đình chính là minh chứng rõ nét cho năng lực triển khai chuyên nghiệp, quy trình minh bạch và sự tận tâm theo sát từng bước đi của đội ngũ SI Group. 💎 BAHAMAS - ĐIỂM ĐẾN CHIẾN LƯỢC CỦA NHỮNG NHÀ ĐẦU TƯ TẦM NHÌN Với các doanh nhân sở hữu nền tảng tài chính vững vàng, việc lựa chọn một không gian sống thứ hai tại quốc tế không chỉ là một điểm đến mới, mà còn là bước chuẩn bị chiến lược để: 🔹 Định hình tương lai vững chắc cho cả gia đình. 🔹 Tối ưu hóa kế hoạch quản lý tài sản toàn cầu. 🔹 Chủ động hơn trong mọi kế hoạch kinh doanh quốc tế. Mỗi nhà đầu tư có một câu chuyện và một tầm nhìn riêng. Chiến lược Global Mobility (Dịch chuyển toàn cầu) hiệu quả luôn cần một lộ trình may đo chuẩn xác. 👉 Nhắn tin ngay cho SI Group để cùng thiết kế lộ trình nâng tầm vị thế qu",
+"eng": {
+"likes": 0,
+"comments": 0,
+"shares": 1,
+"views": 0
+},
+"programs": [],
+"p4": [],
+"prices": [],
+"offers": [],
+"places": [],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Câu chuyện thành công",
+"Hướng dẫn / Kiến thức"
+],
+"ai": {
+"programs": [
+"Thường trú nhân Bahamas"
+],
+"prices": [],
+"offers": [],
+"event": null,
+"content_type": "Câu chuyện thành công",
+"message": "Thường trú Bahamas xử lý nhanh, SI Group lập kỷ lục duyệt hồ sơ chỉ 26 ngày.",
+"risk_claims": [
+"THÀNH CÔNG CHỈ TRONG 26 NGÀY"
+]
 },
 "ai_v": 1
 },

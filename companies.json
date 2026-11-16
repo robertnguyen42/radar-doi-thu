@@ -8,7 +8,11 @@
    "web": "https://sigroup.vn",
    "feed": "https://sigroup.vn/feed/",
    "q": "\"SI Group\" định cư",
-   "fb": "https://www.facebook.com/SIGroupVietNam"
+   "fb": [
+    "https://www.facebook.com/SIGroupVietNam",
+    "https://www.facebook.com/SIGroupDauTu",
+    "https://www.facebook.com/SIGroupLaoDong"
+   ]
   },
   {
    "id": "icanfield",

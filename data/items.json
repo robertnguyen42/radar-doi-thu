@@ -1,5 +1,45 @@
 [
 {
+"id": "da3235f0001e",
+"company": "victory",
+"src": "web",
+"outlet": "",
+"title": "[Bản tin NZ] New Zealand siết điều kiện cấp Resident Visa từ 12/11/2026 nếu con hết hạn visa",
+"url": "https://dinhcucacnuoc.com/tin-tuc-new-zealand-tu-choi-resident-visa-neu-con-het-han-visa/",
+"date": "2026-11-16T23:08:47+00:00",
+"cats": [
+"Tin tức Úc",
+"Tin tức",
+"Tin tức di trú 24h"
+],
+"summary": "Ngày 10/11/2026, Cơ quan Di trú New Zealand (Immigration New Zealand – INZ) công bố quy định mới có hiệu lực từ ngày 12/11/2026, theo đó cha mẹ và các thành viên phụ trong hồ sơ xin thường trú (Resident Visa) sẽ không được cấp visa nếu có con phụ thuộc đang cư trú bất[...] ",
+"programs": [
+"nz_work"
+],
+"p4": [
+"product"
+],
+"prices": [],
+"offers": [],
+"places": [],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Hướng dẫn / Kiến thức"
+],
+"ai": {
+"programs": [],
+"prices": [],
+"offers": [],
+"event": null,
+"content_type": "Tin chính sách",
+"message": "Cập nhật quy định mới của INZ siết cấp Resident Visa New Zealand từ 12/11/2026 khi con phụ thuộc cư trú bất hợp pháp, nhắc khách hàng chú ý tình trạng visa của con để tránh bị từ chối thường trú.",
+"risk_claims": []
+},
+"ai_v": 1
+},
+{
 "id": "51e3b89f7e34",
 "company": "kornova",
 "src": "web",

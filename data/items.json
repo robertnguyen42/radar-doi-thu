@@ -1,5 +1,46 @@
 [
 {
+"id": "c713145e325b",
+"company": "victory",
+"src": "web",
+"outlet": "",
+"title": "[Bản tin Mỹ] Bộ Lao động Mỹ đề xuất cải tổ quy trình PERM từ ngày 17/11/2026",
+"url": "https://dinhcucacnuoc.com/tin-tuc-my-de-xuat-cai-to-quy-trinh-perm/",
+"date": "2026-11-23T07:32:45+00:00",
+"cats": [
+"Tin tức Mỹ",
+"Tin tức",
+"Tin tức di trú 24h"
+],
+"summary": "Ngày 17/11/2026, Bộ Lao động Mỹ (DOL) công bố dự thảo cải tổ quy trình chứng nhận lao động PERM, có thể tác động đến các hồ sơ định cư diện EB-2 và EB-3. Đề xuất mới bao gồm loại bỏ cơ chế miễn trừ Schedule A, kéo dài thời gian tuyển dụng lao động[...] ",
+"programs": [
+"niw",
+"eb3"
+],
+"p4": [
+"product"
+],
+"prices": [],
+"offers": [],
+"places": [],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Hướng dẫn / Kiến thức"
+],
+"ai": {
+"programs": [],
+"prices": [],
+"offers": [],
+"event": null,
+"content_type": "Tin chính sách",
+"message": "Cập nhật dự thảo cải tổ PERM của Bộ Lao động Mỹ ảnh hưởng hồ sơ EB-2, EB-3 để khách hàng theo dõi và chuẩn bị hồ sơ kịp thời.",
+"risk_claims": []
+},
+"ai_v": 1
+},
+{
 "id": "da6c96a412a2",
 "company": "newachieve",
 "src": "web",
@@ -20733,6 +20774,48 @@
 "event": null,
 "content_type": "Hướng dẫn / Kiến thức",
 "message": "Malta hấp dẫn nhờ vị thế EU/Schengen và môi trường sống quốc tế, đáng cân nhắc cho gia đình định cư dài hạn.",
+"risk_claims": []
+},
+"ai_v": 1
+},
+{
+"id": "fa2d11d0004a",
+"company": "bsop",
+"src": "web",
+"outlet": "",
+"title": "BSOP – Gần hai thập kỷ kiến tạo hệ sinh thái đầu tư quốc tế cho người Việt",
+"url": "https://bsop.com.vn/bsop-gan-hai-thap-ky-kien-tao-he-sinh-thai-dau-tu-quoc-te/",
+"date": "2026-11-01T09:34:54+00:00",
+"cats": [
+"Tin Tức",
+"Văn hóa doanh nghiệp"
+],
+"summary": "Hành trình của Bắc Sơn Group và BSOP (Bắc Sơn Overseas Platform) bắt đầu từ gần hai thập kỷ trước, vào thời điểm Việt Nam đang từng bước mở cửa hội nhập mạnh mẽ. Khi đó, làn sóng du học sinh và kiều bào trở về mang theo khát vọng đóng góp trí tuệ cho […] Bài viết BSOP – Gần hai thập kỷ kiến tạo hệ sinh thái đầu tư quốc tế cho người Việt đã xuất hiện đầu tiên vào ngày Công ty tư vấn đầu tư & định cư quốc tế Bắc Sơn . 5/5 - (1 bình chọn) Hành trình của Bắc Sơn Group và BSOP (Bắc Sơn Overseas Platform) bắt đầu từ gần hai thập kỷ trước, vào thời điểm Việt Nam đang từng bước mở cửa hội nhập mạnh mẽ. Khi đó, làn sóng du học sinh và kiều bào trở về mang theo khát vọng đóng góp trí tuệ cho quê hương. Trong số đó có ông Lưu Minh Ngọc – người con Việt Nam trở về sau gần 10 năm sinh sống, học tập và làm việc tại châu Âu với một câu hỏi luôn đau đáu: “Làm thế nào để người Việt tự tin bước ra thế giới, tiếp cận những nền giáo dục tiên tiến, môi trường sống chất lượng và cơ hội phát triển rộng mở?” . Đội ngũ nhân sự BSOP tại Hà Nội Khởi đầu từ giấc mơ của người con xa xứ Tháng 10/2010, với hành trang là trí tuệ, kinh nghiệm quản lý dự án đầu tư tại châu Âu và niềm đam mê bất động sản, ông Lưu Minh Ngọc cùng những cộng sự đầu tiên đã đặt viên gạch nền móng mang tên Bắc Sơn Land. Mọi thứ khởi đầu từ một văn phòng nhỏ tại khu phố Trung Kính (Hà Nội) với vỏn vẹn một nhân viên bán thời gian và hai thực tập sinh. Chỉ sau một năm nỗ lực không ngừng nghỉ, Bắc Sơn Land đã vươn lên quy mô 50 nhân sự",
+"programs": [
+"re"
+],
+"p4": [
+"product",
+"place"
+],
+"prices": [],
+"offers": [],
+"places": [
+"Hà Nội"
+],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Hướng dẫn / Kiến thức"
+],
+"ai": {
+"programs": [],
+"prices": [],
+"offers": [],
+"event": null,
+"content_type": "Thương hiệu / PR",
+"message": "Khẳng định uy tín gần hai thập kỷ của Bắc Sơn/BSOP trong việc kiến tạo hệ sinh thái đầu tư quốc tế giúp người Việt tự tin bước ra thế giới.",
 "risk_claims": []
 },
 "ai_v": 1

@@ -6,13 +6,14 @@
 :root{--bg:#f5f6f8;--surface:#fff;--sunk:#eef1f5;--line:#e3e6eb;--fg:#16191f;--muted:#5f6b7a;--accent:#1d4ed8;--accent-soft:#e8eefc;
   --p-product:#1d4ed8;--p-price:#047857;--p-place:#8a5a00;--p-promo:#a3306b;
   --warn:#b91c1c;--warn-soft:#fde8e8;--self:#047857;--self-soft:#e3f4ec;--new:#dc2626;--heat:29,78,216;
+  --s1:#2a78d6;--s2:#eb6834;--s3:#1baf7a;--s4:#eda100;--s5:#e87ba4;--s6:#008300;--s7:#6250d6;--s8:#e34948;--s0:#b9b8b2;
   --f-body:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;--f-mono:var(--f-body)}
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0f1115;--surface:#171a21;--sunk:#1f2430;--line:#2a2f3a;--fg:#e6e8ec;--muted:#9aa4b2;
   --accent:#7aa2ff;--accent-soft:#1c2740;--p-product:#7aa2ff;--p-price:#10b981;--p-place:#e0b049;--p-promo:#e48ab8;
-  --warn:#ef4444;--warn-soft:#3a1f20;--self:#10b981;--self-soft:#163329;--new:#ef4444;--heat:122,162,255;color-scheme:dark}}
+  --warn:#ef4444;--warn-soft:#3a1f20;--self:#10b981;--self-soft:#163329;--new:#ef4444;--heat:122,162,255;--s1:#3987e5;--s2:#d95926;--s3:#199e70;--s4:#c98500;--s5:#d55181;--s6:#0ca30c;--s7:#9085e9;--s8:#e66767;--s0:#5c5b57;color-scheme:dark}}
 :root[data-theme="dark"]{--bg:#0f1115;--surface:#171a21;--sunk:#1f2430;--line:#2a2f3a;--fg:#e6e8ec;--muted:#9aa4b2;
   --accent:#7aa2ff;--accent-soft:#1c2740;--p-product:#7aa2ff;--p-price:#10b981;--p-place:#e0b049;--p-promo:#e48ab8;
-  --warn:#ef4444;--warn-soft:#3a1f20;--self:#10b981;--self-soft:#163329;--new:#ef4444;--heat:122,162,255;color-scheme:dark}
+  --warn:#ef4444;--warn-soft:#3a1f20;--self:#10b981;--self-soft:#163329;--new:#ef4444;--heat:122,162,255;--s1:#3987e5;--s2:#d95926;--s3:#199e70;--s4:#c98500;--s5:#d55181;--s6:#0ca30c;--s7:#9085e9;--s8:#e66767;--s0:#5c5b57;color-scheme:dark}
 *{box-sizing:border-box}
 html,body{margin:0;background:var(--bg);color:var(--fg);font:14px/1.5 var(--f-body)}
 button,input,select{font:inherit;color:inherit}
@@ -153,6 +154,28 @@ h1{font-size:22px;margin:0}
 h2{font-size:16px;margin:0;font-weight:600;text-wrap:balance}
 h3{font-size:12px;margin:0;font-weight:600;text-transform:uppercase;letter-spacing:.06em;color:var(--muted)}
 .name{font-weight:600;white-space:nowrap}
+/* Biểu đồ so sánh nội dung: thanh ngang xếp chồng */
+.ctl{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.seg2{display:inline-grid;grid-auto-flow:column;border:1px solid var(--line);border-radius:8px;overflow:hidden}
+.seg2 button{border:0;border-left:1px solid var(--line);background:var(--surface);padding:5px 12px;cursor:pointer;font-size:13px}
+.seg2 button:first-child{border-left:0}
+.seg2 button[aria-pressed="true"]{background:var(--accent);color:#fff}
+.lgd{display:flex;flex-wrap:wrap;gap:4px 14px;font-size:12.5px;color:var(--muted)}
+.lgd span{display:inline-flex;align-items:center;gap:6px}
+.lgd i{width:10px;height:10px;border-radius:3px;flex:none}
+.mix{display:grid;gap:7px}
+.mrow{display:grid;grid-template-columns:150px minmax(0,1fr) 48px;gap:10px;align-items:center;font-size:13px}
+.mrow .nm{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-weight:600}
+.mrow.self .nm{color:var(--self)}
+.mrow .tt{color:var(--muted);text-align:right;font-size:12px;font-variant-numeric:tabular-nums}
+.mbar{display:flex;gap:2px;height:20px;min-width:0}
+.mbar i{display:block;height:100%;min-width:2px;cursor:default}
+.mbar i:first-child{border-radius:4px 0 0 4px} .mbar i:last-child{border-radius:0 4px 4px 0} .mbar i:only-child{border-radius:4px}
+.mbar i:hover{filter:brightness(1.12);outline:2px solid var(--surface);outline-offset:-1px}
+.mrow.self{background:var(--self-soft);border-radius:6px;margin:0 -6px;padding:3px 6px}
+#tip{position:fixed;z-index:50;pointer-events:none;background:var(--surface);color:var(--fg);border:1px solid var(--line);border-radius:8px;padding:7px 10px;font-size:12.5px;box-shadow:0 6px 18px #0002;max-width:260px}
+#tip b{display:block}
+@media (max-width:600px){.mrow{grid-template-columns:96px minmax(0,1fr) 36px}}
 /* Điện thoại / máy tính bảng */
 @media (max-width:900px){
  .wrap{grid-template-columns:1fr;padding:12px}
@@ -257,6 +280,56 @@ overview(){
     <section class="panel"><h2>Ma trận Product: công ty × thị trường</h2><div class="scroll"><table class="heat"><thead><tr><th></th>${cols.map(k => `<th class="n" title="${esc(K[k].name)}">${K[k].flag} ${esc(K[k].name.split(' ')[0])}</th>`).join('')}</tr></thead><tbody>${heat}</tbody></table></div><p class="note">Số bài (90 ngày) nhắc tới chương trình thuộc thị trường đó. Ô đậm = đối thủ đang dồn content.</p></section>
    </div></div>`;
 },
+mix(){
+  const dim = state.mixdim || 'type', pct = state.mixpct !== false;
+  const CT = ['Hướng dẫn / Kiến thức','Tin chính sách','Câu chuyện thành công','Sự kiện / Hội thảo','So sánh / Tư vấn chọn','Dự án / Chương trình','Thương hiệu / PR'];
+  let cats, val;
+  if (dim === 'type'){
+    cats = [...CT, 'Khác'];
+    const m = {}; D.items.forEach(i => { const t = (i.ai && i.ai.content_type) || (i.ctype && i.ctype[0]) || 'Khác'; const k = CT.includes(t) ? t : 'Khác';
+      (m[i.company] = m[i.company] || {})[k] = (m[i.company][k] || 0) + 1; });
+    val = (id, k) => (m[id] || {})[k] || 0;
+  } else if (dim === 'src'){
+    cats = ['web','facebook','news'];
+    const m = {}; D.items.forEach(i => { (m[i.company] = m[i.company] || {})[i.src] = (m[i.company][i.src] || 0) + 1; });
+    val = (id, k) => (m[id] || {})[k] || 0;
+  } else {
+    cats = Object.keys(K);
+    val = (id, k) => (C[id].product.countries.find(x => x[0] === k) || [0, 0])[1];
+  }
+  const label = k => dim === 'src' ? SRC[k] : dim === 'mkt' ? `${K[k].flag} ${K[k].name}` : k;
+  const color = (k, j) => k === 'Khác' ? 'var(--s0)' : `var(--s${j + 1})`;
+  const rows = ids.map(id => ({id, v: cats.map(k => val(id, k))})).map(r => ({...r, t: r.v.reduce((a, b) => a + b, 0)}))
+    .filter(r => r.t).sort((a, b) => (C[b.id].self - C[a.id].self) || b.t - a.t);
+  const mx = Math.max(1, ...rows.map(r => r.t));
+  const bars = rows.map(r => `<div class="mrow ${C[r.id].self ? 'self' : ''}"><span class="nm" title="${esc(C[r.id].name)}">${esc(C[r.id].name)}</span>
+    <div class="mbar" style="width:${pct ? 100 : Math.max(4, 100 * r.t / mx)}%">${r.v.map((n, j) => n ? `<i style="flex:${n};background:${color(cats[j], j)}" data-tip="${esc(C[r.id].name)}|${esc(label(cats[j]))}|${n}|${Math.round(100 * n / r.t)}"></i>` : '').join('')}</div>
+    <span class="tt">${r.t}</span></div>`).join('');
+  // Nhận xét tự động: mỗi nhóm, ai dẫn đầu về tỷ trọng; SI so với trung bình đối thủ
+  const si = rows.find(r => C[r.id].self), comp = rows.filter(r => !C[r.id].self && r.t >= 5);
+  const share = (r, j) => r.t ? r.v[j] / r.t : 0;
+  const notes = cats.map((k, j) => { if (k === 'Khác') return '';
+    const avg = comp.length ? comp.reduce((a, r) => a + share(r, j), 0) / comp.length : 0;
+    const top = comp.slice().sort((a, b) => share(b, j) - share(a, j))[0];
+    if (!top || !share(top, j)) return '';
+    return `<tr><td><i style="display:inline-block;width:10px;height:10px;border-radius:3px;background:${color(k, j)};margin-right:6px"></i>${esc(label(k))}</td>
+      <td class="n">${si ? Math.round(100 * share(si, j)) + '%' : '—'}</td><td class="n">${Math.round(100 * avg)}%</td><td>${esc(C[top.id].name)} <span class="sub">${Math.round(100 * share(top, j))}%</span></td></tr>`; }).join('');
+  const table = state.mixtable ? `<div class="scroll"><table><thead><tr><th>Công ty</th>${cats.map(k => `<th class="n">${esc(label(k))}</th>`).join('')}<th class="n">Tổng</th></tr></thead><tbody>
+    ${rows.map(r => `<tr class="${C[r.id].self ? 'self' : ''}"><td class="name">${esc(C[r.id].name)}</td>${r.v.map(n => `<td class="n">${pct ? (r.t ? Math.round(100 * n / r.t) + '%' : '') : n}</td>`).join('')}<td class="n">${r.t}</td></tr>`).join('')}</tbody></table></div>` : '';
+  const seg = (key, opts, cur) => `<div class="seg2" role="group">${opts.map(([v, l]) => `<button type="button" data-${key}="${v}" aria-pressed="${String(cur) === String(v)}">${l}</button>`).join('')}</div>`;
+  const what = {type: 'loại nội dung (AI phân loại từng bài)', src: 'kênh đăng', mkt: 'thị trường được nhắc tới'}[dim];
+  return `<section class="panel"><h2>So sánh nội dung giữa các công ty (90 ngày)</h2>
+    <div class="ctl">${seg('mixdim', [['type', 'Loại nội dung'], ['src', 'Kênh'], ['mkt', 'Thị trường']], dim)}
+      ${seg('mixpct', [['true', 'Tỷ lệ %'], ['false', 'Số bài']], pct)}
+      <button type="button" class="linkbtn" data-mixtable="1">${state.mixtable ? 'Ẩn bảng số' : 'Xem bảng số'}</button></div>
+    <div class="lgd">${cats.map((k, j) => `<span><i style="background:${color(k, j)}"></i>${esc(label(k))}</span>`).join('')}</div>
+    <div class="mix">${bars}</div>
+    <p class="note">Mỗi thanh là một công ty, chia theo ${what}. ${pct ? 'Thanh dài bằng nhau để so tỷ trọng.' : 'Độ dài thanh theo tổng số bài.'} Số bên phải = tổng ${dim === 'mkt' ? 'lượt nhắc' : 'bài'}. Rê chuột lên từng đoạn để xem số.</p>
+    ${table}</section>
+    <section class="panel"><h2>SI so với đối thủ theo từng nhóm</h2>
+    <div class="scroll"><table><thead><tr><th>Nhóm</th><th class="n">SI</th><th class="n">TB đối thủ</th><th>Đối thủ tập trung nhất</th></tr></thead><tbody>${notes}</tbody></table></div>
+    <p class="note">Tỷ trọng = phần trăm ${dim === 'mkt' ? 'lượt nhắc' : 'bài'} của công ty thuộc nhóm đó. Chỉ tính đối thủ có từ 5 ${dim === 'mkt' ? 'lượt nhắc' : 'bài'} trở lên.</p></section>`;
+},
 company(){
   const c = C[state.co];
   const opts = ids.map(id => `<option value="${id}" ${id===state.co?'selected':''}>${esc(C[id].name)}</option>`).join('');
@@ -355,7 +428,7 @@ const SRC = {web: 'Website', facebook: 'Facebook', news: 'Báo chí'};
 const fmtN = n => n >= 1000 ? (n/1000).toFixed(n >= 10000 ? 0 : 1) + 'k' : String(n || 0);
 const engH = i => i.eng ? `<span class="eng" title="Thích · bình luận · chia sẻ">♥ ${fmtN(i.eng.likes)} · 💬 ${fmtN(i.eng.comments)} · ↗ ${fmtN(i.eng.shares)}</span>` : '';
 const srcTag = i => `<span class="srct ${i.src}">${i.src === 'news' || (i.src === 'facebook' && i.outlet) ? esc(i.outlet || 'Báo') : SRC[i.src] || i.src}</span>`;
-const TABS = [['ai','📋','Báo cáo tuần (AI)'],['overview','📊','Tổng quan'],['company','🏢','Hồ sơ 4Ps'],['content','🔁','Content lặp lại'],['events','📅','Sự kiện'],['gap','🎯','SI vs Thị trường'],['feed','📰','Tất cả bài']];
+const TABS = [['ai','📋','Báo cáo tuần (AI)'],['overview','📊','Tổng quan'],['mix','📈','So sánh nội dung'],['company','🏢','Hồ sơ 4Ps'],['content','🔁','Content lặp lại'],['events','📅','Sự kiện'],['gap','🎯','SI vs Thị trường'],['feed','📰','Tất cả bài']];
 const FILTERED = () => state.tab === 'events' || state.tab === 'feed';
 function sideList(){ return state.tab === 'events' ? eventList() : D.items.map(i => ({co: i.company, src: i.src})); }
 function renderSide(){
@@ -453,6 +526,21 @@ document.getElementById('view').addEventListener('click', e => {
   if (u.dataset.unco) state.fco = (state.fco || []).filter(x => x !== u.dataset.unco);
   if (u.dataset.unsrc) state.srcf = '';
   if (u.dataset.unq){ state.q = ''; q.value = ''; }
+  render();
+});
+const tip = document.createElement('div'); tip.id = 'tip'; tip.hidden = true; document.body.appendChild(tip);
+document.getElementById('view').addEventListener('mousemove', e => {
+  const t = e.target.closest('[data-tip]'); if (!t){ tip.hidden = true; return; }
+  const [co, cat, n, p] = t.dataset.tip.split('|');
+  tip.innerHTML = `<b>${co}</b>${cat}: ${n} ${state.mixdim === 'mkt' ? 'lượt nhắc' : 'bài'} · ${p}%`; tip.hidden = false;
+  const x = Math.min(e.clientX + 14, innerWidth - tip.offsetWidth - 8); tip.style.left = x + 'px'; tip.style.top = (e.clientY + 14) + 'px';
+});
+document.getElementById('view').addEventListener('mouseleave', () => tip.hidden = true);
+document.getElementById('view').addEventListener('click', e => {
+  const b = e.target.closest('[data-mixdim],[data-mixpct],[data-mixtable]'); if (!b) return;
+  if (b.dataset.mixdim) state.mixdim = b.dataset.mixdim;
+  if (b.dataset.mixpct) state.mixpct = b.dataset.mixpct === 'true';
+  if (b.dataset.mixtable) state.mixtable = !state.mixtable;
   render();
 });
 document.getElementById('view').addEventListener('change', e => { if (e.target.id==='co'){ state.co = e.target.value; render(); } });

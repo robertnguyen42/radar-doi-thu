@@ -1,40 +1,80 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Radar Đối thủ Định cư</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap">
 <style>
-/* Layout: header + thanh tab; mỗi tab là bảng/lưới quét nhanh. 4Ps = 4 màu "mực dấu visa". */
-:root{
-  --bg:#f5f7fa; --surface:#ffffff; --sunk:#eef1f6; --line:#dbe1ea;
-  --fg:#16202e; --muted:#5b6778; --accent:#1f4fa8; --accent-soft:#e3ebfa;
-  --p-product:#1f4fa8; --p-price:#0f7a5a; --p-place:#8a5a00; --p-promo:#a3306b;
-  --warn:#b4231f; --warn-soft:#fbe6e4; --self:#0f7a5a; --self-soft:#e1f3ec;
-  --heat:31,79,168;
-  --f-body:"Be Vietnam Pro",system-ui,-apple-system,"Segoe UI",sans-serif;
-  --f-mono:"JetBrains Mono",ui-monospace,Menlo,monospace;
-}
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
-  --bg:#0f141c; --surface:#161d28; --sunk:#1c2532; --line:#2a3546;
-  --fg:#e6ebf2; --muted:#9aa6b8; --accent:#7ea6f2; --accent-soft:#1f2c45;
-  --p-product:#7ea6f2; --p-price:#4cc59a; --p-place:#e0b049; --p-promo:#e48ab8;
-  --warn:#f07a73; --warn-soft:#3a1f20; --self:#4cc59a; --self-soft:#163329; --heat:126,166,242; color-scheme:dark}}
-:root[data-theme="dark"]{
-  --bg:#0f141c; --surface:#161d28; --sunk:#1c2532; --line:#2a3546;
-  --fg:#e6ebf2; --muted:#9aa6b8; --accent:#7ea6f2; --accent-soft:#1f2c45;
-  --p-product:#7ea6f2; --p-price:#4cc59a; --p-place:#e0b049; --p-promo:#e48ab8;
-  --warn:#f07a73; --warn-soft:#3a1f20; --self:#4cc59a; --self-soft:#163329; --heat:126,166,242; color-scheme:dark}
+/* Giao diện theo Bản tin Di trú: thanh trên + cột lọc trái + nội dung phải. 4Ps giữ 4 màu "mực dấu visa". */
+:root{--bg:#f5f6f8;--surface:#fff;--sunk:#eef1f5;--line:#e3e6eb;--fg:#16191f;--muted:#5f6b7a;--accent:#1d4ed8;--accent-soft:#e8eefc;
+  --p-product:#1d4ed8;--p-price:#047857;--p-place:#8a5a00;--p-promo:#a3306b;
+  --warn:#b91c1c;--warn-soft:#fde8e8;--self:#047857;--self-soft:#e3f4ec;--new:#dc2626;--heat:29,78,216;
+  --f-body:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;--f-mono:var(--f-body)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0f1115;--surface:#171a21;--sunk:#1f2430;--line:#2a2f3a;--fg:#e6e8ec;--muted:#9aa4b2;
+  --accent:#7aa2ff;--accent-soft:#1c2740;--p-product:#7aa2ff;--p-price:#10b981;--p-place:#e0b049;--p-promo:#e48ab8;
+  --warn:#ef4444;--warn-soft:#3a1f20;--self:#10b981;--self-soft:#163329;--new:#ef4444;--heat:122,162,255;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0f1115;--surface:#171a21;--sunk:#1f2430;--line:#2a2f3a;--fg:#e6e8ec;--muted:#9aa4b2;
+  --accent:#7aa2ff;--accent-soft:#1c2740;--p-product:#7aa2ff;--p-price:#10b981;--p-place:#e0b049;--p-promo:#e48ab8;
+  --warn:#ef4444;--warn-soft:#3a1f20;--self:#10b981;--self-soft:#163329;--new:#ef4444;--heat:122,162,255;color-scheme:dark}
 *{box-sizing:border-box}
-body{background:var(--bg);color:var(--fg);font:14px/1.55 var(--f-body);margin:0}
-.wrap{max-width:1240px;margin:0 auto;padding-inline:20px;padding-block:20px 48px;display:grid;gap:18px}
-header{display:flex;flex-wrap:wrap;align-items:end;justify-content:space-between;gap:12px}
-h1{font-size:24px;line-height:1.2;margin:0;font-weight:700;letter-spacing:-.01em;text-wrap:balance}
-h2{font-size:16px;margin:0;font-weight:600;text-wrap:balance}
-h3{font-size:12px;margin:0;font-weight:600;text-transform:uppercase;letter-spacing:.06em;color:var(--muted)}
-.meta{color:var(--muted);font-size:12.5px;font-family:var(--f-mono)}
-nav{display:flex;gap:4px;flex-wrap:wrap;border-bottom:1px solid var(--line)}
-nav button{font:inherit;font-weight:500;background:none;border:0;border-bottom:2px solid transparent;color:var(--muted);padding:8px 12px;cursor:pointer;margin-bottom:-1px}
-nav button[aria-selected="true"]{color:var(--accent);border-color:var(--accent)}
-button:focus-visible,select:focus-visible,a:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:4px}
-.panel{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:16px;display:grid;gap:12px;min-width:0}
+html,body{margin:0;background:var(--bg);color:var(--fg);font:14px/1.5 var(--f-body)}
+button,input,select{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+td.n,th.n,.v,.big,.delta,.eng,.amt,.pk{font-variant-numeric:tabular-nums}
+/* Thanh trên */
+.top{position:sticky;top:0;z-index:20;background:var(--surface);border-bottom:1px solid var(--line)}
+.top-in{max-width:1320px;margin:0 auto;padding:10px 16px;display:flex;gap:14px;align-items:center;flex-wrap:wrap}
+.brand{display:flex;flex-direction:column;line-height:1.2;min-width:0}
+.brand b{font-size:18px;letter-spacing:-.01em}
+.brand small{color:var(--muted);font-size:12px;display:flex;gap:6px;align-items:center}
+.dot{width:7px;height:7px;border-radius:50%;background:#16a34a;flex:none}
+.search{flex:1;min-width:220px;position:relative}
+.search input{width:100%;padding:9px 14px 9px 36px;border:1px solid var(--line);border-radius:10px;background:var(--bg)}
+.search svg{position:absolute;left:11px;top:50%;transform:translateY(-50%);color:var(--muted)}
+.p4legend{display:flex;gap:6px}
+.fbtn{display:none;padding:8px 12px;border:1px solid var(--line);border-radius:10px;background:var(--bg);cursor:pointer}
+/* Khung chính */
+.wrap{max-width:1320px;margin:0 auto;padding:16px;display:grid;grid-template-columns:268px minmax(0,1fr);gap:20px;align-items:start}
+main{display:grid;gap:16px;min-width:0}
+/* Cột trái */
+.side{position:sticky;top:76px;max-height:calc(100vh - 92px);overflow-y:auto;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:6px 0 10px}
+.side-head{display:flex;justify-content:space-between;align-items:center;padding:8px 14px 4px}
+.side-head b{font-size:13px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted)}
+.linkbtn{border:0;background:none;color:var(--accent);cursor:pointer;padding:2px 0;font-size:13px}
+.facet{border-top:1px solid var(--line);padding:10px 14px 8px}
+.facet:first-of-type{border-top:0}
+.facet h3{margin:0 0 6px;font-size:13px;font-weight:700;text-transform:none;letter-spacing:0;color:var(--fg)}
+.opt{display:flex;align-items:center;gap:8px;padding:4px 6px;margin:0 -6px;border-radius:6px;cursor:pointer;font-size:13.5px;width:calc(100% + 12px);border:0;background:none;text-align:left}
+.opt:hover{background:var(--sunk)}
+.opt input{margin:0;accent-color:var(--accent);flex:none}
+.opt .lbl{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.opt .n{color:var(--muted);font-size:12px;font-variant-numeric:tabular-nums}
+.opt.on{background:var(--accent-soft);color:var(--accent);font-weight:600}
+.opt.on .n{color:var(--accent)}
+.hint{color:var(--muted);font-size:12px;margin:2px 0 0}
+.scrim{display:none}
+/* Danh sách bài kiểu bản tin */
+.res-head{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.res-head .count{font-size:15px;font-weight:700;margin-right:4px}
+.fchip2{display:inline-flex;align-items:center;gap:4px;padding:3px 6px 3px 10px;border-radius:999px;background:var(--accent-soft);color:var(--accent);font-size:12.5px;border:0;cursor:pointer}
+.fchip2 span{font-size:15px;line-height:1;padding:0 3px}
+.week{margin:0 0 6px}
+.week h2{display:flex;align-items:baseline;gap:8px;font-size:14px;border-bottom:2px solid var(--line);padding-bottom:6px;margin:0 0 12px}
+.week h2 .wn{color:var(--muted);font-weight:500;font-size:12.5px}
+.feed{background:var(--surface);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.item{display:grid;grid-template-columns:30px minmax(0,1fr);gap:10px;padding:11px 14px;border-top:1px solid var(--line)}
+.item:first-child{border-top:0}
+.item:hover{background:color-mix(in srgb,var(--sunk) 60%,transparent)}
+.item.self{box-shadow:inset 3px 0 0 var(--self)}
+.flag{font-size:18px;line-height:1.3;text-align:center}
+.item a.t{color:var(--fg);text-decoration:none;font-weight:600;font-size:14.5px;line-height:1.4}
+.item a.t:hover{color:var(--accent);text-decoration:underline}
+.item p{margin:3px 0 0;color:var(--muted);font-size:13px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.imeta{margin-top:5px;display:flex;flex-wrap:wrap;gap:6px;align-items:center;font-size:12px;color:var(--muted)}
+.grp{color:var(--accent);font-weight:600}
+.b{border-radius:4px;padding:0 6px;font-weight:700;font-size:11.5px;line-height:18px}
+.b.new{background:var(--new);color:#fff}
+.loadmore{display:block;width:100%;margin:4px 0 8px;padding:10px;border:1px dashed var(--line);background:transparent;border-radius:10px;cursor:pointer;color:var(--muted)}
+.loadmore:hover{color:var(--accent);border-color:var(--accent)}
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:16px;display:grid;gap:12px;min-width:0}
 .grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,520px),1fr));gap:16px}
 .scroll{overflow-x:auto}
 table{border-collapse:collapse;width:100%;font-size:13px}
@@ -107,29 +147,45 @@ select{font:inherit;padding:6px 10px;border-radius:6px;border:1px solid var(--li
 .big{font-size:22px;font-weight:700;font-family:var(--f-mono);font-variant-numeric:tabular-nums}
 .delta{font-family:var(--f-mono);font-size:11.5px}
 .up{color:var(--p-price)} .down{color:var(--warn)}
-@media (prefers-reduced-motion:no-preference){nav button{transition:color .15s,border-color .15s}}
+
+
+h1{font-size:22px;margin:0}
+h2{font-size:16px;margin:0;font-weight:600;text-wrap:balance}
+h3{font-size:12px;margin:0;font-weight:600;text-transform:uppercase;letter-spacing:.06em;color:var(--muted)}
+.name{font-weight:600;white-space:nowrap}
+/* Điện thoại / máy tính bảng */
+@media (max-width:900px){
+ .wrap{grid-template-columns:1fr;padding:12px}
+ .fbtn{display:inline-block}
+ .top-in{gap:8px}
+ .brand{flex:1}
+ .p4legend{display:none}
+ .search{order:3;flex-basis:100%}
+ .side{position:fixed;top:0;left:0;bottom:0;width:min(320px,86vw);max-height:none;border-radius:0;z-index:40;transform:translateX(-105%);transition:transform .2s}
+ .side.open{transform:none}
+ .scrim.open{display:block;position:fixed;inset:0;background:#0006;z-index:35}
+}
+@media (prefers-reduced-motion:reduce){.side{transition:none}}
 </style>
 
+<header class="top">
+ <div class="top-in">
+  <button class="fbtn" id="fbtn" aria-controls="side">Mục & lọc</button>
+  <div class="brand"><b>Radar Đối thủ Định cư</b><small><span class="dot"></span><span id="meta">Đang tải…</span></small></div>
+  <label class="search"><span class="sr">Tìm kiếm</span>
+   <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+   <input id="q" type="search" placeholder="Tìm bài, sự kiện có dấu hoặc không dấu: EB-5, Hy Lạp, hoi thao…" autocomplete="off">
+  </label>
+  <div class="p4legend"><span class="stamp s-product">Product</span><span class="stamp s-price">Price</span><span class="stamp s-place">Place</span><span class="stamp s-promotion">Promotion</span></div>
+ </div>
+</header>
+
 <div class="wrap">
-  <header>
-    <div>
-      <h1>Radar Đối thủ Định cư</h1>
-      <div class="meta" id="meta"></div>
-    </div>
-    <div class="row sub"><span class="stamp s-product">Product</span><span class="stamp s-price">Price</span><span class="stamp s-place">Place</span><span class="stamp s-promotion">Promotion</span></div>
-  </header>
-  <nav role="tablist" id="tabs">
-    <button role="tab" data-tab="ai" id="tab-ai" hidden>Báo cáo tuần (AI)</button>
-    <button role="tab" data-tab="overview" aria-selected="true">Tổng quan</button>
-    <button role="tab" data-tab="company">Hồ sơ 4Ps</button>
-    <button role="tab" data-tab="content">Content lặp lại</button>
-    <button role="tab" data-tab="events">Sự kiện</button>
-    <button role="tab" data-tab="gap">SI vs Thị trường</button>
-    <button role="tab" data-tab="feed">Tất cả bài</button>
-  </nav>
-  <main id="view"></main>
-  <p class="note">Dữ liệu tự động từ RSS website công ty, fanpage Facebook (bài liên quan định cư, quét mỗi ngày), Google News và trang chủ; phân loại bằng từ khoá (sửa trong <code>taxonomy.json</code>). Số liệu là tín hiệu tham khảo, không phải số đếm tuyệt đối.</p>
+ <aside class="side" id="side" aria-label="Mục và bộ lọc"></aside>
+ <div class="scrim" id="scrim"></div>
+ <main id="view" aria-live="polite"></main>
 </div>
+<p class="note" style="max-width:1320px;margin:0 auto;padding:0 16px 32px">Dữ liệu tự động từ RSS website công ty, fanpage Facebook (bài liên quan định cư), Google News và trang chủ; phân loại bằng từ khoá (sửa trong <code>taxonomy.json</code>). Số liệu là tín hiệu tham khảo, không phải số đếm tuyệt đối.</p>
 
 <script id="data" type="application/json">__DATA__</script>
 <script>
@@ -140,7 +196,7 @@ const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;
 const pn = id => P[id] ? P[id].name : id;
 const fmtD = s => s ? s.slice(8,10)+'/'+s.slice(5,7) : '';
 const chips = (arr, cls='') => arr && arr.length ? arr.map(x => `<span class="chip ${cls}">${esc(x)}</span>`).join('') : '<span class="empty">—</span>';
-document.getElementById('meta').textContent = `Tuần ${D.week} · cập nhật ${D.updated.replace('T',' ').slice(0,16)} UTC · ${ids.length} công ty · ${D.items.length} bài/90 ngày`;
+{ const u = new Date(D.updated.replace(/\+00:00$/, 'Z')); document.getElementById('meta').textContent = `Tuần ${D.week.split('-W')[1]} · cập nhật ${isNaN(u) ? D.updated.slice(0,16) : u.toLocaleString('vi-VN', {hour:'2-digit', minute:'2-digit', day:'2-digit', month:'2-digit'})} · ${ids.length} công ty · ${D.items.length} bài/90 ngày`; }
 let state = {tab:'overview', co: ids.find(i => C[i].self) || ids[0]};
 try { const s = JSON.parse(localStorage.getItem('radar') || '{}'); Object.assign(state, s); } catch(e){}
 const save = () => { try { localStorage.setItem('radar', JSON.stringify(state)); } catch(e){} };
@@ -236,7 +292,7 @@ content(){
 },
 events(){
   return `<section class="panel"><h2>Lịch sự kiện / hội thảo / toạ đàm của đối thủ</h2>
-   ${filterBar(eventList())}
+   <div class="res-head" id="reshead"></div>
    <div class="scroll"><table><thead><tr><th class="n">Ngày diễn ra</th><th>Trạng thái</th><th>Công ty</th><th>Sự kiện</th><th class="n">Đăng</th></tr></thead><tbody id="frows"></tbody></table></div>
    <p class="note">Ngày diễn ra do AI đọc từ nội dung bài; bài không nêu ngày sẽ để trống.</p></section>`;
 },
@@ -250,9 +306,7 @@ gap(){
    <p class="note">Xếp theo số đối thủ cùng đẩy chương trình đó (90 ngày). "Có trên web, chưa có content" = trang chủ SI có nhắc nhưng không có bài viết nào gần đây.</p></section>`;
 },
 feed(){
-  return `<section class="panel"><h2>Tất cả bài (90 ngày)</h2>
-   ${filterBar(D.items.map(i => ({...i, co: i.company})))}
-   <div class="scroll"><table><thead><tr><th class="n">Ngày</th><th>Công ty</th><th>Tiêu đề</th><th>4Ps</th><th>Loại</th></tr></thead><tbody id="frows"></tbody></table></div></section>`;
+  return `<div class="res-head" id="reshead"></div><div id="frows"></div>`;
 }
 };
 
@@ -301,21 +355,35 @@ const SRC = {web: 'Website', facebook: 'Facebook', news: 'Báo chí'};
 const fmtN = n => n >= 1000 ? (n/1000).toFixed(n >= 10000 ? 0 : 1) + 'k' : String(n || 0);
 const engH = i => i.eng ? `<span class="eng" title="Thích · bình luận · chia sẻ">♥ ${fmtN(i.eng.likes)} · 💬 ${fmtN(i.eng.comments)} · ↗ ${fmtN(i.eng.shares)}</span>` : '';
 const srcTag = i => `<span class="srct ${i.src}">${i.src === 'news' || (i.src === 'facebook' && i.outlet) ? esc(i.outlet || 'Báo') : SRC[i.src] || i.src}</span>`;
-function filterBar(list){
-  const cnt = {}; list.forEach(x => cnt[x.co] = (cnt[x.co]||0) + 1);
-  const sel = new Set(state.fco || []);
-  const chipsH = `<button type="button" class="fchip" data-fco="" aria-pressed="${sel.size===0}">Tất cả <i>${list.length}</i></button>` +
-    ids.filter(id => cnt[id]).map(id => `<button type="button" class="fchip" data-fco="${id}" aria-pressed="${sel.has(id)}">${esc(C[id].name)} <i>${cnt[id]}</i></button>`).join('');
-  return `<div class="filter"><label class="sub" for="fq">Tìm kiếm</label><input id="fq" type="search" placeholder="Gõ từ khoá: EB-5, Hy Lạp, hội thảo…" value="${esc(state.q||'')}" autocomplete="off">
-    <div class="fchips" role="group" aria-label="Lọc theo công ty">${chipsH}</div>${srcChips(list)}<span class="fcount" id="fcount"></span></div>`;
+const TABS = [['ai','📋','Báo cáo tuần (AI)'],['overview','📊','Tổng quan'],['company','🏢','Hồ sơ 4Ps'],['content','🔁','Content lặp lại'],['events','📅','Sự kiện'],['gap','🎯','SI vs Thị trường'],['feed','📰','Tất cả bài']];
+const FILTERED = () => state.tab === 'events' || state.tab === 'feed';
+function sideList(){ return state.tab === 'events' ? eventList() : D.items.map(i => ({co: i.company, src: i.src})); }
+function renderSide(){
+  const nav = TABS.filter(([k]) => k !== 'ai' || AI).map(([k, ic, l]) =>
+    `<button type="button" class="opt ${state.tab===k?'on':''}" data-tab="${k}" aria-current="${state.tab===k}"><span>${ic}</span><span class="lbl">${l}</span></button>`).join('');
+  let f = '';
+  if (state.tab === 'company'){
+    f = `<section class="facet"><h3>Công ty</h3>${ids.map(id => `<button type="button" class="opt ${id===state.co?'on':''}" data-co="${id}"><span class="lbl">${esc(C[id].name)}</span>${C[id].self?'<span class="n">SI</span>':''}</button>`).join('')}</section>`;
+  } else if (FILTERED()){
+    const list = sideList(), cnt = {}, scnt = {}, sel = state.fco || [];
+    list.forEach(x => { cnt[x.co] = (cnt[x.co]||0) + 1; if (x.src) scnt[x.src] = (scnt[x.src]||0) + 1; });
+    f = `<section class="facet"><h3>Công ty</h3>${ids.filter(id => cnt[id]).sort((a,b) => cnt[b]-cnt[a]).map(id =>
+      `<label class="opt"><input type="checkbox" data-fco="${id}" ${sel.includes(id)?'checked':''}><span class="lbl">${esc(C[id].name)}</span><span class="n">${cnt[id]}</span></label>`).join('')}</section>`;
+    if (state.tab === 'feed') f += `<section class="facet"><h3>Nguồn</h3>${['web','facebook','news'].filter(k => scnt[k]).map(k =>
+      `<label class="opt"><input type="radio" name="src" data-fsrc="${k}" ${state.srcf===k?'checked':''}><span class="lbl">${SRC[k]}</span><span class="n">${scnt[k]}</span></label>`).join('')}
+      <label class="opt"><input type="radio" name="src" data-fsrc="" ${!state.srcf?'checked':''}><span class="lbl">Tất cả nguồn</span></label></section>`;
+  } else {
+    f = `<section class="facet"><p class="hint">Bộ lọc công ty, nguồn và ô tìm kiếm dùng cho mục <b>Sự kiện</b> và <b>Tất cả bài</b>.</p></section>`;
+  }
+  document.getElementById('side').innerHTML = `<div class="side-head"><b>Mục</b>${FILTERED() ? '<button class="linkbtn" id="reset">Xóa lọc</button>' : ''}</div>
+    <section class="facet">${nav}</section>${f}`;
 }
-function srcChips(list){
-  if (!list.length || !list[0].src || state.tab !== 'feed') return '';
-  const cnt = {}; list.forEach(x => cnt[x.src] = (cnt[x.src]||0) + 1);
-  const cur = state.srcf || '';
-  return `<div class="fchips" role="group" aria-label="Lọc theo nguồn"><span class="sub" style="align-self:center">Nguồn:</span>` +
-    [['', 'Tất cả nguồn', list.length], ...['web','facebook','news'].filter(k => cnt[k]).map(k => [k, SRC[k], cnt[k]])]
-      .map(([k, l, n]) => `<button type="button" class="fchip" data-fsrc="${k}" aria-pressed="${cur===k}">${l} <i>${n}</i></button>`).join('') + '</div>';
+function resHead(n, total){
+  const h = document.getElementById('reshead'); if (!h) return;
+  const chips = (state.fco || []).map(id => `<button class="fchip2" data-unco="${id}">${esc(C[id]?.name || id)}<span>×</span></button>`).join('')
+    + (state.tab === 'feed' && state.srcf ? `<button class="fchip2" data-unsrc="1">${SRC[state.srcf]}<span>×</span></button>` : '')
+    + (state.q ? `<button class="fchip2" data-unq="1">“${esc(state.q)}”<span>×</span></button>` : '');
+  h.innerHTML = `<span class="count">${n} ${state.tab === 'events' ? 'sự kiện' : 'bài'}</span>${n < total ? `<span class="sub">/ ${total}</span>` : ''}${chips}`;
 }
 function matchF(x, text){
   if (state.tab === 'feed' && state.srcf && x.src && x.src !== state.srcf) return false;
@@ -334,37 +402,62 @@ function fillRows(){
       return `<tr><td class="n">${w?fmtD(w)+'/'+w.slice(2,4):'—'}</td><td>${e.kind==='recap'?'<span class="chip muted">bài tổng kết</span>':up?'<span class="chip self">sắp diễn ra</span>':'<span class="chip muted">đã qua</span>'}</td><td class="name">${esc(C[e.co].name)}</td><td><a href="${esc(e.url)}" target="_blank" rel="noopener">${esc(e.title)}</a></td><td class="n">${fmtD(e.date)}</td></tr>`; });
   } else {
     total = D.items.length;
-    rows = D.items.filter(i => matchF({co: i.company, src: i.src}, i.title + ' ' + i.programs.map(pn).join(' ') + ' ' + (i.ai ? i.ai.programs.join(' ') + ' ' + i.ai.message : '') + ' ' + C[i.company]?.name)).map(i => `<tr><td class="n">${fmtD(i.date)}</td><td class="name">${esc(C[i.company]?.name)}</td><td><a href="${esc(i.url)}" target="_blank" rel="noopener">${esc(i.title)}</a><div class="sub">${srcTag(i)} ${engH(i)} ${esc(i.ai && i.ai.message ? i.ai.message : i.programs.map(pn).join(' · '))}</div></td><td>${i.p4.map(p => `<span class="stamp s-${p}">${p.slice(0,5)}</span>`).join(' ')}</td><td>${(i.ai ? [i.ai.content_type] : i.ctype).map(t => `<span class="chip">${esc(t)}</span>`).join('')}${i.risk.length?'<span class="chip warn">⚠</span>':''}</td></tr>`);
+    const all = D.items.filter(i => matchF({co: i.company, src: i.src}, i.title + ' ' + (i.summary||'') + ' ' + i.programs.map(pn).join(' ') + ' ' + (i.ai ? i.ai.programs.join(' ') + ' ' + i.ai.message : '') + ' ' + C[i.company]?.name));
+    resHead(all.length, total);
+    const lim = state.limit || 80, wk = new Date(Date.now() - 7*864e5).toISOString().slice(0,10), groups = [];
+    all.slice(0, lim).forEach(i => { const d = new Date(i.date.slice(0,10)); const m = new Date(d - ((d.getUTCDay()+6)%7)*864e5).toISOString().slice(0,10);
+      if (!groups.length || groups[groups.length-1][0] !== m) groups.push([m, []]); groups[groups.length-1][1].push(i); });
+    const flagOf = i => { const p = i.programs[0]; return p && P[p] ? K[P[p].country].flag : ({facebook:'📘', news:'📰'}[i.src] || '🌐'); };
+    const sun = m => { const d = new Date(new Date(m) - 0 + 6*864e5).toISOString().slice(0,10); return fmtD(d); };
+    tb.innerHTML = groups.map(([m, its]) => `<section class="week"><h2>Tuần ${fmtD(m)} – ${sun(m)} <span class="wn">${its.length} bài</span></h2><div class="feed">${its.map(i => `<article class="item ${C[i.company]?.self?'self':''}"><div class="flag">${flagOf(i)}</div><div>
+      <a class="t" href="${esc(i.url)}" target="_blank" rel="noopener">${esc(i.title)}</a>
+      ${i.ai && i.ai.message ? `<p>${esc(i.ai.message)}</p>` : ''}
+      <div class="imeta">${i.date.slice(0,10) >= wk ? '<span class="b new">MỚI</span>' : ''}<span class="grp">${esc(C[i.company]?.name)}</span>${srcTag(i)}<span>${fmtD(i.date)}</span>${engH(i)}
+        ${i.p4.map(p => `<span class="stamp s-${p}">${p.slice(0,5)}</span>`).join(' ')}
+        ${(i.ai ? [i.ai.content_type] : i.ctype).map(t => `<span class="chip">${esc(t)}</span>`).join('')}${i.risk.length?'<span class="chip warn">⚠ cam kết</span>':''}</div></div></article>`).join('')}</div></section>`).join('')
+      + (all.length > lim ? `<button class="loadmore" id="loadmore">Xem thêm ${Math.min(80, all.length - lim)} bài (còn ${all.length - lim})</button>` : '')
+      || '<div class="panel empty">Không có kết quả phù hợp. Bỏ bớt bộ lọc hoặc đổi từ khoá.</div>';
+    return;
   }
+  resHead(rows.length, total);
   tb.innerHTML = rows.join('') || '<tr><td colspan="5" class="empty">Không có kết quả phù hợp. Bỏ bớt bộ lọc hoặc đổi từ khoá.</td></tr>';
-  const fc = document.getElementById('fcount'); if (fc) fc.textContent = `Hiển thị ${rows.length} / ${total}`;
 }
 function render(){
-  document.querySelectorAll('#tabs button').forEach(b => b.setAttribute('aria-selected', b.dataset.tab===state.tab));
+  renderSide();
   document.getElementById('view').innerHTML = views[state.tab]();
   fillRows();
   save();
 }
-document.getElementById('tabs').addEventListener('click', e => { const t = e.target.closest('button'); if (t){ state.tab = t.dataset.tab; render(); } });
-document.getElementById('view').addEventListener('click', e => { const r = e.target.closest('tr[data-co]'); if (r){ state.co = r.dataset.co; state.tab = 'company'; render(); window.scrollTo(0,0); } });
+const side = document.getElementById('side'), scrim = document.getElementById('scrim');
+const closeSide = () => { side.classList.remove('open'); scrim.classList.remove('open'); };
+document.getElementById('fbtn').addEventListener('click', () => { side.classList.add('open'); scrim.classList.add('open'); });
+scrim.addEventListener('click', closeSide);
+side.addEventListener('click', e => {
+  const t = e.target.closest('[data-tab]'); if (t){ state.tab = t.dataset.tab; state.limit = 0; render(); closeSide(); window.scrollTo(0,0); return; }
+  const c = e.target.closest('button[data-co]'); if (c){ state.co = c.dataset.co; render(); closeSide(); return; }
+  if (e.target.id === 'reset'){ state.fco = []; state.srcf = ''; state.q = ''; document.getElementById('q').value = ''; render(); }
+});
+side.addEventListener('change', e => {
+  const x = e.target;
+  if (x.dataset.fco !== undefined){ const sel = new Set(state.fco || []); x.checked ? sel.add(x.dataset.fco) : sel.delete(x.dataset.fco); state.fco = [...sel]; }
+  else if (x.dataset.fsrc !== undefined){ state.srcf = x.dataset.fsrc; }
+  else return;
+  state.limit = 0; save(); fillRows();
+});
+const q = document.getElementById('q'); q.value = state.q || '';
+q.addEventListener('input', () => { state.q = q.value; state.limit = 0; if (!FILTERED()){ state.tab = 'feed'; render(); q.focus(); } else { save(); fillRows(); } });
+document.getElementById('view').addEventListener('click', e => {
+  const r = e.target.closest('tr[data-co]'); if (r){ state.co = r.dataset.co; state.tab = 'company'; render(); window.scrollTo(0,0); return; }
+  if (e.target.id === 'loadmore'){ state.limit = (state.limit || 80) + 80; fillRows(); return; }
+  const u = e.target.closest('[data-unco],[data-unsrc],[data-unq]'); if (!u) return;
+  if (u.dataset.unco) state.fco = (state.fco || []).filter(x => x !== u.dataset.unco);
+  if (u.dataset.unsrc) state.srcf = '';
+  if (u.dataset.unq){ state.q = ''; q.value = ''; }
+  render();
+});
 document.getElementById('view').addEventListener('change', e => { if (e.target.id==='co'){ state.co = e.target.value; render(); } });
-document.getElementById('view').addEventListener('click', e => {
-  const b = e.target.closest('[data-fco]'); if (!b) return;
-  const id = b.dataset.fco; let sel = state.fco || [];
-  sel = id === '' ? [] : sel.includes(id) ? sel.filter(x => x !== id) : [...sel, id];
-  state.fco = sel; save();
-  document.querySelectorAll('.fchip').forEach(c => c.setAttribute('aria-pressed', c.dataset.fco === '' ? sel.length === 0 : sel.includes(c.dataset.fco)));
-  fillRows();
-});
-document.getElementById('view').addEventListener('click', e => {
-  const b = e.target.closest('[data-fsrc]'); if (!b) return;
-  state.srcf = b.dataset.fsrc; save();
-  document.querySelectorAll('[data-fsrc]').forEach(c => c.setAttribute('aria-pressed', c.dataset.fsrc === state.srcf));
-  fillRows();
-});
-document.getElementById('view').addEventListener('input', e => { if (e.target.id === 'fq'){ state.q = e.target.value; save(); fillRows(); } });
 if (!C[state.co]) state.co = ids[0];
-if (AI) { document.getElementById('tab-ai').hidden = false; if (!state.seenAi || state.seenAi !== AI.week) { state.tab = 'ai'; state.seenAi = AI.week; } }
+if (AI) { if (!state.seenAi || state.seenAi !== AI.week) { state.tab = 'ai'; state.seenAi = AI.week; } }
 if (!views[state.tab] || (state.tab === 'ai' && !AI)) state.tab = 'overview';
 render();
 </script>

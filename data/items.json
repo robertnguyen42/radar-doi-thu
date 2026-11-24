@@ -1,5 +1,57 @@
 [
 {
+"id": "b2f629b95a09",
+"company": "victory",
+"src": "web",
+"outlet": "",
+"title": "Thổ Nhĩ Kỳ mở diện cư trú đầu tư 3-5 năm từ 150.000 USD",
+"url": "https://dinhcucacnuoc.com/tin-tuc-tho-nhi-ky-mo-dien-cu-tru-dau-tu-moi/",
+"date": "2026-11-23T23:33:46+00:00",
+"cats": [
+"Tin tức Châu Âu",
+"Tin tức",
+"Tin tức di trú 24h"
+],
+"summary": "Ngày 18/11/2026, Thổ Nhĩ Kỳ chính thức áp dụng chính sách cấp giấy phép cư trú từ 3-5 năm cho nhà đầu tư nước ngoài, với mức đầu tư tối thiểu từ 150.000 USD. Theo Quyết định số 11994 được công bố trên Công báo chính thức, nhà đầu tư có thể được cấp giấy[...] ",
+"programs": [
+"vanuatu"
+],
+"p4": [
+"product",
+"price"
+],
+"prices": [
+"150.000 USD",
+"150.000 USD"
+],
+"offers": [],
+"places": [],
+"event": false,
+"event_dates": [],
+"risk": [],
+"ctype": [
+"Tin chính sách"
+],
+"ai": {
+"programs": [
+"Cư trú đầu tư Thổ Nhĩ Kỳ"
+],
+"prices": [
+{
+"program": "Cư trú đầu tư Thổ Nhĩ Kỳ",
+"amount": "150.000 USD",
+"note": "Mức đầu tư tối thiểu theo Quyết định số 11994, cư trú 3-5 năm"
+}
+],
+"offers": [],
+"event": null,
+"content_type": "Tin chính sách",
+"message": "Thổ Nhĩ Kỳ vừa mở diện cấp giấy phép cư trú 3-5 năm cho nhà đầu tư nước ngoài từ 150.000 USD, khách nên tìm hiểu sớm.",
+"risk_claims": []
+},
+"ai_v": 1
+},
+{
 "id": "c713145e325b",
 "company": "victory",
 "src": "web",
